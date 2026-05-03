@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For continuum-model electronic-structure calculations of magic-angle twisted bilayer graphene that explicitly incorporate lattice relaxation via atomic-registry-dependent interlayer coupling leading to enlarged AB/BA regions and shrunken AA regions, the computed low-energy flat-band manifold exhibits qualitatively increased bandwidth (broader flat bands) and increased energetic separation from remote bands in the reconstructed geometry relative to the unreconstructed rigid geometry, and this qualitative trend is robust to moderate variations of model parameters even when spatially non-uniform heterostrain is not included in the calculation; here \"continuum model\" refers to the Bistritzer–MacDonald-type moiré Hamiltonian augmented by a registry-dependent interlayer tunneling parameterization and a relaxation-derived displacement field.\n      [18-21]",
+      "content_hash": "3988a92a5edfc3105c037c646c2611fcb43ffc42e55fb3e39640aa7e57326361",
+      "id": "gcn_8cd2984a6296435c",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "13e57f6ef8ce7162b6f022de4c52349b"
+}

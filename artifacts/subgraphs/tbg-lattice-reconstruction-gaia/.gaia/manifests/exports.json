@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "In Liu et al.'s continuum-model electronic-structure calculation for magic-angle twisted bilayer graphene, adding atomic-registry-driven lattice relaxation produces reconstructed geometry with enlarged AB/BA regions and reduced AA regions; compared with the rigid unreconstructed calculation, this reconstructed geometry reproduces the key STS spectroscopic trends of broader low-energy flat bands and greater energetic isolation from remote bands, while the calculation omits explicit spatially non-uniform heterostrain and therefore does not reproduce extra flat-band peak splitting, such as three-subpeak structure, observed in some spectra [@Liu2020].",
+      "content_hash": "11d5d98b143ede2514a0eec28c223ae6423aa204ba52e33c4935e4790b9d5a98",
+      "label": "gcn_c220df1acc8b476a",
+      "qid": "github:tbg_lattice_reconstruction::gcn_c220df1acc8b476a",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:a2fa23d90abbe44f603db8bcbf8fb70d115a05edda73107ad888c0c4286a86da",
+  "manifest_schema_version": 1,
+  "package": "tbg-lattice-reconstruction",
+  "version": "0.1.0"
+}

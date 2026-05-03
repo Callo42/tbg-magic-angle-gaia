@@ -1,0 +1,86 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For twisted bilayer graphene (tBLG) the noninteracting low-energy Dirac-point band Fermi velocity v_F^*(θ) produced by the Bistritzer–MacDonald continuum moiré-band model is strongly suppressed as the twist angle θ (measured in degrees) approaches the largest magic angle θ_M (the angle at which the noninteracting Dirac-point band velocity vanishes), and for 0<θ<3° this noninteracting moiré-band velocity is well described by the empirical linear approximation\n      $$\n      v_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F,\n      $$\n      where v_F^*(θ) is the tBLG moiré-band Dirac-cone Fermi velocity, θ and θ_M are expressed in degrees, and v_F ≈ 10^8 cm/s is the monolayer-graphene Dirac velocity; this linear fit reproduces the numerical outputs of the continuum Bistritzer–MacDonald moiré-band calculation to useful accuracy in the stated angular window.",
+      "content_hash": "e039f806f97ccd637cb38fe087e65a9079ba43a386104375839094414e50a3e1",
+      "id": "gcn_7bca73ad98eb4ed4",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "For twisted bilayer graphene (tBLG) the noninteracting low-energy Dirac-point band Fermi velocity v_F^*(θ) produced by the Bistritzer–MacDonald continuum moiré-band model is strongly suppressed as the twist angle θ (measured in degrees) approaches the largest magic angle θ_M (the angle at which the noninteracting Dirac-point band velocity vanishes), and for 0<θ<3° this noninteracting moiré-band velocity is well described by the empirical linear approximation\n      $$\n      v_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F,\n      $$\n      where v_F^*(θ) is the tBLG moiré-band Dirac-cone Fermi velocity, θ and θ_M are expressed in degrees, and v_F ≈ 10^8 cm/s is the monolayer-graphene Dirac velocity; this linear fit reproduces the numerical outputs of the continuum Bistritzer–MacDonald moiré-band calculation to useful accuracy in the stated angular window.",
+              "id": "gcn_7bca73ad98eb4ed4"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_2f2334a945114bf3",
+            "premises": [
+              {
+                "content": "For twisted bilayer graphene (tBLG) with twist angle θ measured in degrees, let θ_M denote the largest magic angle at which the noninteracting continuum moiré-band Dirac-point band velocity vanishes, and let v_F ≈ 10^8 cm/s be the monolayer-graphene Dirac velocity; then the noninteracting continuum Bistritzer–MacDonald moiré-band calculation of the low-energy Dirac-point Fermi velocity v_F^*(θ) is accurately approximated for 0<θ<3° by the linear formula\n      $$\n      v_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F,\n      $$\n      with θ and θ_M in degrees, so that the numerical continuum-band outputs for v_F^*(θ) are captured to useful accuracy by this linear fit in the specified angular window.\n      R. Bistritzer and A.H. MacDonald, Proc. Natl. Acad. Sci. USA 108 (2011) 12233; F. Wu, E. Hwang, S. Das Sarma, Phys. Rev. B 99 (2019) 165112.",
+                "id": "gcn_d3808439ccf6496b"
+              },
+              {
+                "content": "The Bistritzer–MacDonald continuum moiré-band model, a continuum effective model parameterized by intralayer graphene parameters and interlayer tunneling amplitudes, provides the noninteracting low-energy band structure of twisted bilayer graphene (tBLG), and the Dirac-point band Fermi velocity v_F^*(θ) obtained from that noninteracting continuum model is to be treated as the bare (noninteracting) input parameter for subsequent low-energy many-body and phonon-transport calculations.\n      R. Bistritzer and A.H. MacDonald, Proc. Natl. Acad. Sci. USA 108 (2011) 12233.",
+                "id": "gcn_671ceef053a64aa7"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Define $v_F^*(\\theta)$ as the noninteracting low-energy Dirac-point Fermi velocity of twisted bilayer graphene (tBLG), where $\\theta$ is the twist angle expressed in degrees and $\\theta_M$ denotes the largest magic angle at which the noninteracting Dirac velocity vanishes (i.e., $v_F^*(\\theta_M)=0$); the monolayer graphene (MLG) bare Dirac velocity is $v_F\\approx 10^{8}\\ \\mathrm{cm/s}$. \nFig. 1(a)",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "State the continuum moiré-band calculation basis: the Bistritzer–MacDonald continuum moiré-band model (band-structure model) is used to compute $v_F^*(\\theta)$ as a function of $\\theta$, and those calculated values are presented as the tBLG Dirac velocity at the Dirac point versus twist angle. The continuum calculation details are those cited from the band-structure model references and prior work.\n[54]\n[36]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Report the empirical approximation extracted from the continuum moiré-band calculation: for twist angles $\\theta<3^\\circ$ the computed noninteracting tBLG Dirac velocity is well approximated by the linear formula\n$$\nv_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F,\n$$\nwhere both $\\theta$ and $\\theta_M$ are measured in degrees, and $v_F\\approx 10^8\\ \\mathrm{cm/s}$. This empirical expression is the explicit formula appearing in the continuum calculation discussion.\n[36]\nFig. 1(a)",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Explain the domain of validity of the empirical approximation: the authors state the approximation holds for $\\theta<3^\\circ$, while for $\\theta>3^\\circ$ one may take $v_F^*(\\theta)\\approx v_F$ for the purposes of their low-energy continuum theory; the number $\\theta_M$ from their calculation is $\\theta_M\\approx 1.02^\\circ$ as reported in their continuum-band evaluation.\n[36]",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Explicitly connect $v_F^*(\\theta)$ to subsequent low-energy theories: define the Coulomb fine-structure coupling $\\alpha$ in terms of $v_F^*$ by $\\alpha=e^2/(\\kappa\\hbar v_F^*)$, where $e$ is the elementary charge, $\\hbar$ is the reduced Planck constant, and $\\kappa$ is the background dielectric constant; also state that $v_F^*(\\theta)$ is the bare (noninteracting) low-energy parameter entering the continuum electron-phonon resistivity formula (the resistivity formula uses $v_F^{*2}$ in the denominator). Thus the empirical approximation for $v_F^*(\\theta)$ summarizes the noninteracting Bistritzer–MacDonald moiré-band calculation used throughout the paper to set band-velocity inputs for both phonon and Coulomb interaction theories.",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "In the low-energy continuum description of tBLG the magnitude of electronic interaction effects (both electron-phonon and electron-electron) is governed principally by the bare band Dirac velocity $v_F^*(\\theta)$. Prior to this empirical relation there was not a concise, directly usable parametrization of how the moiré band Dirac velocity depends on twist angle in the small-angle regime for use in many-body estimates. Without such a relation one cannot quantitatively predict the scaling of the phonon-induced resistivity [which contains $v_F^{*2}$ in the denominator] or the effective Coulomb coupling $\\alpha\\propto 1/v_F^*$ as a function of twist angle, making direct theory–experiment comparison ambiguous. The approximate linear-in-$|\\theta-\\theta_M|$ formula gives a simple, physically transparent bridge from moiré band calculations to continuum many-body estimates (e.g., for $v_F^*$ entering Eqs. (1),(13),(21)), enabling evaluation of when continuum Dirac treatments should produce large interaction effects and where they break down.",
+            "id": "paper:812646407474249731::conclusion_1_subproblem",
+            "source_package": "paper:812646407474249731"
+          }
+        ],
+        "source_package": "paper:812646407474249731"
+      }
+    ],
+    "papers": {
+      "paper:812646407474249731": {
+        "area": "Physics and Astrophysics",
+        "authors": "Sankar Das Sarma | Fengcheng Wu",
+        "available_online": "",
+        "cover_date_start": "2020-06-01",
+        "created_at": "2022-12-22T03:26:43+08:00",
+        "doi": "10.1016/j.aop.2020.168193",
+        "en_title": "Electron–phonon and electron–electron interaction effects in twisted bilayer graphene",
+        "id": "812646407474249731",
+        "keywords": "",
+        "publication_date": "2020-6",
+        "publication_id": "577",
+        "publication_name": "Annals of Physics _ Annals of Physics",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯中的电子-声子和电子-电子相互作用效应"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "c4ff1e088d8d3e1d215349dc5d9ded58"
+}

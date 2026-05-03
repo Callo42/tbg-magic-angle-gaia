@@ -1,0 +1,32 @@
+{
+  "ir_hash": "sha256:29e02a02a079133d9ec54a5ca9ba2a472fb14be7503e944be68091a698d36cdf",
+  "manifest_schema_version": 1,
+  "package": "magnetic-bloch-tbg",
+  "premises": [
+    {
+      "content": "For the Bistritzer-MacDonald magnetic Bloch Hamiltonian\n$H^{\\phi=2\\pi}(\\mathbf{k})$ of twisted bilayer graphene represented in the\nLandau-level basis $|\\mathbf{k},n\\rangle$, the numerical procedure truncates\nthe basis to $n \\le n_{\\max}$, diagonalizes the resulting finite Hermitian\nmatrix at sampled $\\mathbf{k}$ points, and assumes that for the magic-angle BM\nparameters and flux $\\phi=2\\pi$ a numerically accessible cutoff makes the\nlow-energy flat-band eigenvalues and topological diagnostics converge within\nquoted tolerances such as energy errors of order 1 meV [@HerzogArbeitman2022].",
+      "content_hash": "7788dbc8f5b042b38f5548b73aaffa20f680759d1ec6f2efad891774068eef5d",
+      "exported": false,
+      "interface_hash": "sha256:e5bdd9a66a00bdac264f1114926fb381c5dac57a5aab35a34859be27a3890e11",
+      "label": "gcn_06caff12a4d84b26",
+      "qid": "github:magnetic_bloch_tbg::gcn_06caff12a4d84b26",
+      "required_by": [
+        "github:magnetic_bloch_tbg::gcn_afdfbd0c013048d8"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For the BM magnetic Bloch Hamiltonian\n$H_{BM}^{\\phi}(\\mathbf{k};w_0,w_1)$ of magic-angle twisted bilayer graphene at\nflux $\\phi=2\\pi$, truncated in Landau levels and diagonalized across sampled\ninterlayer parameters $(w_0,w_1)$, the observed reentrant two flat bands, their\napproximately 40 meV gap to passive bands, and the topology assignments\nseparating a crystalline regime from a Landau-level regime are interpreted as\nphysical parameter dependence only after convergence in Landau-level cutoff,\n$\\mathbf{k}$ mesh, and parameter-grid refinement, subject to the stated BM-model\napproximations [@HerzogArbeitman2022].",
+      "content_hash": "3595a2cccde86df1262f1fff8777bcf4b02716ed9980402d5a35df18af7eebfc",
+      "exported": false,
+      "interface_hash": "sha256:15b76dc771d4934bab52f8b064a53c27e871fe3b9faea4ebb61f2c82a7a1cc56",
+      "label": "gcn_fedb8c2683fb48c7",
+      "qid": "github:magnetic_bloch_tbg::gcn_fedb8c2683fb48c7",
+      "required_by": [
+        "github:magnetic_bloch_tbg::gcn_afdfbd0c013048d8"
+      ],
+      "role": "local_hole"
+    }
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,27 @@
+{
+  "Yamada2020": {
+    "type": "article",
+    "title": "Merged Four Dirac Points at the Critical Interlayer Distance in Commensurately Twisted Bilayer Graphene: the Origin of the Zero Velocity",
+    "DOI": "10.48550/arXiv.2001.01364",
+    "container-title": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          6
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Yamada",
+        "given": "Aya"
+      },
+      {
+        "family": "Hasegawa",
+        "given": "Yasumasa"
+      }
+    ]
+  }
+}

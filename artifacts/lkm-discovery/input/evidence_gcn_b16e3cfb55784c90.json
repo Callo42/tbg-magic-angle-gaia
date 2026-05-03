@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Let v_{\\mathrm{F}} be the monolayer graphene Dirac Fermi velocity and v_{\\mathrm{F}}^{*}(\\theta) be the moiré-band renormalized Fermi velocity computed in the Bistritzer–MacDonald (BM) continuum model as a function of twist angle \\theta; the BM continuum model yields quantitatively reliable estimates of v_{\\mathrm{F}}^{*}(\\theta) for experimental tBLG devices in the twist-angle range \\theta\\gtrsim1.15^\\circ, in particular giving v_{\\mathrm{F}}^{*}(\\theta\\approx1.5^\\circ)\\sim v_{\\mathrm{F}}/4 and the rapid suppression of v_{\\mathrm{F}}^{*} as \\theta approaches the magic angle, so these BM predictions can be used in quantitative resistivity modeling for those angles.\n      R. Bistritzer and A. H. MacDonald, Moiré bands in twisted double-layer graphene, Proc. Natl. Acad. Sci. USA 108, 12233 (2011).",
+      "content_hash": "c7b4c379e1255148b18f328c873f71b45d0cc51902caec63ff7c20d346a97dd3",
+      "id": "gcn_b16e3cfb55784c90",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "70cbd283c53cb6837af618fd7aae3ef9"
+}

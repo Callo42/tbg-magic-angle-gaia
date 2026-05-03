@@ -1,0 +1,47 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.5614768,
+      "knowledge_id": "github:ab_initio_twisted_multilayer::__conjunction_result_f34705b5",
+      "label": "__conjunction_result_f34705b5"
+    },
+    {
+      "belief": 0.76616807704,
+      "knowledge_id": "github:ab_initio_twisted_multilayer::gcn_5f58746b_magic_angle_flat_band_likelihood",
+      "label": "gcn_5f58746b_magic_angle_flat_band_likelihood"
+    },
+    {
+      "belief": 0.78,
+      "knowledge_id": "github:ab_initio_twisted_multilayer::gcn_af432bff_ab_initio_tb_workflow",
+      "label": "gcn_af432bff_ab_initio_tb_workflow"
+    },
+    {
+      "belief": 0.72,
+      "knowledge_id": "github:ab_initio_twisted_multilayer::gcn_be5d1975_detector_interpolation",
+      "label": "gcn_be5d1975_detector_interpolation"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:ab_initio_twisted_multilayer::__conjunction_result_f34705b5": [
+        0.5614768
+      ],
+      "github:ab_initio_twisted_multilayer::gcn_5f58746b_magic_angle_flat_band_likelihood": [
+        0.76616807704
+      ],
+      "github:ab_initio_twisted_multilayer::gcn_af432bff_ab_initio_tb_workflow": [
+        0.78
+      ],
+      "github:ab_initio_twisted_multilayer::gcn_be5d1975_detector_interpolation": [
+        0.72
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 2
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:c3e5e8d555054feb7dc540c95507eee2b1e43ecd2ed3a638eb08cbf65b13363a"
+}

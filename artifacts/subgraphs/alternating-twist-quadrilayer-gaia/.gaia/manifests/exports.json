@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "In the two Burg et al. ATQG devices, theta=1.96 deg lies above the stated ATQG magic angle of 1.68 deg and shows dominant hole-side correlated-insulator resistance maxima with no observed superconductivity down to 160 mK, while theta=1.52 deg lies below 1.68 deg and shows superconducting-like transport signatures near half filling with weaker correlated-insulator signatures; comparing these devices indicates that superconductivity favors smaller-than-magic angles and correlated insulators favor larger-than-magic angles in these ATQG samples, so superconductivity and correlated insulating order are decoupled as functions of twist angle in a way that differs from some reported TBG trends [@Burg2022].",
+      "content_hash": "bda061888c5c157f7102e74e80ed152893411257e6d155fc70a20c040282a143",
+      "label": "gcn_225da7b3_atqg_angle_phase_decoupling",
+      "qid": "github:alternating_twist_quadrilayer::gcn_225da7b3_atqg_angle_phase_decoupling",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:90f2b597ed7504d6fa5d2909602a6be7bdabe5967b60782c90e5040533c3d100",
+  "manifest_schema_version": 1,
+  "package": "alternating-twist-quadrilayer",
+  "version": "0.1.0"
+}

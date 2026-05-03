@@ -1,0 +1,361 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:1070951575758831630": {
+        "area": "arXiv-Physics",
+        "authors": "Xueshi Gao | Alejandro Jimeno-Pozo | Pierre A. Pantaleon | Emilio Codecido | Daria L. Sharifi | Zheneng Zhang | Youwei Liu | Kenji Watanabe | Takashi Taniguchi | Marc W. Bockrath | Francisco Guinea | Chun Ning Lau",
+        "available_online": "",
+        "cover_date_start": "2024-12-02",
+        "created_at": "2024-12-03T22:19:13+08:00",
+        "doi": "10.48550/arxiv.2412.01578",
+        "en_title": "Double-edged Role of Interactions in Superconducting Twisted Bilayer Graphene",
+        "id": "1070951575758831630",
+        "keywords": "",
+        "publication_date": "2024-12-02",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "相互作用在超导扭曲双层石墨烯中的双刃剑作用"
+      },
+      "paper:812469412236886018": {
+        "area": "Material science",
+        "authors": "Liangbing Ge | Kun Ni | Xiaojun Wu | Zhengping Fu | Yalin Lu | Yanwu Zhu",
+        "available_online": "2021",
+        "cover_date_start": "2021-01-01",
+        "created_at": "2022-12-21T15:43:24+08:00",
+        "doi": "10.1039/d1nr00220a",
+        "en_title": "Emerging flat bands in large-angle twisted bi-layer graphene under pressure",
+        "id": "812469412236886018",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2079",
+        "publication_name": "Nanoscale _ Nanoscale",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "受压大角度扭曲双层石墨烯中出现的新兴平带"
+      },
+      "paper:812643486368006145": {
+        "area": "Material science",
+        "authors": "Georgios A Tritsaris | Stephen Carr | Ziyan Zhu | Yiqi Xie | Steven B Torrisi | Jing Tang | Marios Mattheakis | Daniel T Larson | Efthimios Kaxiras",
+        "available_online": "2020-6-22",
+        "cover_date_start": "2020-06-22",
+        "created_at": "2022-12-22T03:15:07+08:00",
+        "doi": "10.1088/2053-1583/ab8f62",
+        "en_title": "Electronic structure calculations of twisted multi-layer graphene superlattices",
+        "id": "812643486368006145",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2094",
+        "publication_name": "2D Materials _ 2D Mater.",
+        "research_categories": "",
+        "zh_title": "扭曲多层石墨烯超晶格的电子结构计算"
+      },
+      "paper:813052701314121729": {
+        "area": "Comprehensive Periodical",
+        "authors": "Yuan Cao | Valla Fatemi | Shiang Fang | Kenji Watanabe | Takashi Taniguchi | Efthimios Kaxiras | Pablo Jarillo-Herrero",
+        "available_online": "2018-3-5",
+        "cover_date_start": "2018-03-05",
+        "created_at": "2022-12-23T06:21:10+08:00",
+        "doi": "10.1038/nature26160",
+        "en_title": "Unconventional superconductivity in magic-angle graphene superlattices",
+        "id": "813052701314121729",
+        "keywords": "",
+        "publication_date": "2018-4",
+        "publication_id": "8233",
+        "publication_name": "Nature _ Nature",
+        "research_categories": "",
+        "zh_title": "魔角石墨烯超晶格中的非常规超导性"
+      },
+      "paper:867746634916692938": {
+        "area": "arXiv-Physics",
+        "authors": "Emilio Codecido | Qiyue Wang | Ryan Koester | Shi Che | Haidong Tian | Rui Lv | Son Tran | Kenji Watanabe | Takashi Taniguchi | Fan Zhang | Marc Bockrath | Chun Ning Lau",
+        "available_online": "",
+        "cover_date_start": "2019-02-13",
+        "created_at": "2023-05-23T04:35:19+08:00",
+        "doi": "10.48550/arXiv.1902.05151",
+        "en_title": "Correlated Insulating and Superconducting States in Twisted Bilayer Graphene Below the Magic Angle",
+        "id": "867746634916692938",
+        "keywords": "",
+        "publication_date": "2019-02-13",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "魔角以下扭曲双层石墨烯中的关联绝缘态和超导态"
+      },
+      "paper:867748811072602427": {
+        "area": "arXiv-Physics",
+        "authors": "Zhen Ma | Shuai Li | Meng-Meng Xiao | Ya-Wen Zheng | Ming Lu | HaiWen Liu | Jin-Hua Gao | X. C. Xie",
+        "available_online": "",
+        "cover_date_start": "2020-01-22",
+        "created_at": "2023-05-23T04:43:58+08:00",
+        "doi": "10.48550/arXiv.2001.07995",
+        "en_title": "Moiré Flat Bands of Twisted Few-layer Graphite",
+        "id": "867748811072602427",
+        "keywords": "",
+        "publication_date": "2020-01-22",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扭曲少层石墨的莫尔平带"
+      },
+      "paper:867762294317121620": {
+        "area": "arXiv-Physics",
+        "authors": "Jonah Herzog-Arbeitman | Aaron Chew | Dmitri K. Efetov | B. Andrei Bernevig",
+        "available_online": "",
+        "cover_date_start": "2021-11-22",
+        "created_at": "2023-05-23T05:37:33+08:00",
+        "doi": "10.48550/arXiv.2111.11434",
+        "en_title": "Reentrant Correlated Insulators in Twisted Bilayer Graphene at 25T ($2π$ Flux)",
+        "id": "867762294317121620",
+        "keywords": "",
+        "publication_date": "2021-11-22",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "25特斯拉（$2π$磁通）下扭曲双层石墨烯中的重入关联绝缘体"
+      },
+      "paper:867772022996860937": {
+        "area": "arXiv-Physics",
+        "authors": "Yizhou Liu | Tobias Holder | Binghai Yan",
+        "available_online": "",
+        "cover_date_start": "2020-10-16",
+        "created_at": "2023-05-23T06:16:13+08:00",
+        "doi": "10.48550/arXiv.2010.08385",
+        "en_title": "Chirality induced Giant Unidirectional Magnetoresistance in Twisted Bilayer Graphene",
+        "id": "867772022996860937",
+        "keywords": "",
+        "publication_date": "2020-10-16",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯中手性诱导的巨单向磁电阻"
+      },
+      "paper:867774235207008693": {
+        "area": "arXiv-Physics",
+        "authors": "G. William Burg | Eslam Khalaf | Yimeng Wang | Kenji Watanabe | Takashi Taniguchi | Emanuel Tutuc",
+        "available_online": "",
+        "cover_date_start": "2022-01-05",
+        "created_at": "2023-05-23T06:25:00+08:00",
+        "doi": "10.48550/arXiv.2201.01637",
+        "en_title": "Emergence of Correlations in Alternating Twist Quadrilayer Graphene",
+        "id": "867774235207008693",
+        "keywords": "",
+        "publication_date": "2022-01-05",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "交替扭曲双层石墨烯中关联的出现"
+      },
+      "paper:867791202953462273": {
+        "area": "arXiv-Physics",
+        "authors": "Marta Brzezińska | Oleg V. Yazyev",
+        "available_online": "",
+        "cover_date_start": "2023-05-16",
+        "created_at": "2023-05-23T07:32:25+08:00",
+        "doi": "10.48550/arXiv.2305.09749",
+        "en_title": "Flat bands in bilayer graphene induced by proximity with polar $h$-BN superlattices",
+        "id": "867791202953462273",
+        "keywords": "",
+        "publication_date": "2023-05-16",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "与极性h-BN超晶格接近诱导的双层石墨烯中的平带"
+      }
+    },
+    "variables": [
+      {
+        "content": "Applying external compression to twisted bilayer graphene with commensurate twist angles in the range from approximately 9.4$^\\circ$ up to approximately 27.8$^\\circ$ provides a route to generate narrow, flat electronic bands and associated van Hove singularities near the Fermi level in twist-angle regimes that exhibit single-layer-graphene-like linear dispersion at ambient pressure; pressure therefore provides a feasible control parameter for flat-band engineering in larger-angle twisted bilayer graphene, which could in principle enable electron-correlation phenomena (for example, superconductivity or correlated insulating behavior) in structures that are easier to fabricate than magic-angle devices.",
+        "content_hash": "94dbe1d510640bae557830d5a19c418eb8744c015d74cec22f21525fc459b1f6",
+        "id": "gcn_105d2fc961f949b6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812469412236886018::conclusion_5",
+            "package_id": "paper:812469412236886018",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812469412236886018"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.03278688524590164,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The temperature versus gate-induced carrier-density phase diagram of magic-angle twisted bilayer graphene (MA-TBG, i.e., twisted bilayer graphene with $\\theta$ near the first magic angle) exhibits superconducting dome-shaped regions on both sides of a correlated insulating state centered at nominal half-filling $n=\\pm n_{s}/2$ of the flat moiré bands, where $n_{s}=4/A$ is the superlattice density and $A\\approx\\sqrt{3}a^2/(2\\theta^2)$ is the moiré unit cell area with graphene lattice constant $a=0.246\\ \\text{nm}$. In the two devices examined (device M1, $\\theta=1.16^\\circ$, and device M2, $\\theta=1.05^\\circ$), cooling at carrier densities just adjacent to the half-filling insulating density produces two pronounced superconducting regions (domes) whose four-probe resistance is fully suppressed below the measurement floor at the lowest temperature (70 mK). The correlated insulating region at nominal half-filling shows insulating temperature dependence (increasing resistance upon cooling) over an intermediate temperature window of roughly 1–4 K, and the superconducting domes appear when the device is electrostatically doped away from this correlated insulator.",
+        "content_hash": "8b1aa5791dff0c297d39dacac0d6eb8b8bf7dfbdfbbc7a7bced6ab25e558c0b7",
+        "id": "gcn_006f88d8df3548fa",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813052701314121729::conclusion_2",
+            "package_id": "paper:813052701314121729",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813052701314121729"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.029513888888888888,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For commensurate twisted bilayer graphene supercells computed at 33 unique commensurate twist angles spanning 0.88° ≤ θ ≤ 21.79°, the ab initio Wannier-derived tight-binding calculations and automated flat-band detection identify a maximized flat-band likelihood p(θ) at a magic angle θ* ≈ 1.1°, with the emergence of low-dispersion (near-flat) bands near the Fermi level in the single-particle TB band structures at that angle.",
+        "content_hash": "2d5ed181a24cdafdeb4af64ebb51594e1406d15ca70c5a056e2ff5ca98f5bee1",
+        "id": "gcn_5f58746bcc0b4098",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812643486368006145::conclusion_5",
+            "package_id": "paper:812643486368006145",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812643486368006145"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.027893738140417457,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Environmental screening by a nearby high-$\\kappa$ medium plays two competing roles in twisted bilayer graphene: at the magic angle, $\\theta\\approx1.05^{\\circ}$, enhanced screening reduces the effective electron-electron interaction strength and suppresses superconductivity, whereas at larger twist angles, $\\theta\\gtrsim1.3^{\\circ}$, the same enhanced screening quenches correlated insulating states more effectively than it quenches superconductivity, thereby allowing superconductivity to appear in detuned devices where correlated-insulator order would otherwise block it. Screening can therefore both weaken pairing and remove competing ordered states, with the net outcome set by the balance of bandwidth, onsite interactions, and screening.",
+        "content_hash": "f1033f74827bd52c07e28b72388980e036aed24b1e774251f230cf4a101c45ed",
+        "id": "gcn_b6d0961cd14d4bc7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1070951575758831630::conclusion_7",
+            "package_id": "paper:1070951575758831630",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1070951575758831630"
+          ]
+        },
+        "role": "premise",
+        "score": 0.026779422128259338,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The numerically identified twist angle at which the two primary moiré bands become nearly flat in twisted few-layer graphite is about $1.05^\\circ$, the same numerical value as the principal magic angle obtained for twisted bilayer graphene within the same continuum description.",
+        "content_hash": "ec1888ec8b7bb66eaa287f7246475e698ad79352c1060d0f1d996453beba040f",
+        "id": "gcn_f23eff9c755840f2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748811072602427::conclusion_5",
+            "package_id": "paper:867748811072602427",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748811072602427"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.026754075124025514,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let the \"magic angle\" denote a twist angle near $\\sim1^{\\circ}$ at which twisted bilayer graphene (TBG) exhibits very flat bands in realistic models that include lattice relaxation. The proposition is that a tight-binding band-structure computation for TBG at twist angle $\\theta=1.5^{\\circ}$, obtained without including lattice relaxation effects in the model, yields a band dispersion sufficiently similar in the low-energy flat-band window to the relaxed magic-angle dispersion that transport and UMR trends computed at $\\theta=1.5^{\\circ}$ can serve as a qualitative proxy for the magic-angle regime when discussing enhancement of UMR by flat bands.\n      [60]",
+        "content_hash": "8f04e4b23e6f2aa5d1922a6dc146d27905283690e777ece2badd5e050b012a89",
+        "id": "gcn_35513e8103c049f8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772022996860937::P12",
+            "package_id": "paper:867772022996860937",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772022996860937"
+          ]
+        },
+        "role": "premise",
+        "score": 0.0261986301369863,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The observation, in a single twisted bilayer graphene device with measured twist angle θ = 0.93° ± 0.01°, of correlated insulating behavior at half filling (n_m = ±2) and proximate superconductivity, together with single‑particle calculations that show narrow low‑energy bandwidths at that angle, implies that the set of twist angles capable of supporting 'magic' strongly correlated phenomena extends downward from the canonical value near θ ≈ 1.1° to at least θ ≈ 0.93°, provided one treats this single‑device result as representative and assumes that device‑specific factors (such as strain, screening environment, or disorder) are not uniquely responsible for creating the correlated behavior in this sample alone; here 'magic behavior' denotes emergence of narrow bands, correlation‑driven insulating states, and proximate superconductivity.",
+        "content_hash": "98abf265423748599ad1029a36d7f21811b21b1ff6f8aa9e374408d7e693fa0b",
+        "id": "gcn_9926fed55bca46c0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867746634916692938::P15",
+            "package_id": "paper:867746634916692938",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867746634916692938"
+          ]
+        },
+        "role": "premise",
+        "score": 0.025003906860446942,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "It is conjectured that superconductivity observed in magic-angle twisted bilayer graphene at zero magnetic field, which typically emerges upon doping correlated insulating states, may also reappear (be re-entrant) at magnetic flux $\\phi=2\\pi$ per moiré unit cell when correlated insulating states re-emerge and interaction-driven Fermi-surface reconstructions occur at that flux; this statement is explicitly a conjecture and is not established by the single-particle or many-body calculations presented here.",
+        "content_hash": "bc6a669514bd76efef2c5c2c94a5712939d16f1bd5f58e2011fd704780552ea0",
+        "id": "gcn_bb08c4c708da4cad",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762294317121620::conclusion_8",
+            "package_id": "paper:867762294317121620",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762294317121620"
+          ]
+        },
+        "role": "premise",
+        "score": 0.022857889237199582,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Comparing the two measured ATQG devices with twist angles $\\theta = 1.96^\\circ$ (above the magic angle $1.68^\\circ$) and $\\theta = 1.52^\\circ$ (below the magic angle $1.68^\\circ$) reveals an asymmetric twist-angle dependence of correlated phases: the $\\theta = 1.96^\\circ$ device exhibits dominant correlated-insulator resistance maxima on the hole-doped side and no observed superconductivity down to $160\\,$mK, whereas the $\\theta = 1.52^\\circ$ device shows evidence of superconducting-like transport signatures near half filling while correlated-insulator signatures in that device are weaker; this device-to-device comparison indicates that, in these ATQG samples, superconductivity favors angles smaller than the magic angle while correlated insulators favor angles larger than the magic angle, implying a decoupling of superconductivity and correlated insulating order as a function of twist angle in ATQG that differs from some reported trends in twisted bilayer graphene (TBG).",
+        "content_hash": "f7313fde0720c4bb85a411068edd6aa38c966d28e1dd9b376a4b4949328228d5",
+        "id": "gcn_225da7b340cb47b8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867774235207008693::conclusion_9",
+            "package_id": "paper:867774235207008693",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867774235207008693"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The numerical comparison that states the computed flat-band bandwidths for bilayer graphene under the polar h-BN superlattice (with narrowest manifolds on the order of 5–10 meV) are comparable to the bandwidths reported for magic-angle twisted bilayer graphene (also quoted as about 5–10 meV) is assumed to be a meaningful comparison, i.e., that equating bandwidth magnitudes across these physically different systems is a useful indication that similar correlation-relevant energy scales may be present despite differences in microscopic origin, symmetry, and interaction screening between the two systems.",
+        "content_hash": "371ab8787c342a7d6acec829ef798286018acf39eae2248a613e53ce257a1110",
+        "id": "gcn_6ecf468ac4be4850",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867791202953462273::P11",
+            "package_id": "paper:867791202953462273",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867791202953462273"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "d6e6e18147e9dbd060a9617206362797"
+}

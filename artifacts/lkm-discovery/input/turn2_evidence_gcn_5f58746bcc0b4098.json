@@ -1,0 +1,90 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For commensurate twisted bilayer graphene supercells computed at 33 unique commensurate twist angles spanning 0.88° ≤ θ ≤ 21.79°, the ab initio Wannier-derived tight-binding calculations and automated flat-band detection identify a maximized flat-band likelihood p(θ) at a magic angle θ* ≈ 1.1°, with the emergence of low-dispersion (near-flat) bands near the Fermi level in the single-particle TB band structures at that angle.",
+      "content_hash": "2d5ed181a24cdafdeb4af64ebb51594e1406d15ca70c5a056e2ff5ca98f5bee1",
+      "id": "gcn_5f58746bcc0b4098",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "For commensurate twisted bilayer graphene supercells computed at 33 unique commensurate twist angles spanning 0.88° ≤ θ ≤ 21.79°, the ab initio Wannier-derived tight-binding calculations and automated flat-band detection identify a maximized flat-band likelihood p(θ) at a magic angle θ* ≈ 1.1°, with the emergence of low-dispersion (near-flat) bands near the Fermi level in the single-particle TB band structures at that angle.",
+              "id": "gcn_5f58746bcc0b4098"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_c4fed52224164214",
+            "premises": [
+              {
+                "content": "",
+                "id": "gcn_af432bff1d3e4cf0"
+              },
+              {
+                "content": "",
+                "id": "gcn_be5d1975ecac4211"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Treat the high-throughput ab initio TB workflow (conclusion 3) as established and use it to compute commensurate twisted bilayer graphene band structures for a dense set of commensurate angles in the interval $0.88^{\\\\circ} \\\\leq \\\\theta \\\\leq 21.79^{\\\\circ}$; the workflow uses the Wannier-derived TB Hamiltonian, diagonalization with 60 k-points along $\\\\Gamma$–M–K, and automated flat-band detectors within a 0.30 eV window around the Fermi level.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Identify commensurate twist angles using the integer-pair parametrization: associate each commensurate twist angle $\\\\theta$ with a pair of integers $(M,N)$ defining the periodic supercell via\n$$\n\\\\cos(\\\\theta) = \\\\frac{N^2 + 4NM + M^2}{2(N^2 + NM + M^2)},\n$$\nso that specific small angles correspond to large $(M,N)$ pairs (for example, $(32,31) \\\\to 1.05^{\\\\circ}$, $(27,26) \\\\to 1.25^{\\\\circ}$, $(23,22) \\\\to 1.47^{\\\\circ}$), enabling enumeration of 33 unique commensurate bilayers in the stated range.\n[38]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Compute TB band structures for the 33 unique commensurate bilayers and apply the automated flat-band detectors to obtain model-based detections of low-dispersion bands at the sampled commensurate $\\\\theta$ values, producing detection outputs that are converted into continuous predictions $p(\\\\theta)$ via the interpolation/blending prescription (conclusion 2).\nFig. 4",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Observe the evolution of low-energy bands with decreasing $\\\\theta$: for large $\\\\theta$ the low-energy band structure resembles that of an isolated graphene monolayer, while as $\\\\theta$ decreases into the small-angle regime the number of bands increases and the bands near the Fermi level become progressively flatter due to interlayer hybridization as seen in the calculated TB band structures.",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Report the primary quantitative result for bilayer graphene: the computed, blended prediction $p(\\\\theta)$ is maximized near the well-known \"magic\" angle, with the ab initio TB calculations identifying $\\\\theta^{*} \\\\approx 1.1^{\\\\circ}$ (the workflow shows G/G@1.08 as an example close to this maximum), and the formation of low-dispersion bands near the Fermi level is observed in the single-particle TB band structures at this angle.\nFig. 4",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Record the caveat about structural relaxation: note that for twist angles below about $1.0^{\\\\circ}$ atomic relaxation effects (structural reconstruction) can significantly modify band structures (e.g., widening single-particle gaps), and that such relaxation effects are not included in the present high-throughput TB workflow, an explicit limitation acknowledged by the authors.\n[31]",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Identifying and validating the twist angle(s) at which bilayer graphene exhibits near-flat single-particle bands requires systematic electronic-structure calculations across a dense set of commensurate twist angles despite the very large supercells involved. Prior theoretical approaches (model continuum Hamiltonians, selected tight-binding studies) provided insight, but a systematic ab initio tight-binding HT validation across many commensurate cells with explicit Wannier-based parametrization was lacking, leaving uncertainty about the reproducibility of the magic-angle feature within a parameter-free TB workflow.",
+            "id": "paper:812643486368006145::conclusion_5_subproblem",
+            "source_package": "paper:812643486368006145"
+          }
+        ],
+        "source_package": "paper:812643486368006145"
+      }
+    ],
+    "papers": {
+      "paper:812643486368006145": {
+        "area": "Material science",
+        "authors": "Georgios A Tritsaris | Stephen Carr | Ziyan Zhu | Yiqi Xie | Steven B Torrisi | Jing Tang | Marios Mattheakis | Daniel T Larson | Efthimios Kaxiras",
+        "available_online": "2020-6-22",
+        "cover_date_start": "2020-06-22",
+        "created_at": "2022-12-22T03:15:07+08:00",
+        "doi": "10.1088/2053-1583/ab8f62",
+        "en_title": "Electronic structure calculations of twisted multi-layer graphene superlattices",
+        "id": "812643486368006145",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2094",
+        "publication_name": "2D Materials _ 2D Mater.",
+        "research_categories": "",
+        "zh_title": "扭曲多层石墨烯超晶格的电子结构计算"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "9c06772feea207f0d94a229bc88d7ead"
+}

@@ -1,0 +1,82 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "In atomistic tight-binding calculations performed on relaxed twisted double bilayer graphene (TDBG) geometries, the low-energy moiré flat bands of relaxed TDBG are generally narrower than the corresponding low-energy flat bands of twisted bilayer graphene (TBG) for twist angles $\\\\theta>1.1^\\\\circ$, and the computed flat-band bandwidth for relaxed TDBG attains a local minimum near $\\\\theta\\\\approx1.25^\\\\circ$; this local minimum in bandwidth is identified as the first (primary) magic angle of TDBG in these calculations, and at $\\\\theta\\\\approx1.25^\\\\circ$ the TDBG low-energy flat-band bandwidth can be more than a factor of two smaller than the TBG flat-band bandwidth at the same twist angle.",
+      "content_hash": "b66202d31939194dd08d6114f38eaea65f059dfc3d2b4f92f0202d8b674ea79c",
+      "id": "gcn_307b2c7717d94c46",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "In atomistic tight-binding calculations performed on relaxed twisted double bilayer graphene (TDBG) geometries, the low-energy moiré flat bands of relaxed TDBG are generally narrower than the corresponding low-energy flat bands of twisted bilayer graphene (TBG) for twist angles $\\\\theta>1.1^\\\\circ$, and the computed flat-band bandwidth for relaxed TDBG attains a local minimum near $\\\\theta\\\\approx1.25^\\\\circ$; this local minimum in bandwidth is identified as the first (primary) magic angle of TDBG in these calculations, and at $\\\\theta\\\\approx1.25^\\\\circ$ the TDBG low-energy flat-band bandwidth can be more than a factor of two smaller than the TBG flat-band bandwidth at the same twist angle.",
+              "id": "gcn_307b2c7717d94c46"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_5daac25aa24f48dc",
+            "premises": [
+              {
+                "content": "Define the first (primary) magic angle of twisted double bilayer graphene (TDBG) in atomistic calculations as the twist angle $\\\\theta$ at which the computed low-energy flat-band bandwidth attains a local minimum on relaxed geometries; the weak point is the assumption that the reported local minimum near $\\\\theta\\\\approx1.25^\\\\circ$ is a robust, model-independent identification of a magic angle, meaning that reasonable variations in tight-binding hopping parameters, in the interlayer-potential parametrization, in the inclusion of further-neighbor electronic hoppings, or in the details of the structural relaxation model (for example, inclusion of anharmonic elastic terms or extension of the force-constant range beyond fourth nearest neighbors) would not substantially shift, remove, or change the physical significance of this local bandwidth minimum as a \"magic angle.\"",
+                "id": "gcn_7de7cc0d7b1f4be7"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Starting point (use upstream result as known): the relaxed TDBG atomic structures and their lack of inversion symmetry are taken as established from the upstream conclusion.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Define the quantity of interest and method: define \"flat-band bandwidth\" (the \"bandwidth\" is the energy spread of a selected low-energy moiré band or group of bands across the moiré Brillouin zone); the authors compute the bandwidths of low-energy moiré flat bands for both twisted bilayer graphene (TBG) and twisted double bilayer graphene (TDBG) using the atomistic tight-binding calculations on the relaxed structures, and compare them as a function of twist angle $\\theta$.\n[14]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Report the comparative trend for $\\theta>1.1^\\circ$: the computed bandwidths (plotted as a function of $\\theta$) show that, for twist angles $\\theta>1.1^\\circ$, the low-energy moiré flat bands in relaxed TDBG are generally narrower (i.e., have smaller bandwidth) than those in TBG at the same twist angle; this trend is evident in the plot comparing TBG and TDBG bandwidths.\nFig. 2(e)",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Identify the angle of minimum bandwidth and interpret it as a magic angle: the bandwidth in relaxed TDBG reaches a minimum near $\\theta\\approx1.25^\\circ$ (the \"minimum\" refers to the plotted bandwidth versus $\\theta$ having a local minimum at this angle); the authors interpret this angle $\\theta\\approx1.25^\\circ$ as the first (primary) magic angle of TDBG in this system, in analogy with the notion of a magic angle where flat bands are maximally narrow.\nFig. 2(e)",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Quantify the relative narrowing compared with TBG at the same angle: at the same twist angle $\\theta\\approx1.25^\\circ$, the TDBG flat-band bandwidth is substantially smaller than the corresponding TBG bandwidth; the authors note that the TDBG flat bands can be more than two times narrower than TBG at $\\theta=1.25^\\circ$, which is supported by direct comparison of the band-structure plots at that angle where TDBG bands are nearly flat while TBG bands are visibly wider.\nFig. 2(c)\nFig. 2(d)",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Narrow bandwidth is a necessary condition for enhanced electronic correlations in moiré systems. While TBG exhibits discrete magic angles at which bands become ultra-narrow, it was unclear whether a four-layer twisted system would inherit similar magic-angle behavior, whether its primary magic angle would shift, or whether the layer-number degree of freedom could broaden the parameter window supporting narrow bands. Continuum estimates or extrapolations from bilayer results do not capture registry-dependent interlayer coupling or the impact of four-layer relaxation on the effective moiré tunneling amplitudes; thus the twist-angle dependence of bandwidths in actual relaxed TDBG remained unresolved, preventing assessment of how experimentally convenient the narrow-band regime is in multilayer stacks.",
+            "id": "paper:812712944042246145::conclusion_3_subproblem",
+            "source_package": "paper:812712944042246145"
+          }
+        ],
+        "source_package": "paper:812712944042246145"
+      }
+    ],
+    "papers": {
+      "paper:812712944042246145": {
+        "area": "Physics and Astrophysics",
+        "authors": "Young Woo Choi | Hyoung Joon Choi",
+        "available_online": "2019-11-11",
+        "cover_date_start": "2019-11-11",
+        "created_at": "2022-12-22T07:51:07+08:00",
+        "doi": "10.1103/physrevb.100.201402",
+        "en_title": "Intrinsic band gap and electrically tunable flat bands in twisted double bilayer graphene",
+        "id": "812712944042246145",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层双层石墨烯中的本征带隙和电可调平带"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "5df1e6cadc6430f49767ad71d07e0a0a"
+}

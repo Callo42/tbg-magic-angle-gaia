@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The noninteracting Bistritzer-MacDonald continuum model of $1.05^{\\circ}$ twisted bilayer graphene, with Dirac velocity $v_{F}=10^{6}~\\mathrm{m/s}$ in both graphene layers and intra- and inter-sublattice tunneling parameters $w_{0}=77~\\mathrm{meV}$ and $w_{1}=110~\\mathrm{meV}$, yields band dispersions and Bloch wave functions that reproduce the qualitative tunneling singularity phenomenology of interest, including inverse-root onsets, coherence peaks, and cone-shaped low-bias features, when used in momentum-conserving tunneling simulations. This approximation assumes that interaction-driven renormalizations in actual magic-angle twisted bilayer graphene do not qualitatively alter the geometric origin of the tangency-induced singularities.",
+      "content_hash": "020b525286f14181f277202c1a2140503e1689f333666f0cfc44b13fa6c78647",
+      "id": "gcn_5627832fe1fe4274",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "1e12eb70b0d7a7deff9c6f96c0d9c55a"
+}

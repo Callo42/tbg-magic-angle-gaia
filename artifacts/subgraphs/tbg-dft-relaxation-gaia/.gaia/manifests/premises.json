@@ -1,0 +1,32 @@
+{
+  "ir_hash": "sha256:acef22882fa512b359959a6ece82c70f7f8e89a6adcd1d0e31e4f30bcdbefee7",
+  "manifest_schema_version": 1,
+  "package": "tbg-dft-relaxation",
+  "premises": [
+    {
+      "content": "For first-magic-angle twisted bilayer graphene, comparing plane-wave DFT Kohn-Sham gaps computed with the vdW-DF2 exchange-correlation functional against spectroscopic gaps assumes that electron-electron correlation and quasiparticle self-energy corrections do not substantially renormalize the relevant gap magnitudes, so DFT gaps of about $26\\,\\mathrm{meV}$ and $16\\,\\mathrm{meV}$ can be quantitatively compared to nano-ARPES or tunneling spectroscopy in the same energy window [@Cantele2020].",
+      "content_hash": "ecbd4425712804e005ed4d4119ec550b0349e88b162d94e8c7fa5a070ee36447",
+      "exported": false,
+      "interface_hash": "sha256:794572b4cca10309eb6d4fd4880a57c163f152c830ca54a118d72fedd8905220",
+      "label": "gcn_6463be97083b44fd",
+      "qid": "github:tbg_dft_relaxation::gcn_6463be97083b44fd",
+      "required_by": [
+        "github:tbg_dft_relaxation::gcn_de1d329f326f4e75"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For twisted bilayer graphene at $\\theta=1.08^\\circ$, using two constrained optimizations--out-of-plane-only relaxation with fixed in-plane coordinates and in-plane-only relaxation with fixed z coordinates--is treated as a meaningful diagnostic separation of the electronic effects of the two relaxation components, while retaining the caveat that the fully relaxed structure may couple in-plane and out-of-plane degrees of freedom nonlinearly [@Cantele2020].",
+      "content_hash": "f8e9a5eef38eeba2e44475708650fbf6ee7cc7487bbdc65c7f1dcda49b9aa292",
+      "exported": false,
+      "interface_hash": "sha256:a4f7a0d71b8eb78e1e21dd52bbfc47c803d2a4b1ac4413ee57c1e5330a499ae9",
+      "label": "gcn_abaf80790d664630",
+      "qid": "github:tbg_dft_relaxation::gcn_abaf80790d664630",
+      "required_by": [
+        "github:tbg_dft_relaxation::gcn_de1d329f326f4e75"
+      ],
+      "role": "local_hole"
+    }
+  ],
+  "version": "0.1.0"
+}

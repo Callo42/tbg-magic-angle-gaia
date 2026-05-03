@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "focus": null,
+  "focus_kind": null,
+  "focus_resolved_id": null,
+  "mode": "auto",
+  "last_review_id": "2026-05-03T18-21-59Z_6b45b4b9_auto",
+  "baseline_review_id": "2026-05-03T18-20-14Z_6b45b4b9_auto",
+  "focus_stack": [],
+  "synthetic_obligations": [],
+  "synthetic_hypotheses": [],
+  "synthetic_rejections": []
+}

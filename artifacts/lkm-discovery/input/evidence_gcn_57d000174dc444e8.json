@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "In modeling twisted bilayer graphene (TBG) near the nominal magic twist angle $\\theta\\approx1.05^\\circ$, the continuum-model Hamiltonian parameterized by interlayer tunneling amplitudes $u_0$ and $u_1$ (here $u_0=79.7\\,$meV and $u_1=97.5\\,$meV) produces low-energy quasi-flat conduction bands whose computed dispersion yields an effective Fermi velocity $v_{\\mathrm{eff}}$ (defined by the slope of the band dispersion near the Fermi level) that is strongly reduced compared to single-layer graphene (e.g., $v_{\\mathrm{eff}}\\sim0.04\\,v_F$). The proposition is that these chosen continuum-model parameters and the resulting $v_{\\mathrm{eff}}$ are accurate representations of realistic magic-angle samples for the fillings considered, i.e., that the continuum model with these numerical parameters captures the essential low-energy single-particle bandstructure relevant to plasmon calculations.\n      Continuum-model references: Refs. [50,53–57] in the paper",
+      "content_hash": "99cd8e746640c3b696567fc618e367f07f80080470222fcba8e7e08f554e9964",
+      "id": "gcn_57d000174dc444e8",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "2066a5096fef388c0d63442e6112ce2c"
+}

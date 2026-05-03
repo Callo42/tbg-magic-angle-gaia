@@ -1,0 +1,20 @@
+[project]
+name = "tbg-magic-angle-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package synthesized from ten LKM-validated TBG and moire graphene root subgraphs."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "f1965703-1a57-4a66-8a3f-6fc6413c09d7"
+generated_by = "lkm-to-gaia parent synthesis"
+generated_from_search = "ten selected chain-backed TBG magic-angle roots from artifacts/lkm-discovery/candidates.md"
+generated_from_roots = ["gcn_006f88d8df3548fa", "gcn_7bca73ad98eb4ed4", "gcn_afdfbd0c013048d8", "gcn_105d2fc961f949b6", "gcn_8159f32dda354258", "gcn_f23eff9c755840f2", "gcn_2cf09f115b814154", "gcn_225da7b340cb47b8", "gcn_14a55aff3de24a3a", "gcn_5f58746bcc0b4098"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tbg_magic_angle"]

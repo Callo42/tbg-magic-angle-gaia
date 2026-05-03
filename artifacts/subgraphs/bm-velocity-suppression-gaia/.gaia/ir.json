@@ -1,0 +1,170 @@
+{
+  "ir_hash": "sha256:cd36ff2f6c9e0a580181607cd7ebe4bd4d706f48798f3a1fcb0370af1739e97b",
+  "knowledges": [
+    {
+      "content": "For twisted bilayer graphene in the noninteracting Bistritzer-MacDonald continuum moire-band calculation, with twist angle theta and largest magic angle theta_M measured in degrees and monolayer graphene velocity v_F about 1e8 cm/s, the computed low-energy Dirac-point Fermi velocity v_F*(theta) for 0 < theta < 3 degrees is usefully approximated by v_F*(theta) ~= 0.5 * |theta - theta_M| * v_F [@DasSarma2020].",
+      "content_hash": "a39ef27d8f8b7b19ca6049c826225f29366eaa8c2667b7d5153a6c3eefe8ec10",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:bm_velocity_suppression::gcn_d3808439ccf6496b",
+      "label": "gcn_d3808439ccf6496b",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "DasSarma2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_d3808439ccf6496b",
+        "lkm_original": "For twisted bilayer graphene (tBLG) with twist angle θ measured in degrees, let θ_M denote the largest magic angle at which the noninteracting continuum moiré-band Dirac-point band velocity vanishes, and let v_F ≈ 10^8 cm/s be the monolayer-graphene Dirac velocity; then the noninteracting continuum Bistritzer–MacDonald moiré-band calculation of the low-energy Dirac-point Fermi velocity v_F^*(θ) is accurately approximated for 0<θ<3° by the linear formula\n      $$\n      v_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F,\n      $$\n      with θ and θ_M in degrees, so that the numerical continuum-band outputs for v_F^*(θ) are captured to useful accuracy by this linear fit in the specified angular window.\n      R. Bistritzer and A.H. MacDonald, Proc. Natl. Acad. Sci. USA 108 (2011) 12233; F. Wu, E. Hwang, S. Das Sarma, Phys. Rev. B 99 (2019) 165112.",
+        "prior": 0.82,
+        "prior_justification": "LKM premise reports a numerical continuum-model fit and its stated angular window from the selected chain; capped below 0.90 pending reviewer audit. TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:812646407474249731"
+      },
+      "module": "paper_dassarma2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "In twisted bilayer graphene, the Bistritzer-MacDonald continuum moire-band model supplies the noninteracting low-energy band structure, and the Dirac-point band Fermi velocity v_F*(theta) from that model is treated as the bare input velocity for subsequent low-energy many-body and phonon-transport calculations [@DasSarma2020].",
+      "content_hash": "5fbb5a1d128dc709804ffa17161fe1496dc80ffb90be8203024880379215b540",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:bm_velocity_suppression::gcn_671ceef053a64aa7",
+      "label": "gcn_671ceef053a64aa7",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "DasSarma2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_671ceef053a64aa7",
+        "lkm_original": "The Bistritzer–MacDonald continuum moiré-band model, a continuum effective model parameterized by intralayer graphene parameters and interlayer tunneling amplitudes, provides the noninteracting low-energy band structure of twisted bilayer graphene (tBLG), and the Dirac-point band Fermi velocity v_F^*(θ) obtained from that noninteracting continuum model is to be treated as the bare (noninteracting) input parameter for subsequent low-energy many-body and phonon-transport calculations.\n      R. Bistritzer and A.H. MacDonald, Proc. Natl. Acad. Sci. USA 108 (2011) 12233.",
+        "prior": 0.84,
+        "prior_justification": "LKM premise states how the BM continuum velocity is used as the noninteracting input in the selected paper; capped below 0.90 pending reviewer audit. TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:812646407474249731"
+      },
+      "module": "paper_dassarma2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For twisted bilayer graphene, the noninteracting low-energy Dirac-point band Fermi velocity v_F*(theta) produced by the Bistritzer-MacDonald continuum moire-band model is strongly suppressed as theta approaches the largest magic angle theta_M where that velocity vanishes; for 0 < theta < 3 degrees it is usefully described by v_F*(theta) ~= 0.5 * |theta - theta_M| * v_F, with v_F about 1e8 cm/s [@DasSarma2020].",
+      "content_hash": "8aab4891ca59873701dc6a6a05cd865eeeb79b1b055c6812ed28364c542e1448",
+      "declaration_index": 2,
+      "exported": true,
+      "id": "github:bm_velocity_suppression::gcn_7bca73ad98eb4ed4",
+      "label": "gcn_7bca73ad98eb4ed4",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "DasSarma2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_7bca73ad98eb4ed4",
+        "lkm_original": "For twisted bilayer graphene (tBLG) the noninteracting low-energy Dirac-point band Fermi velocity v_F^*(θ) produced by the Bistritzer–MacDonald continuum moiré-band model is strongly suppressed as the twist angle θ (measured in degrees) approaches the largest magic angle θ_M (the angle at which the noninteracting Dirac-point band velocity vanishes), and for 0<θ<3° this noninteracting moiré-band velocity is well described by the empirical linear approximation\n      $$\n      v_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F,\n      $$\n      where v_F^*(θ) is the tBLG moiré-band Dirac-cone Fermi velocity, θ and θ_M are expressed in degrees, and v_F ≈ 10^8 cm/s is the monolayer-graphene Dirac velocity; this linear fit reproduces the numerical outputs of the continuum Bistritzer–MacDonald moiré-band calculation to useful accuracy in the stated angular window.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:812646407474249731"
+      },
+      "module": "paper_dassarma2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:bm_velocity_suppression::gcn_d3808439ccf6496b,github:bm_velocity_suppression::gcn_671ceef053a64aa7)",
+      "content_hash": "d03b28f5a61eeb95f52a8f9b96e0ddd275a5437a4798be2af7c4fe7e3b6d6ce8",
+      "exported": false,
+      "id": "github:bm_velocity_suppression::__conjunction_result_8d93aaf6",
+      "label": "__conjunction_result_8d93aaf6",
+      "metadata": {
+        "canonical_name": "all_true(github:bm_velocity_suppression::gcn_d3808439ccf6496b,github:bm_velocity_suppression::gcn_671ceef053a64aa7)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_f46585044549ae97",
+        "owning_strategy_type": "deduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:bm_velocity_suppression::__conjunction_result_8d93aaf6,github:bm_velocity_suppression::gcn_7bca73ad98eb4ed4)",
+      "content_hash": "694acea250603622b33feb8c9b709f2a062a8fe639c3d70a58dab1b9e2f2a12e",
+      "exported": false,
+      "id": "github:bm_velocity_suppression::__implication_result_90c585d4",
+      "label": "__implication_result_90c585d4",
+      "metadata": {
+        "canonical_name": "implies(github:bm_velocity_suppression::__conjunction_result_8d93aaf6,github:bm_velocity_suppression::gcn_7bca73ad98eb4ed4)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_f46585044549ae97",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "paper_dassarma2020"
+  ],
+  "module_titles": {
+    "paper_dassarma2020": "paper_dassarma2020 -- LKM claims and deduction from Das Sarma and Wu (2020)."
+  },
+  "namespace": "github",
+  "operators": [],
+  "package_name": "bm_velocity_suppression",
+  "scope": "local",
+  "strategies": [
+    {
+      "conclusion": "github:bm_velocity_suppression::gcn_7bca73ad98eb4ed4",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:bm_velocity_suppression::__conjunction_result_8d93aaf6",
+            "operator": "conjunction",
+            "variables": [
+              "github:bm_velocity_suppression::gcn_d3808439ccf6496b",
+              "github:bm_velocity_suppression::gcn_671ceef053a64aa7"
+            ]
+          },
+          {
+            "conclusion": "github:bm_velocity_suppression::__implication_result_90c585d4",
+            "operator": "implication",
+            "variables": [
+              "github:bm_velocity_suppression::__conjunction_result_8d93aaf6",
+              "github:bm_velocity_suppression::gcn_7bca73ad98eb4ed4"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. Define $v_F^*(\\theta)$ as the noninteracting low-energy Dirac-point Fermi velocity of twisted bilayer graphene (tBLG), where $\\theta$ is the twist angle expressed in degrees and $\\theta_M$ denotes the largest magic angle at which the noninteracting Dirac velocity vanishes (i.e., $v_F^*(\\theta_M)=0$); the monolayer graphene (MLG) bare Dirac velocity is $v_F\\approx 10^{8}\\ \\mathrm{cm/s}$. \nFig. 1(a)\n2. State the continuum moiré-band calculation basis: the Bistritzer–MacDonald continuum moiré-band model (band-structure model) is used to compute $v_F^*(\\theta)$ as a function of $\\theta$, and those calculated values are presented as the tBLG Dirac velocity at the Dirac point versus twist angle. The continuum calculation details are those cited from the band-structure model references and prior work.\n[54]\n[36]\n3. Report the empirical approximation extracted from the continuum moiré-band calculation: for twist angles $\\theta<3^\\circ$ the computed noninteracting tBLG Dirac velocity is well approximated by the linear formula\n$$\nv_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F,\n$$\nwhere both $\\theta$ and $\\theta_M$ are measured in degrees, and $v_F\\approx 10^8\\ \\mathrm{cm/s}$. This empirical expression is the explicit formula appearing in the continuum calculation discussion.\n[36]\nFig. 1(a)\n4. Explain the domain of validity of the empirical approximation: the authors state the approximation holds for $\\theta<3^\\circ$, while for $\\theta>3^\\circ$ one may take $v_F^*(\\theta)\\approx v_F$ for the purposes of their low-energy continuum theory; the number $\\theta_M$ from their calculation is $\\theta_M\\approx 1.02^\\circ$ as reported in their continuum-band evaluation.\n[36]\n5. Explicitly connect $v_F^*(\\theta)$ to subsequent low-energy theories: define the Coulomb fine-structure coupling $\\alpha$ in terms of $v_F^*$ by $\\alpha=e^2/(\\kappa\\hbar v_F^*)$, where $e$ is the elementary charge, $\\hbar$ is the reduced Planck constant, and $\\kappa$ is the background dielectric constant; also state that $v_F^*(\\theta)$ is the bare (noninteracting) low-energy parameter entering the continuum electron-phonon resistivity formula (the resistivity formula uses $v_F^{*2}$ in the denominator). Thus the empirical approximation for $v_F^*(\\theta)$ summarizes the noninteracting Bistritzer–MacDonald moiré-band calculation used throughout the paper to set band-velocity inputs for both phonon and Coulomb interaction theories."
+      },
+      "premises": [
+        "github:bm_velocity_suppression::gcn_d3808439ccf6496b",
+        "github:bm_velocity_suppression::gcn_671ceef053a64aa7"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_f46585044549ae97",
+      "type": "deduction"
+    }
+  ]
+}

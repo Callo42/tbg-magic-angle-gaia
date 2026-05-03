@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:a2fa23d90abbe44f603db8bcbf8fb70d115a05edda73107ad888c0c4286a86da",
+  "manifest_schema_version": 1,
+  "package": "tbg-lattice-reconstruction",
+  "version": "0.1.0"
+}

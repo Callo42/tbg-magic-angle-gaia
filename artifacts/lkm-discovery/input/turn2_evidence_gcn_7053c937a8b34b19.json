@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "A dense‑angle atomistic numerical survey of fully relaxed twisted bilayer graphene structures with twist angles sampled down to approximately 0.22^\\circ, using the relaxation procedure and the p_z tight‑binding Green’s‑function electronic‑structure methods described above, is sufficient to detect the reappearance of isolated flat bands (additional magic‑angle phenomena) if such isolated flat bands would occur in realistic relaxed samples; therefore the absence of observed isolated flat bands on the computed angle grid implies their practical non‑existence in reconstructed experimental samples within the sampled angle range.",
+      "content_hash": "3d673c71b391b575f1fae6abdf35ba6871b72cd7ad5bc81cca2bd73debffdbb1",
+      "id": "gcn_7053c937a8b34b19",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "7a1f8b1eb308c9145c8129df35e8deb7"
+}

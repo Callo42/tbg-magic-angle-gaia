@@ -1,0 +1,71 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.7981235579999999,
+      "knowledge_id": "github:substrate_chern_flat_band::__conjunction_result_d6d4278a",
+      "label": "__conjunction_result_d6d4278a"
+    },
+    {
+      "belief": 0.888721,
+      "knowledge_id": "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime",
+      "label": "gcn_9f7dbaf8_substrate_flat_band_topology_regime"
+    },
+    {
+      "belief": 0.82,
+      "knowledge_id": "github:substrate_chern_flat_band::gcn_fb78cfd7_magic_angle_continuum_regime",
+      "label": "gcn_fb78cfd7_magic_angle_continuum_regime"
+    },
+    {
+      "belief": 0.8991246011,
+      "knowledge_id": "github:substrate_chern_flat_band::helper_away_from_magic_angle_no_reconstruction",
+      "label": "helper_away_from_magic_angle_no_reconstruction"
+    },
+    {
+      "belief": 0.8584372898978,
+      "knowledge_id": "github:substrate_chern_flat_band::helper_chern_phase_diagram_scope",
+      "label": "helper_chern_phase_diagram_scope"
+    },
+    {
+      "belief": 0.8991246011,
+      "knowledge_id": "github:substrate_chern_flat_band::helper_rashba_isolated_flat_pairs",
+      "label": "helper_rashba_isolated_flat_pairs"
+    },
+    {
+      "belief": 0.8991246011,
+      "knowledge_id": "github:substrate_chern_flat_band::helper_single_valley_sixteen_dirac_structure",
+      "label": "helper_single_valley_sixteen_dirac_structure"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:substrate_chern_flat_band::__conjunction_result_d6d4278a": [
+        0.7981235579999999
+      ],
+      "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime": [
+        0.888721
+      ],
+      "github:substrate_chern_flat_band::gcn_fb78cfd7_magic_angle_continuum_regime": [
+        0.82
+      ],
+      "github:substrate_chern_flat_band::helper_away_from_magic_angle_no_reconstruction": [
+        0.8991246011
+      ],
+      "github:substrate_chern_flat_band::helper_chern_phase_diagram_scope": [
+        0.8584372898978
+      ],
+      "github:substrate_chern_flat_band::helper_rashba_isolated_flat_pairs": [
+        0.8991246011
+      ],
+      "github:substrate_chern_flat_band::helper_single_valley_sixteen_dirac_structure": [
+        0.8991246011
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 2
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:9fa24c8cc6ea22539f46d5c8192ece15123cdfdd0017380d6486eb1b81381800"
+}

@@ -1,0 +1,20 @@
+[project]
+name = "twisted-few-layer-graphite-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for magic-angle flat bands in twisted few-layer graphite."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "74dbeabd-bdbf-45bd-a233-3a2f4f75bb68"
+generated_by = "lkm-to-gaia"
+generated_from_search = "narrow target supplied: gcn_f23eff9c755840f2"
+generated_from_roots = ["gcn_f23eff9c755840f2"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/twisted_few_layer_graphite"]

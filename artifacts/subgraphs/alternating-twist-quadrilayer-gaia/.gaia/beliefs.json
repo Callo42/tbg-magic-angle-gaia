@@ -1,0 +1,63 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.860278,
+      "knowledge_id": "github:alternating_twist_quadrilayer::gcn_225da7b3_atqg_angle_phase_decoupling",
+      "label": "gcn_225da7b3_atqg_angle_phase_decoupling"
+    },
+    {
+      "belief": 0.76,
+      "knowledge_id": "github:alternating_twist_quadrilayer::gcn_51a6d18a_atqg_tbg_angle_mapping",
+      "label": "gcn_51a6d18a_atqg_tbg_angle_mapping"
+    },
+    {
+      "belief": 0.8863508498000001,
+      "knowledge_id": "github:alternating_twist_quadrilayer::helper_atqg_152_superconducting_like_transport",
+      "label": "helper_atqg_152_superconducting_like_transport"
+    },
+    {
+      "belief": 0.8863508498000001,
+      "knowledge_id": "github:alternating_twist_quadrilayer::helper_atqg_196_correlated_insulator_no_sc",
+      "label": "helper_atqg_196_correlated_insulator_no_sc"
+    },
+    {
+      "belief": 0.8863508498000001,
+      "knowledge_id": "github:alternating_twist_quadrilayer::helper_atqg_asymmetric_angle_dependence",
+      "label": "helper_atqg_asymmetric_angle_dependence"
+    },
+    {
+      "belief": 0.8413160000000001,
+      "knowledge_id": "github:alternating_twist_quadrilayer::helper_atqg_tbg_equivalent_angle_context",
+      "label": "helper_atqg_tbg_equivalent_angle_context"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:alternating_twist_quadrilayer::gcn_225da7b3_atqg_angle_phase_decoupling": [
+        0.860278
+      ],
+      "github:alternating_twist_quadrilayer::gcn_51a6d18a_atqg_tbg_angle_mapping": [
+        0.76
+      ],
+      "github:alternating_twist_quadrilayer::helper_atqg_152_superconducting_like_transport": [
+        0.8863508498000001
+      ],
+      "github:alternating_twist_quadrilayer::helper_atqg_196_correlated_insulator_no_sc": [
+        0.8863508498000001
+      ],
+      "github:alternating_twist_quadrilayer::helper_atqg_asymmetric_angle_dependence": [
+        0.8863508498000001
+      ],
+      "github:alternating_twist_quadrilayer::helper_atqg_tbg_equivalent_angle_context": [
+        0.8413160000000001
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 1
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:90f2b597ed7504d6fa5d2909602a6be7bdabe5967b60782c90e5040533c3d100"
+}

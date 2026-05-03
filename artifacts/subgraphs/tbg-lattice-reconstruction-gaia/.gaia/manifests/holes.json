@@ -1,0 +1,28 @@
+{
+  "holes": [
+    {
+      "content": "For Liu et al.'s continuum-model calculations of magic-angle twisted bilayer graphene, the Bistritzer-MacDonald-type moire Hamiltonian is augmented by atomic-registry-dependent interlayer tunneling and a relaxation-derived displacement field that enlarges AB/BA regions and shrinks AA regions; in that reconstructed geometry, the computed low-energy flat-band manifold has larger bandwidth and greater energetic separation from remote bands than in the unreconstructed rigid geometry, with the qualitative trend robust to moderate model-parameter changes even though explicit spatially non-uniform heterostrain is not included [@Liu2020].",
+      "content_hash": "54d6bb24a1805021705c7abfde056fe70061d8909129e6b8bdf02907ee5846f3",
+      "interface_hash": "sha256:51ae641362b43d1d8cca252a11cdfb3b23d7412693354eea74329e7205973e79",
+      "label": "gcn_8cd2984a6296435c",
+      "qid": "github:tbg_lattice_reconstruction::gcn_8cd2984a6296435c",
+      "required_by": [
+        "github:tbg_lattice_reconstruction::gcn_c220df1acc8b476a"
+      ]
+    },
+    {
+      "content": "For magic-angle twisted bilayer graphene spectra discussed by Liu et al., spatially non-uniform heterostrain means a slowly varying relative in-plane deformation between graphene layers, parameterized by a local strain tensor field epsilon(r) at the moire scale; such heterostrain can reconstruct the electronic band structure and generate additional flat-band density-of-states fine structure, including three-subpeak splitting seen in some STS spectra, but those heterostrain-induced features are not reproduced by continuum-model calculations that include only atomic-registry-driven lattice relaxation [@Liu2020].",
+      "content_hash": "bca542a9d6935d5ac1f7da472a88d2cb57d9deebb32feaa43ae142d2903382e5",
+      "interface_hash": "sha256:2f8b87e81ddba0c1d102b0972cd148b51805d7e054588340d430a23cfcee7f87",
+      "label": "gcn_ed8fa9253ea24982",
+      "qid": "github:tbg_lattice_reconstruction::gcn_ed8fa9253ea24982",
+      "required_by": [
+        "github:tbg_lattice_reconstruction::gcn_c220df1acc8b476a"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:a2fa23d90abbe44f603db8bcbf8fb70d115a05edda73107ad888c0c4286a86da",
+  "manifest_schema_version": 1,
+  "package": "tbg-lattice-reconstruction",
+  "version": "0.1.0"
+}

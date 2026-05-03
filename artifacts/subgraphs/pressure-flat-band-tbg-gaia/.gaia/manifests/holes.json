@@ -1,0 +1,28 @@
+{
+  "holes": [
+    {
+      "content": "In compressed twisted bilayer graphene with the same pressure and geometry considered by Ge et al., enhanced Kohn-Sham density of states at the Fermi level and near-Fermi van Hove singularities are used as suggestive single-particle indicators for possible correlation-driven phases, even though no explicit many-body calculation or experimental verification is supplied for superconductivity or correlated insulation [@Ge2021].",
+      "content_hash": "42baebc26d0c656882628d8c3b7862cc9855cb7be91833eda60dba88749ad4f9",
+      "interface_hash": "sha256:7c955ae75fdedecc72b8b45d3f27793480f93436e45f68a07873822eede1a7f8",
+      "label": "gcn_ba97172fd9264409",
+      "qid": "github:pressure_flat_band_tbg::gcn_ba97172fd9264409",
+      "required_by": [
+        "github:pressure_flat_band_tbg::gcn_105d2fc961f949b6"
+      ]
+    },
+    {
+      "content": "For commensurate large-angle twisted bilayer graphene studied by Ge et al. from about 9 degrees to about 27.8 degrees, the pressure-induced narrow bands and van Hove singularities reported for the 9.4 degree structure at interlayer spacing $2.44\\,\\mathrm{\\AA}$ are treated as representative of a broader compression route to engineer flat bands without magic-angle fine tuning [@Ge2021].",
+      "content_hash": "53f81e37bed1c184279f66cddfeb5eb2ce23f56b7fd361222aae77a2c0e1d415",
+      "interface_hash": "sha256:2db1e3d6e8977577ebb4f7974de1210d531484b685de9fcd461a45b6e0d4c3f0",
+      "label": "gcn_e83deb9969844b33",
+      "qid": "github:pressure_flat_band_tbg::gcn_e83deb9969844b33",
+      "required_by": [
+        "github:pressure_flat_band_tbg::gcn_105d2fc961f949b6"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:e0b69201b42746b4059c2480f62316a256674487278b60241ae11e7356ddac80",
+  "manifest_schema_version": 1,
+  "package": "pressure-flat-band-tbg",
+  "version": "0.1.0"
+}

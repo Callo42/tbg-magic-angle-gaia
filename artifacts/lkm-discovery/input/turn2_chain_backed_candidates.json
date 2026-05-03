@@ -1,0 +1,137 @@
+[
+  {
+    "id": "gcn_9f7dbaf8f0014316",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "The reconstructed-band phenomena described above—Rashba-induced isolated extremely flat band pairs near K^{\\pm}, the sixteen-Dirac-point structure in the single-valley four-band spectrum, and the computed Chern-number phase diagrams for isolated active bands—are valid in the continuum two-decoupled-valley description of twisted bilayer graphene that applies at sufficiently small twist angles and require being near the first magic angle so that (i) the eight active flat bands are well separated from remote bands by appreciable gaps and (ii) the active-band bandwidth is comparable to or smaller than typical proximate energy scales (Rashba \\sim 16 meV, Ising \\sim 1 meV, sublattice u \\sim 1\\text{–}2 meV); if the twist angle is too far from the magic angle so that the active-band bandwidth is much larger than these proximate couplings, then the Rashba coupling will not reconstruct the active bands and the reported band topology and extreme flatness need not occur.",
+    "title": "Flat-band topology of magic angle graphene on a transition metal dichalcogenide",
+    "authors": "Tianle Wang | Nick Bultinck | Michael P. Zaletel",
+    "doi": "10.1103/physrevb.102.235146"
+  },
+  {
+    "id": "gcn_fb7dff55362d47fb",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "Twisted trilayer graphene in a monolayer-on-AB-bilayer stacking geometry simultaneously exhibits (i) nearly flat moiré bands near a magic angle of about $1.12^\\circ$, (ii) twist-induced gaps at Dirac points that permit valley-resolved Chern-number assignment for the central bands, and (iii) valley Chern numbers that can be tuned by varying the twist angle $\\theta$ and a perpendicular-field-induced layer potential difference $V$; these properties make the system a promising platform to study strongly correlated physics in topologically nontrivial flat bands. The absence of the stacking symmetries present in more symmetric graphene moiré stacks implies that correlated states in the monolayer-on-bilayer geometry can differ from those in twisted bilayer graphene and twisted double-bilayer graphene.",
+    "title": "Topological flat bands in twisted trilayer graphene",
+    "authors": "Zhen Ma | Shuai Li | Ya-Wen Zheng | Meng-Meng Xiao | Hua Jiang | Jin-Hua Gao | X.C. Xie",
+    "doi": "10.1016/j.scib.2020.10.004"
+  },
+  {
+    "id": "gcn_6dfc0c79952c4fa8",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "The narrow low-energy bands in twisted gapped honeycomb bilayers such as hBN originate from resonant tunneling and confinement in local homopolar stacking regions where atoms of the same chemical species lie on top of each other; these regions host in-gap bound-like states that populate energies inside the nominal monolayer gap, and this confinement mechanism is distinct from the interference-based magic-angle mechanism of twisted bilayer graphene, as evidenced by the numerical observation that artificially setting interlayer hopping amplitudes that couple heteropolar dimers (i.e., hoppings between atoms of opposite chemical polarity, for example $w_{\\mathrm{AB}'}$ and $w_{\\mathrm{BA}'}$) to zero removes the hBN low-energy flat bands, whereas analogous simplifications in twisted graphene produce completely flat bands at the magic angle, demonstrating different confinement physics in gapped versus gapless bilayers.",
+    "title": "Flat Bands and Chiral Optical Response of Moiré Insulators",
+    "authors": "H. Ochoa | A. Asenjo-Garcia",
+    "doi": "10.1103/physrevlett.125.037402"
+  },
+  {
+    "id": "gcn_b4e3bdff3c0c439a",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "Continuum-model calculations for mirror-symmetric A-tw-A magic-angle twisted trilayer graphene (MATTG), consisting of three graphene monolayers sequentially twisted by $+\\theta$ and $-\\theta$ with $\\theta\\approx1.57^\\circ$, yield (a) mirror-symmetry-protected flat bands derived from mirror-symmetric combinations of outer-layer hopping and (b) coexisting gapless Dirac bands with opposite mirror character, such that hybridization between the flat and Dirac bands is forbidden when mirror symmetry is present. The flat bands can be mathematically reduced to magic-angle twisted bilayer graphene (MATBG)-like bands with an effective twist angle $\\theta/\\sqrt{2}$, implying a larger magic angle for MATTG of $\\theta_{\\mathrm{MATTG}}\\approx1.6^\\circ$. A perpendicular electric displacement field $D$ breaks the mirror symmetry and hybridizes the flat and Dirac bands, enabling in situ electrical control of the flat-band bandwidth and topology. These calculations neglect direct coupling between the topmost and bottommost graphene layers and use interlayer hopping parameters $w=0.1\\ \\mathrm{eV}$ and $w'=0.08\\ \\mathrm{eV}$, and they model the displacement field through an imposed interlayer potential difference $\\Delta V=dD/\\varepsilon_0$ with interlayer spacing $d\\approx0.3\\ \\mathrm{nm}$ and vacuum permittivity $\\varepsilon_0$.",
+    "title": "Tunable strongly coupled superconductivity in magic-angle twisted trilayer graphene",
+    "authors": "Jeong Min Park | Yuan Cao | Kenji Watanabe | Takashi Taniguchi | Pablo Jarillo-Herrero",
+    "doi": "10.1038/s41586-021-03192-0"
+  },
+  {
+    "id": "gcn_c220df1acc8b476a",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "Continuum-model electronic-structure calculations of magic-angle twisted bilayer graphene that include lattice relaxation driven by atomic-registry-dependent interlayer coupling reproduce the key experimental spectroscopic trends: the reconstructed geometry obtained from relaxation (enlarged AB/BA regions and reduced AA regions) yields broadened low-energy flat bands and increased energetic isolation of the flat-band manifold from remote bands relative to the unreconstructed rigid-geometry calculation. The implemented calculations omit explicit spatially non-uniform heterostrain and therefore do not reproduce additional fine splitting of the flat-band peaks (for example, three-subpeak structure) seen in some experimental spectra, which can be induced by heterostrain effects.",
+    "title": "Tunable lattice reconstruction and bandwidth of flat bands in magic-angle twisted bilayer graphene",
+    "authors": "Yi-Wen Liu | Ying Su | Xiao-Feng Zhou | Long-Jing Yin | Chao Yan | Si-Yu Li | Wei Yan | Sheng Han | Zhong-Qiu Fu | Yu Zhang | Qian Yang | Ya-Ning Ren | Lin He",
+    "doi": "10.48550/arXiv.2007.01993"
+  },
+  {
+    "id": "gcn_f2ab674b6da24dc0",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "Atomistic lattice relaxation of TDBG computed by minimizing the REBO intra-layer and Kolmogorov–Crespi inter-layer classical potentials (with the FIRE algorithm termination threshold for forces per atom set to 10^−6 eV/atom) has a decisive effect on the low-energy electronic structure: including relaxation increases the gaps between the flat-band manifold and excited states by roughly an order of magnitude near the magic angle θ* = 1.30°, strongly suppresses the inter-sublattice AA moiré tunneling amplitude w_{AA} (reducing the ratio w_{AA}/w_{AB} where w_{AB} denotes the AB moiré coupling), and reduces the influence of the Bernal-bilayer trigonal-warping parameter γ_3, the particle–hole asymmetry parameter γ_4, and the intrinsic symmetric polarization on the flat-band dispersion in the vicinity of θ*. Quantitatively, including relaxation changes the band-structure metrics so that at θ* the half-bandwidth/bandgap ratio—where \"half-bandwidth\" denotes one-half of the flat-manifold bandwidth E_W and \"bandgap\" denotes the relevant gap to excited states such as Δ_e or Δ_h—is 14.7%, a value comparable to the corresponding metric reported for magic-angle twisted bilayer graphene.",
+    "title": "Moiré Flat Bands in Twisted Double Bilayer Graphene",
+    "authors": "Fatemeh Haddadi | QuanSheng Wu | Alex J. Kruchkov | Oleg V. Yazyev",
+    "doi": "10.1021/acs.nanolett.9b05117"
+  },
+  {
+    "id": "gcn_aa891ca938754408",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "The assembly principles consisting of sibling-layer creation by partial pick-up and controlled rotation, hBN flip-over for surface-termination control, and neighboring-graphite-guided principal-axis alignment are applicable beyond monolayer graphene/hBN heterostructures. The same deterministic alignment strategy was used to fabricate low-angle twisted bilayer graphene and ABC-stacked trilayer graphene devices, demonstrating that the workflow generalizes to other twist-sensitive moiré platforms for flat-band engineering and correlated-electron studies.",
+    "title": "Controlled alignment of supermoiré lattice in double-aligned graphene heterostructures",
+    "authors": "Junxiong Hu | Junyou Tan | Mohammed M. Al Ezzi | Udvas Chattopadhyay | Jian Gou | Yuntian Zheng | Zihao Wang | Jiayu Chen | Reshmi Thottathil | Jiangbo Luo | Kenji Watanabe | Takashi Taniguchi | Andrew Thye Shen Wee | Shaffique Adam | A. Ariando",
+    "doi": "10.1038/s41467-023-39893-5"
+  },
+  {
+    "id": "gcn_de1d329f326f4e75",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "For twisted bilayer graphene at the first magic twist angle $\\theta=1.08^\\circ$, the single-particle electronic structure computed by density functional theory (DFT) shows that the narrow flat-band manifold near the Fermi energy and the energy gaps at the $\\Gamma$ point separating that manifold from higher- and lower-energy bands are reproduced only when full atomic relaxation is included, where full relaxation includes both in-plane ($x$-$y$) and out-of-plane ($z$) atomic displacements relative to the initial twisted but flat bilayer geometry. For the fully relaxed geometry at $\\theta=1.08^\\circ$, the reported flat-band bandwidth is $\\sim 20\\,\\text{meV}$, the gap separating the flat-band manifold from the higher-energy bands is $\\approx 26\\,\\text{meV}$, and the gap separating the flat-band manifold from the lower-energy bands is $\\approx 16\\,\\text{meV}$, and tight-binding calculations evaluated on the same relaxed atomic coordinates yield consistent low-energy bands. For the unrelaxed flat bilayer geometry these $\\Gamma$-point gaps are absent or strongly underestimated, and for constrained relaxations at $\\theta=1.08^\\circ$ the in-plane-only relaxed geometry (fixed $z$ coordinates) yields zero gaps while the out-of-plane-only relaxed geometry (fixed $x$-$y$ coordinates) yields underestimated gaps of order $\\sim 2\\,\\text{meV}$ (upper side) and $\\sim 14\\,\\text{meV}$ (lower side).",
+    "title": "Structural relaxation and low-energy properties of twisted bilayer graphene",
+    "authors": "Giovanni Cantele | Dario Alfè | Felice Conte | Vittorio Cataudella | Domenico Ninno | Procolo Lucignano",
+    "doi": "10.1103/physrevresearch.2.043127"
+  },
+  {
+    "id": "gcn_584669e24c6145a7",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "The single‑valley continuum Hamiltonian for magic‑angle twisted bilayer graphene with the top graphene layer nearly aligned to an h‑BN substrate is $H=H_{TBG}+H_{hBN}$ with $$ H_{hBN}=\\sum_{\\mathbf{k}} M\\,\\psi_t^{\\dagger}(\\mathbf{k})\\mu_z\\psi_t(\\mathbf{k}) +\\sum_{j=1}^{6}\\psi_t^{\\dagger}(\\mathbf{k}+\\mathbf{Q}_j')V_j\\psi_t(\\mathbf{k}), $$ where $\\psi_{t}(\\mathbf{k})$ and $\\psi_{b}(\\mathbf{k})$ are two‑component spinors describing the $A,B$ sublattice degrees of freedom on the top and bottom graphene layers, $\\mu_z$ is the Pauli matrix acting in the $A,B$ sublattice space, $M$ is the staggered sublattice mass induced on the top graphene layer by near alignment to h‑BN, $V_j$ are the weaker moiré potential matrices generated by the lattice mismatch between h‑BN and graphene with typical matrix norms $|V_j|\\lesssim 10\\,$meV, and the dominant TBG moiré interlayer coupling scale is $w_1\\approx110\\,$meV. For parameter estimates $M\\sim15$–$17\\,$meV and $|V_j|\\ll w_1$, explicit numerical diagonalization of $H$ in the moiré Brillouin zone (MBZ) produces gapped Dirac crossings at the MBZ corners in each graphene valley and yields an isolated pair of active bands (one conduction, one valence) per valley; for valley labeled $+$ the computed Chern numbers are $C=+1$ for the conduction active band and $C=-1$ for the valence active band (the opposite signs occur in the time‑reversed valley). For the representative parameters $M=15\\,$meV and twist angle $\\theta_M=1.20^\\circ$ the computed indirect gap between these conduction and valence active bands is of order $\\sim5\\,$meV.",
+    "title": "Twisted bilayer graphene aligned with hexagonal boron nitride: Anomalous Hall effect and a lattice model",
+    "authors": "Ya-Hui Zhang | Dan Mao | T. Senthil",
+    "doi": "10.1103/physrevresearch.1.033126"
+  },
+  {
+    "id": "gcn_307b2c7717d94c46",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "In atomistic tight-binding calculations performed on relaxed twisted double bilayer graphene (TDBG) geometries, the low-energy moiré flat bands of relaxed TDBG are generally narrower than the corresponding low-energy flat bands of twisted bilayer graphene (TBG) for twist angles $\\\\theta>1.1^\\\\circ$, and the computed flat-band bandwidth for relaxed TDBG attains a local minimum near $\\\\theta\\\\approx1.25^\\\\circ$; this local minimum in bandwidth is identified as the first (primary) magic angle of TDBG in these calculations, and at $\\\\theta\\\\approx1.25^\\\\circ$ the TDBG low-energy flat-band bandwidth can be more than a factor of two smaller than the TBG flat-band bandwidth at the same twist angle.",
+    "title": "Intrinsic band gap and electrically tunable flat bands in twisted double bilayer graphene",
+    "authors": "Young Woo Choi | Hyoung Joon Choi",
+    "doi": "10.1103/physrevb.100.201402"
+  },
+  {
+    "id": "gcn_f23eff9c755840f2",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "The numerically identified twist angle at which the two primary moiré bands become nearly flat in twisted few-layer graphite is about $1.05^\\circ$, the same numerical value as the principal magic angle obtained for twisted bilayer graphene within the same continuum description.",
+    "title": "Moiré Flat Bands of Twisted Few-layer Graphite",
+    "authors": "Zhen Ma | Shuai Li | Meng-Meng Xiao | Ya-Wen Zheng | Ming Lu | HaiWen Liu | Jin-Hua Gao | X. C. Xie",
+    "doi": "10.48550/arXiv.2001.07995"
+  },
+  {
+    "id": "gcn_14a55aff3de24a3a",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "For the twisted monolayer–bilayer geometry defined as a graphene monolayer rotated by angle $\\\\theta$ and placed on top of an AB-stacked graphene bilayer (denoted SM-(AB)$_2$), the moiré system at its magic-angle moiré geometry (near $\\\\theta\\\\simeq1.1^{\\\\circ}$) exhibits isolated low-energy flat bands, but these flat bands are quantitatively less flat than those of relaxed twisted bilayer graphene: the SM-(AB)$_2$ flat-band manifold has larger bandwidth and a smaller zero-energy DOS peak than magic-angle TBLG. Layer-resolved density of states $\\\\rho_{\\\\ell}(E)$ shows that the flat-band spectral weight is strongly localized on the twisted monolayer (top layer) while it is comparatively broadened and delocalized across the AB bilayer (the two bottom layers), producing a spatially separated localized–delocalized electronic character across layers.",
+    "title": "Electronic properties of twisted multilayer graphene",
+    "authors": "V. Hung Nguyen | Trinh X. Hoang | J.-C. Charlier",
+    "doi": "10.48550/arXiv.2203.09188"
+  },
+  {
+    "id": "gcn_5f58746bcc0b4098",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "For commensurate twisted bilayer graphene supercells computed at 33 unique commensurate twist angles spanning 0.88° ≤ θ ≤ 21.79°, the ab initio Wannier-derived tight-binding calculations and automated flat-band detection identify a maximized flat-band likelihood p(θ) at a magic angle θ* ≈ 1.1°, with the emergence of low-dispersion (near-flat) bands near the Fermi level in the single-particle TB band structures at that angle.",
+    "title": "Electronic structure calculations of twisted multi-layer graphene superlattices",
+    "authors": "Georgios A Tritsaris | Stephen Carr | Ziyan Zhu | Yiqi Xie | Steven B Torrisi | Jing Tang | Marios Mattheakis | Daniel T Larson | Efthimios Kaxiras",
+    "doi": "10.1088/2053-1583/ab8f62"
+  },
+  {
+    "id": "gcn_199e664867274a12",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "For magic‑angle twisted bilayer graphene (TBG) in which the top graphene layer is nearly aligned to a hexagonal boron nitride (h‑BN) substrate, taking continuum‑model parameters twist angle $ \\theta_{M}\\approx 1.20^{\\circ} $ and an h‑BN induced staggered sublattice mass $ M\\approx 15\\ \\mathrm{meV} $, the in‑plane two‑fold rotation symmetry $C_{2}$ is explicitly broken by the h‑BN alignment; this $C_{2}$ breaking gaps the Dirac band crossings that occur at the corners of the moiré Mini Brillouin Zone (MBZ) within each graphene valley, producing for a single valley an isolated conduction moiré band and an isolated valence moiré band that carry integer Chern numbers of opposite sign (conduction band Chern number $C=+1$, valence band Chern number $C=-1$). For the numerical continuum‑model diagonalization with the above parameter choice the single‑valley direct band gap between the conduction and valence bands is of order a few meV (numerical example $\\sim 5\\ \\mathrm{meV}$ when $M=15\\ \\mathrm{meV}$), so the two active bands in one valley are well separated from each other and from other bands and have well‑defined Berry curvature and integer Chern indices.",
+    "title": "Twisted Bilayer Graphene Aligned with Hexagonal Boron Nitride: Anomalous Hall Effect and a Lattice Model",
+    "authors": "Ya-Hui Zhang | Dan Mao | T. Senthil",
+    "doi": "10.48550/arXiv.1901.08209"
+  },
+  {
+    "id": "gcn_dd2c304500eb41f7",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "The superconducting behavior reported here is realized in a vertically stacked hBN/BLG/hBN Moiré superlattice in which the two graphene layers forming the bilayer graphene are not intentionally twisted (the BLG is non‑twisted) and the alignment angle between one hBN sheet and the BLG is near zero; this single‑device demonstration shows that fine tuning of the inter‑graphene twist to a so‑called magic angle is not required in this device architecture to obtain superconductivity by electrostatic (back‑gate) doping.",
+    "title": "Observation of superconductivity in bilayer graphene/hexagonal boron nitride superlattices",
+    "authors": "Satoshi Moriyama | Yoshifumi Morita | Katsuyoshi Komatsu | Kosuke Endo | Takuya Iwasaki | Shu Nakaharai | Yutaka Noguchi | Yutaka Wakayama | Eiichiro Watanabe | Daiju Tsuya | Kenji Watanabe | Takashi Taniguchi",
+    "doi": "10.48550/arXiv.1901.09356"
+  }
+]

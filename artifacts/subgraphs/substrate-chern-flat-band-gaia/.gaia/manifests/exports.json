@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "In Wang, Bultinck, and Zaletel's continuum two-decoupled-valley description of magic-angle TBG on a transition metal dichalcogenide, the reported reconstructed-band phenomena--Rashba-induced isolated extremely flat band pairs near K^{+/-}, the sixteen-Dirac-point single-valley four-band structure, and Chern-number phase diagrams for isolated active bands--are scoped to sufficiently small twist angles near the first magic angle, where the active eight bands are isolated and have bandwidth comparable to or smaller than proximate scales such as Rashba ~16 meV, Ising ~1 meV, and sublattice u ~1-2 meV; away from that regime, large active-band bandwidth can prevent Rashba reconstruction and the reported topology and extreme flatness need not occur [@Wang2020].",
+      "content_hash": "e20b62dfef7b9f81d00e66111e0df1cc7c381b507c25570588171de078237fd4",
+      "label": "gcn_9f7dbaf8_substrate_flat_band_topology_regime",
+      "qid": "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:9fa24c8cc6ea22539f46d5c8192ece15123cdfdd0017380d6486eb1b81381800",
+  "manifest_schema_version": 1,
+  "package": "substrate-chern-flat-band",
+  "version": "0.1.0"
+}

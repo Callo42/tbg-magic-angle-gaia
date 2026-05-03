@@ -1,0 +1,74 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The assembly principles consisting of sibling-layer creation by partial pick-up and controlled rotation, hBN flip-over for surface-termination control, and neighboring-graphite-guided principal-axis alignment are applicable beyond monolayer graphene/hBN heterostructures. The same deterministic alignment strategy was used to fabricate low-angle twisted bilayer graphene and ABC-stacked trilayer graphene devices, demonstrating that the workflow generalizes to other twist-sensitive moiré platforms for flat-band engineering and correlated-electron studies.",
+      "content_hash": "d1144b0adb19d3ba906d01247353ecbef68b1da27d021ab264553b60f55bdaff",
+      "id": "gcn_aa891ca938754408",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The assembly principles consisting of sibling-layer creation by partial pick-up and controlled rotation, hBN flip-over for surface-termination control, and neighboring-graphite-guided principal-axis alignment are applicable beyond monolayer graphene/hBN heterostructures. The same deterministic alignment strategy was used to fabricate low-angle twisted bilayer graphene and ABC-stacked trilayer graphene devices, demonstrating that the workflow generalizes to other twist-sensitive moiré platforms for flat-band engineering and correlated-electron studies.",
+              "id": "gcn_aa891ca938754408"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_158ff0424f1f47fc",
+            "premises": [
+              {
+                "content": "The assembly workflow based on partial pick-up and controlled rotation of sibling layers, flip-over control of layer-surface termination, and neighboring-graphite-guided principal-axis alignment can be applied to other twist-sensitive graphene systems, including low-angle twisted bilayer graphene and ABC-stacked trilayer graphene, as demonstrated by fabricated example devices. Supplementary Fig. 19, Supplementary Fig. 20 (as cited)",
+                "id": "gcn_6a0b71fbe30e4b23"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Adopt as known the deterministic fabrication capability for double-aligned devices with sub-$0.2^\\circ$ twist control (conclusion 5); state the paper's assertion that the assembly principles underlying the 30°-rotation technique, the flip-over technique, and neighboring-graphite PCA guidance are not restricted to monolayer graphene/hBN stacks but are generalizable to other twist-sensitive moiré platforms.\nDiscussion",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Report the explicit experimental extensions performed by the authors: define \"low-angle twisted bilayer graphene (tBLG)\" as a two-layer graphene stack with a small interlayer twist angle and \"ABC-stacked trilayer graphene\" as a three-layer graphene sequence with rhombohedral stacking; the authors state that the same deterministic alignment procedures were applied to fabricate devices in these two platforms (the paper refers to Supplementary Fig. 19 for tBLG and Supplementary Fig. 20 for ABC trilayer), demonstrating the techniques' applicability to preparing twist-sensitive correlated-electron systems in which precise angular control is necessary for flat-band engineering.\nSupplementary Fig. 19, Supplementary Fig. 20 (referenced)",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "State the claimed implication: by successfully applying the alignment strategy to low-angle tBLG and ABC-stacked trilayer graphene, the authors conclude that their protocol is a generic assembly strategy that can be used to prepare other moiré and flat-band systems where deterministic twist-angle control is required for exploring correlated electronic phenomena.\nDiscussion",
+                "step_id": "3"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Many emergent correlated phenomena in moiré materials appear in diverse systems (e.g., small-angle tBLG, ABC trilayer graphene, and transition-metal-dichalcogenide heterobilayers), but each experimental platform requires precise control of relative crystallographic orientations to reproducibly access narrow-band regimes. A generic set of manipulation and measurement steps that avoid reliance on specialized in-situ rotation equipment and that provide reproducible sub-degree control is therefore needed to translate alignment advances across different material systems. Establishing that the same assembly rules and PCA-reference strategy can be ported to other twist-sensitive materials addresses the practical need for a broadly applicable fabrication toolkit for twistronics experiments.",
+            "id": "paper:896336903400325481::conclusion_7_subproblem",
+            "source_package": "paper:896336903400325481"
+          }
+        ],
+        "source_package": "paper:896336903400325481"
+      }
+    ],
+    "papers": {
+      "paper:896336903400325481": {
+        "area": "Comprehensive Periodical",
+        "authors": "Junxiong Hu | Junyou Tan | Mohammed M. Al Ezzi | Udvas Chattopadhyay | Jian Gou | Yuntian Zheng | Zihao Wang | Jiayu Chen | Reshmi Thottathil | Jiangbo Luo | Kenji Watanabe | Takashi Taniguchi | Andrew Thye Shen Wee | Shaffique Adam | A. Ariando",
+        "available_online": "2023-7-12",
+        "cover_date_start": "2023-07-12",
+        "created_at": "2023-08-10T02:02:53+08:00",
+        "doi": "10.1038/s41467-023-39893-5",
+        "en_title": "Controlled alignment of supermoiré lattice in double-aligned graphene heterostructures",
+        "id": "896336903400325481",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "双对齐石墨烯异质结构中超莫尔晶格的可控排列"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "47282fbbb6f36bd71155e26fc580da47"
+}

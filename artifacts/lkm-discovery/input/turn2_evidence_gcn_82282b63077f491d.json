@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Proposition — Transfer of disorder threshold: the disorder amplitude scale of order $40\\,$meV reported in the twisted-bilayer-graphene literature as the approximate strength at which magic-angle flat-band topology is destroyed is adopted as an approximate upper bound for the disorder amplitude at which ensemble-averaged total Chern number of flat bands in twisted rhombohedral graphite is expected to vanish; claim: by assuming comparability of the remote band gaps protecting the flat bands, the spatial structure and valley separation of the wavefunctions, and the sensitivity to intervalley scattering between twisted bilayer graphene and the rhombohedral-stacking-fault system, the same order-of-magnitude threshold ($\\sim40\\,$meV) is used as the disorder scale beyond which topological protection breaks down in the rhombohedral stacking-fault system studied here.\n      [46]",
+      "content_hash": "293a107fff226ad9fb830dbbe56e0f68803aa02ec25bbd0d58f6ac8daaa62dfc",
+      "id": "gcn_82282b63077f491d",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "203dae5eeed9df8c3c22f49f5d2ff9f7"
+}

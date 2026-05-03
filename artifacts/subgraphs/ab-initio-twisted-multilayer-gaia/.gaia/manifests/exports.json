@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "For 33 unique commensurate twisted bilayer graphene supercells spanning 0.88 degrees <= theta <= 21.79 degrees, Tritsaris et al. 2020 use ab initio Wannier-derived tight-binding calculations and automated flat-band detection to find that the blended flat-band likelihood p(theta) is maximized near theta* approximately 1.1 degrees, where low-dispersion near-flat bands emerge near the Fermi level in the single-particle tight-binding band structures [@Tritsaris2020].",
+      "content_hash": "0972a3fd7ef5022440ab99f82054d976fa1cfe318adb42f11455ad6aa684a0a8",
+      "label": "gcn_5f58746b_magic_angle_flat_band_likelihood",
+      "qid": "github:ab_initio_twisted_multilayer::gcn_5f58746b_magic_angle_flat_band_likelihood",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:c3e5e8d555054feb7dc540c95507eee2b1e43ecd2ed3a638eb08cbf65b13363a",
+  "manifest_schema_version": 1,
+  "package": "ab-initio-twisted-multilayer",
+  "version": "0.1.0"
+}

@@ -1,0 +1,63 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.37172522368,
+      "knowledge_id": "github:twisted_trilayer_flat_bands::__conjunction_result_0e0987b5",
+      "label": "__conjunction_result_0e0987b5"
+    },
+    {
+      "belief": 0.74,
+      "knowledge_id": "github:twisted_trilayer_flat_bands::gcn_2a4995cfc44a4638",
+      "label": "gcn_2a4995cfc44a4638"
+    },
+    {
+      "belief": 0.676216342285504,
+      "knowledge_id": "github:twisted_trilayer_flat_bands::gcn_2cf09f115b814154",
+      "label": "gcn_2cf09f115b814154"
+    },
+    {
+      "belief": 0.72,
+      "knowledge_id": "github:twisted_trilayer_flat_bands::gcn_4249f998947d4ee0",
+      "label": "gcn_4249f998947d4ee0"
+    },
+    {
+      "belief": 0.84,
+      "knowledge_id": "github:twisted_trilayer_flat_bands::gcn_768268d063184cb8",
+      "label": "gcn_768268d063184cb8"
+    },
+    {
+      "belief": 0.83,
+      "knowledge_id": "github:twisted_trilayer_flat_bands::gcn_ba18ade2bb8145ee",
+      "label": "gcn_ba18ade2bb8145ee"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:twisted_trilayer_flat_bands::__conjunction_result_0e0987b5": [
+        0.37172522368
+      ],
+      "github:twisted_trilayer_flat_bands::gcn_2a4995cfc44a4638": [
+        0.74
+      ],
+      "github:twisted_trilayer_flat_bands::gcn_2cf09f115b814154": [
+        0.676216342285504
+      ],
+      "github:twisted_trilayer_flat_bands::gcn_4249f998947d4ee0": [
+        0.72
+      ],
+      "github:twisted_trilayer_flat_bands::gcn_768268d063184cb8": [
+        0.84
+      ],
+      "github:twisted_trilayer_flat_bands::gcn_ba18ade2bb8145ee": [
+        0.83
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 4
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:f31b40abc49cdfdd7e7eb6dc6d8811064d3bc6b9cbdb67b42f6e0899e6a540ec"
+}

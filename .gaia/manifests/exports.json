@@ -1,0 +1,113 @@
+{
+  "exports": [
+    {
+      "content": "For Cao et al. 2018 magic-angle twisted bilayer graphene devices M1 (theta=1.16 deg) and M2 (theta=1.05 deg), the temperature versus gate-induced carrier-density phase diagram shows superconducting dome-shaped regions adjacent to a correlated insulating state centered at nominal half-filling n=+-n_s/2 of the flat moire bands, with n_s=4/A and A~=sqrt(3)a^2/(2 theta^2) for graphene lattice constant a=0.246 nm; near the adjacent carrier densities the four-probe resistance is suppressed below the measurement floor at 70 mK, while the half-filling region has insulating temperature dependence over roughly 1-4 K [@Cao2018].",
+      "content_hash": "625823edb76b88ba3f87bc7ff7674fa63503794604c41aa64bb7241520532b0d",
+      "label": "gcn_006f88d8_ma_tbg_superconducting_domes",
+      "qid": "github:tbg_magic_angle::gcn_006f88d8_ma_tbg_superconducting_domes",
+      "type": "claim"
+    },
+    {
+      "content": "Applying external compression to commensurate twisted bilayer graphene with twist angles from about 9.4 degrees to about 27.8 degrees can produce narrow flat electronic bands and near-Fermi van Hove singularities in large-angle regimes that are single-layer-graphene-like at ambient pressure; pressure is therefore a feasible control parameter for flat-band engineering in easier-to-fabricate larger-angle devices and motivates, but does not demonstrate, possible correlated phases [@Ge2021].",
+      "content_hash": "443e9c5a165375d8956ae87a1178c890d48e431c86c61a264a9d24f54db0cd49",
+      "label": "gcn_105d2fc961f949b6",
+      "qid": "github:tbg_magic_angle::gcn_105d2fc961f949b6",
+      "type": "claim"
+    },
+    {
+      "content": "For Nguyen et al.'s SM-(AB)_2 twisted monolayer-bilayer graphene geometry near theta ~= 1.1 deg, relaxed-geometry tight-binding calculations find isolated low-energy flat bands, but the flat-band manifold is less flat than relaxed magic-angle twisted bilayer graphene because it has a larger bandwidth and smaller zero-energy density-of-states peak; layer-resolved density of states further shows flat-band spectral weight localized mainly on the twisted monolayer top layer and broadened or delocalized across the AB-bilayer bottom layers [@Nguyen2022].",
+      "content_hash": "cd9d59eda0afe32c489fbd20cf8d9241ff8c9a7381b366f13ce3509d70e74107",
+      "label": "gcn_14a55aff_smab2_flat_band_localization",
+      "qid": "github:tbg_magic_angle::gcn_14a55aff_smab2_flat_band_localization",
+      "type": "claim"
+    },
+    {
+      "content": "In the two Burg et al. ATQG devices, theta=1.96 deg lies above the stated ATQG magic angle of 1.68 deg and shows dominant hole-side correlated-insulator resistance maxima with no observed superconductivity down to 160 mK, while theta=1.52 deg lies below 1.68 deg and shows superconducting-like transport signatures near half filling with weaker correlated-insulator signatures; comparing these devices indicates that superconductivity favors smaller-than-magic angles and correlated insulators favor larger-than-magic angles in these ATQG samples, so superconductivity and correlated insulating order are decoupled as functions of twist angle in a way that differs from some reported TBG trends [@Burg2022].",
+      "content_hash": "bda061888c5c157f7102e74e80ed152893411257e6d155fc70a20c040282a143",
+      "label": "gcn_225da7b3_atqg_angle_phase_decoupling",
+      "qid": "github:tbg_magic_angle::gcn_225da7b3_atqg_angle_phase_decoupling",
+      "type": "claim"
+    },
+    {
+      "content": "In Ma et al.'s minimal continuum model for twisted trilayer graphene, formed by placing a graphene monolayer on an AB-stacked graphene bilayer, the parameter set gamma_3 = gamma_4 = Delta' = 0, gamma_0 = 2464 meV, and gamma_1 = 400 meV gives a largest magic twist angle near theta = 1.12 degrees, where two low-energy moire bands near charge neutrality become nearly flat around the Fermi level [@Ma2019].",
+      "content_hash": "aa267a7bd19bbafa6e9ae739ab622b7af7292782b7e09cbc3079b87c33c38d57",
+      "label": "gcn_2cf09f115b814154",
+      "qid": "github:tbg_magic_angle::gcn_2cf09f115b814154",
+      "type": "claim"
+    },
+    {
+      "content": "In Zhang, Mao, and Senthil's single-valley continuum model for magic-angle TBG with the top graphene layer nearly aligned to h-BN, H = H_TBG + H_hBN combines the standard TBG continuum Hamiltonian with a top-layer h-BN term containing a staggered sublattice mass M and weaker V_j moire potentials; for M about 15-17 meV and |V_j| much smaller than w_1 about 110 meV, numerical diagonalization gives gapped MBZ-corner Dirac crossings, one isolated conduction and one isolated valence active band per valley, valley + Chern numbers C = +1 and C = -1 for the conduction and valence active bands respectively, and an indirect active-band gap of order 5 meV at M = 15 meV and theta_M = 1.20 degrees [@Zhang2019].",
+      "content_hash": "0020576d31d833e978be96a707cdff1a1c7c235cce765dd7dc11a82b7b0f1c64",
+      "label": "gcn_584669e24c6145a7",
+      "qid": "github:tbg_magic_angle::gcn_584669e24c6145a7",
+      "type": "claim"
+    },
+    {
+      "content": "For 33 unique commensurate twisted bilayer graphene supercells spanning 0.88 degrees <= theta <= 21.79 degrees, Tritsaris et al. 2020 use ab initio Wannier-derived tight-binding calculations and automated flat-band detection to find that the blended flat-band likelihood p(theta) is maximized near theta* approximately 1.1 degrees, where low-dispersion near-flat bands emerge near the Fermi level in the single-particle tight-binding band structures [@Tritsaris2020].",
+      "content_hash": "0972a3fd7ef5022440ab99f82054d976fa1cfe318adb42f11455ad6aa684a0a8",
+      "label": "gcn_5f58746b_magic_angle_flat_band_likelihood",
+      "qid": "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood",
+      "type": "claim"
+    },
+    {
+      "content": "For twisted bilayer graphene, the noninteracting low-energy Dirac-point band Fermi velocity v_F*(theta) produced by the Bistritzer-MacDonald continuum moire-band model is strongly suppressed as theta approaches the largest magic angle theta_M where that velocity vanishes; for 0 < theta < 3 degrees it is usefully described by v_F*(theta) ~= 0.5 * |theta - theta_M| * v_F, with v_F about 1e8 cm/s [@DasSarma2020].",
+      "content_hash": "8aab4891ca59873701dc6a6a05cd865eeeb79b1b055c6812ed28364c542e1448",
+      "label": "gcn_7bca73ad98eb4ed4",
+      "qid": "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
+      "type": "claim"
+    },
+    {
+      "content": "In sufficiently small-angle twisted bilayer graphene, where the moire-K gap between the $2n_0$th and $(2n_0+1)$th bands is negligibly small and the upper two bands near charge neutrality are nearly degenerate, Yamada and Hasegawa 2020 propose that three moving Dirac points merge with the fixed K-point Dirac point, producing vanishing Dirac velocity at K; this suppression is conjectured to contribute to extremely narrow nearly flat bands at the magic angles [@Yamada2020].",
+      "content_hash": "4cad5cb437d8ea45925fde1af0e3539c6606afa6f856ee6546f7b125f8efd86c",
+      "label": "gcn_8159f32d_merged_dirac_magic_angle_flat_band",
+      "qid": "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band",
+      "type": "claim"
+    },
+    {
+      "content": "In Wang, Bultinck, and Zaletel's continuum two-decoupled-valley description of magic-angle TBG on a transition metal dichalcogenide, the reported reconstructed-band phenomena--Rashba-induced isolated extremely flat band pairs near K^{+/-}, the sixteen-Dirac-point single-valley four-band structure, and Chern-number phase diagrams for isolated active bands--are scoped to sufficiently small twist angles near the first magic angle, where the active eight bands are isolated and have bandwidth comparable to or smaller than proximate scales such as Rashba ~16 meV, Ising ~1 meV, and sublattice u ~1-2 meV; away from that regime, large active-band bandwidth can prevent Rashba reconstruction and the reported topology and extreme flatness need not occur [@Wang2020].",
+      "content_hash": "e20b62dfef7b9f81d00e66111e0df1cc7c381b507c25570588171de078237fd4",
+      "label": "gcn_9f7dbaf8_substrate_flat_band_topology_regime",
+      "qid": "github:tbg_magic_angle::gcn_9f7dbaf8_substrate_flat_band_topology_regime",
+      "type": "claim"
+    },
+    {
+      "content": "The continuum Bistritzer-MacDonald model of magic-angle twisted bilayer\ngraphene, after a layer-dependent momentum shift restores moire periodicity,\ncan be represented in a magnetic-translation-irrep Landau-level basis at flux\n$\\phi=2\\pi$ and diagonalized with a finite Landau-level cutoff; for the BM\ninterlayer tunneling parameters studied, this calculation produces two\nlow-energy reentrant flat bands per valley and spin separated from passive\nbands by a gap of order 40 meV, with topology controlled by $(w_0,w_1)$:\nphysical TBG lies in a crystalline regime with vanishing total Chern number for\nthe two flat bands, while the first chiral limit $w_0=0$ lies in a\nLandau-level-type regime where each flat band has Chern number -1\n[@HerzogArbeitman2022].",
+      "content_hash": "51645f6b204f291c3f4e87885e69744e089ca57930ae46c1b24cc4ba85752d07",
+      "label": "gcn_afdfbd0c013048d8",
+      "qid": "github:tbg_magic_angle::gcn_afdfbd0c013048d8",
+      "type": "claim"
+    },
+    {
+      "content": "For Park et al.'s mirror-symmetric A-tw-A magic-angle twisted trilayer graphene with sequential twist angles +theta and -theta and theta about 1.57 degrees, continuum-model calculations yield mirror-symmetry-protected flat bands derived from mirror-symmetric outer-layer hopping combinations and coexisting gapless Dirac bands of opposite mirror character, so flat-band/Dirac-band hybridization is forbidden when mirror symmetry is present; the flat bands map approximately to MATBG-like bands with effective twist angle theta/sqrt(2), giving a larger MATTG magic angle near 1.6 degrees, and a perpendicular displacement field D breaks mirror symmetry and hybridizes the flat and Dirac bands, enabling electrical control of flat-band bandwidth and topology under the stated continuum-model approximations [@Park2021].",
+      "content_hash": "8dee7fa0f69250dba192d6a02113b36f7cd6dee3940c6871f99618a5866aa3f8",
+      "label": "gcn_b4e3bdff_mattg_mirror_flat_dirac_control",
+      "qid": "github:tbg_magic_angle::gcn_b4e3bdff_mattg_mirror_flat_dirac_control",
+      "type": "claim"
+    },
+    {
+      "content": "In Liu et al.'s continuum-model electronic-structure calculation for magic-angle twisted bilayer graphene, adding atomic-registry-driven lattice relaxation produces reconstructed geometry with enlarged AB/BA regions and reduced AA regions; compared with the rigid unreconstructed calculation, this reconstructed geometry reproduces the key STS spectroscopic trends of broader low-energy flat bands and greater energetic isolation from remote bands, while the calculation omits explicit spatially non-uniform heterostrain and therefore does not reproduce extra flat-band peak splitting, such as three-subpeak structure, observed in some spectra [@Liu2020].",
+      "content_hash": "11d5d98b143ede2514a0eec28c223ae6423aa204ba52e33c4935e4790b9d5a98",
+      "label": "gcn_c220df1acc8b476a",
+      "qid": "github:tbg_magic_angle::gcn_c220df1acc8b476a",
+      "type": "claim"
+    },
+    {
+      "content": "For twisted bilayer graphene at the first magic twist angle $\\theta=1.08^\\circ$, plane-wave DFT with vdW-DF2 reproduces the near-Fermi narrow flat-band manifold and the $\\Gamma$-point gaps to higher and lower bands only when full atomic relaxation includes both in-plane and out-of-plane displacements. In the fully relaxed geometry, the reported flat-band bandwidth is about $20\\,\\mathrm{meV}$, with upper and lower separation gaps of about $26\\,\\mathrm{meV}$ and $16\\,\\mathrm{meV}$, and tight-binding calculations on the same relaxed coordinates give consistent low-energy bands. Unrelaxed flat geometries lack or strongly underestimate these gaps; in-plane-only relaxation gives zero gaps, while out-of-plane-only relaxation gives underestimated gaps of about $2\\,\\mathrm{meV}$ and $14\\,\\mathrm{meV}$ [@Cantele2020].",
+      "content_hash": "bc4624452bbb379262bf2b8030b6eaf5c0a5be40bd8413eb98d0987658fe8b1d",
+      "label": "gcn_de1d329f326f4e75",
+      "qid": "github:tbg_magic_angle::gcn_de1d329f326f4e75",
+      "type": "claim"
+    },
+    {
+      "content": "In Ma et al.'s continuum description of twisted few-layer graphite, the numerical twist angle at which the two primary moire bands become nearly flat is about 1.05 degrees; this equals the principal magic-angle value obtained for twisted bilayer graphene within the same continuum-model formalism, while the claim is scoped to the primary two-band pair rather than all moire bands [@Ma2020].",
+      "content_hash": "bb09e2bcdcfc4240fdeae779bd826b4d34d8e14adf6c9e98912b1414636c2864",
+      "label": "gcn_f23eff9c755840f2",
+      "qid": "github:tbg_magic_angle::gcn_f23eff9c755840f2",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:6b45b4b98199d03ab3c5c6ca02915a7e36c81f79a4bd884e74dd9f217246316a",
+  "manifest_schema_version": 1,
+  "package": "tbg-magic-angle",
+  "version": "0.1.0"
+}

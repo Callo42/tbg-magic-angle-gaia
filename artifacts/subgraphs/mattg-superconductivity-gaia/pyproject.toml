@@ -1,0 +1,20 @@
+[project]
+name = "mattg-superconductivity-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for tunable MATTG band structure."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "86ac59cb-9de5-4445-b9e1-d4f4386526e0"
+generated_by = "lkm-to-gaia"
+generated_from_search = "targeted selected Turn-2 root gcn_b4e3bdff3c0c439a for MATTG mirror-symmetric band structure and displacement-field tuning"
+generated_from_roots = ["gcn_b4e3bdff3c0c439a"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mattg_superconductivity"]

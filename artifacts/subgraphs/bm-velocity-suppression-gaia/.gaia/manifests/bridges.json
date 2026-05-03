@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:cd36ff2f6c9e0a580181607cd7ebe4bd4d706f48798f3a1fcb0370af1739e97b",
+  "manifest_schema_version": 1,
+  "package": "bm-velocity-suppression",
+  "version": "0.1.0"
+}

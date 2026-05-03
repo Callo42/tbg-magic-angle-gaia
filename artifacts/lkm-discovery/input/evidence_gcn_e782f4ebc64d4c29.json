@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Let the twist angle between the graphene layers be $\\theta$ and denote the first magic-angle value for the chosen continuum parameters by $\\theta_{\\mathrm{magic}}\\approx1.05^\\circ$; the numerical generation of the superflat two-band manifold with total combined bandwidth $W_{\\mathrm{tot}}\\lesssim 2$--$3\\,$meV using $(V_1,V_2)$ tuning in the truncated-continuum model requires $\\theta$ to be at or extremely close to $\\theta_{\\mathrm{magic}}$, because small deviations in $\\theta$ away from $\\theta_{\\mathrm{magic}}$ restore finite Dirac velocities near the MBZ center ($\\Gamma$ point) and thereby prevent the simultaneous compression of both bands into the reported superflat regime.",
+      "content_hash": "dafb2b11aff2960809493bae51707f9ef95bd4e6f7ad360caa2d6d01d1b2afe3",
+      "id": "gcn_e782f4ebc64d4c29",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "a4338b2080d1e52ed253715ec48cb33c"
+}

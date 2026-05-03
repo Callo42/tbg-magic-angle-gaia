@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Let the \"magic angle\" denote a twist angle near $\\sim1^{\\circ}$ at which twisted bilayer graphene (TBG) exhibits very flat bands in realistic models that include lattice relaxation. The proposition is that a tight-binding band-structure computation for TBG at twist angle $\\theta=1.5^{\\circ}$, obtained without including lattice relaxation effects in the model, yields a band dispersion sufficiently similar in the low-energy flat-band window to the relaxed magic-angle dispersion that transport and UMR trends computed at $\\theta=1.5^{\\circ}$ can serve as a qualitative proxy for the magic-angle regime when discussing enhancement of UMR by flat bands.\n      [60]",
+      "content_hash": "8f04e4b23e6f2aa5d1922a6dc146d27905283690e777ece2badd5e050b012a89",
+      "id": "gcn_35513e8103c049f8",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "d691d0c2409c5e1f3b2f6e7f2718862f"
+}

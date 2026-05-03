@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:e0b69201b42746b4059c2480f62316a256674487278b60241ae11e7356ddac80",
+  "manifest_schema_version": 1,
+  "package": "pressure-flat-band-tbg",
+  "version": "0.1.0"
+}

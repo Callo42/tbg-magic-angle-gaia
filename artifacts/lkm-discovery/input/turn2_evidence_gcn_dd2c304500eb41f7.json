@@ -1,0 +1,82 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The superconducting behavior reported here is realized in a vertically stacked hBN/BLG/hBN Moiré superlattice in which the two graphene layers forming the bilayer graphene are not intentionally twisted (the BLG is non‑twisted) and the alignment angle between one hBN sheet and the BLG is near zero; this single‑device demonstration shows that fine tuning of the inter‑graphene twist to a so‑called magic angle is not required in this device architecture to obtain superconductivity by electrostatic (back‑gate) doping.",
+      "content_hash": "c56fb08e6ae7e5400a51438f72ae2775bb7ba3cc29d91cc81eeacd692cc60b9b",
+      "id": "gcn_dd2c304500eb41f7",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The superconducting behavior reported here is realized in a vertically stacked hBN/BLG/hBN Moiré superlattice in which the two graphene layers forming the bilayer graphene are not intentionally twisted (the BLG is non‑twisted) and the alignment angle between one hBN sheet and the BLG is near zero; this single‑device demonstration shows that fine tuning of the inter‑graphene twist to a so‑called magic angle is not required in this device architecture to obtain superconductivity by electrostatic (back‑gate) doping.",
+              "id": "gcn_dd2c304500eb41f7"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_610a983e62844acb",
+            "premises": [
+              {
+                "content": "The experimental observation of superconductivity in a single vertically stacked heterostructure comprising non‑twisted bilayer graphene encapsulated by hBN layers with near‑zero alignment between one hBN sheet and the BLG (an hBN/BLG/hBN Moiré superlattice) demonstrates that, in this device architecture and under electrostatic (back‑gate) doping, precise fine‑tuning of the inter‑graphene twist to a so‑called magic angle is not a necessary condition to realize superconductivity, and therefore magic‑angle fine‑tuning is not required in this architecture to obtain the superconducting state reported here.\n      [Main text; Abstract]",
+                "id": "gcn_76ee35e339b144a5"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Starting point (explicit): the experimentally observed superconductivity, superconducting dome, and phase-coherent transport in the hBN/BLG/hBN device (as established in prior conclusions) are treated as known; the present reasoning addresses the structural and fabrication details that establish the absence of intentional twist within the bilayer graphene and the lack of requirement for a “magic” twist angle to observe superconductivity in this device architecture.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Device fabrication and alignment are described: the BLG used in the heterostructure is non-twisted (i.e., the two graphene layers forming the bilayer are not intentionally twisted), and one of the hBN sheets is aligned to the BLG with a small alignment angle estimated to be $\\theta \\sim 0^{\\circ}$ (near-zero), producing a Moiré superlattice due to the hBN/graphene lattice mismatch; the authors explicitly note that the device is an hBN/BLG/hBN Moiré superlattice with BLG itself non-twisted.\nFig. 1(A)\n[12,13]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Contextual comparison to magic-angle twisted bilayer graphene (TBG) is given: prior reports of superconductivity in magic-angle TBG emphasized fine tuning to a \"magic\" twist angle (vanishing velocity/flat band) as a route to superconductivity, and the authors explicitly reference that context while stating that in their device fine tuning to a magic angle is not necessary to obtain superconductivity via electrostatic doping.\n[6]",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Empirical demonstration that superconductivity occurs without magic-angle fine-tuning: the observed superconducting dome, zero-resistance states, critical currents, BKT $T_{BKT}=14\\ \\mathrm{K}$, and related superconducting signatures are recorded in the hBN/BLG/hBN device that is non-twisted in the BLG and has near-zero alignment between BLG and one hBN sheet; this experimental observation is presented by the authors as evidence that a \"magic\" twist angle is not required in this device architecture to realize superconductivity by electrostatic doping.\nFig. 1(D)\nFig. 2",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Conclusion and implication: combining the structural characterization (non-twisted BLG, near-zero hBN alignment) with the superconducting observations under in situ electrostatic doping, the authors assert that superconductivity can be realized in this vertically stacked hBN/BLG/hBN Moiré superlattice without fine-tuning to a magic angle, thereby establishing an alternative experimental route to atomic-layer superconductivity in graphene-based Moiré devices.",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The initial theoretical and experimental focus on magic‑angle twisted bilayer graphene suggested that extremely fine geometrical tuning of the interlayer twist was required to obtain correlated insulating states and superconductivity, which in turn posed a significant fabrication and reproducibility bottleneck. There was no clear evidence that other Moiré architectures—specifically non‑twisted BLG encapsulated by aligned hBN to form a long-wavelength Moiré potential—could host a comparable superconducting state accessible by electrostatic gating. This uncertainty limited the search for more robust, tunable, and manufacturable routes to atomic‑layer superconductivity and obscured whether the essential ingredients are narrow bands produced by twist or more general features such as van Hove singularities and inversion‑symmetry breaking from hBN alignment.",
+            "id": "paper:867773035728339667::conclusion_5_subproblem",
+            "source_package": "paper:867773035728339667"
+          }
+        ],
+        "source_package": "paper:867773035728339667"
+      }
+    ],
+    "papers": {
+      "paper:867773035728339667": {
+        "area": "arXiv-Physics",
+        "authors": "Satoshi Moriyama | Yoshifumi Morita | Katsuyoshi Komatsu | Kosuke Endo | Takuya Iwasaki | Shu Nakaharai | Yutaka Noguchi | Yutaka Wakayama | Eiichiro Watanabe | Daiju Tsuya | Kenji Watanabe | Takashi Taniguchi",
+        "available_online": "",
+        "cover_date_start": "2019-01-27",
+        "created_at": "2023-05-23T06:20:14+08:00",
+        "doi": "10.48550/arXiv.1901.09356",
+        "en_title": "Observation of superconductivity in bilayer graphene/hexagonal boron nitride superlattices",
+        "id": "867773035728339667",
+        "keywords": "",
+        "publication_date": "2019-01-27",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "双层石墨烯/六方氮化硼超晶格中超导性的观测"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "7b225fbf818fd1028c2725e09b9bf112"
+}

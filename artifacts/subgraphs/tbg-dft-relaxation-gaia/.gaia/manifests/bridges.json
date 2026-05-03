@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:acef22882fa512b359959a6ece82c70f7f8e89a6adcd1d0e31e4f30bcdbefee7",
+  "manifest_schema_version": 1,
+  "package": "tbg-dft-relaxation",
+  "version": "0.1.0"
+}

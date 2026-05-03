@@ -1,0 +1,78 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The reconstructed-band phenomena described above—Rashba-induced isolated extremely flat band pairs near K^{\\pm}, the sixteen-Dirac-point structure in the single-valley four-band spectrum, and the computed Chern-number phase diagrams for isolated active bands—are valid in the continuum two-decoupled-valley description of twisted bilayer graphene that applies at sufficiently small twist angles and require being near the first magic angle so that (i) the eight active flat bands are well separated from remote bands by appreciable gaps and (ii) the active-band bandwidth is comparable to or smaller than typical proximate energy scales (Rashba \\sim 16 meV, Ising \\sim 1 meV, sublattice u \\sim 1\\text{–}2 meV); if the twist angle is too far from the magic angle so that the active-band bandwidth is much larger than these proximate couplings, then the Rashba coupling will not reconstruct the active bands and the reported band topology and extreme flatness need not occur.",
+      "content_hash": "297d8c1b4bca50db708f8f4aa19299af88c4f13b67878fe2566974f46f97b2dc",
+      "id": "gcn_9f7dbaf8f0014316",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The reconstructed-band phenomena described above—Rashba-induced isolated extremely flat band pairs near K^{\\pm}, the sixteen-Dirac-point structure in the single-valley four-band spectrum, and the computed Chern-number phase diagrams for isolated active bands—are valid in the continuum two-decoupled-valley description of twisted bilayer graphene that applies at sufficiently small twist angles and require being near the first magic angle so that (i) the eight active flat bands are well separated from remote bands by appreciable gaps and (ii) the active-band bandwidth is comparable to or smaller than typical proximate energy scales (Rashba \\sim 16 meV, Ising \\sim 1 meV, sublattice u \\sim 1\\text{–}2 meV); if the twist angle is too far from the magic angle so that the active-band bandwidth is much larger than these proximate couplings, then the Rashba coupling will not reconstruct the active bands and the reported band topology and extreme flatness need not occur.",
+              "id": "gcn_9f7dbaf8f0014316"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_c68ea7fe461d4cd9",
+            "premises": [
+              {
+                "content": "The two-valley continuum model of twisted bilayer graphene (TBG), which treats valley indices $\\tau=\\pm$ as effectively decoupled and describes low-energy moiré physics via the Bistritzer–MacDonald continuum Hamiltonian parametrized by the twist angle $\\theta$, accurately captures the single-particle flat-band physics when the twist angle $\\theta$ is sufficiently small so that intervalley scattering is negligible and is sufficiently close to the first magic angle $\\theta^{*}\\approx1.08^\\circ$ so that (i) the eight active flat bands are narrowly separated from remote bands by appreciable gaps and (ii) the active-band bandwidths are comparable to or smaller than proximate energy scales (Rashba, Ising, sublattice $u$); outside this regime processes such as valley-mixing, remote-band hybridization, or large kinetic bandwidth invalidate the isolated-band projection and the subsequent conclusions.",
+                "id": "gcn_fb78cfd75da34fb5"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "State the applicability domain of the continuum two-decoupled-valley model: require that the TBG twist angle be small enough so that valley-mixing terms are negligible and the two-valley continuum approximation is valid (i.e., the low-energy physics can be described by separate $\\tau=\\pm$ valley moiré Hamiltonians).",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Specify the additional constraint that the twist angle must be sufficiently close to the first magic angle (approximately $\\theta^{*}\\sim 1.08^{\\circ}$) so that (i) the eight active flat bands near charge neutrality are well separated from remote bands by an appreciable gap, and (ii) the bandwidth of the active eight bands is comparable to or smaller than the realistic proximity-induced energy scales (Rashba $\\sim 16\\ \\text{meV}$, Ising $\\sim 1\\ \\text{meV}$, sublattice splitting $u\\sim 1$–$2\\ \\text{meV}$); these two conditions ensure that the proximity terms can reconstruct the active bands and induce the topological phenomena described.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Explain the failure mode when away from this regime: if the twist angle is too far from the first magic angle so that the active-band bandwidth becomes large compared to the SOC strengths, the Rashba and other proximity couplings will be too weak relative to the kinetic bandwidth to significantly reconstruct the active bands; consequently the Rashba-induced splitting that produces extremely-flat pairs near $K^{\\pm}$, the 16 Dirac-point structure, and the Chern-number phase diagrams derived for the reconstructed bands will not occur.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Conclude that the reconstructed-band phenomena reported in this work (isolated flat pairs at $K^{\\pm}$, the sixteen-Dirac pattern, and the computed valley-Chern and time-reversal TI phase diagrams) apply within the continuum, two-decoupled-valley description appropriate for small twist angles and require being sufficiently close to the first magic angle so that the active eight bands are narrow and separated from remote bands; outside this regime the reported topology and extreme flatness are not expected to be realized.",
+                "step_id": "4"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The continuum-model predictions are only physically meaningful in the parameter regime where the moiré active bands are narrow and isolated; otherwise remote-band hybridization and large bandwidth would render first-order projected analyses invalid. Explicitly stating these regime conditions clarifies applicability of the conclusions to experimental devices and delineates when further modelling (including remote bands, lattice relaxation, or large-angle corrections) is required.",
+            "id": "paper:812527076643962881::conclusion_10_subproblem",
+            "source_package": "paper:812527076643962881"
+          }
+        ],
+        "source_package": "paper:812527076643962881"
+      }
+    ],
+    "papers": {
+      "paper:812527076643962881": {
+        "area": "Physics and Astrophysics",
+        "authors": "Tianle Wang | Nick Bultinck | Michael P. Zaletel",
+        "available_online": "2020-12-22",
+        "cover_date_start": "2020-12-22",
+        "created_at": "2022-12-21T19:32:32+08:00",
+        "doi": "10.1103/physrevb.102.235146",
+        "en_title": "Flat-band topology of magic angle graphene on a transition metal dichalcogenide",
+        "id": "812527076643962881",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "过渡金属二硫属化物上魔角石墨烯的平带拓扑结构"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "df9667cabbccf1cd908226fd57aaf96e"
+}

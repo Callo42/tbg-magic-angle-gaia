@@ -1,0 +1,18 @@
+{
+  "holes": [
+    {
+      "content": "For alternating-twist quadrilayer graphene (ATQG), the selected LKM chain uses the heuristic relation theta_TBG = theta_ATQG / phi, with phi approximately 1.618, to compare ATQG twist angles with TBG-like subsystem angles; this mapping is only a comparative tool and does not guarantee quantitative equivalence of bandwidths, interaction strengths, or exact magic-angle conditions between ATQG and TBG [@Burg2022].",
+      "content_hash": "171d9b2ba5c064d24951b95040138d7eb72bd3c584711fcf6113678891554eba",
+      "interface_hash": "sha256:94abf7b7d1cba88a4d5a01992c7a2bfcb916702ac98e5742249780467e1fd4d7",
+      "label": "gcn_51a6d18a_atqg_tbg_angle_mapping",
+      "qid": "github:alternating_twist_quadrilayer::gcn_51a6d18a_atqg_tbg_angle_mapping",
+      "required_by": [
+        "github:alternating_twist_quadrilayer::gcn_225da7b3_atqg_angle_phase_decoupling"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:90f2b597ed7504d6fa5d2909602a6be7bdabe5967b60782c90e5040533c3d100",
+  "manifest_schema_version": 1,
+  "package": "alternating-twist-quadrilayer",
+  "version": "0.1.0"
+}

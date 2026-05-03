@@ -1,0 +1,32 @@
+{
+  "ir_hash": "sha256:c3e5e8d555054feb7dc540c95507eee2b1e43ecd2ed3a638eb08cbf65b13363a",
+  "manifest_schema_version": 1,
+  "package": "ab-initio-twisted-multilayer",
+  "premises": [
+    {
+      "content": "For commensurate twisted bilayer graphene in the Tritsaris et al. 2020 high-throughput workflow, the selected LKM chain treats as established a Wannier-derived tight-binding Hamiltonian workflow in which band structures are diagonalized with 60 k-points along Gamma-M-K and automated flat-band detectors inspect a 0.30 eV window around the Fermi level [@Tritsaris2020].",
+      "content_hash": "d946558cfe58296701c8af1d3f57b2a75bb15efaf84ad9c1494b74a4b67ab5f7",
+      "exported": false,
+      "interface_hash": "sha256:ef67a4da2acc03e4d4dc3e1b548572b36f6d36a207851f5c67e415665f337c81",
+      "label": "gcn_af432bff_ab_initio_tb_workflow",
+      "qid": "github:ab_initio_twisted_multilayer::gcn_af432bff_ab_initio_tb_workflow",
+      "required_by": [
+        "github:ab_initio_twisted_multilayer::gcn_5f58746b_magic_angle_flat_band_likelihood"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For the same Tritsaris et al. 2020 commensurate twisted-bilayer-graphene workflow, the selected LKM chain treats automated low-dispersion-band detections at the sampled commensurate twist angles as inputs that are converted into a continuous flat-band likelihood p(theta) by an interpolation and blending prescription [@Tritsaris2020].",
+      "content_hash": "cde3626b24f9f1ecc44f5e1fcd1b5c723e2af651335e5385282eb91ce4e8d621",
+      "exported": false,
+      "interface_hash": "sha256:357429993a114134415e089bdfa6c3812090decf178b24a518e181febfd9af9e",
+      "label": "gcn_be5d1975_detector_interpolation",
+      "qid": "github:ab_initio_twisted_multilayer::gcn_be5d1975_detector_interpolation",
+      "required_by": [
+        "github:ab_initio_twisted_multilayer::gcn_5f58746b_magic_angle_flat_band_likelihood"
+      ],
+      "role": "local_hole"
+    }
+  ],
+  "version": "0.1.0"
+}

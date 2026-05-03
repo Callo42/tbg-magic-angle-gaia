@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Environmental screening by a nearby high-$\\kappa$ medium plays two competing roles in twisted bilayer graphene: at the magic angle, $\\theta\\approx1.05^{\\circ}$, enhanced screening reduces the effective electron-electron interaction strength and suppresses superconductivity, whereas at larger twist angles, $\\theta\\gtrsim1.3^{\\circ}$, the same enhanced screening quenches correlated insulating states more effectively than it quenches superconductivity, thereby allowing superconductivity to appear in detuned devices where correlated-insulator order would otherwise block it. Screening can therefore both weaken pairing and remove competing ordered states, with the net outcome set by the balance of bandwidth, onsite interactions, and screening.",
+      "content_hash": "f1033f74827bd52c07e28b72388980e036aed24b1e774251f230cf4a101c45ed",
+      "id": "gcn_b6d0961cd14d4bc7",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "d6708d8b69a9556a57c9b34abf2012e3"
+}

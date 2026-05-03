@@ -1,0 +1,20 @@
+[project]
+name = "hbn-aligned-tbg-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for h-BN-aligned magic-angle twisted bilayer graphene."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "0a92eae8-56df-4aa2-b1cc-6129d5c5c03c"
+generated_by = "lkm-to-gaia"
+generated_from_search = "targeted selected root gcn_584669e24c6145a7 for h-BN-aligned magic-angle twisted bilayer graphene"
+generated_from_roots = ["gcn_584669e24c6145a7"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hbn_aligned_tbg"]

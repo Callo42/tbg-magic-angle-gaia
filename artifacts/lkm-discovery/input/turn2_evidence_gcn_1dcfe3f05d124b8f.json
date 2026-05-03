@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Consider a magic-angle twisted bilayer graphene device that is placed on a hexagonal boron nitride (hBN) substrate with a relative crystallographic alignment angle between the graphene moiré lattice and the hBN lattice denoted by \\theta_{\\mathrm{rel}}; if \\theta_{\\mathrm{rel}}>10^{\\circ} (ten degrees), then any single-particle sublattice-staggered potential arising from alignment between the moiré superlattice and the hBN lattice is negligible for low-energy electronic states, and consequently the substrate does not impose a significant explicit single-particle twofold rotation (C_{2}) symmetry breaking term in the effective low-energy Hamiltonian of the sample.",
+      "content_hash": "a81d9af8590c6147a21c65868d5587ac7c5dc6320d7560ec6ea802a85be08fca",
+      "id": "gcn_1dcfe3f05d124b8f",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "c763c73d20189e5849a9f8568f93a0df"
+}

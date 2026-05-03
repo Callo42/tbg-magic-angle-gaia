@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Truncating the full Bistritzer–MacDonald continuum model for twisted bilayer graphene to the tripod (eight-state) Hamiltonian that retains one low-energy Dirac cone and its three nearest high-energy cones, and then diagonalizing the high-energy block and perturbatively projecting onto the low-energy doublet, yields an effective $2\\times2$ Hamiltonian whose renormalized Dirac velocity $v^\\ast$ depends on the combination $(A+v_F\\Delta K)$. This truncation and perturbative projection (neglecting more distant shells and higher-order couplings) captures the dominant relaxation-induced renormalization of the low-energy Fermi velocity relevant for estimating the shift of the magic condition in the studied twist-angle window.",
+      "content_hash": "15fccc99132639ff005154a1f45c58b3e9c1f48d05036ca46143499679e360ed",
+      "id": "gcn_e37f2b139fae4a2e",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "71e2d3deee0dc8f6a68878c104fb7737"
+}

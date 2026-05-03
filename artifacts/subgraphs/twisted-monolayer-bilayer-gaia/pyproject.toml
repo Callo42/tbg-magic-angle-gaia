@@ -1,0 +1,20 @@
+[project]
+name = "twisted-monolayer-bilayer-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for flat-band localization in twisted monolayer-bilayer graphene."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "6f8e23d8-56e1-4b0e-8b52-cbd6eeb0eb7f"
+generated_by = "lkm-to-gaia"
+generated_from_search = "targeted selected root gcn_14a55aff3de24a3a for twisted monolayer-bilayer graphene flat-band localization"
+generated_from_roots = ["gcn_14a55aff3de24a3a"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/twisted_monolayer_bilayer"]

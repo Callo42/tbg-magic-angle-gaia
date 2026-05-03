@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:9fa24c8cc6ea22539f46d5c8192ece15123cdfdd0017380d6486eb1b81381800",
+  "manifest_schema_version": 1,
+  "package": "substrate-chern-flat-band",
+  "version": "0.1.0"
+}

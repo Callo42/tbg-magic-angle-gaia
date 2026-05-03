@@ -1,0 +1,334 @@
+{
+  "ir_hash": "sha256:f49d9cc8c558d9774a0ba9853558f8304ec98346b1e24b3c1e53b60d07f66ffd",
+  "knowledges": [
+    {
+      "content": "For magic-angle twisted bilayer graphene near the first magic angle, the selected LKM chain treats transport at nominal half-filling of the flat moire band, n=+-n_s/2, that shows resistance increasing on cooling over roughly 1-4 K as phenomenology consistent with a correlated, Mott-like insulating state driven by electron-electron interactions, while noting that this does not by itself prove a microscopic Mott mechanism [@Cao2018].",
+      "content_hash": "a71ae63316419e35655571ac891c6217ba11fcc742ef7a687d4c32e83456784b",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:ma_tbg_superconducting_dome::gcn_ffd6d31f_correlated_insulator_phenomenology",
+      "label": "gcn_ffd6d31f_correlated_insulator_phenomenology",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Cao2018"
+            ]
+          }
+        },
+        "lkm_id": "gcn_ffd6d31f7b2642e6",
+        "lkm_original": "When transport measured versus temperature at gate-induced carrier density equal to nominal half-filling of the moiré flat band ($n=\\pm n_s/2$) displays insulating temperature dependence (resistance that increases upon cooling) over an intermediate temperature range (here roughly 1–4 K), this phenomenology is consistent with the presence of a correlated insulating state driven by electron–electron interactions (a Mott-like insulator) under the assumption that single-particle band gaps or disorder-dominated localization do not fully account for the observed gap magnitude and temperature dependence; this interpretation is plausible in light of the very narrow flat-band bandwidth (of order 5–10 meV) and the enhanced Coulomb interaction energy in magic-angle twisted bilayer graphene, but does not constitute a rigorous microscopic proof of a Mott mechanism.",
+        "prior": 0.78,
+        "prior_justification": "The premise is grounded in the selected Cao et al. transport phenomenology and flat-band interaction scale, but the LKM text explicitly cautions that insulating temperature dependence alone is not a microscopic proof of a Mott mechanism; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:813052701314121729"
+      },
+      "module": "paper_cao2018",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For Cao et al. 2018 magic-angle twisted bilayer graphene devices M1 (theta=1.16 deg) and M2 (theta=1.05 deg), the temperature versus gate-induced carrier-density phase diagram shows superconducting dome-shaped regions adjacent to a correlated insulating state centered at nominal half-filling n=+-n_s/2 of the flat moire bands, with n_s=4/A and A~=sqrt(3)a^2/(2 theta^2) for graphene lattice constant a=0.246 nm; near the adjacent carrier densities the four-probe resistance is suppressed below the measurement floor at 70 mK, while the half-filling region has insulating temperature dependence over roughly 1-4 K [@Cao2018].",
+      "content_hash": "625823edb76b88ba3f87bc7ff7674fa63503794604c41aa64bb7241520532b0d",
+      "declaration_index": 1,
+      "exported": true,
+      "id": "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes",
+      "label": "gcn_006f88d8_ma_tbg_superconducting_domes",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Cao2018"
+            ]
+          }
+        },
+        "lkm_id": "gcn_006f88d8df3548fa",
+        "lkm_original": "The temperature versus gate-induced carrier-density phase diagram of magic-angle twisted bilayer graphene (MA-TBG, i.e., twisted bilayer graphene with $\\theta$ near the first magic angle) exhibits superconducting dome-shaped regions on both sides of a correlated insulating state centered at nominal half-filling $n=\\pm n_{s}/2$ of the flat moiré bands, where $n_{s}=4/A$ is the superlattice density and $A\\approx\\sqrt{3}a^2/(2\\theta^2)$ is the moiré unit cell area with graphene lattice constant $a=0.246\\ \\text{nm}$. In the two devices examined (device M1, $\\theta=1.16^\\circ$, and device M2, $\\theta=1.05^\\circ$), cooling at carrier densities just adjacent to the half-filling insulating density produces two pronounced superconducting regions (domes) whose four-probe resistance is fully suppressed below the measurement floor at the lowest temperature (70 mK). The correlated insulating region at nominal half-filling shows insulating temperature dependence (increasing resistance upon cooling) over an intermediate temperature window of roughly 1–4 K, and the superconducting domes appear when the device is electrostatically doped away from this correlated insulator.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:813052701314121729"
+      },
+      "module": "paper_cao2018",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For the Cao et al. 2018 MA-TBG devices, the selected LKM root states that superconducting dome-shaped regions occur at carrier densities just adjacent to the half-filling correlated insulating density, on both sides of that correlated insulator in the mapped temperature-density phase diagram [@Cao2018].",
+      "content_hash": "52046402d6172c2ace1484d1d76cfdc66dd951fcdec511ef8f766f0842fb569e",
+      "declaration_index": 2,
+      "exported": false,
+      "id": "github:ma_tbg_superconducting_dome::helper_ma_tbg_domes_adjacent_to_correlated_insulator",
+      "label": "helper_ma_tbg_domes_adjacent_to_correlated_insulator",
+      "metadata": {
+        "decomposition_of": "gcn_006f88d8df3548fa",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Cao2018"
+            ]
+          }
+        },
+        "lkm_id": "gcn_006f88d8df3548fa",
+        "lkm_original": "The temperature versus gate-induced carrier-density phase diagram of magic-angle twisted bilayer graphene (MA-TBG, i.e., twisted bilayer graphene with $\\theta$ near the first magic angle) exhibits superconducting dome-shaped regions on both sides of a correlated insulating state centered at nominal half-filling $n=\\pm n_{s}/2$ of the flat moiré bands, where $n_{s}=4/A$ is the superlattice density and $A\\approx\\sqrt{3}a^2/(2\\theta^2)$ is the moiré unit cell area with graphene lattice constant $a=0.246\\ \\text{nm}$. In the two devices examined (device M1, $\\theta=1.16^\\circ$, and device M2, $\\theta=1.05^\\circ$), cooling at carrier densities just adjacent to the half-filling insulating density produces two pronounced superconducting regions (domes) whose four-probe resistance is fully suppressed below the measurement floor at the lowest temperature (70 mK). The correlated insulating region at nominal half-filling shows insulating temperature dependence (increasing resistance upon cooling) over an intermediate temperature window of roughly 1–4 K, and the superconducting domes appear when the device is electrostatically doped away from this correlated insulator.",
+        "provenance_source": "lkm_decomposition",
+        "source_paper": "paper:813052701314121729"
+      },
+      "module": "paper_cao2018",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For Cao et al. 2018 MA-TBG devices M1 and M2, cooling at carrier densities adjacent to the half-filling insulating state produces superconducting regions in which four-probe resistance is suppressed below the measurement floor at the 70 mK base temperature [@Cao2018].",
+      "content_hash": "4df6526042d90d13a9ad11a71db6ba7addef4f6954b03a108d747224f704cb2d",
+      "declaration_index": 3,
+      "exported": false,
+      "id": "github:ma_tbg_superconducting_dome::helper_ma_tbg_resistance_suppressed_at_70_mk",
+      "label": "helper_ma_tbg_resistance_suppressed_at_70_mk",
+      "metadata": {
+        "decomposition_of": "gcn_006f88d8df3548fa",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Cao2018"
+            ]
+          }
+        },
+        "lkm_id": "gcn_006f88d8df3548fa",
+        "lkm_original": "The temperature versus gate-induced carrier-density phase diagram of magic-angle twisted bilayer graphene (MA-TBG, i.e., twisted bilayer graphene with $\\theta$ near the first magic angle) exhibits superconducting dome-shaped regions on both sides of a correlated insulating state centered at nominal half-filling $n=\\pm n_{s}/2$ of the flat moiré bands, where $n_{s}=4/A$ is the superlattice density and $A\\approx\\sqrt{3}a^2/(2\\theta^2)$ is the moiré unit cell area with graphene lattice constant $a=0.246\\ \\text{nm}$. In the two devices examined (device M1, $\\theta=1.16^\\circ$, and device M2, $\\theta=1.05^\\circ$), cooling at carrier densities just adjacent to the half-filling insulating density produces two pronounced superconducting regions (domes) whose four-probe resistance is fully suppressed below the measurement floor at the lowest temperature (70 mK). The correlated insulating region at nominal half-filling shows insulating temperature dependence (increasing resistance upon cooling) over an intermediate temperature window of roughly 1–4 K, and the superconducting domes appear when the device is electrostatically doped away from this correlated insulator.",
+        "provenance_source": "lkm_decomposition",
+        "source_paper": "paper:813052701314121729"
+      },
+      "module": "paper_cao2018",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For the Cao et al. 2018 MA-TBG phase diagram, the correlated insulating region centered at nominal half-filling n=+-n_s/2 shows insulating temperature dependence, i.e. resistance increasing upon cooling, over an intermediate temperature window of roughly 1-4 K [@Cao2018].",
+      "content_hash": "98068f4b6006ffc579876bc3a38ca071fc2dbbaec17bbbba77b390e09660e056",
+      "declaration_index": 4,
+      "exported": false,
+      "id": "github:ma_tbg_superconducting_dome::helper_ma_tbg_half_filling_insulating_window",
+      "label": "helper_ma_tbg_half_filling_insulating_window",
+      "metadata": {
+        "decomposition_of": "gcn_006f88d8df3548fa",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Cao2018"
+            ]
+          }
+        },
+        "lkm_id": "gcn_006f88d8df3548fa",
+        "lkm_original": "The temperature versus gate-induced carrier-density phase diagram of magic-angle twisted bilayer graphene (MA-TBG, i.e., twisted bilayer graphene with $\\theta$ near the first magic angle) exhibits superconducting dome-shaped regions on both sides of a correlated insulating state centered at nominal half-filling $n=\\pm n_{s}/2$ of the flat moiré bands, where $n_{s}=4/A$ is the superlattice density and $A\\approx\\sqrt{3}a^2/(2\\theta^2)$ is the moiré unit cell area with graphene lattice constant $a=0.246\\ \\text{nm}$. In the two devices examined (device M1, $\\theta=1.16^\\circ$, and device M2, $\\theta=1.05^\\circ$), cooling at carrier densities just adjacent to the half-filling insulating density produces two pronounced superconducting regions (domes) whose four-probe resistance is fully suppressed below the measurement floor at the lowest temperature (70 mK). The correlated insulating region at nominal half-filling shows insulating temperature dependence (increasing resistance upon cooling) over an intermediate temperature window of roughly 1–4 K, and the superconducting domes appear when the device is electrostatically doped away from this correlated insulator.",
+        "provenance_source": "lkm_decomposition",
+        "source_paper": "paper:813052701314121729"
+      },
+      "module": "paper_cao2018",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:ma_tbg_superconducting_dome::gcn_ffd6d31f_correlated_insulator_phenomenology,github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes)",
+      "content_hash": "256bd2c5510441417cf8e8b137c96c3675c25427ef2b4f6d135ce3489dad858a",
+      "exported": false,
+      "id": "github:ma_tbg_superconducting_dome::__implication_result_3eb60905",
+      "label": "__implication_result_3eb60905",
+      "metadata": {
+        "canonical_name": "implies(github:ma_tbg_superconducting_dome::gcn_ffd6d31f_correlated_insulator_phenomenology,github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_9dd66b18412e21ac",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes,github:ma_tbg_superconducting_dome::helper_ma_tbg_domes_adjacent_to_correlated_insulator)",
+      "content_hash": "88a3d18289e60dd35733700a4282b4a2a09a48187d3b6e2b16b9d456381c9f87",
+      "exported": false,
+      "id": "github:ma_tbg_superconducting_dome::__implication_result_1e5394cc",
+      "label": "__implication_result_1e5394cc",
+      "metadata": {
+        "canonical_name": "implies(github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes,github:ma_tbg_superconducting_dome::helper_ma_tbg_domes_adjacent_to_correlated_insulator)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_c838e66d2cc0fbd9",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes,github:ma_tbg_superconducting_dome::helper_ma_tbg_resistance_suppressed_at_70_mk)",
+      "content_hash": "9c048f4c9b5a685b98af8314c13e1d172b21b9f5c7946605924c37050033f49f",
+      "exported": false,
+      "id": "github:ma_tbg_superconducting_dome::__implication_result_e2cdc4ab",
+      "label": "__implication_result_e2cdc4ab",
+      "metadata": {
+        "canonical_name": "implies(github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes,github:ma_tbg_superconducting_dome::helper_ma_tbg_resistance_suppressed_at_70_mk)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_8d592f8682313611",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes,github:ma_tbg_superconducting_dome::helper_ma_tbg_half_filling_insulating_window)",
+      "content_hash": "4183b364801bf78e6e84d98802b0f25e27bcc2b16b071f233d48c9dd735354ac",
+      "exported": false,
+      "id": "github:ma_tbg_superconducting_dome::__implication_result_0f5a64fb",
+      "label": "__implication_result_0f5a64fb",
+      "metadata": {
+        "canonical_name": "implies(github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes,github:ma_tbg_superconducting_dome::helper_ma_tbg_half_filling_insulating_window)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_0fb8226d9f5402dd",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "paper_cao2018"
+  ],
+  "module_titles": {
+    "paper_cao2018": "paper_cao2018 -- claims and deductions from Cao et al. 2018."
+  },
+  "namespace": "github",
+  "operators": [],
+  "package_name": "ma_tbg_superconducting_dome",
+  "scope": "local",
+  "strategies": [
+    {
+      "conclusion": "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:ma_tbg_superconducting_dome::__implication_result_3eb60905",
+            "operator": "implication",
+            "variables": [
+              "github:ma_tbg_superconducting_dome::gcn_ffd6d31f_correlated_insulator_phenomenology",
+              "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. Treat conclusion 1 (observation of intrinsic, gate-tunable superconductivity in MA-TBG) as established and use it as the starting point: superconductivity appears in MA-TBG devices near the magic angle upon electrostatic doping away from correlated insulating states at half-filling.\n2. Describe the $T$ versus $n$ measurements that map the phase diagram: four-probe resistance $R_{xx}$ measured as a function of carrier density $n$ and temperature $T$ for devices M1 and M2 reveals regions of vanishing resistance (superconducting domes) adjacent to an insulating region centered at half-filling $n=\\pm n_{s}/2$ of the flat bands.\nFig. 2b\nFig. 2c\n3. Characterize the superconducting domes in density-temperature space: in both devices, cooling at densities just adjacent to the half-filling correlated insulating state produces pronounced superconducting regions (domes) where the resistance is fully suppressed below the measurement floor at base temperature; the domes appear on both sides of the correlated insulator (i.e. on densities slightly less and slightly greater than $-n_{s}/2$ in the hole-doped side for these measurements).\nFig. 2b\n4. Describe the correlated insulating region's temperature dependence: when cooling through the density corresponding to half-filling, the system exhibits insulating temperature dependence over an intermediate temperature range (roughly 1--4 K) before superconductivity appears at lower temperatures in adjacent densities, indicating a Mott-like correlated insulating phase centered at $n=\\pm n_{s}/2$ that gives way to superconductivity upon doping.\nFig. 4a\n5. State the authors' interpretation and analogy to cuprates: the presence of superconducting domes adjacent to a correlated insulating (Mott-like) state in the $T$-$n$ phase diagram is highlighted by the authors as phenomenologically similar to cuprate phase diagrams, supporting the description of the insulating phase as a correlated (Mott-like) state and the superconductivity as emerging upon electrostatic doping away from this parent insulator."
+      },
+      "premises": [
+        "github:ma_tbg_superconducting_dome::gcn_ffd6d31f_correlated_insulator_phenomenology"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_9dd66b18412e21ac",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:ma_tbg_superconducting_dome::helper_ma_tbg_domes_adjacent_to_correlated_insulator",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:ma_tbg_superconducting_dome::__implication_result_1e5394cc",
+            "operator": "implication",
+            "variables": [
+              "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes",
+              "github:ma_tbg_superconducting_dome::helper_ma_tbg_domes_adjacent_to_correlated_insulator"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The selected LKM root and factor steps 2-3 explicitly state that the temperature-density phase diagram contains superconducting domes adjacent to the half-filling correlated insulator."
+      },
+      "premises": [
+        "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_c838e66d2cc0fbd9",
+      "type": "support"
+    },
+    {
+      "conclusion": "github:ma_tbg_superconducting_dome::helper_ma_tbg_resistance_suppressed_at_70_mk",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:ma_tbg_superconducting_dome::__implication_result_e2cdc4ab",
+            "operator": "implication",
+            "variables": [
+              "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes",
+              "github:ma_tbg_superconducting_dome::helper_ma_tbg_resistance_suppressed_at_70_mk"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The selected LKM root and factor step 3 explicitly report full suppression of four-probe resistance below the measurement floor at the 70 mK base temperature in the superconducting regions."
+      },
+      "premises": [
+        "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_8d592f8682313611",
+      "type": "support"
+    },
+    {
+      "conclusion": "github:ma_tbg_superconducting_dome::helper_ma_tbg_half_filling_insulating_window",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:ma_tbg_superconducting_dome::__implication_result_0f5a64fb",
+            "operator": "implication",
+            "variables": [
+              "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes",
+              "github:ma_tbg_superconducting_dome::helper_ma_tbg_half_filling_insulating_window"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The selected LKM root and factor step 4 explicitly state that the half-filling region shows insulating temperature dependence over roughly 1-4 K."
+      },
+      "premises": [
+        "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_0fb8226d9f5402dd",
+      "type": "support"
+    }
+  ]
+}

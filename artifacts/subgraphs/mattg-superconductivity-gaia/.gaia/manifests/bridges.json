@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:8d735aab98629c0a8bbd7790f62287c78f58ec379900321043360cb63d99f6d3",
+  "manifest_schema_version": 1,
+  "package": "mattg-superconductivity",
+  "version": "0.1.0"
+}

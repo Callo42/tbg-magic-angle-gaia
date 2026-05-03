@@ -1,0 +1,329 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:1179759910989070356": {
+        "area": "arXiv-Physics",
+        "authors": "Nemin Wei | Felix von Oppen | Leonid I. Glazman",
+        "available_online": "",
+        "cover_date_start": "2025-09-26",
+        "created_at": "2025-09-30T04:24:41+08:00",
+        "doi": "10.48550/arXiv.2509.22902",
+        "en_title": "Tunneling spectroscopy of two-dimensional superconductors with the quantum twisting microscope",
+        "id": "1179759910989070356",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "利用量子扭曲显微镜对二维超导体进行隧穿光谱学研究"
+      },
+      "paper:812512397917945857": {
+        "area": "Comprehensive Periodical",
+        "authors": "Youngjoon Choi | Hyunjin Kim | Yang Peng | Alex Thomson | Cyprian Lewandowski | Robert Polski | Yiran Zhang | Harpreet Singh Arora | Kenji Watanabe | Takashi Taniguchi | Jason Alicea | Stevan Nadj-Perge",
+        "available_online": "2021-1-18",
+        "cover_date_start": "2021-01-18",
+        "created_at": "2022-12-21T18:34:12+08:00",
+        "doi": "10.1038/s41586-020-03159-7",
+        "en_title": "Correlation-driven topological phases in magic-angle twisted bilayer graphene",
+        "id": "812512397917945857",
+        "keywords": "",
+        "publication_date": "2021-1-28",
+        "publication_id": "8233",
+        "publication_name": "Nature _ Nature",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "魔角扭曲双层石墨烯中由关联驱动的拓扑相"
+      },
+      "paper:812585940701675521": {
+        "area": "Material science",
+        "authors": "Chao Ma | Qiyue Wang | Scott Mills | Xiaolong Chen | Bingchen Deng | Shaofan Yuan | Cheng Li | Kenji Watanabe | Takashi Taniguchi | Xu Du | Fan Zhang | Fengnian Xia",
+        "available_online": "2020-7-21",
+        "cover_date_start": "2020-07-21",
+        "created_at": "2022-12-21T23:26:26+08:00",
+        "doi": "10.1021/acs.nanolett.0c02131",
+        "en_title": "Moiré Band Topology in Twisted Bilayer Graphene",
+        "id": "812585940701675521",
+        "keywords": "[{\"en_name\": \"band topology\", \"ch_name\": \"\"}, {\"en_name\": \"MoirÃ© band\", \"ch_name\": \"\"}, {\"en_name\": \"nonlocal resistance\", \"ch_name\": \"\"}, {\"en_name\": \"superlattice gap\", \"ch_name\": \"\"}, {\"en_name\": \"twisted bilayer graphene\", \"ch_name\": \"\"}, {\"en_name\": \"Z<sub>2</sub>invariant\", \"ch_name\": \"\"}]",
+        "publication_date": "2020-8-12",
+        "publication_id": "2026",
+        "publication_name": "Nano Letters _ Nano Lett.",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯中的莫尔条纹能带拓扑结构"
+      },
+      "paper:812646407474249731": {
+        "area": "Physics and Astrophysics",
+        "authors": "Sankar Das Sarma | Fengcheng Wu",
+        "available_online": "",
+        "cover_date_start": "2020-06-01",
+        "created_at": "2022-12-22T03:26:43+08:00",
+        "doi": "10.1016/j.aop.2020.168193",
+        "en_title": "Electron–phonon and electron–electron interaction effects in twisted bilayer graphene",
+        "id": "812646407474249731",
+        "keywords": "",
+        "publication_date": "2020-6",
+        "publication_id": "577",
+        "publication_name": "Annals of Physics _ Annals of Physics",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯中的电子-声子和电子-电子相互作用效应"
+      },
+      "paper:817360997453922307": {
+        "area": "Physics and Astrophysics",
+        "authors": "Sankar Das Sarma and Fengcheng Wu",
+        "available_online": "",
+        "cover_date_start": "2022-07-21",
+        "created_at": "2023-01-04T03:40:47+08:00",
+        "doi": "10.1103/PhysRevResearch.4.033061",
+        "en_title": "Strange metallicity of moiré twisted bilayer graphene",
+        "id": "817360997453922307",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "莫尔扭曲双层石墨烯的奇特金属性"
+      },
+      "paper:867760961551860070": {
+        "area": "arXiv-Physics",
+        "authors": "Jonah Herzog-Arbeitman | Aaron Chew | B. Andrei Bernevig",
+        "available_online": "",
+        "cover_date_start": "2022-06-15",
+        "created_at": "2023-05-23T05:32:16+08:00",
+        "doi": "10.48550/arXiv.2206.07717",
+        "en_title": "Magnetic Bloch Theorem and Reentrant Flat Bands in Twisted Bilayer Graphene at $2π$ Flux",
+        "id": "867760961551860070",
+        "keywords": "",
+        "publication_date": "2022-06-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "磁布洛赫定理与具有$$2\\pi$$磁通的扭曲双层石墨烯中的折返平带"
+      },
+      "paper:867773689762938981": {
+        "area": "arXiv-Physics",
+        "authors": "Aya Yamada | Yasumasa Hasegawa",
+        "available_online": "",
+        "cover_date_start": "2020-01-06",
+        "created_at": "2023-05-23T06:22:50+08:00",
+        "doi": "10.48550/arXiv.2001.01364",
+        "en_title": "Merged Four Dirac Points at the Critical Interlayer Distance in Commensurately Twisted Bilayer Graphene: the Origin of the Zero Velocity",
+        "id": "867773689762938981",
+        "keywords": "",
+        "publication_date": "2020-01-06",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克点：在层间距离临界值处合并的四个狄拉克点：零速度的起源\n\n在层间距离临界值处合并的四个狄拉克"
+      },
+      "paper:936507684159488092": {
+        "area": "arXiv-Physics",
+        "authors": "Adrián Ceferino | Francisco Guinea",
+        "available_online": "",
+        "cover_date_start": "2023-11-25",
+        "created_at": "2023-11-28T22:27:25+08:00",
+        "doi": "10.48550/arXiv.2311.15052",
+        "en_title": "Pseudomagnetic fields in fully relaxed twisted bilayer and trilayer graphene",
+        "id": "936507684159488092",
+        "keywords": "",
+        "publication_date": "2023-11-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "完全弛豫的扭曲双层和三层石墨烯中的赝磁场"
+      }
+    },
+    "variables": [
+      {
+        "content": "For twisted bilayer graphene (tBLG) with twist angle θ measured in degrees, let θ_M denote the largest magic angle at which the noninteracting continuum moiré-band Dirac-point band velocity vanishes, and let v_F ≈ 10^8 cm/s be the monolayer-graphene Dirac velocity; then the noninteracting continuum Bistritzer–MacDonald moiré-band calculation of the low-energy Dirac-point Fermi velocity v_F^*(θ) is accurately approximated for 0<θ<3° by the linear formula\n      $$\n      v_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F,\n      $$\n      with θ and θ_M in degrees, so that the numerical continuum-band outputs for v_F^*(θ) are captured to useful accuracy by this linear fit in the specified angular window.\n      R. Bistritzer and A.H. MacDonald, Proc. Natl. Acad. Sci. USA 108 (2011) 12233; F. Wu, E. Hwang, S. Das Sarma, Phys. Rev. B 99 (2019) 165112.",
+        "content_hash": "ab6b230aa37c25ce3130ae490969e118a1cda445c81ddcaaa16c0d2b4f037382",
+        "id": "gcn_d3808439ccf6496b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812646407474249731::P1",
+            "package_id": "paper:812646407474249731",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812646407474249731"
+          ]
+        },
+        "role": "premise",
+        "score": 0.03252247488101534,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For twisted bilayer graphene (tBLG) the noninteracting low-energy Dirac-point band Fermi velocity v_F^*(θ) produced by the Bistritzer–MacDonald continuum moiré-band model is strongly suppressed as the twist angle θ (measured in degrees) approaches the largest magic angle θ_M (the angle at which the noninteracting Dirac-point band velocity vanishes), and for 0<θ<3° this noninteracting moiré-band velocity is well described by the empirical linear approximation\n      $$\n      v_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F,\n      $$\n      where v_F^*(θ) is the tBLG moiré-band Dirac-cone Fermi velocity, θ and θ_M are expressed in degrees, and v_F ≈ 10^8 cm/s is the monolayer-graphene Dirac velocity; this linear fit reproduces the numerical outputs of the continuum Bistritzer–MacDonald moiré-band calculation to useful accuracy in the stated angular window.",
+        "content_hash": "e039f806f97ccd637cb38fe087e65a9079ba43a386104375839094414e50a3e1",
+        "id": "gcn_7bca73ad98eb4ed4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812646407474249731::conclusion_1",
+            "package_id": "paper:812646407474249731",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812646407474249731"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.032018442622950824,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Define $v_0=10^{6}\\ \\mathrm{m}\\,\\mathrm{s}^{-1}$ (the monolayer graphene band velocity), $\\kappa=4\\pi/(3L_{\\mathrm{m}})$ (the mini-Brillouin-zone corner momentum), $w_1$ an interlayer tunnelling energy, and $\\alpha=w_1/(v_0\\kappa)$.  The proposition states that the twist-angle dependence of the squared effective Dirac-like velocity can be captured approximately by\n      $\\dfrac{v_{\\mathrm{F}}^2}{v_0^2}=\\Big(\\dfrac{1-3\\alpha^2}{1+6\\alpha^2}\\Big)^2+\\delta v_{\\mathrm{F}}^2,$\n      where $\\delta v_{\\mathrm{F}}$ is a phenomenological positive constant introduced to avoid $v_{\\mathrm{F}}=0$ at the magic angle within this simple approximation.  The weak point is that this expression imports a continuum-model expansion augmented by an ad hoc broadening term $\\delta v_{\\mathrm{F}}$, and it may not quantitatively capture the true twist-angle dependence of the low-energy velocity in interacting, reconstructed bands of real magic-angle twisted bilayer graphene.\n      Bistritzer, R. & MacDonald, A. H. Moiré bands in twisted double-layer graphene. Proc. Natl Acad. Sci. USA 108, 12233–12237 (2011).",
+        "content_hash": "24fc0ad58babe19afb9db9c8e42027cbbd48ed7694cd7314831340abdf924f69",
+        "id": "gcn_55b674ee65924e00",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812512397917945857::P9",
+            "package_id": "paper:812512397917945857",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812512397917945857"
+          ]
+        },
+        "role": "premise",
+        "score": 0.0315136476426799,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The noninteracting Bistritzer-MacDonald continuum model of $1.05^{\\circ}$ twisted bilayer graphene, with Dirac velocity $v_{F}=10^{6}~\\mathrm{m/s}$ in both graphene layers and intra- and inter-sublattice tunneling parameters $w_{0}=77~\\mathrm{meV}$ and $w_{1}=110~\\mathrm{meV}$, yields band dispersions and Bloch wave functions that reproduce the qualitative tunneling singularity phenomenology of interest, including inverse-root onsets, coherence peaks, and cone-shaped low-bias features, when used in momentum-conserving tunneling simulations. This approximation assumes that interaction-driven renormalizations in actual magic-angle twisted bilayer graphene do not qualitatively alter the geometric origin of the tangency-induced singularities.",
+        "content_hash": "020b525286f14181f277202c1a2140503e1689f333666f0cfc44b13fa6c78647",
+        "id": "gcn_5627832fe1fe4274",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1179759910989070356::P13",
+            "package_id": "paper:1179759910989070356",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1179759910989070356"
+          ]
+        },
+        "role": "premise",
+        "score": 0.031009615384615385,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Truncating the full Bistritzer–MacDonald continuum model for twisted bilayer graphene to the tripod (eight-state) Hamiltonian that retains one low-energy Dirac cone and its three nearest high-energy cones, and then diagonalizing the high-energy block and perturbatively projecting onto the low-energy doublet, yields an effective $2\\times2$ Hamiltonian whose renormalized Dirac velocity $v^\\ast$ depends on the combination $(A+v_F\\Delta K)$. This truncation and perturbative projection (neglecting more distant shells and higher-order couplings) captures the dominant relaxation-induced renormalization of the low-energy Fermi velocity relevant for estimating the shift of the magic condition in the studied twist-angle window.",
+        "content_hash": "15fccc99132639ff005154a1f45c58b3e9c1f48d05036ca46143499679e360ed",
+        "id": "gcn_e37f2b139fae4a2e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:936507684159488092::P10",
+            "package_id": "paper:936507684159488092",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:936507684159488092"
+          ]
+        },
+        "role": "premise",
+        "score": 0.029418126757516764,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let v_{\\mathrm{F}} be the monolayer graphene Dirac Fermi velocity and v_{\\mathrm{F}}^{*}(\\theta) be the moiré-band renormalized Fermi velocity computed in the Bistritzer–MacDonald (BM) continuum model as a function of twist angle \\theta; the BM continuum model yields quantitatively reliable estimates of v_{\\mathrm{F}}^{*}(\\theta) for experimental tBLG devices in the twist-angle range \\theta\\gtrsim1.15^\\circ, in particular giving v_{\\mathrm{F}}^{*}(\\theta\\approx1.5^\\circ)\\sim v_{\\mathrm{F}}/4 and the rapid suppression of v_{\\mathrm{F}}^{*} as \\theta approaches the magic angle, so these BM predictions can be used in quantitative resistivity modeling for those angles.\n      R. Bistritzer and A. H. MacDonald, Moiré bands in twisted double-layer graphene, Proc. Natl. Acad. Sci. USA 108, 12233 (2011).",
+        "content_hash": "c7b4c379e1255148b18f328c873f71b45d0cc51902caec63ff7c20d346a97dd3",
+        "id": "gcn_b16e3cfb55784c90",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817360997453922307::P7",
+            "package_id": "paper:817360997453922307",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817360997453922307"
+          ]
+        },
+        "role": "premise",
+        "score": 0.028693528693528692,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In twisted bilayer graphene at sufficiently small twist angle, where the energy gap at the moiré $K$ point between the $2n_0$th and $(2n_0+1)$th bands becomes negligibly small and the upper two bands near charge neutrality become nearly degenerate, the same band-structure mechanism in which three moving Dirac points merge with the fixed Dirac point at $K$ is proposed to persist and to produce vanishing Dirac velocity at $K$. In this conjecture, the resulting suppression of the Dirac velocity at $K$ contributes to the emergence of extremely narrow (nearly flat) bands at the magic angles.",
+        "content_hash": "bea8f79d8b65dc3716e52a937cae8ca9f6a444815cd95f04ac2eac2bc5434257",
+        "id": "gcn_8159f32dda354258",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773689762938981::conclusion_6",
+            "package_id": "paper:867773689762938981",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773689762938981"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.027242401779095628,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Bistritzer–MacDonald continuum moiré-band model, a continuum effective model parameterized by intralayer graphene parameters and interlayer tunneling amplitudes, provides the noninteracting low-energy band structure of twisted bilayer graphene (tBLG), and the Dirac-point band Fermi velocity v_F^*(θ) obtained from that noninteracting continuum model is to be treated as the bare (noninteracting) input parameter for subsequent low-energy many-body and phonon-transport calculations.\n      R. Bistritzer and A.H. MacDonald, Proc. Natl. Acad. Sci. USA 108 (2011) 12233.",
+        "content_hash": "983d6c1db9e02cd4ca85535c520271c72298d1bed49fb782c1a31e0e64a5c034",
+        "id": "gcn_671ceef053a64aa7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812646407474249731::P2",
+            "package_id": "paper:812646407474249731",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812646407474249731"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02661064425770308,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Computed moiré band structures and density-of-states (DOS) profiles for twisted bilayer graphene as functions of twist angle $\\theta$ (in particular for $\\theta$ in the interval $1.3^\\circ$–$1.9^\\circ$) obtained from the Bistritzer–MacDonald continuum model with relaxation-corrected tunneling parameters ($t_{AA},t_{AB}$) and Fermi velocity $v_F$ (for example, the Koshino parametrization $t_{AA}=79.7\\,$meV, $t_{AB}=97.5\\,$meV, $v_F=7.98\\times10^5\\,$m/s) and a finite discretization mesh yield that the two moiré Dirac bands remain energetically isolated by superlattice gaps across that range for those chosen parameters and numerical resolution; however, the existence and numerical size of those gaps depends on model parameter choices, relaxation implementation, and numerical mesh resolution, so conclusions about gap closure when extrapolating toward the magic angle carry model-dependent uncertainty.",
+        "content_hash": "11b601d50262bdc02b3a2e178a37c091c7c5adf53dd1aa9d0da42a37ead39c6b",
+        "id": "gcn_2f2dec0131284100",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812585940701675521::P11",
+            "package_id": "paper:812585940701675521",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812585940701675521"
+          ]
+        },
+        "role": "premise",
+        "score": 0.025528455284552845,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The continuum Bistritzer–MacDonald (BM) model of twisted bilayer graphene, after applying a layer-dependent momentum shift that restores moiré periodicity, can be represented in the magnetic-translation-irrep Landau-level basis at flux $\\phi=2\\pi$ and diagonalized after truncating to a finite number of Landau levels. For magic-angle geometric parameters and typical BM interlayer tunneling strengths, this numerical diagonalization (with sufficient Landau-level cutoff) reveals two low-energy flat bands per valley and spin that reappear (reenter) at $\\phi=2\\pi$ and are, for the parameter sets considered, separated from higher-energy passive bands by a sizable gap on the order of 40 meV. The dispersion and topology of these reentrant flat bands depend sensitively on the interlayer hopping parameters $(w_0,w_1)$: scanning $(w_0,w_1)$ produces a phase diagram with a crystalline regime (parameter region including the physical TBG values) where the two flat bands together have vanishing total Chern number, and a Landau-level-type regime (including the first chiral limit $w_0=0$) where each flat band individually carries Chern number $-1$.",
+        "content_hash": "97b8b101d398b107f5a5a9c98a5a04b25119c041e10e67e5b60eea5f6e0f5507",
+        "id": "gcn_afdfbd0c013048d8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867760961551860070::conclusion_8",
+            "package_id": "paper:867760961551860070",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867760961551860070"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.024624624624624628,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "0faf24352a00b4f1bd5d8d7f0964eba3"
+}

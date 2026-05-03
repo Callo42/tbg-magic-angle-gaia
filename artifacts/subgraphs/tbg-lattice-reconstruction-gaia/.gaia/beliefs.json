@@ -1,0 +1,47 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.575848,
+      "knowledge_id": "github:tbg_lattice_reconstruction::__conjunction_result_6cb316fe",
+      "label": "__conjunction_result_6cb316fe"
+    },
+    {
+      "belief": 0.8,
+      "knowledge_id": "github:tbg_lattice_reconstruction::gcn_8cd2984a6296435c",
+      "label": "gcn_8cd2984a6296435c"
+    },
+    {
+      "belief": 0.7729807444,
+      "knowledge_id": "github:tbg_lattice_reconstruction::gcn_c220df1acc8b476a",
+      "label": "gcn_c220df1acc8b476a"
+    },
+    {
+      "belief": 0.72,
+      "knowledge_id": "github:tbg_lattice_reconstruction::gcn_ed8fa9253ea24982",
+      "label": "gcn_ed8fa9253ea24982"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:tbg_lattice_reconstruction::__conjunction_result_6cb316fe": [
+        0.575848
+      ],
+      "github:tbg_lattice_reconstruction::gcn_8cd2984a6296435c": [
+        0.8
+      ],
+      "github:tbg_lattice_reconstruction::gcn_c220df1acc8b476a": [
+        0.7729807444
+      ],
+      "github:tbg_lattice_reconstruction::gcn_ed8fa9253ea24982": [
+        0.72
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 2
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:a2fa23d90abbe44f603db8bcbf8fb70d115a05edda73107ad888c0c4286a86da"
+}

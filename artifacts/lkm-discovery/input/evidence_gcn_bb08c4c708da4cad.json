@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "It is conjectured that superconductivity observed in magic-angle twisted bilayer graphene at zero magnetic field, which typically emerges upon doping correlated insulating states, may also reappear (be re-entrant) at magnetic flux $\\phi=2\\pi$ per moiré unit cell when correlated insulating states re-emerge and interaction-driven Fermi-surface reconstructions occur at that flux; this statement is explicitly a conjecture and is not established by the single-particle or many-body calculations presented here.",
+      "content_hash": "bc6a669514bd76efef2c5c2c94a5712939d16f1bd5f58e2011fd704780552ea0",
+      "id": "gcn_bb08c4c708da4cad",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "c8052588272792583462ca2bba1dc7d0"
+}

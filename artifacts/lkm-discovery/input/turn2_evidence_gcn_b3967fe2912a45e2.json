@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The use of the empirical observation that hexagonal boron nitride (hBN) substrates can induce single-particle energy gaps as large as ~30 meV in monolayer graphene to argue that alignment to hBN can substantially modify the energetic competition among correlated many-body ground states in flat-band twisted bilayer graphene (tBLG) assumes that the single-particle sublattice-symmetry-breaking potential effects of hBN alignment on monolayer graphene are at least qualitatively transferable to the correlated, narrow-bandwidth, multi-band moiré electronic structure of tBLG; this extrapolation presumes that comparable gap scales and their influence can persist in the moiré flat-band environment. Symbols: \"hBN\" denotes hexagonal boron nitride, \"meV\" denotes milli–electron-volt, and tBLG denotes twisted bilayer graphene.",
+      "content_hash": "254b3aae64e4028a955f8b8d7abed49ed60bc0dbe65598af90031d9a68745366",
+      "id": "gcn_b3967fe2912a45e2",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "da5a5882e8c102ae4906a7dc137f7f76"
+}

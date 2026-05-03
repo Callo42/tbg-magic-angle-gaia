@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "For Cao et al. 2018 magic-angle twisted bilayer graphene devices M1 (theta=1.16 deg) and M2 (theta=1.05 deg), the temperature versus gate-induced carrier-density phase diagram shows superconducting dome-shaped regions adjacent to a correlated insulating state centered at nominal half-filling n=+-n_s/2 of the flat moire bands, with n_s=4/A and A~=sqrt(3)a^2/(2 theta^2) for graphene lattice constant a=0.246 nm; near the adjacent carrier densities the four-probe resistance is suppressed below the measurement floor at 70 mK, while the half-filling region has insulating temperature dependence over roughly 1-4 K [@Cao2018].",
+      "content_hash": "625823edb76b88ba3f87bc7ff7674fa63503794604c41aa64bb7241520532b0d",
+      "label": "gcn_006f88d8_ma_tbg_superconducting_domes",
+      "qid": "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:f49d9cc8c558d9774a0ba9853558f8304ec98346b1e24b3c1e53b60d07f66ffd",
+  "manifest_schema_version": 1,
+  "package": "ma-tbg-superconducting-dome",
+  "version": "0.1.0"
+}

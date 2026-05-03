@@ -1,0 +1,18 @@
+{
+  "holes": [
+    {
+      "content": "For twisted bilayer graphene in the small-angle continuum limit considered by Yamada and Hasegawa 2020, the K-K' intervalley gap at moire K is treated as negligibly small, the upper two bands near charge neutrality are nearly degenerate, and the four-Dirac-point merging mechanism seen in commensurate tight-binding calculations at moderate twist angles is conjectured to persist continuously to magic-angle conditions, assuming no intervening topological or symmetry reconstruction and no qualitative change from lattice relaxation or electron-electron interactions [@Yamada2020].",
+      "content_hash": "3878812266e4993003c50fbfc0772502a4c929d90587dd8304d9c4fc16929d48",
+      "interface_hash": "sha256:6ecfe20829516b318d537214f990d662f3af06a0c3f9749fb7157ce00a2b21ac",
+      "label": "gcn_7687975d_small_angle_merging_conjecture",
+      "qid": "github:merged_dirac_tbg::gcn_7687975d_small_angle_merging_conjecture",
+      "required_by": [
+        "github:merged_dirac_tbg::gcn_8159f32d_merged_dirac_magic_angle_flat_band"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:12db4378e1a97efebc879b51b797b36b3953985db891e7bc980241d8a06cd5da",
+  "manifest_schema_version": 1,
+  "package": "merged-dirac-tbg",
+  "version": "0.1.0"
+}

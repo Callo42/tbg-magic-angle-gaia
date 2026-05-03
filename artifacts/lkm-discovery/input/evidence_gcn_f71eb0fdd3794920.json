@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The proposition: In the single-valley continuum model of small-angle twisted bilayer graphene with interlayer tunneling matrices $T_j^t$ given by\n      $$\n      T_j^t = u \\begin{pmatrix} 1 & 0 \\\\[4pt] 0 & 1 \\end{pmatrix} + w \\begin{pmatrix} 0 & e^{-i\\frac{2\\pi}{3}(j-1)} \\\\[4pt] e^{i\\frac{2\\pi}{3}(j-1)} & 0 \\end{pmatrix},\n      $$\n      and with tunneling parameters $(u,w)$, there exist discrete \"magic\" values of the geometric twist parameter $\\theta$ at which the renormalized Fermi velocity at the graphene K valley vanishes and an energetically isolated nearly flat moiré band appears; in the chiral limit $u=0$ analytic arguments identify such magic values and numerical studies for physically motivated $w$ values find one such magic scale numerically at approximately $\\theta\\approx 0.0192$. These analytic and numerical results apply within the assumptions of the continuum twisted-bilayer model (single-valley approximation, small-angle expansion, and the specified tunneling matrices).\n      [16],[17]",
+      "content_hash": "a701b8de30661adcfc9fe5a515708efb696415ae12b700f70ee06d8976a968aa",
+      "id": "gcn_f71eb0fdd3794920",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "fc45b4f004b198bcc6e6d52a92d89a38"
+}

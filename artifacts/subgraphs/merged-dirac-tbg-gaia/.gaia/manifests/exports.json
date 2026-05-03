@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "In sufficiently small-angle twisted bilayer graphene, where the moire-K gap between the $2n_0$th and $(2n_0+1)$th bands is negligibly small and the upper two bands near charge neutrality are nearly degenerate, Yamada and Hasegawa 2020 propose that three moving Dirac points merge with the fixed K-point Dirac point, producing vanishing Dirac velocity at K; this suppression is conjectured to contribute to extremely narrow nearly flat bands at the magic angles [@Yamada2020].",
+      "content_hash": "4cad5cb437d8ea45925fde1af0e3539c6606afa6f856ee6546f7b125f8efd86c",
+      "label": "gcn_8159f32d_merged_dirac_magic_angle_flat_band",
+      "qid": "github:merged_dirac_tbg::gcn_8159f32d_merged_dirac_magic_angle_flat_band",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:12db4378e1a97efebc879b51b797b36b3953985db891e7bc980241d8a06cd5da",
+  "manifest_schema_version": 1,
+  "package": "merged-dirac-tbg",
+  "version": "0.1.0"
+}

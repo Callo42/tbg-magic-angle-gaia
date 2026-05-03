@@ -1,0 +1,345 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:812551532191940608": {
+        "area": "Physics and Astrophysics",
+        "authors": "Giovanni Cantele | Dario Alfè | Felice Conte | Vittorio Cataudella | Domenico Ninno | Procolo Lucignano",
+        "available_online": "2020-10-23",
+        "cover_date_start": "2020-10-23",
+        "created_at": "2022-12-21T21:09:43+08:00",
+        "doi": "10.1103/physrevresearch.2.043127",
+        "en_title": "Structural relaxation and low-energy properties of twisted bilayer graphene",
+        "id": "812551532191940608",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ Phys. Rev. Research",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯的结构弛豫与低能性质"
+      },
+      "paper:812670861269008387": {
+        "area": "Material science",
+        "authors": "Fatemeh Haddadi | QuanSheng Wu | Alex J. Kruchkov | Oleg V. Yazyev",
+        "available_online": "2020-2-25",
+        "cover_date_start": "2020-02-25",
+        "created_at": "2022-12-22T05:03:53+08:00",
+        "doi": "10.1021/acs.nanolett.9b05117",
+        "en_title": "Moiré Flat Bands in Twisted Double Bilayer Graphene",
+        "id": "812670861269008387",
+        "keywords": "[{\"en_name\": \"crystal field\", \"ch_name\": \"\"}, {\"en_name\": \"flat bands\", \"ch_name\": \"\"}, {\"en_name\": \"magic angle\", \"ch_name\": \"\"}, {\"en_name\": \"moiré superlattice\", \"ch_name\": \"\"}, {\"en_name\": \"polarization\", \"ch_name\": \"\"}, {\"en_name\": \"twisted double bilayer graphene\", \"ch_name\": \"\"}]",
+        "publication_date": "2020-4-8",
+        "publication_id": "2026",
+        "publication_name": "Nano Letters _ Nano Lett.",
+        "research_categories": "",
+        "zh_title": "扭曲双层双层石墨烯中的莫尔平带"
+      },
+      "paper:812712944042246145": {
+        "area": "Physics and Astrophysics",
+        "authors": "Young Woo Choi | Hyoung Joon Choi",
+        "available_online": "2019-11-11",
+        "cover_date_start": "2019-11-11",
+        "created_at": "2022-12-22T07:51:07+08:00",
+        "doi": "10.1103/physrevb.100.201402",
+        "en_title": "Intrinsic band gap and electrically tunable flat bands in twisted double bilayer graphene",
+        "id": "812712944042246145",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层双层石墨烯中的本征带隙和电可调平带"
+      },
+      "paper:817370700443549697": {
+        "area": "Material science",
+        "authors": "Xiaoqian Liu | Ran Peng | Zhaoru Sun | Jianpeng Liu",
+        "available_online": "",
+        "cover_date_start": "2022-09-30",
+        "created_at": "2023-01-04T04:19:21+08:00",
+        "doi": "10.1021/acs.nanolett.2c02010",
+        "en_title": "Moiré Phonons in Magic-Angle Twisted Bilayer Graphene",
+        "id": "817370700443549697",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2026",
+        "publication_name": "Nano Letters _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "魔角扭曲双层石墨烯中的莫尔声子"
+      },
+      "paper:867745366357836075": {
+        "area": "arXiv-Physics",
+        "authors": "Yi-Wen Liu | Ying Su | Xiao-Feng Zhou | Long-Jing Yin | Chao Yan | Si-Yu Li | Wei Yan | Sheng Han | Zhong-Qiu Fu | Yu Zhang | Qian Yang | Ya-Ning Ren | Lin He",
+        "available_online": "",
+        "cover_date_start": "2020-07-04",
+        "created_at": "2023-05-23T04:30:18+08:00",
+        "doi": "10.48550/arXiv.2007.01993",
+        "en_title": "Tunable lattice reconstruction and bandwidth of flat bands in magic-angle twisted bilayer graphene",
+        "id": "867745366357836075",
+        "keywords": "",
+        "publication_date": "2020-07-04",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "魔角扭曲双层石墨烯中可调谐的晶格重构与平带带宽"
+      },
+      "paper:867754345859383570": {
+        "area": "arXiv-Physics",
+        "authors": "V. Hung Nguyen | D. Paszko | M. Lamparski | B. Van Troeye | V. Meunier | J.-C. Charlier",
+        "available_online": "",
+        "cover_date_start": "2021-02-10",
+        "created_at": "2023-05-23T05:05:58+08:00",
+        "doi": "10.48550/arXiv.2102.05376",
+        "en_title": "Electronic localization in small-angle twisted bilayer graphene",
+        "id": "867754345859383570",
+        "keywords": "",
+        "publication_date": "2021-02-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "小角度扭曲双层石墨烯中的电子局域化"
+      },
+      "paper:867761060289970778": {
+        "area": "arXiv-Physics",
+        "authors": "V. Hung Nguyen | Trinh X. Hoang | J.-C. Charlier",
+        "available_online": "",
+        "cover_date_start": "2022-03-17",
+        "created_at": "2023-05-23T05:32:39+08:00",
+        "doi": "10.48550/arXiv.2203.09188",
+        "en_title": "Electronic properties of twisted multilayer graphene",
+        "id": "867761060289970778",
+        "keywords": "",
+        "publication_date": "2022-03-17",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲多层石墨烯的电子性质"
+      },
+      "paper:867772022996860937": {
+        "area": "arXiv-Physics",
+        "authors": "Yizhou Liu | Tobias Holder | Binghai Yan",
+        "available_online": "",
+        "cover_date_start": "2020-10-16",
+        "created_at": "2023-05-23T06:16:13+08:00",
+        "doi": "10.48550/arXiv.2010.08385",
+        "en_title": "Chirality induced Giant Unidirectional Magnetoresistance in Twisted Bilayer Graphene",
+        "id": "867772022996860937",
+        "keywords": "",
+        "publication_date": "2020-10-16",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯中手性诱导的巨单向磁电阻"
+      },
+      "paper:923643931596423748": {
+        "area": "arXiv-Physics",
+        "authors": "Yingyi Huang",
+        "available_online": "",
+        "cover_date_start": "2023-09-20",
+        "created_at": "2023-10-24T10:31:14+08:00",
+        "doi": "10.48550/arXiv.2309.11685",
+        "en_title": "Topological Floquet Flat Bands in Irradiated Alternating Twist Multilayer Graphene",
+        "id": "923643931596423748",
+        "keywords": "",
+        "publication_date": "2023-09-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "辐照交替扭曲多层石墨烯中的拓扑弗洛凯平带"
+      }
+    },
+    "variables": [
+      {
+        "content": "Let the \"magic angle\" denote a twist angle near $\\sim1^{\\circ}$ at which twisted bilayer graphene (TBG) exhibits very flat bands in realistic models that include lattice relaxation. The proposition is that a tight-binding band-structure computation for TBG at twist angle $\\theta=1.5^{\\circ}$, obtained without including lattice relaxation effects in the model, yields a band dispersion sufficiently similar in the low-energy flat-band window to the relaxed magic-angle dispersion that transport and UMR trends computed at $\\theta=1.5^{\\circ}$ can serve as a qualitative proxy for the magic-angle regime when discussing enhancement of UMR by flat bands.\n      [60]",
+        "content_hash": "8f04e4b23e6f2aa5d1922a6dc146d27905283690e777ece2badd5e050b012a89",
+        "id": "gcn_35513e8103c049f8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772022996860937::P12",
+            "package_id": "paper:867772022996860937",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772022996860937"
+          ]
+        },
+        "role": "premise",
+        "score": 0.03252247488101534,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In atomistic tight-binding calculations performed on relaxed twisted double bilayer graphene (TDBG) geometries, the low-energy moiré flat bands of relaxed TDBG are generally narrower than the corresponding low-energy flat bands of twisted bilayer graphene (TBG) for twist angles $\\\\theta>1.1^\\\\circ$, and the computed flat-band bandwidth for relaxed TDBG attains a local minimum near $\\\\theta\\\\approx1.25^\\\\circ$; this local minimum in bandwidth is identified as the first (primary) magic angle of TDBG in these calculations, and at $\\\\theta\\\\approx1.25^\\\\circ$ the TDBG low-energy flat-band bandwidth can be more than a factor of two smaller than the TBG flat-band bandwidth at the same twist angle.",
+        "content_hash": "b66202d31939194dd08d6114f38eaea65f059dfc3d2b4f92f0202d8b674ea79c",
+        "id": "gcn_307b2c7717d94c46",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812712944042246145::conclusion_3",
+            "package_id": "paper:812712944042246145",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812712944042246145"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.03125,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For continuum-model electronic-structure calculations of magic-angle twisted bilayer graphene that explicitly incorporate lattice relaxation via atomic-registry-dependent interlayer coupling leading to enlarged AB/BA regions and shrunken AA regions, the computed low-energy flat-band manifold exhibits qualitatively increased bandwidth (broader flat bands) and increased energetic separation from remote bands in the reconstructed geometry relative to the unreconstructed rigid geometry, and this qualitative trend is robust to moderate variations of model parameters even when spatially non-uniform heterostrain is not included in the calculation; here \"continuum model\" refers to the Bistritzer–MacDonald-type moiré Hamiltonian augmented by a registry-dependent interlayer tunneling parameterization and a relaxation-derived displacement field.\n      [18-21]",
+        "content_hash": "3988a92a5edfc3105c037c646c2611fcb43ffc42e55fb3e39640aa7e57326361",
+        "id": "gcn_8cd2984a6296435c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745366357836075::P9",
+            "package_id": "paper:867745366357836075",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745366357836075"
+          ]
+        },
+        "role": "premise",
+        "score": 0.030309988518943745,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A dense‑angle atomistic numerical survey of fully relaxed twisted bilayer graphene structures with twist angles sampled down to approximately 0.22^\\circ, using the relaxation procedure and the p_z tight‑binding Green’s‑function electronic‑structure methods described above, is sufficient to detect the reappearance of isolated flat bands (additional magic‑angle phenomena) if such isolated flat bands would occur in realistic relaxed samples; therefore the absence of observed isolated flat bands on the computed angle grid implies their practical non‑existence in reconstructed experimental samples within the sampled angle range.",
+        "content_hash": "3d673c71b391b575f1fae6abdf35ba6871b72cd7ad5bc81cca2bd73debffdbb1",
+        "id": "gcn_7053c937a8b34b19",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867754345859383570::P6",
+            "package_id": "paper:867754345859383570",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867754345859383570"
+          ]
+        },
+        "role": "premise",
+        "score": 0.029030910609857977,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the twisted monolayer–bilayer geometry defined as a graphene monolayer rotated by angle $\\\\theta$ and placed on top of an AB-stacked graphene bilayer (denoted SM-(AB)$_2$), the moiré system at its magic-angle moiré geometry (near $\\\\theta\\\\simeq1.1^{\\\\circ}$) exhibits isolated low-energy flat bands, but these flat bands are quantitatively less flat than those of relaxed twisted bilayer graphene: the SM-(AB)$_2$ flat-band manifold has larger bandwidth and a smaller zero-energy DOS peak than magic-angle TBLG. Layer-resolved density of states $\\\\rho_{\\\\ell}(E)$ shows that the flat-band spectral weight is strongly localized on the twisted monolayer (top layer) while it is comparatively broadened and delocalized across the AB bilayer (the two bottom layers), producing a spatially separated localized–delocalized electronic character across layers.",
+        "content_hash": "fd1ba51bd1bb4a7b22dc9e03b576ecc93e8d18c9a97147efb60ed18fa9bc1feb",
+        "id": "gcn_14a55aff3de24a3a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761060289970778::conclusion_3",
+            "package_id": "paper:867761060289970778",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761060289970778"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.028373015873015873,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Continuum-model electronic-structure calculations of magic-angle twisted bilayer graphene that include lattice relaxation driven by atomic-registry-dependent interlayer coupling reproduce the key experimental spectroscopic trends: the reconstructed geometry obtained from relaxation (enlarged AB/BA regions and reduced AA regions) yields broadened low-energy flat bands and increased energetic isolation of the flat-band manifold from remote bands relative to the unreconstructed rigid-geometry calculation. The implemented calculations omit explicit spatially non-uniform heterostrain and therefore do not reproduce additional fine splitting of the flat-band peaks (for example, three-subpeak structure) seen in some experimental spectra, which can be induced by heterostrain effects.",
+        "content_hash": "a10fdf17a693d059ec2b4b2b46f0777c2f7defb95627e1681d50c22cfe0db057",
+        "id": "gcn_c220df1acc8b476a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745366357836075::conclusion_6",
+            "package_id": "paper:867745366357836075",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745366357836075"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.02821939586645469,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Comparing electronic band structures computed for the relaxed atomic geometry and for the unrelaxed rigidly twisted lattice at the magic angle, lattice relaxation increases the gaps between remote bands and the flat bands, increases the flat-band bandwidth, and enhances intervalley scattering (scattering between states derived from the moiré $K$ and $K'$ valleys), with the relaxation-induced intervalley coupling producing a splitting of the two Dirac points of approximately $0.19\\ \\mathrm{meV}$ in the computed single-particle band structure.",
+        "content_hash": "b0d06d573f0601b1a3fea9eaee32e0bf9e1b69a67ff37495ca42a53a507e491b",
+        "id": "gcn_7b72e8d8848a4cf4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817370700443549697::conclusion_7",
+            "package_id": "paper:817370700443549697",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817370700443549697"
+          ]
+        },
+        "role": "premise",
+        "score": 0.025603392041748205,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Atomistic lattice relaxation of TDBG computed by minimizing the REBO intra-layer and Kolmogorov–Crespi inter-layer classical potentials (with the FIRE algorithm termination threshold for forces per atom set to 10^−6 eV/atom) has a decisive effect on the low-energy electronic structure: including relaxation increases the gaps between the flat-band manifold and excited states by roughly an order of magnitude near the magic angle θ* = 1.30°, strongly suppresses the inter-sublattice AA moiré tunneling amplitude w_{AA} (reducing the ratio w_{AA}/w_{AB} where w_{AB} denotes the AB moiré coupling), and reduces the influence of the Bernal-bilayer trigonal-warping parameter γ_3, the particle–hole asymmetry parameter γ_4, and the intrinsic symmetric polarization on the flat-band dispersion in the vicinity of θ*. Quantitatively, including relaxation changes the band-structure metrics so that at θ* the half-bandwidth/bandgap ratio—where \"half-bandwidth\" denotes one-half of the flat-manifold bandwidth E_W and \"bandgap\" denotes the relevant gap to excited states such as Δ_e or Δ_h—is 14.7%, a value comparable to the corresponding metric reported for magic-angle twisted bilayer graphene.",
+        "content_hash": "3301477175074bc7c1d8e5b3c2933cba143f899ad4371bd14e1de96c8c8f6651",
+        "id": "gcn_f2ab674b6da24dc0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812670861269008387::conclusion_4",
+            "package_id": "paper:812670861269008387",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812670861269008387"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.025,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Numerical calculations for alternating-twist four-layer and five-layer graphene, using the same drive parameters $A=0.08\\,a^{-1}$ and $\\hbar\\Omega=6\\,\\mathrm{eV}$ together with lattice-relaxation-informed effective interlayer tunneling ratios and magic-angle conditions, show that the central Floquet flat band remains gapped and topological at the first magic angle in both layer numbers. In the four-layer case the decomposition contains a twisted-bilayer-graphene subsystem and a nonmagic twisted-bilayer-graphene-like subsystem, and in the five-layer case it contains a twisted-bilayer-graphene subsystem together with an additional non-twisted-bilayer subsystem and a graphene subsystem. The corresponding phase diagrams contain additional gap closings at $\\Gamma_{M}$ and $K_M$ arising from extra Dirac cones, but the lattice-relaxed first-magic-angle parameter points lie inside gapped topological regions. Floquet driving therefore produces topological flat bands in four- and five-layer alternating-twist multilayer graphene under realistic relaxation-modified parameters.",
+        "content_hash": "29aef308511d98149d7a78789b9a303cdd8a62c789aef97f5a935d48f0857459",
+        "id": "gcn_892e48156263428c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:923643931596423748::conclusion_6",
+            "package_id": "paper:923643931596423748",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:923643931596423748"
+          ]
+        },
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For twisted bilayer graphene at the first magic twist angle $\\theta=1.08^\\circ$, the single-particle electronic structure computed by density functional theory (DFT) shows that the narrow flat-band manifold near the Fermi energy and the energy gaps at the $\\Gamma$ point separating that manifold from higher- and lower-energy bands are reproduced only when full atomic relaxation is included, where full relaxation includes both in-plane ($x$-$y$) and out-of-plane ($z$) atomic displacements relative to the initial twisted but flat bilayer geometry. For the fully relaxed geometry at $\\theta=1.08^\\circ$, the reported flat-band bandwidth is $\\sim 20\\,\\text{meV}$, the gap separating the flat-band manifold from the higher-energy bands is $\\approx 26\\,\\text{meV}$, and the gap separating the flat-band manifold from the lower-energy bands is $\\approx 16\\,\\text{meV}$, and tight-binding calculations evaluated on the same relaxed atomic coordinates yield consistent low-energy bands. For the unrelaxed flat bilayer geometry these $\\Gamma$-point gaps are absent or strongly underestimated, and for constrained relaxations at $\\theta=1.08^\\circ$ the in-plane-only relaxed geometry (fixed $z$ coordinates) yields zero gaps while the out-of-plane-only relaxed geometry (fixed $x$-$y$ coordinates) yields underestimated gaps of order $\\sim 2\\,\\text{meV}$ (upper side) and $\\sim 14\\,\\text{meV}$ (lower side).",
+        "content_hash": "01c83a71b1f74268ba43b5ee90ae090f1295a5b213c3b2c2463e9028124d9a03",
+        "id": "gcn_de1d329f326f4e75",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812551532191940608::conclusion_3",
+            "package_id": "paper:812551532191940608",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812551532191940608"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "41ac3c7bd470c371916e0a4e7f95b9d8"
+}

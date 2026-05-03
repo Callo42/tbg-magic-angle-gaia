@@ -1,0 +1,56 @@
+{
+  "ir_hash": "sha256:2c72b16af8c6b809b103179139636d6d49bbd48ea6e91a57ea5d78df3be7d154",
+  "manifest_schema_version": 1,
+  "package": "hbn-aligned-tbg",
+  "premises": [
+    {
+      "content": "The selected Zhang, Mao, and Senthil LKM evidence factor contains premise id gcn_1d940e84a3744c85 with empty premise content; this placeholder records that an unspecified premise was present in the LKM chain but supplies no independent scientific assertion beyond the chain membership [@Zhang2019].",
+      "content_hash": "d5712f74ead952332cc86bfbc5ee2d45a7449b40376c261745b997090580690c",
+      "exported": false,
+      "interface_hash": "sha256:a97e424c5096e4954e888e45eeda46a172758656612cacf0a10a9a67b0ab1cbd",
+      "label": "gcn_1d940e84a3744c85",
+      "qid": "github:hbn_aligned_tbg::gcn_1d940e84a3744c85",
+      "required_by": [
+        "github:hbn_aligned_tbg::gcn_584669e24c6145a7"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For Zhang, Mao, and Senthil's single-valley continuum Hamiltonian for h-BN-aligned magic-angle TBG, the h-BN moire-potential matrices V_j have typical norms |V_j| less than or about 10 meV while the principal TBG moire interlayer coupling is w_1 about 110 meV; therefore their first-approximation band-structure calculation drops the V_j term and retains the top-layer staggered sublattice mass M in H_hBN [@Zhang2019].",
+      "content_hash": "2cda4e19db1ae8a49dc10abd77b001cfef5eeb1fb5d319ece2c0b28780e730bd",
+      "exported": false,
+      "interface_hash": "sha256:18d33817826f735416258c89c982060be3099af97d724fa2aac913336539472a",
+      "label": "gcn_464f6413fccb48be",
+      "qid": "github:hbn_aligned_tbg::gcn_464f6413fccb48be",
+      "required_by": [
+        "github:hbn_aligned_tbg::gcn_584669e24c6145a7"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "In Zhang, Mao, and Senthil's h-BN-aligned MA-TBG continuum-model parameterization, an experimentally measured about 35 meV neutral-point gap in monolayer graphene aligned to h-BN is mapped to a top-layer staggered sublattice mass M about 17 meV, using the relation that the single-layer Dirac mass splitting is twice the mass amplitude [@Zhang2019].",
+      "content_hash": "4a9aad6a48723bf2fe3ee2f3bc42f6289ffa2aeca2db31f5b9c767201172fcd7",
+      "exported": false,
+      "interface_hash": "sha256:8e5c01ad256d9caab400d391949f12ef626ed049feedd9c25a68ca756c0c2bd0",
+      "label": "gcn_a7252e5aaaf84d38",
+      "qid": "github:hbn_aligned_tbg::gcn_a7252e5aaaf84d38",
+      "required_by": [
+        "github:hbn_aligned_tbg::gcn_584669e24c6145a7"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "For Zhang, Mao, and Senthil's h-BN-aligned MA-TBG continuum-model calculations with w_1 about 110 meV, w_0/w_1 = 0.7, magic-angle twist parameters, and staggered mass M about 15-17 meV, the active conduction and valence bands in one valley are numerically isolated across the MBZ so their Chern numbers are well defined; the reported valley + values are C = +1 for the conduction active band and C = -1 for the valence active band [@Zhang2019].",
+      "content_hash": "af523e15baa84681e21f421ca6fc885015eb10565002531d11a4e2fe3fb1a1fe",
+      "exported": false,
+      "interface_hash": "sha256:a499421299852144a1093e4fd13a85d969f92b64742e305fa2e71365eff71d4c",
+      "label": "gcn_ca5e0f32e91c459b",
+      "qid": "github:hbn_aligned_tbg::gcn_ca5e0f32e91c459b",
+      "required_by": [
+        "github:hbn_aligned_tbg::gcn_584669e24c6145a7"
+      ],
+      "role": "local_hole"
+    }
+  ],
+  "version": "0.1.0"
+}

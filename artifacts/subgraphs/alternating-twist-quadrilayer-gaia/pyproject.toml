@@ -1,0 +1,20 @@
+[project]
+name = "alternating-twist-quadrilayer-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for twist-angle-dependent correlated phases in alternating-twist quadrilayer graphene."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "6a8e710e-0802-41ea-9bc3-839667d58daa"
+generated_by = "lkm-to-gaia"
+generated_from_search = "targeted selected root gcn_225da7b340cb47b8 for ATQG twist-angle phase asymmetry"
+generated_from_roots = ["gcn_225da7b340cb47b8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/alternating_twist_quadrilayer"]

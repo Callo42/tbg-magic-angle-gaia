@@ -1,0 +1,26 @@
+{
+  "DasSarma2020": {
+    "type": "article-journal",
+    "title": "Electron\u2013phonon and electron\u2013electron interaction effects in twisted bilayer graphene",
+    "DOI": "10.1016/j.aop.2020.168193",
+    "container-title": "Annals of Physics",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Das Sarma",
+        "given": "Sankar"
+      },
+      {
+        "family": "Wu",
+        "given": "Fengcheng"
+      }
+    ]
+  }
+}

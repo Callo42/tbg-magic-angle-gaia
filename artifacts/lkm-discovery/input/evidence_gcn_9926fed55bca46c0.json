@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The observation, in a single twisted bilayer graphene device with measured twist angle θ = 0.93° ± 0.01°, of correlated insulating behavior at half filling (n_m = ±2) and proximate superconductivity, together with single‑particle calculations that show narrow low‑energy bandwidths at that angle, implies that the set of twist angles capable of supporting 'magic' strongly correlated phenomena extends downward from the canonical value near θ ≈ 1.1° to at least θ ≈ 0.93°, provided one treats this single‑device result as representative and assumes that device‑specific factors (such as strain, screening environment, or disorder) are not uniquely responsible for creating the correlated behavior in this sample alone; here 'magic behavior' denotes emergence of narrow bands, correlation‑driven insulating states, and proximate superconductivity.",
+      "content_hash": "98abf265423748599ad1029a36d7f21811b21b1ff6f8aa9e374408d7e693fa0b",
+      "id": "gcn_9926fed55bca46c0",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "66cc3db3d63ae2ad4b94e1e81b01fa53"
+}

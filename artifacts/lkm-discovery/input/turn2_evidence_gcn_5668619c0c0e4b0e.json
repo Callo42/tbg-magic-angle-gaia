@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The ab initio observation of band inversions that entangle bands originating both above and below the single-layer Dirac point implies that minimal phenomenological or few-band effective models intended to capture the symmetry and fragile topology of twisted bilayer graphene must include complementary bands from both sides of the Dirac point (i.e., include neighboring dispersive bands above and below the flat-band manifold); omitting these neighboring dispersive bands on either side of the flat bands will fail to reproduce the symmetry-entangling inversions and therefore cannot correctly capture the fragile-topological features observed in the ab initio spectrum.",
+      "content_hash": "dc2a073cb4453f4e8d91574fcf52040542285f259fdd3c9d7afe21065ba86937",
+      "id": "gcn_5668619c0c0e4b0e",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "524cbcbd13db2861cd0804e310bf6428"
+}

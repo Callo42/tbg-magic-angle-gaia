@@ -1,0 +1,46 @@
+{
+  "Cao2018": {
+    "type": "article-journal",
+    "title": "Unconventional superconductivity in magic-angle graphene superlattices",
+    "DOI": "10.1038/nature26160",
+    "container-title": "Nature",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Cao",
+        "given": "Yuan"
+      },
+      {
+        "family": "Fatemi",
+        "given": "Valla"
+      },
+      {
+        "family": "Fang",
+        "given": "Shiang"
+      },
+      {
+        "family": "Watanabe",
+        "given": "Kenji"
+      },
+      {
+        "family": "Taniguchi",
+        "given": "Takashi"
+      },
+      {
+        "family": "Kaxiras",
+        "given": "Efthimios"
+      },
+      {
+        "family": "Jarillo-Herrero",
+        "given": "Pablo"
+      }
+    ]
+  }
+}

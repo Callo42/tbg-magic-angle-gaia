@@ -1,0 +1,86 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Continuum-model electronic-structure calculations of magic-angle twisted bilayer graphene that include lattice relaxation driven by atomic-registry-dependent interlayer coupling reproduce the key experimental spectroscopic trends: the reconstructed geometry obtained from relaxation (enlarged AB/BA regions and reduced AA regions) yields broadened low-energy flat bands and increased energetic isolation of the flat-band manifold from remote bands relative to the unreconstructed rigid-geometry calculation. The implemented calculations omit explicit spatially non-uniform heterostrain and therefore do not reproduce additional fine splitting of the flat-band peaks (for example, three-subpeak structure) seen in some experimental spectra, which can be induced by heterostrain effects.",
+      "content_hash": "a10fdf17a693d059ec2b4b2b46f0777c2f7defb95627e1681d50c22cfe0db057",
+      "id": "gcn_c220df1acc8b476a",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Continuum-model electronic-structure calculations of magic-angle twisted bilayer graphene that include lattice relaxation driven by atomic-registry-dependent interlayer coupling reproduce the key experimental spectroscopic trends: the reconstructed geometry obtained from relaxation (enlarged AB/BA regions and reduced AA regions) yields broadened low-energy flat bands and increased energetic isolation of the flat-band manifold from remote bands relative to the unreconstructed rigid-geometry calculation. The implemented calculations omit explicit spatially non-uniform heterostrain and therefore do not reproduce additional fine splitting of the flat-band peaks (for example, three-subpeak structure) seen in some experimental spectra, which can be induced by heterostrain effects.",
+              "id": "gcn_c220df1acc8b476a"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_e5303e2e42664d99",
+            "premises": [
+              {
+                "content": "For continuum-model electronic-structure calculations of magic-angle twisted bilayer graphene that explicitly incorporate lattice relaxation via atomic-registry-dependent interlayer coupling leading to enlarged AB/BA regions and shrunken AA regions, the computed low-energy flat-band manifold exhibits qualitatively increased bandwidth (broader flat bands) and increased energetic separation from remote bands in the reconstructed geometry relative to the unreconstructed rigid geometry, and this qualitative trend is robust to moderate variations of model parameters even when spatially non-uniform heterostrain is not included in the calculation; here \"continuum model\" refers to the Bistritzer\u2013MacDonald-type moir\u00e9 Hamiltonian augmented by a registry-dependent interlayer tunneling parameterization and a relaxation-derived displacement field.\n      [18-21]",
+                "id": "gcn_8cd2984a6296435c"
+              },
+              {
+                "content": "Spatially non-uniform heterostrain (a slowly-varying relative in-plane deformation between top and bottom graphene layers parameterized by a local strain tensor field $\\epsilon(\\mathbf{r})$ that varies at the moir\u00e9 scale) can reconstruct the electronic band structure of magic-angle twisted bilayer graphene and produce additional fine structure in the flat-band density of states, such as three-subpeak splitting of the flat-band manifold observed in some STS spectra, and such heterostrain-induced features are not reproduced by continuum-model calculations that include only atomic-registry-driven lattice relaxation but omit explicit heterostrain fields.\n      [54-55]",
+                "id": "gcn_ed8fa9253ea24982"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Define the computational framework: perform continuum-model band-structure and density-of-states (DOS) calculations for magic-angle TBG in two geometries \u2014 the unreconstructed (rigid) geometry and a reconstructed geometry that includes lattice relaxation in the form of atomic registry rearrangement corresponding to enlarged AB/BA regions and shrunken AA regions.\nFig. 4\nFig. S10",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Explain what is meant by lattice relaxation in the calculation: incorporate atomic registry rearrangement (i.e., allowing the local stacking registries to shift so that AB/BA regions are enlarged and AA regions are reduced and corrugated) when computing the continuum-model moir\u00e9 Hamiltonian and deriving band structures and density of states.\n[18-21]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Report the computational outcome qualitatively: the calculations that include lattice relaxation produce low-energy flat bands that are broader (increased bandwidth) and more energetically isolated from the remote bands (i.e., larger gaps or separation between flat-band manifold and higher-energy conduction bands) than the calculations performed on the unreconstructed, rigid geometry.\nFig. S10",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Compare computation to experiment: state that these theoretical results reproduce the essential experimental spectroscopic trends observed in STM/STS measurements on magic-angle TBG, namely that the reconstructed geometry yields broadened low-energy flat bands and increased energetic isolation from remote bands relative to the unreconstructed geometry.\nFig. 4d\nFig. 4e",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "State calculation limitations: explicitly record that the present implementation of the continuum-model calculations does not include heterostrain (spatially varying lattice deformation between layers) and therefore does not capture additional subpeak splitting (three subpeaks) observed in some experimental spectra; the authors attribute such extra splittings to strain effects discussed in prior literature.\n[54-55]\nFig. S10",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Interpreting experimental STS line shapes and attributing spectral broadening or isolation to structural relaxation requires a theoretical calculation that compares relaxed (reconstructed) and unrelaxed (rigid) moir\u00e9 geometries at the magic angle. Prior continuum-model studies suggested significant effects of relaxation, but direct modeling matched to STM/STS observables in the reconstructed versus unreconstructed regimes was needed to corroborate the structural interpretation of bandwidth changes and band isolation. Providing such calculations bridges observed spectral features and the underlying lattice degrees of freedom, and clarifies which experimental features arise from relaxation versus other perturbations such as heterostrain.",
+            "id": "paper:867745366357836075::conclusion_6_subproblem",
+            "source_package": "paper:867745366357836075"
+          }
+        ],
+        "source_package": "paper:867745366357836075"
+      }
+    ],
+    "papers": {
+      "paper:867745366357836075": {
+        "area": "arXiv-Physics",
+        "authors": "Yi-Wen Liu | Ying Su | Xiao-Feng Zhou | Long-Jing Yin | Chao Yan | Si-Yu Li | Wei Yan | Sheng Han | Zhong-Qiu Fu | Yu Zhang | Qian Yang | Ya-Ning Ren | Lin He",
+        "available_online": "",
+        "cover_date_start": "2020-07-04",
+        "created_at": "2023-05-23T04:30:18+08:00",
+        "doi": "10.48550/arXiv.2007.01993",
+        "en_title": "Tunable lattice reconstruction and bandwidth of flat bands in magic-angle twisted bilayer graphene",
+        "id": "867745366357836075",
+        "keywords": "",
+        "publication_date": "2020-07-04",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "\u9b54\u89d2\u626d\u66f2\u53cc\u5c42\u77f3\u58a8\u70ef\u4e2d\u53ef\u8c03\u8c10\u7684\u6676\u683c\u91cd\u6784\u4e0e\u5e73\u5e26\u5e26\u5bbd"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "420c771b06508d459fb5d33e84a9b3c9"
+}

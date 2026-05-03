@@ -1,0 +1,90 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For twisted bilayer graphene at the first magic twist angle $\\theta=1.08^\\circ$, the single-particle electronic structure computed by density functional theory (DFT) shows that the narrow flat-band manifold near the Fermi energy and the energy gaps at the $\\Gamma$ point separating that manifold from higher- and lower-energy bands are reproduced only when full atomic relaxation is included, where full relaxation includes both in-plane ($x$-$y$) and out-of-plane ($z$) atomic displacements relative to the initial twisted but flat bilayer geometry. For the fully relaxed geometry at $\\theta=1.08^\\circ$, the reported flat-band bandwidth is $\\sim 20\\,\\text{meV}$, the gap separating the flat-band manifold from the higher-energy bands is $\\approx 26\\,\\text{meV}$, and the gap separating the flat-band manifold from the lower-energy bands is $\\approx 16\\,\\text{meV}$, and tight-binding calculations evaluated on the same relaxed atomic coordinates yield consistent low-energy bands. For the unrelaxed flat bilayer geometry these $\\Gamma$-point gaps are absent or strongly underestimated, and for constrained relaxations at $\\theta=1.08^\\circ$ the in-plane-only relaxed geometry (fixed $z$ coordinates) yields zero gaps while the out-of-plane-only relaxed geometry (fixed $x$-$y$ coordinates) yields underestimated gaps of order $\\sim 2\\,\\text{meV}$ (upper side) and $\\sim 14\\,\\text{meV}$ (lower side).",
+      "content_hash": "01c83a71b1f74268ba43b5ee90ae090f1295a5b213c3b2c2463e9028124d9a03",
+      "id": "gcn_de1d329f326f4e75",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "For twisted bilayer graphene at the first magic twist angle $\\theta=1.08^\\circ$, the single-particle electronic structure computed by density functional theory (DFT) shows that the narrow flat-band manifold near the Fermi energy and the energy gaps at the $\\Gamma$ point separating that manifold from higher- and lower-energy bands are reproduced only when full atomic relaxation is included, where full relaxation includes both in-plane ($x$-$y$) and out-of-plane ($z$) atomic displacements relative to the initial twisted but flat bilayer geometry. For the fully relaxed geometry at $\\theta=1.08^\\circ$, the reported flat-band bandwidth is $\\sim 20\\,\\text{meV}$, the gap separating the flat-band manifold from the higher-energy bands is $\\approx 26\\,\\text{meV}$, and the gap separating the flat-band manifold from the lower-energy bands is $\\approx 16\\,\\text{meV}$, and tight-binding calculations evaluated on the same relaxed atomic coordinates yield consistent low-energy bands. For the unrelaxed flat bilayer geometry these $\\Gamma$-point gaps are absent or strongly underestimated, and for constrained relaxations at $\\theta=1.08^\\circ$ the in-plane-only relaxed geometry (fixed $z$ coordinates) yields zero gaps while the out-of-plane-only relaxed geometry (fixed $x$-$y$ coordinates) yields underestimated gaps of order $\\sim 2\\,\\text{meV}$ (upper side) and $\\sim 14\\,\\text{meV}$ (lower side).",
+              "id": "gcn_de1d329f326f4e75"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_3a3936eff4a1434c",
+            "premises": [
+              {
+                "content": "For twisted bilayer graphene at the first magic angle, interpreting agreement between experimentally measured spectroscopic gap magnitudes and single-particle Kohn–Sham eigenvalue gaps computed in plane-wave density-functional theory using the vdW-DF2 exchange-correlation functional assumes that electron-electron correlation effects and quasiparticle self-energy corrections do not substantially renormalize the relevant band-gap magnitudes, so that computed gaps of order $\\sim 26\\,\\text{meV}$ and $\\sim 16\\,\\text{meV}$ can be quantitatively compared to spectroscopic gaps (e.g., from nano-ARPES or tunneling spectroscopy) in the same energy window.",
+                "id": "gcn_6463be97083b44fd"
+              },
+              {
+                "content": "For twisted bilayer graphene at twist angle $\\theta=1.08^\\circ$, performing two constrained structural optimizations—one allowing only out-of-plane ($z$) displacements while keeping all in-plane coordinates fixed, and one allowing only in-plane ($x$-$y$) displacements while keeping all $z$ coordinates fixed—and then computing band structures on these partially relaxed geometries is assumed to provide a meaningful diagnostic separation of the electronic consequences of out-of-plane versus in-plane relaxation components, despite the possibility of nonlinear coupling between in-plane and out-of-plane degrees of freedom in an unconstrained full relaxation.",
+                "id": "gcn_abaf80790d664630"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "State upstream result being used as known: the atomistic relaxation patterns induced by interlayer vdW interactions and their quantitative aspects (out-of-plane buckling, in-plane vortexlike displacements, shrinking of AA regions, and numerical displacement magnitudes) are taken as established from the previously reconstructed structural analysis (conclusion 1). These relaxed atomic geometries are the starting point for the following electronic-structure deductions.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Summarize the computational approach used to obtain electronic band structures from relaxed and unrelaxed geometries: single-particle electronic structures were computed using DFT within the same VASP/vdW-DF2 framework (self-consistent-field runs sampled at the $\\Gamma$ point for the large supercells), and complementary tight-binding (TB) calculations were performed using a Slater–Koster parametrization for $p_z$ orbitals with atom positions taken from the relaxed geometries. Non-self-consistent calculations at other $k$ points used the SCF reference; for the smallest cell only one $k$ point could be computed at a time and energies are referred to the SCF Fermi energy. These computational procedures produce band structures for relaxed and unrelaxed atomic configurations that are directly compared.\n[51]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Compare relaxed versus unrelaxed band structures at the first magic angle $\\theta=1.08^\\circ$: the band-structure plots along the $K-\\Gamma-M-K'$ path show that—at $\\theta=1.08^\\circ$—including full atomic relaxation is necessary to reproduce the experimentally observed narrow flat-band manifold and the energy gaps that separate that manifold from both higher and lower energy bands. Specifically, the DFT band structure computed for the fully relaxed geometry shows a full flat-band manifold bandwidth of approximately $20\\,$meV and energy gaps of about $26\\,$meV on the electron (upper) side and about $16\\,$meV on the hole (lower) side separating the flat-band manifold from adjacent bands; these magnitudes are consistent with experimental spectroscopy reports. These numerical values are extracted from the DFT band plots and the textual discussion describing the $\\theta=1.08^\\circ$ panels.\nFig. 5",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "State the failure of unrelaxed geometries to reproduce the experimental gaps: the band structures computed for the unrelaxed (flat) bilayer geometries lack the energy gaps isolating the flat-band manifold at $\\theta=1.08^\\circ$ (the gaps are either absent or greatly underestimated in the unrelaxed case). This absence is explicitly shown by comparing the relaxed and unrelaxed panels in the figure (relaxed panels show the gaps; unrelaxed do not). Therefore atomic relaxation is essential to obtain the experimentally observed isolated flat-band manifold.\nFig. 5",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Report partial-relaxation tests and their electronic consequences: two partial relaxation scenarios were computed at $\\theta=1.08^\\circ$: (i) relaxing only in-plane degrees of freedom (allowing $x$-$y$ coordinates to change while keeping $z$ fixed), and (ii) relaxing only out-of-plane ($z$) coordinates while keeping $x$-$y$ fixed. The DFT and TB analyses of these partially relaxed geometries show that the in-plane-only relaxation produces essentially zero energy gaps (both upper and lower gaps vanish), whereas the out-of-plane-only relaxation produces nonzero but underestimated gaps of approximately $2\\,$meV and $14\\,$meV on the two sides. These partial-relaxation band structures demonstrate that full relaxation (both in-plane and out-of-plane) is required to quantitatively reproduce the experimental gap magnitudes and the correct flat-band bandwidth.\nFig. 6",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Note the agreement between DFT and tight-binding when using the relaxed geometry: tight-binding calculations using the Slater–Koster $p_z$ parametrization on the DFT-relaxed atomic positions reproduce the DFT bands closely near the Fermi energy, indicating that the relaxed geometry suffices to capture the single-particle low-energy electronic structure in both ab initio and reduced models. This agreement validates that the geometric relaxation is the essential ingredient for producing the observed flat bands and gaps.\nFig. 5",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The low-energy flat-band manifold and the $\\sim$10–50 meV separation from other bands are central single-particle inputs for theories of correlated insulating states and superconductivity in TBG. Before this work, continuum and tight-binding models often used unrelaxed geometries or phenomenological adjustments to reproduce experiments, leaving open whether the missing ingredient was structural relaxation and, if so, which component. Without a first-principles demonstration that atomic relaxation — and specifically which components of it — is required to obtain the correct bandwidths and gap magnitudes, any many-body modeling built on unrelaxed or phenomenologically adjusted single-particle Hamiltonians risked quantitative inaccuracy. This conclusion therefore fills the gap by establishing the structural origin of the experimentally observed single-particle spectral features.",
+            "id": "paper:812551532191940608::conclusion_3_subproblem",
+            "source_package": "paper:812551532191940608"
+          }
+        ],
+        "source_package": "paper:812551532191940608"
+      }
+    ],
+    "papers": {
+      "paper:812551532191940608": {
+        "area": "Physics and Astrophysics",
+        "authors": "Giovanni Cantele | Dario Alfè | Felice Conte | Vittorio Cataudella | Domenico Ninno | Procolo Lucignano",
+        "available_online": "2020-10-23",
+        "cover_date_start": "2020-10-23",
+        "created_at": "2022-12-21T21:09:43+08:00",
+        "doi": "10.1103/physrevresearch.2.043127",
+        "en_title": "Structural relaxation and low-energy properties of twisted bilayer graphene",
+        "id": "812551532191940608",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ Phys. Rev. Research",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯的结构弛豫与低能性质"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "9f41708c3f310019693f00264f542694"
+}

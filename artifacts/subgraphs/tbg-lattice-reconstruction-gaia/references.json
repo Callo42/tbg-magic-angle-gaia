@@ -1,0 +1,71 @@
+{
+  "Liu2020": {
+    "type": "article-journal",
+    "title": "Tunable lattice reconstruction and bandwidth of flat bands in magic-angle twisted bilayer graphene",
+    "DOI": "10.48550/arXiv.2007.01993",
+    "container-title": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Yi-Wen"
+      },
+      {
+        "family": "Su",
+        "given": "Ying"
+      },
+      {
+        "family": "Zhou",
+        "given": "Xiao-Feng"
+      },
+      {
+        "family": "Yin",
+        "given": "Long-Jing"
+      },
+      {
+        "family": "Yan",
+        "given": "Chao"
+      },
+      {
+        "family": "Li",
+        "given": "Si-Yu"
+      },
+      {
+        "family": "Yan",
+        "given": "Wei"
+      },
+      {
+        "family": "Han",
+        "given": "Sheng"
+      },
+      {
+        "family": "Fu",
+        "given": "Zhong-Qiu"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yu"
+      },
+      {
+        "family": "Yang",
+        "given": "Qian"
+      },
+      {
+        "family": "Ren",
+        "given": "Ya-Ning"
+      },
+      {
+        "family": "He",
+        "given": "Lin"
+      }
+    ]
+  }
+}

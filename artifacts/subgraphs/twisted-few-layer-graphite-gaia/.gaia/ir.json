@@ -1,0 +1,170 @@
+{
+  "ir_hash": "sha256:0552767ceb59065282b105d7316f0b3f4b329ba55fa7247ee013e76e1683f3b3",
+  "knowledges": [
+    {
+      "content": "In Ma et al.'s continuum calculations for twisted few-layer graphite, the two few-layer-graphite slabs are treated as rigid, uniformly twisted atomic layers; the calculation does not include in-plane lattice relaxation, out-of-plane corrugation, or spatial twist-angle inhomogeneity across the moire supercell [@Ma2020].",
+      "content_hash": "e7d0e1e379e4018b4563fcd8b3f74c966a82255da9f9142a0f47a376f3890fcc",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:twisted_few_layer_graphite::gcn_2fcfd55afc454c94",
+      "label": "gcn_2fcfd55afc454c94",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Ma2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_2fcfd55afc454c94",
+        "lkm_original": "The continuum calculations used to determine the magic twist angle of about $1.05^\\circ$ treat the two few-layer-graphite slabs as rigid, uniformly twisted atomic layers and do not include in-plane lattice relaxation, out-of-plane corrugation, or spatial twist-angle inhomogeneity across the moiré supercell.",
+        "prior": 0.82,
+        "prior_justification": "LKM premise states the modeling assumptions used for the selected continuum calculation; capped below 0.90 pending reviewer audit. TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867748811072602427"
+      },
+      "module": "paper_ma2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For N=3 twisted few-layer graphite systems in Ma et al.'s minimal continuum-model twist-angle scan, with parameters omega_1/omega_2/gamma_0/gamma_1/gamma_3/gamma_4 = 78/98/2610/360/0/0 meV and xi = -1, the principal magic-angle estimate near 1.05 degrees is obtained while omitting remote hoppings gamma_3 and gamma_4; separate full-parameter calculations with gamma_3 = 283 meV and gamma_4 = 138 meV make the flat bands dispersive, separate them in energy, and open twist-angle-dependent gaps at the Dirac points of linear bands, so the precise magic-angle value depends on the chosen continuum parameters and on the minimal-model scan [@Ma2020].",
+      "content_hash": "d752f4b491042b503b5c93caceb41d9b4907d3b9e1eaa880178214376b628fd8",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:twisted_few_layer_graphite::gcn_2ceab67f16f34d1e",
+      "label": "gcn_2ceab67f16f34d1e",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Ma2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_2ceab67f16f34d1e",
+        "lkm_original": "The principal magic-angle estimate of about $1.05^\\circ$ is identified from the minimal continuum model used to scan twist angle in the $N=3$ systems, with parameters $\\omega_1/\\omega_2/\\gamma_0/\\gamma_1/\\gamma_3/\\gamma_4=78/98/2610/360/0/0\\,\\mathrm{meV}$ and $\\xi=-1$, so the central numerical identification omits remote hoppings $\\gamma_3$ and $\\gamma_4$. Full-parameter calculations presented separately show that including $\\gamma_3=283\\,\\mathrm{meV}$ and $\\gamma_4=138\\,\\mathrm{meV}$ makes the flat bands dispersive, separates them in energy, and opens twist-angle-dependent gaps at the Dirac points of linear bands, so the precise magic-angle value depends on the chosen continuum parameters and on use of the minimal-model scan.Fig. 2 (minimal-model θ scans) and Supplementary Fig. S4 (full-parameter comparisons)",
+        "prior": 0.8,
+        "prior_justification": "LKM premise records the minimal-model parameter scan and the full-parameter sensitivity caveat; capped below 0.90 pending reviewer audit. TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867748811072602427"
+      },
+      "module": "paper_ma2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "In Ma et al.'s continuum description of twisted few-layer graphite, the numerical twist angle at which the two primary moire bands become nearly flat is about 1.05 degrees; this equals the principal magic-angle value obtained for twisted bilayer graphene within the same continuum-model formalism, while the claim is scoped to the primary two-band pair rather than all moire bands [@Ma2020].",
+      "content_hash": "bb09e2bcdcfc4240fdeae779bd826b4d34d8e14adf6c9e98912b1414636c2864",
+      "declaration_index": 2,
+      "exported": true,
+      "id": "github:twisted_few_layer_graphite::gcn_f23eff9c755840f2",
+      "label": "gcn_f23eff9c755840f2",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Ma2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_f23eff9c755840f2",
+        "lkm_original": "The numerically identified twist angle at which the two primary moiré bands become nearly flat in twisted few-layer graphite is about $1.05^\\circ$, the same numerical value as the principal magic angle obtained for twisted bilayer graphene within the same continuum description.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867748811072602427"
+      },
+      "module": "paper_ma2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:twisted_few_layer_graphite::gcn_2fcfd55afc454c94,github:twisted_few_layer_graphite::gcn_2ceab67f16f34d1e)",
+      "content_hash": "3461e55bccc9ba89211eb5e4ca44e20f5164d3513547b032dfa1ab478bb85863",
+      "exported": false,
+      "id": "github:twisted_few_layer_graphite::__conjunction_result_b49b57a0",
+      "label": "__conjunction_result_b49b57a0",
+      "metadata": {
+        "canonical_name": "all_true(github:twisted_few_layer_graphite::gcn_2fcfd55afc454c94,github:twisted_few_layer_graphite::gcn_2ceab67f16f34d1e)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_64b1f6bb0de9165e",
+        "owning_strategy_type": "deduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:twisted_few_layer_graphite::__conjunction_result_b49b57a0,github:twisted_few_layer_graphite::gcn_f23eff9c755840f2)",
+      "content_hash": "5de8f9c699610c4c423e6607713c148b40924a554b63d896c8c5e73c7f7b90a8",
+      "exported": false,
+      "id": "github:twisted_few_layer_graphite::__implication_result_03267855",
+      "label": "__implication_result_03267855",
+      "metadata": {
+        "canonical_name": "implies(github:twisted_few_layer_graphite::__conjunction_result_b49b57a0,github:twisted_few_layer_graphite::gcn_f23eff9c755840f2)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_64b1f6bb0de9165e",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "paper_ma2020"
+  ],
+  "module_titles": {
+    "paper_ma2020": "paper_ma2020 -- LKM claims and deduction from Ma et al. (2020)."
+  },
+  "namespace": "github",
+  "operators": [],
+  "package_name": "twisted_few_layer_graphite",
+  "scope": "local",
+  "strategies": [
+    {
+      "conclusion": "github:twisted_few_layer_graphite::gcn_f23eff9c755840f2",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:twisted_few_layer_graphite::__conjunction_result_b49b57a0",
+            "operator": "conjunction",
+            "variables": [
+              "github:twisted_few_layer_graphite::gcn_2fcfd55afc454c94",
+              "github:twisted_few_layer_graphite::gcn_2ceab67f16f34d1e"
+            ]
+          },
+          {
+            "conclusion": "github:twisted_few_layer_graphite::__implication_result_03267855",
+            "operator": "implication",
+            "variables": [
+              "github:twisted_few_layer_graphite::__conjunction_result_b49b57a0",
+              "github:twisted_few_layer_graphite::gcn_f23eff9c755840f2"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. Use the previously established numerical continuum-model framework and the minimal-model calculations to identify the twist angle at which the primary pair of moire bands becomes nearly flat in tFL-graphite; denote the twist angle by $\\theta$ measured in degrees.\n2. Report the numerical observation from the band plots: the calculations presented for multiple tFL-graphite configurations show that the two primary moire bands become nearly flat at $\\theta\\approx 1.05^\\circ$; this numerical value coincides with the principal magic angle previously reported for twisted bilayer graphene within the same employed continuum-model formalism.\nFig. 2\n[9-14]\n3. Record the authors' qualification that only two of the multiple moire bands flatten at the magic angle while the remaining bands remain dispersive (albeit narrowed), i.e., the magic-angle flatness pertains to the principal two-band pair in tFL-graphite as in TBG, even though the overall moire spectrum is richer.\nFig. 2"
+      },
+      "premises": [
+        "github:twisted_few_layer_graphite::gcn_2fcfd55afc454c94",
+        "github:twisted_few_layer_graphite::gcn_2ceab67f16f34d1e"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_64b1f6bb0de9165e",
+      "type": "deduction"
+    }
+  ]
+}

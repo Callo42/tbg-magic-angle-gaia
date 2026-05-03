@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Modeling hBN-aligned twisted bilayer graphene near the magic angle $\\theta_{\\mathrm{M}}\\simeq1.063^\\circ$ by the Bistritzer–MacDonald moiré continuum model with interlayer tunneling parameters $u=0.077\\ \\mathrm{eV}$ and $u'=0.11\\ \\mathrm{eV}$ and adding a uniform sublattice-staggering on-site term of magnitude $\\Delta/2$ to mimic hBN alignment reproduces the single-particle flat-band spectrum features relevant for computing the intrinsic capacitance; this continuum modeling neglects atomic relaxation, strain, lattice reconstruction, screening, and interaction-driven band renormalization, so quantitative predictions for the exact depth and location of capacitance extrema may differ in experimental devices.\n      Bistritzer, R. & MacDonald, A. H., PNAS 108, 12233 (2011)",
+      "content_hash": "2f9d83aba23b88b05f46d6a4217e7657b4c0b0b4207abeab1efc1859ed0bf29b",
+      "id": "gcn_a69019888e07483e",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "5241a5072fe85f4457b16fcc7e9d9c65"
+}

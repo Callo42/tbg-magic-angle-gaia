@@ -1,0 +1,20 @@
+[project]
+name = "magnetic-bloch-tbg-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for magnetic Bloch reentrant flat bands in twisted bilayer graphene."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "b9f55e33-3242-4474-85cc-f686cf3cc135"
+generated_by = "lkm-to-gaia"
+generated_from_search = "twisted bilayer graphene magnetic Bloch reentrant flat bands phi=2pi"
+generated_from_roots = ["gcn_afdfbd0c013048d8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/magnetic_bloch_tbg"]

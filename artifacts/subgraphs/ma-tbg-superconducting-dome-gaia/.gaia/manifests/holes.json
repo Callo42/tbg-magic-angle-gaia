@@ -1,0 +1,18 @@
+{
+  "holes": [
+    {
+      "content": "For magic-angle twisted bilayer graphene near the first magic angle, the selected LKM chain treats transport at nominal half-filling of the flat moire band, n=+-n_s/2, that shows resistance increasing on cooling over roughly 1-4 K as phenomenology consistent with a correlated, Mott-like insulating state driven by electron-electron interactions, while noting that this does not by itself prove a microscopic Mott mechanism [@Cao2018].",
+      "content_hash": "a71ae63316419e35655571ac891c6217ba11fcc742ef7a687d4c32e83456784b",
+      "interface_hash": "sha256:20d78bc7c3d421c75ffe65813f9233c467c03b715e6e7b23d0088312e4bd4236",
+      "label": "gcn_ffd6d31f_correlated_insulator_phenomenology",
+      "qid": "github:ma_tbg_superconducting_dome::gcn_ffd6d31f_correlated_insulator_phenomenology",
+      "required_by": [
+        "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:f49d9cc8c558d9774a0ba9853558f8304ec98346b1e24b3c1e53b60d07f66ffd",
+  "manifest_schema_version": 1,
+  "package": "ma-tbg-superconducting-dome",
+  "version": "0.1.0"
+}

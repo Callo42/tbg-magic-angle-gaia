@@ -1,0 +1,51 @@
+{
+  "Ma2020": {
+    "type": "article-journal",
+    "title": "Moir\u00e9 Flat Bands of Twisted Few-layer Graphite",
+    "DOI": "10.48550/arXiv.2001.07995",
+    "container-title": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          22
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ma",
+        "given": "Zhen"
+      },
+      {
+        "family": "Li",
+        "given": "Shuai"
+      },
+      {
+        "family": "Xiao",
+        "given": "Meng-Meng"
+      },
+      {
+        "family": "Zheng",
+        "given": "Ya-Wen"
+      },
+      {
+        "family": "Lu",
+        "given": "Ming"
+      },
+      {
+        "family": "Liu",
+        "given": "HaiWen"
+      },
+      {
+        "family": "Gao",
+        "given": "Jin-Hua"
+      },
+      {
+        "family": "Xie",
+        "given": "X. C."
+      }
+    ]
+  }
+}

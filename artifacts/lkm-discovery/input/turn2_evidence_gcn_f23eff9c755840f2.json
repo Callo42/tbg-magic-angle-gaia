@@ -1,0 +1,78 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The numerically identified twist angle at which the two primary moiré bands become nearly flat in twisted few-layer graphite is about $1.05^\\circ$, the same numerical value as the principal magic angle obtained for twisted bilayer graphene within the same continuum description.",
+      "content_hash": "ec1888ec8b7bb66eaa287f7246475e698ad79352c1060d0f1d996453beba040f",
+      "id": "gcn_f23eff9c755840f2",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The numerically identified twist angle at which the two primary moiré bands become nearly flat in twisted few-layer graphite is about $1.05^\\circ$, the same numerical value as the principal magic angle obtained for twisted bilayer graphene within the same continuum description.",
+              "id": "gcn_f23eff9c755840f2"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_6988d3b9bea84c0f",
+            "premises": [
+              {
+                "content": "The continuum calculations used to determine the magic twist angle of about $1.05^\\circ$ treat the two few-layer-graphite slabs as rigid, uniformly twisted atomic layers and do not include in-plane lattice relaxation, out-of-plane corrugation, or spatial twist-angle inhomogeneity across the moiré supercell.",
+                "id": "gcn_2fcfd55afc454c94"
+              },
+              {
+                "content": "The principal magic-angle estimate of about $1.05^\\circ$ is identified from the minimal continuum model used to scan twist angle in the $N=3$ systems, with parameters $\\omega_1/\\omega_2/\\gamma_0/\\gamma_1/\\gamma_3/\\gamma_4=78/98/2610/360/0/0\\,\\mathrm{meV}$ and $\\xi=-1$, so the central numerical identification omits remote hoppings $\\gamma_3$ and $\\gamma_4$. Full-parameter calculations presented separately show that including $\\gamma_3=283\\,\\mathrm{meV}$ and $\\gamma_4=138\\,\\mathrm{meV}$ makes the flat bands dispersive, separates them in energy, and opens twist-angle-dependent gaps at the Dirac points of linear bands, so the precise magic-angle value depends on the chosen continuum parameters and on use of the minimal-model scan.Fig. 2 (minimal-model θ scans) and Supplementary Fig. S4 (full-parameter comparisons)",
+                "id": "gcn_2ceab67f16f34d1e"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Use the previously established numerical continuum-model framework and the minimal-model calculations to identify the twist angle at which the primary pair of moiré bands becomes nearly flat in tFL-graphite; denote the twist angle by $\\theta$ measured in degrees.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Report the numerical observation from the band plots: the calculations presented for multiple tFL-graphite configurations show that the two primary moiré bands become nearly flat at $\\theta\\approx 1.05^\\circ$; this numerical value coincides with the principal magic angle previously reported for twisted bilayer graphene within the same employed continuum-model formalism.\nFig. 2\n[9–14]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Record the authors' qualification that only two of the multiple moiré bands flatten at the magic angle while the remaining bands remain dispersive (albeit narrowed), i.e., the magic-angle flatness pertains to the principal two-band pair in tFL-graphite as in TBG, even though the overall moiré spectrum is richer.\nFig. 2",
+                "step_id": "3"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Determining whether the magic-angle condition for the emergence of nearly flat bands shifts when the moiré constituents are multilayer Bernal stacks (with distinct interlayer couplings and multiple low-energy bands) is necessary to predict experimental twist targets; without this knowledge experimentalists cannot select twist angles likely to maximize band flattening and correlation effects in tFL-graphite. The computed correspondence of the principal magic angle to $\\sim 1.05^\\circ$ provides that experimental guidance.",
+            "id": "paper:867748811072602427::conclusion_5_subproblem",
+            "source_package": "paper:867748811072602427"
+          }
+        ],
+        "source_package": "paper:867748811072602427"
+      }
+    ],
+    "papers": {
+      "paper:867748811072602427": {
+        "area": "arXiv-Physics",
+        "authors": "Zhen Ma | Shuai Li | Meng-Meng Xiao | Ya-Wen Zheng | Ming Lu | HaiWen Liu | Jin-Hua Gao | X. C. Xie",
+        "available_online": "",
+        "cover_date_start": "2020-01-22",
+        "created_at": "2023-05-23T04:43:58+08:00",
+        "doi": "10.48550/arXiv.2001.07995",
+        "en_title": "Moiré Flat Bands of Twisted Few-layer Graphite",
+        "id": "867748811072602427",
+        "keywords": "",
+        "publication_date": "2020-01-22",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扭曲少层石墨的莫尔平带"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "02f4130d2f6f604a6b37f644b7939b36"
+}

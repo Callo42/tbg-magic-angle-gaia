@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:90f2b597ed7504d6fa5d2909602a6be7bdabe5967b60782c90e5040533c3d100",
+  "manifest_schema_version": 1,
+  "package": "alternating-twist-quadrilayer",
+  "version": "0.1.0"
+}

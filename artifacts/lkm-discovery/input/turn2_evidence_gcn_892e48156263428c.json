@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Numerical calculations for alternating-twist four-layer and five-layer graphene, using the same drive parameters $A=0.08\\,a^{-1}$ and $\\hbar\\Omega=6\\,\\mathrm{eV}$ together with lattice-relaxation-informed effective interlayer tunneling ratios and magic-angle conditions, show that the central Floquet flat band remains gapped and topological at the first magic angle in both layer numbers. In the four-layer case the decomposition contains a twisted-bilayer-graphene subsystem and a nonmagic twisted-bilayer-graphene-like subsystem, and in the five-layer case it contains a twisted-bilayer-graphene subsystem together with an additional non-twisted-bilayer subsystem and a graphene subsystem. The corresponding phase diagrams contain additional gap closings at $\\Gamma_{M}$ and $K_M$ arising from extra Dirac cones, but the lattice-relaxed first-magic-angle parameter points lie inside gapped topological regions. Floquet driving therefore produces topological flat bands in four- and five-layer alternating-twist multilayer graphene under realistic relaxation-modified parameters.",
+      "content_hash": "29aef308511d98149d7a78789b9a303cdd8a62c789aef97f5a935d48f0857459",
+      "id": "gcn_892e48156263428c",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "a85d4e690b82a30447c03900672ce5c9"
+}

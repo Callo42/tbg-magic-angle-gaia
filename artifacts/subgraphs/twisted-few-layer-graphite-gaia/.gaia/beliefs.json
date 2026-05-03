@@ -1,0 +1,47 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.655688,
+      "knowledge_id": "github:twisted_few_layer_graphite::__conjunction_result_b49b57a0",
+      "label": "__conjunction_result_b49b57a0"
+    },
+    {
+      "belief": 0.8,
+      "knowledge_id": "github:twisted_few_layer_graphite::gcn_2ceab67f16f34d1e",
+      "label": "gcn_2ceab67f16f34d1e"
+    },
+    {
+      "belief": 0.82,
+      "knowledge_id": "github:twisted_few_layer_graphite::gcn_2fcfd55afc454c94",
+      "label": "gcn_2fcfd55afc454c94"
+    },
+    {
+      "belief": 0.8108288964,
+      "knowledge_id": "github:twisted_few_layer_graphite::gcn_f23eff9c755840f2",
+      "label": "gcn_f23eff9c755840f2"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:twisted_few_layer_graphite::__conjunction_result_b49b57a0": [
+        0.655688
+      ],
+      "github:twisted_few_layer_graphite::gcn_2ceab67f16f34d1e": [
+        0.8
+      ],
+      "github:twisted_few_layer_graphite::gcn_2fcfd55afc454c94": [
+        0.82
+      ],
+      "github:twisted_few_layer_graphite::gcn_f23eff9c755840f2": [
+        0.8108288964
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 2
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:0552767ceb59065282b105d7316f0b3f4b329ba55fa7247ee013e76e1683f3b3"
+}

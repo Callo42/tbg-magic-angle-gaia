@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "For Nguyen et al.'s SM-(AB)_2 twisted monolayer-bilayer graphene geometry near theta ~= 1.1 deg, relaxed-geometry tight-binding calculations find isolated low-energy flat bands, but the flat-band manifold is less flat than relaxed magic-angle twisted bilayer graphene because it has a larger bandwidth and smaller zero-energy density-of-states peak; layer-resolved density of states further shows flat-band spectral weight localized mainly on the twisted monolayer top layer and broadened or delocalized across the AB-bilayer bottom layers [@Nguyen2022].",
+      "content_hash": "cd9d59eda0afe32c489fbd20cf8d9241ff8c9a7381b366f13ce3509d70e74107",
+      "label": "gcn_14a55aff_smab2_flat_band_localization",
+      "qid": "github:twisted_monolayer_bilayer::gcn_14a55aff_smab2_flat_band_localization",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:3d3a930f18b9f35cfc357b18af7a8b1b9bf183a45086b2d4486115c4f86b0844",
+  "manifest_schema_version": 1,
+  "package": "twisted-monolayer-bilayer",
+  "version": "0.1.0"
+}

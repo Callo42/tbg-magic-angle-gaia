@@ -1,0 +1,31 @@
+{
+  "Zhang2019": {
+    "type": "article-journal",
+    "title": "Twisted bilayer graphene aligned with hexagonal boron nitride: Anomalous Hall effect and a lattice model",
+    "DOI": "10.1103/physrevresearch.1.033126",
+    "container-title": "Physical Review Research _ Phys. Rev. Research",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Ya-Hui"
+      },
+      {
+        "family": "Mao",
+        "given": "Dan"
+      },
+      {
+        "family": "Senthil",
+        "given": "T."
+      }
+    ]
+  }
+}

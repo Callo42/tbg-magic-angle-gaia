@@ -1,0 +1,98 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Atomistic lattice relaxation of TDBG computed by minimizing the REBO intra-layer and Kolmogorov–Crespi inter-layer classical potentials (with the FIRE algorithm termination threshold for forces per atom set to 10^−6 eV/atom) has a decisive effect on the low-energy electronic structure: including relaxation increases the gaps between the flat-band manifold and excited states by roughly an order of magnitude near the magic angle θ* = 1.30°, strongly suppresses the inter-sublattice AA moiré tunneling amplitude w_{AA} (reducing the ratio w_{AA}/w_{AB} where w_{AB} denotes the AB moiré coupling), and reduces the influence of the Bernal-bilayer trigonal-warping parameter γ_3, the particle–hole asymmetry parameter γ_4, and the intrinsic symmetric polarization on the flat-band dispersion in the vicinity of θ*. Quantitatively, including relaxation changes the band-structure metrics so that at θ* the half-bandwidth/bandgap ratio—where \"half-bandwidth\" denotes one-half of the flat-manifold bandwidth E_W and \"bandgap\" denotes the relevant gap to excited states such as Δ_e or Δ_h—is 14.7%, a value comparable to the corresponding metric reported for magic-angle twisted bilayer graphene.",
+      "content_hash": "3301477175074bc7c1d8e5b3c2933cba143f899ad4371bd14e1de96c8c8f6651",
+      "id": "gcn_f2ab674b6da24dc0",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Atomistic lattice relaxation of TDBG computed by minimizing the REBO intra-layer and Kolmogorov–Crespi inter-layer classical potentials (with the FIRE algorithm termination threshold for forces per atom set to 10^−6 eV/atom) has a decisive effect on the low-energy electronic structure: including relaxation increases the gaps between the flat-band manifold and excited states by roughly an order of magnitude near the magic angle θ* = 1.30°, strongly suppresses the inter-sublattice AA moiré tunneling amplitude w_{AA} (reducing the ratio w_{AA}/w_{AB} where w_{AB} denotes the AB moiré coupling), and reduces the influence of the Bernal-bilayer trigonal-warping parameter γ_3, the particle–hole asymmetry parameter γ_4, and the intrinsic symmetric polarization on the flat-band dispersion in the vicinity of θ*. Quantitatively, including relaxation changes the band-structure metrics so that at θ* the half-bandwidth/bandgap ratio—where \"half-bandwidth\" denotes one-half of the flat-manifold bandwidth E_W and \"bandgap\" denotes the relevant gap to excited states such as Δ_e or Δ_h—is 14.7%, a value comparable to the corresponding metric reported for magic-angle twisted bilayer graphene.",
+              "id": "gcn_f2ab674b6da24dc0"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_da02868362184121",
+            "premises": [
+              {
+                "content": "Computing relaxed atomic geometries of twisted double bilayer graphene by minimizing classical empirical potentials using the second-generation REBO potential for intra-layer interactions and the Kolmogorov–Crespi (KC) potential for inter-layer interactions (as implemented in the LAMMPS package) is assumed to produce atomic displacements, registry patterns, and interlayer distances that accurately determine the electronic-coupling renormalizations (for example, reductions of w_{AA}, changes in effective w_{AB}, and modifications of Bernal-bilayer parameters γ_3 and γ_4) relevant to low-energy p_z-derived bands. \"Accurately\" here indicates that the resulting relaxation-induced electronic-parameter renormalizations are within the tolerance needed to change band gaps and bandwidths by the tens of meV reported.\n      REBO: Brenner et al., J. Phys.: Condens. Matter 2002; KC potential literature for registry-dependent interlayer energies",
+                "id": "gcn_1f4e6fa5ff0741ae"
+              },
+              {
+                "content": "A geometry relaxation convergence criterion defined as terminating when the magnitude of the force on every atom is less than 10^−6 eV/atom (the FIRE algorithm termination threshold used in the classical relaxation procedure) is assumed to yield atomic geometries that are converged sufficiently for electronic-structure predictions at an accuracy scale of a few meV in band energies and band gaps. Here \"converged\" means that further relaxation producing lower residual forces does not change the computed tight-binding band energies by more than the stated meV tolerance.\n      Bitzek et al., Phys. Rev. Lett. 2006 (FIRE algorithm)",
+                "id": "gcn_61db766152134e61"
+              },
+              {
+                "content": "The assertion that lattice relaxation in twisted double bilayer graphene dramatically suppresses the inter-sublattice AA moiré tunneling amplitude w_{AA} (reducing the ratio w_{AA}/w_{AB}) and simultaneously reduces the effective Bernal-bilayer trigonal-warping parameter γ_3 and the particle–hole asymmetry parameter γ_4 is adopted as a modeling interpretation in the absence of a microscopic ab initio derivation for the precise renormalization of each tight-binding parameter. The proposition is that these qualitative parameter renormalizations occur in the relaxed structures relevant to the magic-angle regime and are sufficient to explain the observed enhancement of band isolation in the relaxed TB+ISP calculations.",
+                "id": "gcn_d6211534bc8048e2"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Start from the established TB+ISP model result (treating Conclusion 2 as known): the TB+ISP parameterization with ISP field $E_{\\mathrm{ISP}}=9\\ \\mathrm{mV/\\AA}$ reproduces DFT gaps across commensurate angles, and this TB+ISP model is the baseline for further tight-binding calculations that include lattice relaxation. Invoke TB+ISP as the starting electronic Hamiltonian to which relaxation will be applied.\nTable I",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "State the lattice relaxation methodology and definitions: lattice relaxation was performed using classical force-field simulations with the LAMMPS package; the intra-layer interactions were described by the second-generation REBO potential and the inter-layer interactions by the Kolmogorov–Crespi (KC) potential. Define the convergence criterion used in relaxation as the FIRE algorithm termination when the total force on each atom is less than $10^{-6}\\ \\mathrm{eV/atom}$. These relaxation results provide the relaxed atomic geometries used in subsequent TB+ISP band-structure calculations.\n[40]\n[41]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Compare rigidly twisted vs relaxed TB+ISP band structures and define the band-structure quantities used: define $\\Delta_{gap}$ as the ISP-induced gap at charge neutrality outside the flat-band region, define $\\Delta_e$ as the electron-side gap separating the flat-band manifold from higher-energy bands, define $\\Delta_h$ as the hole-side gap separating the flat-band manifold from lower-energy bands, and define $E_W$ as the bandwidth of the flat-band manifold. State that Fig. 3 shows band structures for both rigid and relaxed lattices at representative twist angles, and panels (c)-(g) of Fig. 3 summarize the angle dependence of $\\Delta_{gap}$, $\\Delta_e$, $\\Delta_h$, $E_W$, and the $\\Gamma$-point gap $\\Delta_\\Gamma$.\nFig. 3",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Report the principal numerical effect of relaxation near the magic angle: at the magic angle $\\theta^\\ast=1.30^\\circ$ (defined below), including lattice relaxation increases the electron-side gap $\\Delta_e$ to $37.6\\ \\mathrm{meV}$ and the hole-side gap $\\Delta_h$ to $38.8\\ \\mathrm{meV}$, while the flat-manifold bandwidth is $E_W=11\\ \\mathrm{meV}$. State that these values are obtained from the relaxed TB+ISP calculations and are presented in the band-structure plot for $\\theta=1.30^\\circ$ and the angle-dependence panels in Fig. 3.\nFig. 3",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Explain the qualitative enhancement due to relaxation: as the twist angle approaches the magic angle from above, lattice relaxation strongly suppresses competing single-particle effects (such as the inter-sublattice AA tunneling amplitude $w_{AA}$, and trigonal-warping parameter $\\gamma_3$ and particle-hole asymmetry parameter $\\gamma_4$). Define $w_{AA}$ as the inter-sublattice AA moiré interlayer tunneling amplitude and $w_{AB}$ as the inter-sublattice AB moiré interlayer tunneling amplitude; define $\\gamma_3$ and $\\gamma_4$ as Bernal-bilayer parameters representing trigonal warping and particle-hole asymmetry respectively. State that relaxation reduces effective $w_{AA}$ consistent with a reduced ratio $w_{AA}/w_{AB}$ and suppresses the influence of $\\gamma_3$ and ISP on the flat-band dispersion near $\\theta^\\ast$.",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Quantify the enhancement of band isolation: the inclusion of relaxation increases the gaps separating the flat-band manifold from excited states by roughly an order of magnitude near the magic angle (compare rigid vs relaxed panels in Fig. 3b and the angle-dependent plots Fig. 3c–g). State explicitly that this dramatic increase in isolation leads to a favorable half-bandwidth/bandgap ratio: at $\\theta^\\ast$ the half-bandwidth/bandgap ratio is $14.7\\%$ when relaxation is included, making the relative flatness comparable to the parent twisted bilayer graphene (TBG) case.\nFig. 3",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Note the authors' qualitative assertion about the mechanism: the authors assert that relaxation-induced structural changes renormalize effective electronic couplings in a nontrivial way (for example, dramatically suppressing $w_{AA}$ and the trigonal-warping effects) and that these renormalizations are responsible for both enhanced band isolation and reduced sensitivity of the flat-band dispersion to ancillary single-particle effects such as ISP. The paper states this assertion without a detailed microscopic derivation of the renormalization of each tight-binding parameter.",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Lattice relaxation in moiré heterostructures modifies local stacking patterns and interlayer distances, which in turn renormalize continuum coupling parameters ($w_{AA},w_{AB}$) and bilayer parameters ($\\gamma_3,\\gamma_4$). Prior continuum and TB studies that omitted full atomistic relaxation or treated relaxation phenomenologically risk misestimating bandwidths and bandgaps, leading to contradictory conclusions about the intrinsic flatness of bands and the necessity of external fields. Quantitatively assessing how relaxation changes the energy separation between the flat manifold and other bands is crucial because the degree of isolation determines whether interactions act predominantly within the flat manifold (favoring correlated phases) or mix with higher-energy states. The present relaxation-inclusive calculations supply this quantitative assessment and show relaxation is pivotal for realizing well-isolated flat bands in TDBG.",
+            "id": "paper:812670861269008387::conclusion_4_subproblem",
+            "source_package": "paper:812670861269008387"
+          }
+        ],
+        "source_package": "paper:812670861269008387"
+      }
+    ],
+    "papers": {
+      "paper:812670861269008387": {
+        "area": "Material science",
+        "authors": "Fatemeh Haddadi | QuanSheng Wu | Alex J. Kruchkov | Oleg V. Yazyev",
+        "available_online": "2020-2-25",
+        "cover_date_start": "2020-02-25",
+        "created_at": "2022-12-22T05:03:53+08:00",
+        "doi": "10.1021/acs.nanolett.9b05117",
+        "en_title": "Moiré Flat Bands in Twisted Double Bilayer Graphene",
+        "id": "812670861269008387",
+        "keywords": "[{\"en_name\": \"crystal field\", \"ch_name\": \"\"}, {\"en_name\": \"flat bands\", \"ch_name\": \"\"}, {\"en_name\": \"magic angle\", \"ch_name\": \"\"}, {\"en_name\": \"moiré superlattice\", \"ch_name\": \"\"}, {\"en_name\": \"polarization\", \"ch_name\": \"\"}, {\"en_name\": \"twisted double bilayer graphene\", \"ch_name\": \"\"}]",
+        "publication_date": "2020-4-8",
+        "publication_id": "2026",
+        "publication_name": "Nano Letters _ Nano Lett.",
+        "research_categories": "",
+        "zh_title": "扭曲双层双层石墨烯中的莫尔平带"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "2d43eaa59da3fc25c260b4280671d241"
+}

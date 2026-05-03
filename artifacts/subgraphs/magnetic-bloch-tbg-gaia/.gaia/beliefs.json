@@ -1,0 +1,47 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.5031936,
+      "knowledge_id": "github:magnetic_bloch_tbg::__conjunction_result_82add2c6",
+      "label": "__conjunction_result_82add2c6"
+    },
+    {
+      "belief": 0.74,
+      "knowledge_id": "github:magnetic_bloch_tbg::gcn_06caff12a4d84b26",
+      "label": "gcn_06caff12a4d84b26"
+    },
+    {
+      "belief": 0.7385389260799999,
+      "knowledge_id": "github:magnetic_bloch_tbg::gcn_afdfbd0c013048d8",
+      "label": "gcn_afdfbd0c013048d8"
+    },
+    {
+      "belief": 0.68,
+      "knowledge_id": "github:magnetic_bloch_tbg::gcn_fedb8c2683fb48c7",
+      "label": "gcn_fedb8c2683fb48c7"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:magnetic_bloch_tbg::__conjunction_result_82add2c6": [
+        0.5031936
+      ],
+      "github:magnetic_bloch_tbg::gcn_06caff12a4d84b26": [
+        0.74
+      ],
+      "github:magnetic_bloch_tbg::gcn_afdfbd0c013048d8": [
+        0.7385389260799999
+      ],
+      "github:magnetic_bloch_tbg::gcn_fedb8c2683fb48c7": [
+        0.68
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 2
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:29e02a02a079133d9ec54a5ca9ba2a472fb14be7503e944be68091a698d36cdf"
+}

@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:12db4378e1a97efebc879b51b797b36b3953985db891e7bc980241d8a06cd5da",
+  "manifest_schema_version": 1,
+  "package": "merged-dirac-tbg",
+  "version": "0.1.0"
+}

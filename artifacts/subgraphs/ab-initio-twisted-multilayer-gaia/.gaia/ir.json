@@ -1,0 +1,172 @@
+{
+  "ir_hash": "sha256:c3e5e8d555054feb7dc540c95507eee2b1e43ecd2ed3a638eb08cbf65b13363a",
+  "knowledges": [
+    {
+      "content": "For commensurate twisted bilayer graphene in the Tritsaris et al. 2020 high-throughput workflow, the selected LKM chain treats as established a Wannier-derived tight-binding Hamiltonian workflow in which band structures are diagonalized with 60 k-points along Gamma-M-K and automated flat-band detectors inspect a 0.30 eV window around the Fermi level [@Tritsaris2020].",
+      "content_hash": "d946558cfe58296701c8af1d3f57b2a75bb15efaf84ad9c1494b74a4b67ab5f7",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:ab_initio_twisted_multilayer::gcn_af432bff_ab_initio_tb_workflow",
+      "label": "gcn_af432bff_ab_initio_tb_workflow",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Tritsaris2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_af432bff1d3e4cf0",
+        "lkm_original": "",
+        "prior": 0.78,
+        "prior_justification": "The selected LKM chain treats the Wannier-derived ab initio tight-binding workflow and detector setup as established, but the premise text itself is empty and relies on chain-step reconstruction; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:812643486368006145",
+        "todo": "LKM premise content was empty; statement is reconstructed only from factor steps 1 and 3."
+      },
+      "module": "paper_tritsaris2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For the same Tritsaris et al. 2020 commensurate twisted-bilayer-graphene workflow, the selected LKM chain treats automated low-dispersion-band detections at the sampled commensurate twist angles as inputs that are converted into a continuous flat-band likelihood p(theta) by an interpolation and blending prescription [@Tritsaris2020].",
+      "content_hash": "cde3626b24f9f1ecc44f5e1fcd1b5c723e2af651335e5385282eb91ce4e8d621",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:ab_initio_twisted_multilayer::gcn_be5d1975_detector_interpolation",
+      "label": "gcn_be5d1975_detector_interpolation",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Tritsaris2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_be5d1975ecac4211",
+        "lkm_original": "",
+        "prior": 0.72,
+        "prior_justification": "The selected LKM chain describes converting detector outputs into p(theta), but the exact interpolation/blending prescription is only referenced indirectly and the premise text itself is empty; TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:812643486368006145",
+        "todo": "LKM premise content was empty; statement is reconstructed only from factor step 3."
+      },
+      "module": "paper_tritsaris2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For 33 unique commensurate twisted bilayer graphene supercells spanning 0.88 degrees <= theta <= 21.79 degrees, Tritsaris et al. 2020 use ab initio Wannier-derived tight-binding calculations and automated flat-band detection to find that the blended flat-band likelihood p(theta) is maximized near theta* approximately 1.1 degrees, where low-dispersion near-flat bands emerge near the Fermi level in the single-particle tight-binding band structures [@Tritsaris2020].",
+      "content_hash": "0972a3fd7ef5022440ab99f82054d976fa1cfe318adb42f11455ad6aa684a0a8",
+      "declaration_index": 2,
+      "exported": true,
+      "id": "github:ab_initio_twisted_multilayer::gcn_5f58746b_magic_angle_flat_band_likelihood",
+      "label": "gcn_5f58746b_magic_angle_flat_band_likelihood",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Tritsaris2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_5f58746bcc0b4098",
+        "lkm_original": "For commensurate twisted bilayer graphene supercells computed at 33 unique commensurate twist angles spanning 0.88° ≤ θ ≤ 21.79°, the ab initio Wannier-derived tight-binding calculations and automated flat-band detection identify a maximized flat-band likelihood p(θ) at a magic angle θ* ≈ 1.1°, with the emergence of low-dispersion (near-flat) bands near the Fermi level in the single-particle TB band structures at that angle.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:812643486368006145"
+      },
+      "module": "paper_tritsaris2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:ab_initio_twisted_multilayer::gcn_af432bff_ab_initio_tb_workflow,github:ab_initio_twisted_multilayer::gcn_be5d1975_detector_interpolation)",
+      "content_hash": "4fdfe9a480b655cbf506393418a77bb942ded506c636c4743a4b87445bc165b8",
+      "exported": false,
+      "id": "github:ab_initio_twisted_multilayer::__conjunction_result_f34705b5",
+      "label": "__conjunction_result_f34705b5",
+      "metadata": {
+        "canonical_name": "all_true(github:ab_initio_twisted_multilayer::gcn_af432bff_ab_initio_tb_workflow,github:ab_initio_twisted_multilayer::gcn_be5d1975_detector_interpolation)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_2a07caa6cd7020e1",
+        "owning_strategy_type": "deduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:ab_initio_twisted_multilayer::__conjunction_result_f34705b5,github:ab_initio_twisted_multilayer::gcn_5f58746b_magic_angle_flat_band_likelihood)",
+      "content_hash": "3e2a2eb82574511b94d4e83ca16cbf62ffd1dbfbf297b764329fbe43205ba075",
+      "exported": false,
+      "id": "github:ab_initio_twisted_multilayer::__implication_result_fbdffe8a",
+      "label": "__implication_result_fbdffe8a",
+      "metadata": {
+        "canonical_name": "implies(github:ab_initio_twisted_multilayer::__conjunction_result_f34705b5,github:ab_initio_twisted_multilayer::gcn_5f58746b_magic_angle_flat_band_likelihood)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_2a07caa6cd7020e1",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "paper_tritsaris2020"
+  ],
+  "module_titles": {
+    "paper_tritsaris2020": "paper_tritsaris2020 -- claims and deduction for Tritsaris et al. 2020."
+  },
+  "namespace": "github",
+  "operators": [],
+  "package_name": "ab_initio_twisted_multilayer",
+  "scope": "local",
+  "strategies": [
+    {
+      "conclusion": "github:ab_initio_twisted_multilayer::gcn_5f58746b_magic_angle_flat_band_likelihood",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:ab_initio_twisted_multilayer::__conjunction_result_f34705b5",
+            "operator": "conjunction",
+            "variables": [
+              "github:ab_initio_twisted_multilayer::gcn_af432bff_ab_initio_tb_workflow",
+              "github:ab_initio_twisted_multilayer::gcn_be5d1975_detector_interpolation"
+            ]
+          },
+          {
+            "conclusion": "github:ab_initio_twisted_multilayer::__implication_result_fbdffe8a",
+            "operator": "implication",
+            "variables": [
+              "github:ab_initio_twisted_multilayer::__conjunction_result_f34705b5",
+              "github:ab_initio_twisted_multilayer::gcn_5f58746b_magic_angle_flat_band_likelihood"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. Treat the high-throughput ab initio TB workflow (conclusion 3) as established and use it to compute commensurate twisted bilayer graphene band structures for a dense set of commensurate angles in the interval $0.88^{\\circ} \\leq \\theta \\leq 21.79^{\\circ}$; the workflow uses the Wannier-derived TB Hamiltonian, diagonalization with 60 k-points along $\\Gamma$-M-K, and automated flat-band detectors within a 0.30 eV window around the Fermi level.\n2. Identify commensurate twist angles using the integer-pair parametrization: associate each commensurate twist angle $\\theta$ with a pair of integers $(M,N)$ defining the periodic supercell via $\\cos(\\theta) = (N^2 + 4NM + M^2)/(2(N^2 + NM + M^2))$, so that specific small angles correspond to large $(M,N)$ pairs (for example, $(32,31) \\to 1.05^{\\circ}$, $(27,26) \\to 1.25^{\\circ}$, $(23,22) \\to 1.47^{\\circ}$), enabling enumeration of 33 unique commensurate bilayers in the stated range. [38]\n3. Compute TB band structures for the 33 unique commensurate bilayers and apply the automated flat-band detectors to obtain model-based detections of low-dispersion bands at the sampled commensurate $\\theta$ values, producing detection outputs that are converted into continuous predictions $p(\\theta)$ via the interpolation/blending prescription (conclusion 2). Fig. 4\n4. Observe the evolution of low-energy bands with decreasing $\\theta$: for large $\\theta$ the low-energy band structure resembles that of an isolated graphene monolayer, while as $\\theta$ decreases into the small-angle regime the number of bands increases and the bands near the Fermi level become progressively flatter due to interlayer hybridization as seen in the calculated TB band structures.\n5. Report the primary quantitative result for bilayer graphene: the computed, blended prediction $p(\\theta)$ is maximized near the well-known magic angle, with the ab initio TB calculations identifying $\\theta^{*} \\approx 1.1^{\\circ}$ (the workflow shows G/G@1.08 as an example close to this maximum), and the formation of low-dispersion bands near the Fermi level is observed in the single-particle TB band structures at this angle. Fig. 4\n6. Record the caveat about structural relaxation: note that for twist angles below about $1.0^{\\circ}$ atomic relaxation effects (structural reconstruction) can significantly modify band structures (e.g., widening single-particle gaps), and that such relaxation effects are not included in the present high-throughput TB workflow, an explicit limitation acknowledged by the authors. [31]"
+      },
+      "premises": [
+        "github:ab_initio_twisted_multilayer::gcn_af432bff_ab_initio_tb_workflow",
+        "github:ab_initio_twisted_multilayer::gcn_be5d1975_detector_interpolation"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_2a07caa6cd7020e1",
+      "type": "deduction"
+    }
+  ]
+}

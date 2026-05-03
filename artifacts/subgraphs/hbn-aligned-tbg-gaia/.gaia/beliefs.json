@@ -1,0 +1,63 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.25632832,
+      "knowledge_id": "github:hbn_aligned_tbg::__conjunction_result_8cee39a7",
+      "label": "__conjunction_result_8cee39a7"
+    },
+    {
+      "belief": 0.5,
+      "knowledge_id": "github:hbn_aligned_tbg::gcn_1d940e84a3744c85",
+      "label": "gcn_1d940e84a3744c85"
+    },
+    {
+      "belief": 0.82,
+      "knowledge_id": "github:hbn_aligned_tbg::gcn_464f6413fccb48be",
+      "label": "gcn_464f6413fccb48be"
+    },
+    {
+      "belief": 0.621512440096,
+      "knowledge_id": "github:hbn_aligned_tbg::gcn_584669e24c6145a7",
+      "label": "gcn_584669e24c6145a7"
+    },
+    {
+      "belief": 0.78,
+      "knowledge_id": "github:hbn_aligned_tbg::gcn_a7252e5aaaf84d38",
+      "label": "gcn_a7252e5aaaf84d38"
+    },
+    {
+      "belief": 0.8,
+      "knowledge_id": "github:hbn_aligned_tbg::gcn_ca5e0f32e91c459b",
+      "label": "gcn_ca5e0f32e91c459b"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:hbn_aligned_tbg::__conjunction_result_8cee39a7": [
+        0.25632832
+      ],
+      "github:hbn_aligned_tbg::gcn_1d940e84a3744c85": [
+        0.5
+      ],
+      "github:hbn_aligned_tbg::gcn_464f6413fccb48be": [
+        0.82
+      ],
+      "github:hbn_aligned_tbg::gcn_584669e24c6145a7": [
+        0.621512440096
+      ],
+      "github:hbn_aligned_tbg::gcn_a7252e5aaaf84d38": [
+        0.78
+      ],
+      "github:hbn_aligned_tbg::gcn_ca5e0f32e91c459b": [
+        0.8
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 4
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:2c72b16af8c6b809b103179139636d6d49bbd48ea6e91a57ea5d78df3be7d154"
+}

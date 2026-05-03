@@ -1,0 +1,102 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Consider the continuum-model description of twisted trilayer graphene formed by placing a graphene monolayer (top layer, layer index 3) on an AB-stacked graphene bilayer (layers 1 and 2) with a small relative twist angle θ between the monolayer and the bilayer; in this model the low-energy electronic spectrum forms moiré Bloch bands. In the minimal-model limit in which the AB bilayer remote-hopping parameters are set to zero (trigonal-warping γ3 = 0, electron–hole–asymmetry γ4 = 0, and dimer-site on-site energy Δ' = 0) and with nearest-neighbor intralayer hopping γ0 = 2464 meV and dominant interlayer vertical hopping γ1 = 400 meV, there exists a largest \"magic\" twist angle at which the two low-energy moiré bands near charge neutrality become nearly flat, and the largest such magic angle in this minimal-model parameterization is approximately θ ≈ 1.12°; at θ ≈ 1.12° the continuum-model spectrum contains two nearly flat moiré bands around the Fermi level under the stated minimal-model assumptions and parameter values.",
+      "content_hash": "d029ad6da24de44094ac04bb755ce673f7704e9d9741da85e94bafa57c6eb44d",
+      "id": "gcn_2cf09f115b814154",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Consider the continuum-model description of twisted trilayer graphene formed by placing a graphene monolayer (top layer, layer index 3) on an AB-stacked graphene bilayer (layers 1 and 2) with a small relative twist angle θ between the monolayer and the bilayer; in this model the low-energy electronic spectrum forms moiré Bloch bands. In the minimal-model limit in which the AB bilayer remote-hopping parameters are set to zero (trigonal-warping γ3 = 0, electron–hole–asymmetry γ4 = 0, and dimer-site on-site energy Δ' = 0) and with nearest-neighbor intralayer hopping γ0 = 2464 meV and dominant interlayer vertical hopping γ1 = 400 meV, there exists a largest \"magic\" twist angle at which the two low-energy moiré bands near charge neutrality become nearly flat, and the largest such magic angle in this minimal-model parameterization is approximately θ ≈ 1.12°; at θ ≈ 1.12° the continuum-model spectrum contains two nearly flat moiré bands around the Fermi level under the stated minimal-model assumptions and parameter values.",
+              "id": "gcn_2cf09f115b814154"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_0046298fbcb144c4",
+            "premises": [
+              {
+                "content": "Consider twisted trilayer graphene defined as a graphene monolayer (top layer, index 3) placed on an AB-stacked graphene bilayer (layers 1 and 2) with a small relative twist angle θ between the monolayer and the bilayer, and consider the single-valley 6×6 continuum-model Bloch Hamiltonian H_TLG(θ) written in the sublattice basis (A1,B1,A2,B2,A3,B3) with an AB bilayer block h_b(k) parametrized by Slonczewski–Weiss–McClure tight-binding parameters: nearest-neighbor intralayer hopping γ0, dominant interlayer vertical hopping γ1, trigonal-warping γ3, electron–hole asymmetry γ4, and dimer-site on-site energy Δ'. The proposition is that imposing the minimal-model approximation γ3 = 0, γ4 = 0, and Δ' = 0 isolates the primary moiré-interlayer-coupling mechanisms and, without introducing qualitatively different single-particle mechanisms in the continuum Hamiltonian, captures the formation of the magic-angle nearly flat central moiré bands (including the existence of a largest magic angle) in the continuum-model twisted trilayer graphene.",
+                "id": "gcn_768268d063184cb8"
+              },
+              {
+                "content": "Using the continuum-model minimal Hamiltonian H_TLG(θ) with γ3 = γ4 = Δ' = 0, the numerical choices γ0 = 2464 meV (nearest-neighbor intralayer hopping) and γ1 = 400 meV (vertical interlayer hopping) determine the numerical value of the largest magic twist angle obtained from band-structure calculations in this parametrization; with these numerical values the largest magic angle produced by the continuum-model bands is near θ ≈ 1.12°, illustrating that the precise numerical value of the largest magic angle is sensitive to the adopted tight-binding parameters γ0 and γ1.",
+                "id": "gcn_ba18ade2bb8145ee"
+              },
+              {
+                "content": "In numerical continuum-model computations of the moiré band structure for twisted trilayer graphene the Bloch Hamiltonian H_TLG(θ) is represented in a finite plane-wave basis formed from a truncated set of moiré reciprocal lattice vectors {G} and the moiré Brillouin zone integrals are approximated by sampling on a finite k-point mesh; the proposition is that the chosen basis truncation (finite number of retained G vectors) and finite k-point sampling used in the presented calculations converge sufficiently (i.e., change the reported band energies by only a small fraction of the quoted energy scales) so that the observed progressive narrowing of the two central bands upon decreasing θ and the identification of a nearly flat pair of bands at a particular angle are not numerical artifacts of insufficient basis size or coarse k-point sampling but reflect the true behavior of the continuum Hamiltonian within the stated numerical tolerances.",
+                "id": "gcn_2a4995cfc44a4638"
+              },
+              {
+                "content": "In the numerical search for the largest magic angle the continuum-model band structures are evaluated at a discrete set of twist-angle values (for example a sampling that includes θ = 5.0°, 1.53°, 1.12°), and the proposition is that scanning such a finite discrete set of θ values with the stated numerical resolution is sufficient to locate, within the sampling resolution, the largest angle at which the two central moiré bands become nearly flat, i.e., the true maximal magic angle does not lie in a narrow interval missed by the chosen discrete sampling grid given the numerical resolution employed.",
+                "id": "gcn_4249f998947d4ee0"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Define the physical system: \"twisted trilayer graphene\" (twisted TLG) is a stack where a single graphene monolayer (layer index $3$) is placed on top of an AB-stacked bilayer graphene (layers indices $1,2$) with a relative twist angle $ \\theta $ between the single layer and the bilayer; the moiré superlattice vectors are $ \\boldsymbol{t}_{1},\\boldsymbol{t}_{2} $ and the corresponding moiré reciprocal vectors are $ \\mathbf{G}_{1},\\mathbf{G}_{2} $ as constructed from the underlying graphene lattice vectors $ \\boldsymbol{a}_{1},\\boldsymbol{a}_{2} $ and their reciprocal vectors $ \\boldsymbol{b}_{1},\\boldsymbol{b}_{2} $.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "State the computational framework used to obtain bands: employ a continuum-model Hamiltonian for one valley, written as a $6\\times 6$ matrix in the Bloch basis $(A_{1},B_{1},A_{2},B_{2},A_{3},B_{3})$, with the block structure\n$H_{\\mathrm{TLG}}(\\theta)=\\begin{pmatrix} h_{b}(k_{1}) & T(\\boldsymbol{r}) \\\\ T^{\\dagger}(\\boldsymbol{r}) & h_{0}(k_{2}) \\end{pmatrix} + U$,\nwhere $k_{1}=R(-\\theta/2)(k-K_{\\xi}^{b})$, $k_{2}=R(\\theta/2)(k-K_{\\xi}^{t})$, $h_{0}(\\boldsymbol{k})=-\\hbar v_{F}\\boldsymbol{k}\\cdot\\boldsymbol{\\sigma}$ is the monolayer graphene Hamiltonian with Fermi velocity $v_{F}$ and Pauli matrices $ \\boldsymbol{\\sigma} $, $h_{b}(k)$ is the AB-stacked bilayer Hamiltonian, $T(\\boldsymbol{r})$ is the moiré interlayer tunneling between the twisted monolayer and the bilayer, and $U=\\mathrm{diag}(-V,-V,0,0,V,V)$ is the perpendicular electric-field induced interlayer potential difference with parameter $V$ (so $V$ denotes the potential difference between outer layers).\n[8]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Define the minimal-model approximation used to identify the magic-angle physics: set the bilayer remote-hopping parameters to zero, i.e., $\\gamma_{3}=0$, $\\gamma_{4}=0$, and the on-site dimer potential $\\Delta' = 0$, so that the AB-stacked bilayer Hamiltonian $h_{b}$ contains only the leading intralayer nearest-neighbor hopping parameter $\\gamma_{0}$ and the dominant interlayer vertical hopping $\\gamma_{1}$ (with numerical values specified below). The authors state that this \"minimal model\" isolates the primary moiré and interlayer-coupling physics relevant to flat-band formation.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Record the numerical minimal-model tight-binding parameters used to locate the largest magic angle: the nearest-neighbor intralayer hopping is $\\gamma_{0}=2464\\ \\mathrm{meV}$ (i.e. $2.464\\ \\mathrm{eV}$) and the dominant interlayer vertical hopping is $\\gamma_{1}=400\\ \\mathrm{meV}$; set $\\gamma_{3}=\\gamma_{4}=\\Delta'=0$ in the minimal model.",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Describe the numerical procedure and evidence showing band flattening: use the continuum-model Hamiltonian (previous steps) with the minimal-model parameters and compute moiré superlattice band structures for multiple twist angles $\\theta$; the computed band structures show that as $\\theta$ is decreased from larger values (for example $\\theta=5^{\\circ}$) toward smaller values, the two low-energy moiré bands nearest the Fermi level narrow progressively, consistent with moiré-band flattening.\nFig. 1 (c-h)",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Identify the largest magic angle from the numerical band series: inspect the calculated sequence of band structures shown for decreasing $\\theta$ and find the largest twist angle at which the two central bands become nearly dispersionless (nearly flat); the authors report this largest \"magic\" angle to be approximately $\\theta \\approx 1.12^{\\circ}$, at which the two low-energy moiré bands around charge neutrality are nearly flat in the minimal model.\nFig. 1 (g,h)",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "State the conclusion that at this magic angle two nearly flat moiré bands appear: combine the minimal-model parameter choice ($\\gamma_{0}=2464\\ \\mathrm{meV}$, $\\gamma_{1}=400\\ \\mathrm{meV}$, $\\gamma_{3}=\\gamma_{4}=\\Delta'=0$) with the computed band structures and conclude that for the continuum-model twisted trilayer graphene there exists a largest magic twist angle $\\theta\\approx 1.12^{\\circ}$ at which the two low-energy moiré bands near charge neutrality become nearly flat.\nFig. 1 (g,h)",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "In the study of moiré graphene systems one central prerequisite for correlated-topological behavior is the concrete identification of twist angles where kinetic energy is quenched (nearly flat moiré bands). For twisted bilayer graphene this is known (magic angles), but for the asymmetric trilayer stacking (monolayer on AB bilayer) the existence, numerical value, and characteristic of any magic angle were not previously established. Without a quantified magic angle and band-narrowing data one cannot determine when interaction effects will dominate, cannot plan experiments targeting parameter regimes with quenched bandwidth, and cannot proceed to compute band topology or interaction-driven phases. The present calculation therefore targets the baseline question: does twisted TLG possess a magic angle and nearly flat bands at realistic microscopic parameters, and if so at what twist angle and with what qualitative band features?",
+            "id": "paper:867757254252691813::conclusion_1_subproblem",
+            "source_package": "paper:867757254252691813"
+          }
+        ],
+        "source_package": "paper:867757254252691813"
+      }
+    ],
+    "papers": {
+      "paper:867757254252691813": {
+        "area": "arXiv-Physics",
+        "authors": "Zhen Ma | Shuai Li | Ya-Wen Zheng | Meng-Meng Xiao | Hua Jiang | Jin-Hua Gao | X. C. Xie",
+        "available_online": "",
+        "cover_date_start": "2019-05-02",
+        "created_at": "2023-05-23T05:17:32+08:00",
+        "doi": "10.48550/arXiv.1905.00622",
+        "en_title": "Topological flat bands in twisted trilayer graphene",
+        "id": "867757254252691813",
+        "keywords": "",
+        "publication_date": "2019-05-02",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扭曲三层石墨烯中的拓扑平带"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "bac87cacbe8c3857c2b99eafe217b9e6"
+}

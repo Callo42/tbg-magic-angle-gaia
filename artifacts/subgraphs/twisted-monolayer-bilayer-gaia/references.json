@@ -1,0 +1,31 @@
+{
+  "Nguyen2022": {
+    "type": "article",
+    "title": "Electronic properties of twisted multilayer graphene",
+    "DOI": "10.48550/arXiv.2203.09188",
+    "container-title": "Materials Science _ Physics.cond-mat.mtrl-sci",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          17
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "V. Hung"
+      },
+      {
+        "family": "Hoang",
+        "given": "Trinh X."
+      },
+      {
+        "family": "Charlier",
+        "given": "J.-C."
+      }
+    ]
+  }
+}

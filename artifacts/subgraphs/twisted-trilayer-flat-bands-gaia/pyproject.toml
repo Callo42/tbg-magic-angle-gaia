@@ -1,0 +1,20 @@
+[project]
+name = "twisted-trilayer-flat-bands-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for magic-angle flat bands in twisted trilayer graphene."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "7d2f735b-6cb9-4e61-97f4-b55df8e947e99"
+generated_by = "lkm-to-gaia"
+generated_from_search = "targeted selected root gcn_2cf09f115b814154 for twisted trilayer graphene magic-angle flat bands"
+generated_from_roots = ["gcn_2cf09f115b814154"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/twisted_trilayer_flat_bands"]

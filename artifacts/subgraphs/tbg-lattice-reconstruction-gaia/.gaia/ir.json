@@ -1,0 +1,170 @@
+{
+  "ir_hash": "sha256:a2fa23d90abbe44f603db8bcbf8fb70d115a05edda73107ad888c0c4286a86da",
+  "knowledges": [
+    {
+      "content": "For Liu et al.'s continuum-model calculations of magic-angle twisted bilayer graphene, the Bistritzer-MacDonald-type moire Hamiltonian is augmented by atomic-registry-dependent interlayer tunneling and a relaxation-derived displacement field that enlarges AB/BA regions and shrinks AA regions; in that reconstructed geometry, the computed low-energy flat-band manifold has larger bandwidth and greater energetic separation from remote bands than in the unreconstructed rigid geometry, with the qualitative trend robust to moderate model-parameter changes even though explicit spatially non-uniform heterostrain is not included [@Liu2020].",
+      "content_hash": "54d6bb24a1805021705c7abfde056fe70061d8909129e6b8bdf02907ee5846f3",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:tbg_lattice_reconstruction::gcn_8cd2984a6296435c",
+      "label": "gcn_8cd2984a6296435c",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Liu2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_8cd2984a6296435c",
+        "lkm_original": "For continuum-model electronic-structure calculations of magic-angle twisted bilayer graphene that explicitly incorporate lattice relaxation via atomic-registry-dependent interlayer coupling leading to enlarged AB/BA regions and shrunken AA regions, the computed low-energy flat-band manifold exhibits qualitatively increased bandwidth (broader flat bands) and increased energetic separation from remote bands in the reconstructed geometry relative to the unreconstructed rigid geometry, and this qualitative trend is robust to moderate variations of model parameters even when spatially non-uniform heterostrain is not included in the calculation; here \"continuum model\" refers to the Bistritzer–MacDonald-type moiré Hamiltonian augmented by a registry-dependent interlayer tunneling parameterization and a relaxation-derived displacement field.\n      [18-21]",
+        "prior": 0.8,
+        "prior_justification": "LKM premise states a continuum-model result for relaxation-broadened and more isolated flat bands, but it remains a model-scoped qualitative calculation without explicit heterostrain; capped below 0.90. TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867745366357836075"
+      },
+      "module": "paper_liu2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For magic-angle twisted bilayer graphene spectra discussed by Liu et al., spatially non-uniform heterostrain means a slowly varying relative in-plane deformation between graphene layers, parameterized by a local strain tensor field epsilon(r) at the moire scale; such heterostrain can reconstruct the electronic band structure and generate additional flat-band density-of-states fine structure, including three-subpeak splitting seen in some STS spectra, but those heterostrain-induced features are not reproduced by continuum-model calculations that include only atomic-registry-driven lattice relaxation [@Liu2020].",
+      "content_hash": "bca542a9d6935d5ac1f7da472a88d2cb57d9deebb32feaa43ae142d2903382e5",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:tbg_lattice_reconstruction::gcn_ed8fa9253ea24982",
+      "label": "gcn_ed8fa9253ea24982",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Liu2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_ed8fa9253ea24982",
+        "lkm_original": "Spatially non-uniform heterostrain (a slowly-varying relative in-plane deformation between top and bottom graphene layers parameterized by a local strain tensor field $\\epsilon(\\mathbf{r})$ that varies at the moiré scale) can reconstruct the electronic band structure of magic-angle twisted bilayer graphene and produce additional fine structure in the flat-band density of states, such as three-subpeak splitting of the flat-band manifold observed in some STS spectra, and such heterostrain-induced features are not reproduced by continuum-model calculations that include only atomic-registry-driven lattice relaxation but omit explicit heterostrain fields.\n      [54-55]",
+        "prior": 0.72,
+        "prior_justification": "LKM premise records a heterostrain explanation for additional STS fine splitting using cited prior literature not otherwise present in data.papers; credible but more indirect in this selected JSON. TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867745366357836075"
+      },
+      "module": "paper_liu2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "In Liu et al.'s continuum-model electronic-structure calculation for magic-angle twisted bilayer graphene, adding atomic-registry-driven lattice relaxation produces reconstructed geometry with enlarged AB/BA regions and reduced AA regions; compared with the rigid unreconstructed calculation, this reconstructed geometry reproduces the key STS spectroscopic trends of broader low-energy flat bands and greater energetic isolation from remote bands, while the calculation omits explicit spatially non-uniform heterostrain and therefore does not reproduce extra flat-band peak splitting, such as three-subpeak structure, observed in some spectra [@Liu2020].",
+      "content_hash": "11d5d98b143ede2514a0eec28c223ae6423aa204ba52e33c4935e4790b9d5a98",
+      "declaration_index": 2,
+      "exported": true,
+      "id": "github:tbg_lattice_reconstruction::gcn_c220df1acc8b476a",
+      "label": "gcn_c220df1acc8b476a",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Liu2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_c220df1acc8b476a",
+        "lkm_original": "Continuum-model electronic-structure calculations of magic-angle twisted bilayer graphene that include lattice relaxation driven by atomic-registry-dependent interlayer coupling reproduce the key experimental spectroscopic trends: the reconstructed geometry obtained from relaxation (enlarged AB/BA regions and reduced AA regions) yields broadened low-energy flat bands and increased energetic isolation of the flat-band manifold from remote bands relative to the unreconstructed rigid-geometry calculation. The implemented calculations omit explicit spatially non-uniform heterostrain and therefore do not reproduce additional fine splitting of the flat-band peaks (for example, three-subpeak structure) seen in some experimental spectra, which can be induced by heterostrain effects.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:867745366357836075"
+      },
+      "module": "paper_liu2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:tbg_lattice_reconstruction::gcn_8cd2984a6296435c,github:tbg_lattice_reconstruction::gcn_ed8fa9253ea24982)",
+      "content_hash": "4d96c86aa8aab3541a25378190807556379d9ed5718223f0bda27c687469a9d4",
+      "exported": false,
+      "id": "github:tbg_lattice_reconstruction::__conjunction_result_6cb316fe",
+      "label": "__conjunction_result_6cb316fe",
+      "metadata": {
+        "canonical_name": "all_true(github:tbg_lattice_reconstruction::gcn_8cd2984a6296435c,github:tbg_lattice_reconstruction::gcn_ed8fa9253ea24982)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_53163559f1fe6309",
+        "owning_strategy_type": "deduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:tbg_lattice_reconstruction::__conjunction_result_6cb316fe,github:tbg_lattice_reconstruction::gcn_c220df1acc8b476a)",
+      "content_hash": "2a1623a9875a210945d1d2baaa0540fa075219ce6469cc378e8e854f4ad4eee2",
+      "exported": false,
+      "id": "github:tbg_lattice_reconstruction::__implication_result_4328515b",
+      "label": "__implication_result_4328515b",
+      "metadata": {
+        "canonical_name": "implies(github:tbg_lattice_reconstruction::__conjunction_result_6cb316fe,github:tbg_lattice_reconstruction::gcn_c220df1acc8b476a)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_53163559f1fe6309",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "paper_liu2020"
+  ],
+  "module_titles": {
+    "paper_liu2020": "paper_liu2020 -- LKM claims and deduction from Liu et al. (2020)."
+  },
+  "namespace": "github",
+  "operators": [],
+  "package_name": "tbg_lattice_reconstruction",
+  "scope": "local",
+  "strategies": [
+    {
+      "conclusion": "github:tbg_lattice_reconstruction::gcn_c220df1acc8b476a",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:tbg_lattice_reconstruction::__conjunction_result_6cb316fe",
+            "operator": "conjunction",
+            "variables": [
+              "github:tbg_lattice_reconstruction::gcn_8cd2984a6296435c",
+              "github:tbg_lattice_reconstruction::gcn_ed8fa9253ea24982"
+            ]
+          },
+          {
+            "conclusion": "github:tbg_lattice_reconstruction::__implication_result_4328515b",
+            "operator": "implication",
+            "variables": [
+              "github:tbg_lattice_reconstruction::__conjunction_result_6cb316fe",
+              "github:tbg_lattice_reconstruction::gcn_c220df1acc8b476a"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. Define the computational framework: perform continuum-model band-structure and density-of-states (DOS) calculations for magic-angle TBG in two geometries -- the unreconstructed (rigid) geometry and a reconstructed geometry that includes lattice relaxation in the form of atomic registry rearrangement corresponding to enlarged AB/BA regions and shrunken AA regions.\nFig. 4\nFig. S10\n2. Explain what is meant by lattice relaxation in the calculation: incorporate atomic registry rearrangement (i.e., allowing the local stacking registries to shift so that AB/BA regions are enlarged and AA regions are reduced and corrugated) when computing the continuum-model moire Hamiltonian and deriving band structures and density of states.\n[18-21]\n3. Report the computational outcome qualitatively: the calculations that include lattice relaxation produce low-energy flat bands that are broader (increased bandwidth) and more energetically isolated from the remote bands (i.e., larger gaps or separation between flat-band manifold and higher-energy conduction bands) than the calculations performed on the unreconstructed, rigid geometry.\nFig. S10\n4. Compare computation to experiment: state that these theoretical results reproduce the essential experimental spectroscopic trends observed in STM/STS measurements on magic-angle TBG, namely that the reconstructed geometry yields broadened low-energy flat bands and increased energetic isolation from remote bands relative to the unreconstructed geometry.\nFig. 4d\nFig. 4e\n5. State calculation limitations: explicitly record that the present implementation of the continuum-model calculations does not include heterostrain (spatially varying lattice deformation between layers) and therefore does not capture additional subpeak splitting (three subpeaks) observed in some experimental spectra; the authors attribute such extra splittings to strain effects discussed in prior literature.\n[54-55]\nFig. S10"
+      },
+      "premises": [
+        "github:tbg_lattice_reconstruction::gcn_8cd2984a6296435c",
+        "github:tbg_lattice_reconstruction::gcn_ed8fa9253ea24982"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_53163559f1fe6309",
+      "type": "deduction"
+    }
+  ]
+}

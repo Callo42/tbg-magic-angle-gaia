@@ -1,0 +1,31 @@
+{
+  "Wang2020": {
+    "type": "article-journal",
+    "title": "Flat-band topology of magic angle graphene on a transition metal dichalcogenide",
+    "DOI": "10.1103/physrevb.102.235146",
+    "container-title": "Physical Review B _ Phys. Rev. B",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          22
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Tianle"
+      },
+      {
+        "family": "Bultinck",
+        "given": "Nick"
+      },
+      {
+        "family": "Zaletel",
+        "given": "Michael P."
+      }
+    ]
+  }
+}

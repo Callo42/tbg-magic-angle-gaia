@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:f49d9cc8c558d9774a0ba9853558f8304ec98346b1e24b3c1e53b60d07f66ffd",
+  "manifest_schema_version": 1,
+  "package": "ma-tbg-superconducting-dome",
+  "version": "0.1.0"
+}

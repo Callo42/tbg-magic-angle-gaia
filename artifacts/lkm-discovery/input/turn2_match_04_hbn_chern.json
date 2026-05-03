@@ -1,0 +1,361 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:1039194982797279247": {
+        "area": "Comprehensive Periodical",
+        "authors": "Ilia Komissarov | Tobias Holder | Raquel Queiroz",
+        "available_online": "2024-5-30",
+        "cover_date_start": "2024-05-30",
+        "created_at": "2024-09-07T07:09:51+08:00",
+        "doi": "10.1038/s41467-024-48808-x",
+        "en_title": "The quantum geometric origin of capacitance in insulators",
+        "id": "1039194982797279247",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "",
+        "zh_title": "绝缘体中电容的量子几何起源"
+      },
+      "paper:812496969745301504": {
+        "area": "Physics and Astrophysics",
+        "authors": "Ipsita Das | Xiaobo Lu | Jonah Herzog-Arbeitman | Zhi-Da Song | Kenji Watanabe | Takashi Taniguchi | B. Andrei Bernevig | Dmitri K. Efetov",
+        "available_online": "2021-3-1",
+        "cover_date_start": "2021-03-01",
+        "created_at": "2022-12-21T17:32:54+08:00",
+        "doi": "10.1038/s41567-021-01186-3",
+        "en_title": "Symmetry-broken Chern insulators and Rashba-like Landau-level crossings in magic-angle bilayer graphene",
+        "id": "812496969745301504",
+        "keywords": "",
+        "publication_date": "2021-6",
+        "publication_id": "470",
+        "publication_name": "Nature Physics _ Nat. Phys.",
+        "research_categories": "",
+        "zh_title": "魔角双层石墨烯中的对称性破缺陈绝缘体和类 Rashba 朗道能级交叉"
+      },
+      "paper:812528793905266689": {
+        "area": "Comprehensive Periodical",
+        "authors": "Kevin P. Nuckolls | Myungchul Oh | Dillon Wong | Biao Lian | Kenji Watanabe | Takashi Taniguchi | B. Andrei Bernevig | Ali Yazdani",
+        "available_online": "2020-12-14",
+        "cover_date_start": "2020-12-14",
+        "created_at": "2022-12-21T19:39:21+08:00",
+        "doi": "10.1038/s41586-020-3028-8",
+        "en_title": "Strongly correlated Chern insulators in magic-angle twisted bilayer graphene",
+        "id": "812528793905266689",
+        "keywords": "",
+        "publication_date": "2020-12-24",
+        "publication_id": "8233",
+        "publication_name": "Nature _ Nature",
+        "research_categories": "",
+        "zh_title": "魔角扭曲双层石墨烯中的强相关陈绝缘体"
+      },
+      "paper:812555325784719362": {
+        "area": "Comprehensive Periodical",
+        "authors": "Zhen Ma | Shuai Li | Ya-Wen Zheng | Meng-Meng Xiao | Hua Jiang | Jin-Hua Gao | X.C. Xie",
+        "available_online": "",
+        "cover_date_start": "2021-01-01",
+        "created_at": "2022-12-21T21:24:47+08:00",
+        "doi": "10.1016/j.scib.2020.10.004",
+        "en_title": "Topological flat bands in twisted trilayer graphene",
+        "id": "812555325784719362",
+        "keywords": "",
+        "publication_date": "2021-1",
+        "publication_id": "8512",
+        "publication_name": "Science Bulletin _ Science Bulletin",
+        "research_categories": "",
+        "zh_title": "扭曲三层石墨烯中的拓扑平带"
+      },
+      "paper:812587759892955137": {
+        "area": "Physics and Astrophysics",
+        "authors": "H. Ochoa | A. Asenjo-Garcia",
+        "available_online": "2020-7-15",
+        "cover_date_start": "2020-07-15",
+        "created_at": "2022-12-21T23:33:40+08:00",
+        "doi": "10.1103/physrevlett.125.037402",
+        "en_title": "Flat Bands and Chiral Optical Response of Moiré Insulators",
+        "id": "812587759892955137",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "莫尔绝缘体的平带与手性光学响应"
+      },
+      "paper:812698425450561537": {
+        "area": "Comprehensive Periodical",
+        "authors": "M. Serlin | C. L. Tschirhart | H. Polshyn | Y. Zhang | J. Zhu | K. Watanabe | T. Taniguchi | L. Balents | A. F. Young",
+        "available_online": "",
+        "cover_date_start": "2020-02-21",
+        "created_at": "2022-12-22T06:53:25+08:00",
+        "doi": "10.1126/science.aay5533",
+        "en_title": "Intrinsic quantized anomalous Hall effect in a moiré heterostructure",
+        "id": "812698425450561537",
+        "keywords": "",
+        "publication_date": "2020-2-21",
+        "publication_id": "7984",
+        "publication_name": "Science _ Science",
+        "research_categories": "",
+        "zh_title": "莫尔异质结构中的本征量子化反常霍尔效应"
+      },
+      "paper:812707666555043841": {
+        "area": "Physics and Astrophysics",
+        "authors": "Ya-Hui Zhang | Dan Mao | T. Senthil",
+        "available_online": "2019-11-25",
+        "cover_date_start": "2019-11-25",
+        "created_at": "2022-12-22T07:30:08+08:00",
+        "doi": "10.1103/physrevresearch.1.033126",
+        "en_title": "Twisted bilayer graphene aligned with hexagonal boron nitride: Anomalous Hall effect and a lattice model",
+        "id": "812707666555043841",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ Phys. Rev. Research",
+        "research_categories": "",
+        "zh_title": "与六方氮化硼对齐的扭曲双层石墨烯：反常霍尔效应与晶格模型"
+      },
+      "paper:867763285594735436": {
+        "area": "arXiv-Physics",
+        "authors": "Ya-Hui Zhang | Dan Mao | T. Senthil",
+        "available_online": "",
+        "cover_date_start": "2019-01-24",
+        "created_at": "2023-05-23T05:41:30+08:00",
+        "doi": "10.48550/arXiv.1901.08209",
+        "en_title": "Twisted Bilayer Graphene Aligned with Hexagonal Boron Nitride: Anomalous Hall Effect and a Lattice Model",
+        "id": "867763285594735436",
+        "keywords": "",
+        "publication_date": "2019-01-24",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "与六方氮化硼对齐的扭曲双层石墨烯：反常霍尔效应与晶格模型"
+      },
+      "paper:867773035728339667": {
+        "area": "arXiv-Physics",
+        "authors": "Satoshi Moriyama | Yoshifumi Morita | Katsuyoshi Komatsu | Kosuke Endo | Takuya Iwasaki | Shu Nakaharai | Yutaka Noguchi | Yutaka Wakayama | Eiichiro Watanabe | Daiju Tsuya | Kenji Watanabe | Takashi Taniguchi",
+        "available_online": "",
+        "cover_date_start": "2019-01-27",
+        "created_at": "2023-05-23T06:20:14+08:00",
+        "doi": "10.48550/arXiv.1901.09356",
+        "en_title": "Observation of superconductivity in bilayer graphene/hexagonal boron nitride superlattices",
+        "id": "867773035728339667",
+        "keywords": "",
+        "publication_date": "2019-01-27",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "双层石墨烯/六方氮化硼超晶格中超导性的观测"
+      },
+      "paper:896336903400325481": {
+        "area": "Comprehensive Periodical",
+        "authors": "Junxiong Hu | Junyou Tan | Mohammed M. Al Ezzi | Udvas Chattopadhyay | Jian Gou | Yuntian Zheng | Zihao Wang | Jiayu Chen | Reshmi Thottathil | Jiangbo Luo | Kenji Watanabe | Takashi Taniguchi | Andrew Thye Shen Wee | Shaffique Adam | A. Ariando",
+        "available_online": "2023-7-12",
+        "cover_date_start": "2023-07-12",
+        "created_at": "2023-08-10T02:02:53+08:00",
+        "doi": "10.1038/s41467-023-39893-5",
+        "en_title": "Controlled alignment of supermoiré lattice in double-aligned graphene heterostructures",
+        "id": "896336903400325481",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "双对齐石墨烯异质结构中超莫尔晶格的可控排列"
+      }
+    },
+    "variables": [
+      {
+        "content": "The narrow low-energy bands in twisted gapped honeycomb bilayers such as hBN originate from resonant tunneling and confinement in local homopolar stacking regions where atoms of the same chemical species lie on top of each other; these regions host in-gap bound-like states that populate energies inside the nominal monolayer gap, and this confinement mechanism is distinct from the interference-based magic-angle mechanism of twisted bilayer graphene, as evidenced by the numerical observation that artificially setting interlayer hopping amplitudes that couple heteropolar dimers (i.e., hoppings between atoms of opposite chemical polarity, for example $w_{\\mathrm{AB}'}$ and $w_{\\mathrm{BA}'}$) to zero removes the hBN low-energy flat bands, whereas analogous simplifications in twisted graphene produce completely flat bands at the magic angle, demonstrating different confinement physics in gapped versus gapless bilayers.",
+        "content_hash": "726c1a55dc6df95951c18dde551ef6791dcf03b4ead86a4a0fa194c7db8068e0",
+        "id": "gcn_6dfc0c79952c4fa8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812587759892955137::conclusion_4",
+            "package_id": "paper:812587759892955137",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812587759892955137"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.031054405392392875,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The use of the empirical observation that hexagonal boron nitride (hBN) substrates can induce single-particle energy gaps as large as ~30 meV in monolayer graphene to argue that alignment to hBN can substantially modify the energetic competition among correlated many-body ground states in flat-band twisted bilayer graphene (tBLG) assumes that the single-particle sublattice-symmetry-breaking potential effects of hBN alignment on monolayer graphene are at least qualitatively transferable to the correlated, narrow-bandwidth, multi-band moiré electronic structure of tBLG; this extrapolation presumes that comparable gap scales and their influence can persist in the moiré flat-band environment. Symbols: \"hBN\" denotes hexagonal boron nitride, \"meV\" denotes milli–electron-volt, and tBLG denotes twisted bilayer graphene.",
+        "content_hash": "254b3aae64e4028a955f8b8d7abed49ed60bc0dbe65598af90031d9a68745366",
+        "id": "gcn_b3967fe2912a45e2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812698425450561537::P14",
+            "package_id": "paper:812698425450561537",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812698425450561537"
+          ]
+        },
+        "role": "premise",
+        "score": 0.028205128205128206,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Consider a magic-angle twisted bilayer graphene device that is placed on a hexagonal boron nitride (hBN) substrate with a relative crystallographic alignment angle between the graphene moiré lattice and the hBN lattice denoted by \\theta_{\\mathrm{rel}}; if \\theta_{\\mathrm{rel}}>10^{\\circ} (ten degrees), then any single-particle sublattice-staggered potential arising from alignment between the moiré superlattice and the hBN lattice is negligible for low-energy electronic states, and consequently the substrate does not impose a significant explicit single-particle twofold rotation (C_{2}) symmetry breaking term in the effective low-energy Hamiltonian of the sample.",
+        "content_hash": "a81d9af8590c6147a21c65868d5587ac7c5dc6320d7560ec6ea802a85be08fca",
+        "id": "gcn_1dcfe3f05d124b8f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812496969745301504::P2",
+            "package_id": "paper:812496969745301504",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812496969745301504"
+          ]
+        },
+        "role": "premise",
+        "score": 0.026200135226504394,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Modeling hBN-aligned twisted bilayer graphene near the magic angle $\\theta_{\\mathrm{M}}\\simeq1.063^\\circ$ by the Bistritzer–MacDonald moiré continuum model with interlayer tunneling parameters $u=0.077\\ \\mathrm{eV}$ and $u'=0.11\\ \\mathrm{eV}$ and adding a uniform sublattice-staggering on-site term of magnitude $\\Delta/2$ to mimic hBN alignment reproduces the single-particle flat-band spectrum features relevant for computing the intrinsic capacitance; this continuum modeling neglects atomic relaxation, strain, lattice reconstruction, screening, and interaction-driven band renormalization, so quantitative predictions for the exact depth and location of capacitance extrema may differ in experimental devices.\n      Bistritzer, R. & MacDonald, A. H., PNAS 108, 12233 (2011)",
+        "content_hash": "2f9d83aba23b88b05f46d6a4217e7657b4c0b0b4207abeab1efc1859ed0bf29b",
+        "id": "gcn_a69019888e07483e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1039194982797279247::P13",
+            "package_id": "paper:1039194982797279247",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1039194982797279247"
+          ]
+        },
+        "role": "premise",
+        "score": 0.025206087507926443,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The assembly principles consisting of sibling-layer creation by partial pick-up and controlled rotation, hBN flip-over for surface-termination control, and neighboring-graphite-guided principal-axis alignment are applicable beyond monolayer graphene/hBN heterostructures. The same deterministic alignment strategy was used to fabricate low-angle twisted bilayer graphene and ABC-stacked trilayer graphene devices, demonstrating that the workflow generalizes to other twist-sensitive moiré platforms for flat-band engineering and correlated-electron studies.",
+        "content_hash": "d1144b0adb19d3ba906d01247353ecbef68b1da27d021ab264553b60f55bdaff",
+        "id": "gcn_aa891ca938754408",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:896336903400325481::conclusion_7",
+            "package_id": "paper:896336903400325481",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:896336903400325481"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.024250440917107582,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For magic‑angle twisted bilayer graphene (TBG) in which the top graphene layer is nearly aligned to a hexagonal boron nitride (h‑BN) substrate, taking continuum‑model parameters twist angle $ \\theta_{M}\\approx 1.20^{\\circ} $ and an h‑BN induced staggered sublattice mass $ M\\approx 15\\ \\mathrm{meV} $, the in‑plane two‑fold rotation symmetry $C_{2}$ is explicitly broken by the h‑BN alignment; this $C_{2}$ breaking gaps the Dirac band crossings that occur at the corners of the moiré Mini Brillouin Zone (MBZ) within each graphene valley, producing for a single valley an isolated conduction moiré band and an isolated valence moiré band that carry integer Chern numbers of opposite sign (conduction band Chern number $C=+1$, valence band Chern number $C=-1$).  For the numerical continuum‑model diagonalization with the above parameter choice the single‑valley direct band gap between the conduction and valence bands is of order a few meV (numerical example $\\sim 5\\ \\mathrm{meV}$ when $M=15\\ \\mathrm{meV}$), so the two active bands in one valley are well separated from each other and from other bands and have well‑defined Berry curvature and integer Chern indices.",
+        "content_hash": "f4cc4e812d431a1bdf30304564a27e4612ff00e60b36513a85e6d16fc4299c20",
+        "id": "gcn_199e664867274a12",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763285594735436::conclusion_1",
+            "package_id": "paper:867763285594735436",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763285594735436"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Twisted trilayer graphene in a monolayer-on-AB-bilayer stacking geometry simultaneously exhibits (i) nearly flat moiré bands near a magic angle of about $1.12^\\circ$, (ii) twist-induced gaps at Dirac points that permit valley-resolved Chern-number assignment for the central bands, and (iii) valley Chern numbers that can be tuned by varying the twist angle $\\theta$ and a perpendicular-field-induced layer potential difference $V$; these properties make the system a promising platform to study strongly correlated physics in topologically nontrivial flat bands. The absence of the stacking symmetries present in more symmetric graphene moiré stacks implies that correlated states in the monolayer-on-bilayer geometry can differ from those in twisted bilayer graphene and twisted double-bilayer graphene.",
+        "content_hash": "d5b8f9c13813370c3cde41d808c4c9151b89f371d6c34b889b077681e1d1aa6d",
+        "id": "gcn_fb7dff55362d47fb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812555325784719362::conclusion_7",
+            "package_id": "paper:812555325784719362",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812555325784719362"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The single‑valley continuum Hamiltonian for magic‑angle twisted bilayer graphene with the top graphene layer nearly aligned to an h‑BN substrate is $H=H_{TBG}+H_{hBN}$ with\n      $$\n      H_{hBN}=\\sum_{\\mathbf{k}} M\\,\\psi_t^{\\dagger}(\\mathbf{k})\\mu_z\\psi_t(\\mathbf{k})\n      +\\sum_{j=1}^{6}\\psi_t^{\\dagger}(\\mathbf{k}+\\mathbf{Q}_j')V_j\\psi_t(\\mathbf{k}),\n      $$\n      where $\\psi_{t}(\\mathbf{k})$ and $\\psi_{b}(\\mathbf{k})$ are two‑component spinors describing the $A,B$ sublattice degrees of freedom on the top and bottom graphene layers, $\\mu_z$ is the Pauli matrix acting in the $A,B$ sublattice space, $M$ is the staggered sublattice mass induced on the top graphene layer by near alignment to h‑BN, $V_j$ are the weaker moiré potential matrices generated by the lattice mismatch between h‑BN and graphene with typical matrix norms $|V_j|\\lesssim 10\\,$meV, and the dominant TBG moiré interlayer coupling scale is $w_1\\approx110\\,$meV. For parameter estimates $M\\sim15$–$17\\,$meV and $|V_j|\\ll w_1$, explicit numerical diagonalization of $H$ in the moiré Brillouin zone (MBZ) produces gapped Dirac crossings at the MBZ corners in each graphene valley and yields an isolated pair of active bands (one conduction, one valence) per valley; for valley labeled $+$ the computed Chern numbers are $C=+1$ for the conduction active band and $C=-1$ for the valence active band (the opposite signs occur in the time‑reversed valley). For the representative parameters $M=15\\,$meV and twist angle $\\theta_M=1.20^\\circ$ the computed indirect gap between these conduction and valence active bands is of order $\\sim5\\,$meV.",
+        "content_hash": "3601de790a9e114ad3deab28ffd256b1e227d9534d573bed06fc23cab04e758a",
+        "id": "gcn_584669e24c6145a7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812707666555043841::conclusion_1",
+            "package_id": "paper:812707666555043841",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812707666555043841"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The superconducting behavior reported here is realized in a vertically stacked hBN/BLG/hBN Moiré superlattice in which the two graphene layers forming the bilayer graphene are not intentionally twisted (the BLG is non‑twisted) and the alignment angle between one hBN sheet and the BLG is near zero; this single‑device demonstration shows that fine tuning of the inter‑graphene twist to a so‑called magic angle is not required in this device architecture to obtain superconductivity by electrostatic (back‑gate) doping.",
+        "content_hash": "c56fb08e6ae7e5400a51438f72ae2775bb7ba3cc29d91cc81eeacd692cc60b9b",
+        "id": "gcn_dd2c304500eb41f7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773035728339667::conclusion_5",
+            "package_id": "paper:867773035728339667",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773035728339667"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "High-resolution STM topographic images taken at the probe locations in the studied MATBG devices show no detectable crystallographic alignment between the graphene moiré pattern and the underlying hexagonal boron nitride (hBN) substrate; the proposition is that this absence of locally observed hBN alignment is sufficient evidence to conclude that there is no hBN-induced global breaking of the two-fold rotation ($C_2$) symmetry—i.e., no effective sublattice-staggered potential from hBN alignment—acting anywhere in the device region that gives rise to the observed correlated Chern insulating phases, under the assumptions that (i) any hBN alignment strong enough to produce a relevant $C_2$-breaking staggered potential would be detectable by the performed STM topography at the probed spatial locations and (ii) such alignment is not present in unprobed regions that nevertheless influence the local measured spectroscopic gaps.",
+        "content_hash": "34613eb2d310e77ac23dd17e60ad6117b44c15933e6ada227e71d1926775d81d",
+        "id": "gcn_fad75d2f67fc476e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812528793905266689::P5",
+            "package_id": "paper:812528793905266689",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812528793905266689"
+          ]
+        },
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "cc88efc22abd04829e245c600fb7af30"
+}

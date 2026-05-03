@@ -1,0 +1,55 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.869759,
+      "knowledge_id": "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes",
+      "label": "gcn_006f88d8_ma_tbg_superconducting_domes"
+    },
+    {
+      "belief": 0.78,
+      "knowledge_id": "github:ma_tbg_superconducting_dome::gcn_ffd6d31f_correlated_insulator_phenomenology",
+      "label": "gcn_ffd6d31f_correlated_insulator_phenomenology"
+    },
+    {
+      "belief": 0.8906087669,
+      "knowledge_id": "github:ma_tbg_superconducting_dome::helper_ma_tbg_domes_adjacent_to_correlated_insulator",
+      "label": "helper_ma_tbg_domes_adjacent_to_correlated_insulator"
+    },
+    {
+      "belief": 0.8906087669,
+      "knowledge_id": "github:ma_tbg_superconducting_dome::helper_ma_tbg_half_filling_insulating_window",
+      "label": "helper_ma_tbg_half_filling_insulating_window"
+    },
+    {
+      "belief": 0.8906087669,
+      "knowledge_id": "github:ma_tbg_superconducting_dome::helper_ma_tbg_resistance_suppressed_at_70_mk",
+      "label": "helper_ma_tbg_resistance_suppressed_at_70_mk"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:ma_tbg_superconducting_dome::gcn_006f88d8_ma_tbg_superconducting_domes": [
+        0.869759
+      ],
+      "github:ma_tbg_superconducting_dome::gcn_ffd6d31f_correlated_insulator_phenomenology": [
+        0.78
+      ],
+      "github:ma_tbg_superconducting_dome::helper_ma_tbg_domes_adjacent_to_correlated_insulator": [
+        0.8906087669
+      ],
+      "github:ma_tbg_superconducting_dome::helper_ma_tbg_half_filling_insulating_window": [
+        0.8906087669
+      ],
+      "github:ma_tbg_superconducting_dome::helper_ma_tbg_resistance_suppressed_at_70_mk": [
+        0.8906087669
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 1
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:f49d9cc8c558d9774a0ba9853558f8304ec98346b1e24b3c1e53b60d07f66ffd"
+}

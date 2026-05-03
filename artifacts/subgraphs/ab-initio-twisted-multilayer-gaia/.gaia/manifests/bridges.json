@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:c3e5e8d555054feb7dc540c95507eee2b1e43ecd2ed3a638eb08cbf65b13363a",
+  "manifest_schema_version": 1,
+  "package": "ab-initio-twisted-multilayer",
+  "version": "0.1.0"
+}

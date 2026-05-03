@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "For twisted bilayer graphene at the first magic twist angle $\\theta=1.08^\\circ$, plane-wave DFT with vdW-DF2 reproduces the near-Fermi narrow flat-band manifold and the $\\Gamma$-point gaps to higher and lower bands only when full atomic relaxation includes both in-plane and out-of-plane displacements. In the fully relaxed geometry, the reported flat-band bandwidth is about $20\\,\\mathrm{meV}$, with upper and lower separation gaps of about $26\\,\\mathrm{meV}$ and $16\\,\\mathrm{meV}$, and tight-binding calculations on the same relaxed coordinates give consistent low-energy bands. Unrelaxed flat geometries lack or strongly underestimate these gaps; in-plane-only relaxation gives zero gaps, while out-of-plane-only relaxation gives underestimated gaps of about $2\\,\\mathrm{meV}$ and $14\\,\\mathrm{meV}$ [@Cantele2020].",
+      "content_hash": "bc4624452bbb379262bf2b8030b6eaf5c0a5be40bd8413eb98d0987658fe8b1d",
+      "label": "gcn_de1d329f326f4e75",
+      "qid": "github:tbg_dft_relaxation::gcn_de1d329f326f4e75",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:acef22882fa512b359959a6ece82c70f7f8e89a6adcd1d0e31e4f30bcdbefee7",
+  "manifest_schema_version": 1,
+  "package": "tbg-dft-relaxation",
+  "version": "0.1.0"
+}

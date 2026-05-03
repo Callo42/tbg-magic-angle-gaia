@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "The continuum Bistritzer-MacDonald model of magic-angle twisted bilayer\ngraphene, after a layer-dependent momentum shift restores moire periodicity,\ncan be represented in a magnetic-translation-irrep Landau-level basis at flux\n$\\phi=2\\pi$ and diagonalized with a finite Landau-level cutoff; for the BM\ninterlayer tunneling parameters studied, this calculation produces two\nlow-energy reentrant flat bands per valley and spin separated from passive\nbands by a gap of order 40 meV, with topology controlled by $(w_0,w_1)$:\nphysical TBG lies in a crystalline regime with vanishing total Chern number for\nthe two flat bands, while the first chiral limit $w_0=0$ lies in a\nLandau-level-type regime where each flat band has Chern number -1\n[@HerzogArbeitman2022].",
+      "content_hash": "51645f6b204f291c3f4e87885e69744e089ca57930ae46c1b24cc4ba85752d07",
+      "label": "gcn_afdfbd0c013048d8",
+      "qid": "github:magnetic_bloch_tbg::gcn_afdfbd0c013048d8",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:29e02a02a079133d9ec54a5ca9ba2a472fb14be7503e944be68091a698d36cdf",
+  "manifest_schema_version": 1,
+  "package": "magnetic-bloch-tbg",
+  "version": "0.1.0"
+}

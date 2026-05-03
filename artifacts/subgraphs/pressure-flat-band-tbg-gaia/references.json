@@ -1,0 +1,42 @@
+{
+  "Ge2021": {
+    "DOI": "10.1039/d1nr00220a",
+    "author": [
+      {
+        "family": "Ge",
+        "given": "Liangbing"
+      },
+      {
+        "family": "Ni",
+        "given": "Kun"
+      },
+      {
+        "family": "Wu",
+        "given": "Xiaojun"
+      },
+      {
+        "family": "Fu",
+        "given": "Zhengping"
+      },
+      {
+        "family": "Lu",
+        "given": "Yalin"
+      },
+      {
+        "family": "Zhu",
+        "given": "Yanwu"
+      }
+    ],
+    "container-title": "Nanoscale",
+    "id": "Ge2021",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "title": "Emerging flat bands in large-angle twisted bi-layer graphene under pressure",
+    "type": "article-journal"
+  }
+}

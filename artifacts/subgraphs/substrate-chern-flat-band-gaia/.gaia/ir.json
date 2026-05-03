@@ -1,0 +1,436 @@
+{
+  "ir_hash": "sha256:9fa24c8cc6ea22539f46d5c8192ece15123cdfdd0017380d6486eb1b81381800",
+  "knowledges": [
+    {
+      "content": "In Wang, Bultinck, and Zaletel's TBG-on-transition-metal-dichalcogenide continuum analysis, the two-valley Bistritzer-MacDonald continuum model with effectively decoupled valley indices tau = +/- is an appropriate description of single-particle flat-band physics only for sufficiently small twist angles near the first magic angle theta* ~= 1.08 degrees, where intervalley scattering is negligible, the eight active flat bands are isolated from remote bands by appreciable gaps, and their bandwidths are comparable to or smaller than the proximate Rashba, Ising, and sublattice energy scales [@Wang2020].",
+      "content_hash": "f455334682d55f5818365c8ef8adb5067f135840acd91859cc77d122b3fc5b76",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:substrate_chern_flat_band::gcn_fb78cfd7_magic_angle_continuum_regime",
+      "label": "gcn_fb78cfd7_magic_angle_continuum_regime",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Wang2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_fb78cfd75da34fb5",
+        "lkm_original": "The two-valley continuum model of twisted bilayer graphene (TBG), which treats valley indices $\\tau=\\pm$ as effectively decoupled and describes low-energy moire physics via the Bistritzer-MacDonald continuum Hamiltonian parametrized by the twist angle $\\theta$, accurately captures the single-particle flat-band physics when the twist angle $\\theta$ is sufficiently small so that intervalley scattering is negligible and is sufficiently close to the first magic angle $\\theta^{*}\\approx1.08^\\circ$ so that (i) the eight active flat bands are narrowly separated from remote bands by appreciable gaps and (ii) the active-band bandwidths are comparable to or smaller than proximate energy scales (Rashba, Ising, sublattice $u$); outside this regime processes such as valley-mixing, remote-band hybridization, or large kinetic bandwidth invalidate the isolated-band projection and the subsequent conclusions.",
+        "prior": 0.82,
+        "prior_justification": "The premise is the selected Wang et al. continuum-model applicability regime for magic-angle TBG on a transition metal dichalcogenide; it is directly grounded in the LKM factor but remains model- and parameter-regime scoped, so the prior is capped below 0.90. TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:812527076643962881"
+      },
+      "module": "paper_wang2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "In Wang, Bultinck, and Zaletel's continuum two-decoupled-valley description of magic-angle TBG on a transition metal dichalcogenide, the reported reconstructed-band phenomena--Rashba-induced isolated extremely flat band pairs near K^{+/-}, the sixteen-Dirac-point single-valley four-band structure, and Chern-number phase diagrams for isolated active bands--are scoped to sufficiently small twist angles near the first magic angle, where the active eight bands are isolated and have bandwidth comparable to or smaller than proximate scales such as Rashba ~16 meV, Ising ~1 meV, and sublattice u ~1-2 meV; away from that regime, large active-band bandwidth can prevent Rashba reconstruction and the reported topology and extreme flatness need not occur [@Wang2020].",
+      "content_hash": "e20b62dfef7b9f81d00e66111e0df1cc7c381b507c25570588171de078237fd4",
+      "declaration_index": 1,
+      "exported": true,
+      "id": "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime",
+      "label": "gcn_9f7dbaf8_substrate_flat_band_topology_regime",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Wang2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_9f7dbaf8f0014316",
+        "lkm_original": "The reconstructed-band phenomena described above--Rashba-induced isolated extremely flat band pairs near K^{\\pm}, the sixteen-Dirac-point structure in the single-valley four-band spectrum, and the computed Chern-number phase diagrams for isolated active bands--are valid in the continuum two-decoupled-valley description of twisted bilayer graphene that applies at sufficiently small twist angles and require being near the first magic angle so that (i) the eight active flat bands are well separated from remote bands by appreciable gaps and (ii) the active-band bandwidth is comparable to or smaller than typical proximate energy scales (Rashba \\sim 16 meV, Ising \\sim 1 meV, sublattice u \\sim 1\\text{--}2 meV); if the twist angle is too far from the magic angle so that the active-band bandwidth is much larger than these proximate couplings, then the Rashba coupling will not reconstruct the active bands and the reported band topology and extreme flatness need not occur.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:812527076643962881"
+      },
+      "module": "paper_wang2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "Within Wang et al.'s near-first-magic-angle TBG-on-TMD continuum regime, Rashba proximity coupling can reconstruct the active bands into isolated, extremely flat band pairs near K^{+/-} [@Wang2020].",
+      "content_hash": "bdc4ed347d7d7a5881fd2feb1d93e4f9c6ad6d8bf51b01423d826e9b2d5c5a40",
+      "declaration_index": 2,
+      "exported": false,
+      "id": "github:substrate_chern_flat_band::helper_rashba_isolated_flat_pairs",
+      "label": "helper_rashba_isolated_flat_pairs",
+      "metadata": {
+        "decomposition_of": "gcn_9f7dbaf8f0014316",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Wang2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_9f7dbaf8f0014316",
+        "lkm_original": "The reconstructed-band phenomena described above--Rashba-induced isolated extremely flat band pairs near K^{\\pm}, the sixteen-Dirac-point structure in the single-valley four-band spectrum, and the computed Chern-number phase diagrams for isolated active bands--are valid in the continuum two-decoupled-valley description of twisted bilayer graphene that applies at sufficiently small twist angles and require being near the first magic angle so that (i) the eight active flat bands are well separated from remote bands by appreciable gaps and (ii) the active-band bandwidth is comparable to or smaller than typical proximate energy scales (Rashba \\sim 16 meV, Ising \\sim 1 meV, sublattice u \\sim 1\\text{--}2 meV); if the twist angle is too far from the magic angle so that the active-band bandwidth is much larger than these proximate couplings, then the Rashba coupling will not reconstruct the active bands and the reported band topology and extreme flatness need not occur.",
+        "provenance_source": "lkm_decomposition",
+        "source_paper": "paper:812527076643962881"
+      },
+      "module": "paper_wang2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "Within Wang et al.'s near-first-magic-angle, single-valley four-band continuum spectrum for TBG on a transition metal dichalcogenide, the reconstructed active bands exhibit a sixteen-Dirac-point structure [@Wang2020].",
+      "content_hash": "e7d701271f76515ac315b1aa269dcf4664b89c91f3a0964fadcc8066d92531c3",
+      "declaration_index": 3,
+      "exported": false,
+      "id": "github:substrate_chern_flat_band::helper_single_valley_sixteen_dirac_structure",
+      "label": "helper_single_valley_sixteen_dirac_structure",
+      "metadata": {
+        "decomposition_of": "gcn_9f7dbaf8f0014316",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Wang2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_9f7dbaf8f0014316",
+        "lkm_original": "The reconstructed-band phenomena described above--Rashba-induced isolated extremely flat band pairs near K^{\\pm}, the sixteen-Dirac-point structure in the single-valley four-band spectrum, and the computed Chern-number phase diagrams for isolated active bands--are valid in the continuum two-decoupled-valley description of twisted bilayer graphene that applies at sufficiently small twist angles and require being near the first magic angle so that (i) the eight active flat bands are well separated from remote bands by appreciable gaps and (ii) the active-band bandwidth is comparable to or smaller than typical proximate energy scales (Rashba \\sim 16 meV, Ising \\sim 1 meV, sublattice u \\sim 1\\text{--}2 meV); if the twist angle is too far from the magic angle so that the active-band bandwidth is much larger than these proximate couplings, then the Rashba coupling will not reconstruct the active bands and the reported band topology and extreme flatness need not occur.",
+        "provenance_source": "lkm_decomposition",
+        "source_paper": "paper:812527076643962881"
+      },
+      "module": "paper_wang2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "Wang et al.'s Chern-number phase diagrams for TBG-on-TMD isolated active bands are scoped to the continuum two-decoupled-valley model near the first magic angle, where the active flat bands are isolated from remote bands and narrow enough for proximate terms to reconstruct them [@Wang2020].",
+      "content_hash": "442672534da0e61a302e9259961061764c7b060a239aab04b76d9c05e7f98d3f",
+      "declaration_index": 4,
+      "exported": false,
+      "id": "github:substrate_chern_flat_band::helper_chern_phase_diagram_scope",
+      "label": "helper_chern_phase_diagram_scope",
+      "metadata": {
+        "decomposition_of": "gcn_9f7dbaf8f0014316",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Wang2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_9f7dbaf8f0014316",
+        "lkm_original": "The reconstructed-band phenomena described above--Rashba-induced isolated extremely flat band pairs near K^{\\pm}, the sixteen-Dirac-point structure in the single-valley four-band spectrum, and the computed Chern-number phase diagrams for isolated active bands--are valid in the continuum two-decoupled-valley description of twisted bilayer graphene that applies at sufficiently small twist angles and require being near the first magic angle so that (i) the eight active flat bands are well separated from remote bands by appreciable gaps and (ii) the active-band bandwidth is comparable to or smaller than typical proximate energy scales (Rashba \\sim 16 meV, Ising \\sim 1 meV, sublattice u \\sim 1\\text{--}2 meV); if the twist angle is too far from the magic angle so that the active-band bandwidth is much larger than these proximate couplings, then the Rashba coupling will not reconstruct the active bands and the reported band topology and extreme flatness need not occur.",
+        "provenance_source": "lkm_decomposition",
+        "source_paper": "paper:812527076643962881"
+      },
+      "module": "paper_wang2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "In Wang et al.'s TBG-on-TMD continuum setting, if the twist angle is too far from the first magic angle and the active-band bandwidth is much larger than the proximate Rashba, Ising, and sublattice couplings, Rashba coupling is not expected to reconstruct the active bands, so the reported band topology and extreme flatness need not occur [@Wang2020].",
+      "content_hash": "84d6a0036548f30ee920257f0a97b2a4a311c07b32c5d6e5a6f7370f7a7326cd",
+      "declaration_index": 5,
+      "exported": false,
+      "id": "github:substrate_chern_flat_band::helper_away_from_magic_angle_no_reconstruction",
+      "label": "helper_away_from_magic_angle_no_reconstruction",
+      "metadata": {
+        "decomposition_of": "gcn_9f7dbaf8f0014316",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Wang2020"
+            ]
+          }
+        },
+        "lkm_id": "gcn_9f7dbaf8f0014316",
+        "lkm_original": "The reconstructed-band phenomena described above--Rashba-induced isolated extremely flat band pairs near K^{\\pm}, the sixteen-Dirac-point structure in the single-valley four-band spectrum, and the computed Chern-number phase diagrams for isolated active bands--are valid in the continuum two-decoupled-valley description of twisted bilayer graphene that applies at sufficiently small twist angles and require being near the first magic angle so that (i) the eight active flat bands are well separated from remote bands by appreciable gaps and (ii) the active-band bandwidth is comparable to or smaller than typical proximate energy scales (Rashba \\sim 16 meV, Ising \\sim 1 meV, sublattice u \\sim 1\\text{--}2 meV); if the twist angle is too far from the magic angle so that the active-band bandwidth is much larger than these proximate couplings, then the Rashba coupling will not reconstruct the active bands and the reported band topology and extreme flatness need not occur.",
+        "provenance_source": "lkm_decomposition",
+        "source_paper": "paper:812527076643962881"
+      },
+      "module": "paper_wang2020",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:substrate_chern_flat_band::gcn_fb78cfd7_magic_angle_continuum_regime,github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime)",
+      "content_hash": "0a75913b0953f23e87b024169ff196fe1b5ca6bae4e9e61395e4927eb9a234c7",
+      "exported": false,
+      "id": "github:substrate_chern_flat_band::__implication_result_3621e34c",
+      "label": "__implication_result_3621e34c",
+      "metadata": {
+        "canonical_name": "implies(github:substrate_chern_flat_band::gcn_fb78cfd7_magic_angle_continuum_regime,github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_82d28b2113439ad3",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime,github:substrate_chern_flat_band::helper_rashba_isolated_flat_pairs)",
+      "content_hash": "a3af3e837a8a3f772733400caf26a92e26e739e5fe886ecc7788730c9181cefc",
+      "exported": false,
+      "id": "github:substrate_chern_flat_band::__implication_result_85e5b2e4",
+      "label": "__implication_result_85e5b2e4",
+      "metadata": {
+        "canonical_name": "implies(github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime,github:substrate_chern_flat_band::helper_rashba_isolated_flat_pairs)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_a822774df638751b",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime,github:substrate_chern_flat_band::helper_single_valley_sixteen_dirac_structure)",
+      "content_hash": "5650cd8c686c17312cc74a2bae5beb42789785a299b561b7a87596cadf2e5faa",
+      "exported": false,
+      "id": "github:substrate_chern_flat_band::__implication_result_af99b2c8",
+      "label": "__implication_result_af99b2c8",
+      "metadata": {
+        "canonical_name": "implies(github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime,github:substrate_chern_flat_band::helper_single_valley_sixteen_dirac_structure)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_076c00d5ef6b8e6a",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:substrate_chern_flat_band::gcn_fb78cfd7_magic_angle_continuum_regime,github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime)",
+      "content_hash": "59171d336f121f77ce3dad89f4b1544d603ae072558a7d79200111b7bca63b14",
+      "exported": false,
+      "id": "github:substrate_chern_flat_band::__conjunction_result_d6d4278a",
+      "label": "__conjunction_result_d6d4278a",
+      "metadata": {
+        "canonical_name": "all_true(github:substrate_chern_flat_band::gcn_fb78cfd7_magic_angle_continuum_regime,github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_f352c2ea42a14b89",
+        "owning_strategy_type": "support",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:substrate_chern_flat_band::__conjunction_result_d6d4278a,github:substrate_chern_flat_band::helper_chern_phase_diagram_scope)",
+      "content_hash": "b7ae28b4cebcabbe37b55540ab388d945f826df4cae404347ebb1027b408412f",
+      "exported": false,
+      "id": "github:substrate_chern_flat_band::__implication_result_1d60280e",
+      "label": "__implication_result_1d60280e",
+      "metadata": {
+        "canonical_name": "implies(github:substrate_chern_flat_band::__conjunction_result_d6d4278a,github:substrate_chern_flat_band::helper_chern_phase_diagram_scope)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_f352c2ea42a14b89",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime,github:substrate_chern_flat_band::helper_away_from_magic_angle_no_reconstruction)",
+      "content_hash": "65024872990cfa86f3b6c7f0a477379b5d275c0fac304bee964e7eff5882b2e8",
+      "exported": false,
+      "id": "github:substrate_chern_flat_band::__implication_result_698d3b5d",
+      "label": "__implication_result_698d3b5d",
+      "metadata": {
+        "canonical_name": "implies(github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime,github:substrate_chern_flat_band::helper_away_from_magic_angle_no_reconstruction)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_ab23c60de625cf26",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "paper_wang2020"
+  ],
+  "module_titles": {
+    "paper_wang2020": "paper_wang2020 -- claims and deductions from Wang, Bultinck, and Zaletel 2020."
+  },
+  "namespace": "github",
+  "operators": [],
+  "package_name": "substrate_chern_flat_band",
+  "scope": "local",
+  "strategies": [
+    {
+      "conclusion": "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:substrate_chern_flat_band::__implication_result_3621e34c",
+            "operator": "implication",
+            "variables": [
+              "github:substrate_chern_flat_band::gcn_fb78cfd7_magic_angle_continuum_regime",
+              "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. State the applicability domain of the continuum two-decoupled-valley model: require that the TBG twist angle be small enough so that valley-mixing terms are negligible and the two-valley continuum approximation is valid (i.e., the low-energy physics can be described by separate $\\tau=\\pm$ valley moire Hamiltonians).\n2. Specify the additional constraint that the twist angle must be sufficiently close to the first magic angle (approximately $\\theta^{*}\\sim 1.08^{\\circ}$) so that (i) the eight active flat bands near charge neutrality are well separated from remote bands by an appreciable gap, and (ii) the bandwidth of the active eight bands is comparable to or smaller than the realistic proximity-induced energy scales (Rashba $\\sim 16\\ \\text{meV}$, Ising $\\sim 1\\ \\text{meV}$, sublattice splitting $u\\sim 1$-$2\\ \\text{meV}$); these two conditions ensure that the proximity terms can reconstruct the active bands and induce the topological phenomena described.\n3. Explain the failure mode when away from this regime: if the twist angle is too far from the first magic angle so that the active-band bandwidth becomes large compared to the SOC strengths, the Rashba and other proximity couplings will be too weak relative to the kinetic bandwidth to significantly reconstruct the active bands; consequently the Rashba-induced splitting that produces extremely-flat pairs near $K^{\\pm}$, the 16 Dirac-point structure, and the Chern-number phase diagrams derived for the reconstructed bands will not occur.\n4. Conclude that the reconstructed-band phenomena reported in this work (isolated flat pairs at $K^{\\pm}$, the sixteen-Dirac pattern, and the computed valley-Chern and time-reversal TI phase diagrams) apply within the continuum, two-decoupled-valley description appropriate for small twist angles and require being sufficiently close to the first magic angle so that the active eight bands are narrow and separated from remote bands; outside this regime the reported topology and extreme flatness are not expected to be realized."
+      },
+      "premises": [
+        "github:substrate_chern_flat_band::gcn_fb78cfd7_magic_angle_continuum_regime"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_82d28b2113439ad3",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:substrate_chern_flat_band::helper_rashba_isolated_flat_pairs",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:substrate_chern_flat_band::__implication_result_85e5b2e4",
+            "operator": "implication",
+            "variables": [
+              "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime",
+              "github:substrate_chern_flat_band::helper_rashba_isolated_flat_pairs"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The selected LKM root explicitly names Rashba-induced isolated extremely flat band pairs near K^{+/-}, and factor steps 2-4 scope this statement to the near-first-magic-angle active-band regime."
+      },
+      "premises": [
+        "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_a822774df638751b",
+      "type": "support"
+    },
+    {
+      "conclusion": "github:substrate_chern_flat_band::helper_single_valley_sixteen_dirac_structure",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:substrate_chern_flat_band::__implication_result_af99b2c8",
+            "operator": "implication",
+            "variables": [
+              "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime",
+              "github:substrate_chern_flat_band::helper_single_valley_sixteen_dirac_structure"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The selected LKM root explicitly names the sixteen-Dirac-point structure in the single-valley four-band spectrum as one of the reconstructed-band phenomena covered by the scoped conclusion."
+      },
+      "premises": [
+        "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_076c00d5ef6b8e6a",
+      "type": "support"
+    },
+    {
+      "conclusion": "github:substrate_chern_flat_band::helper_chern_phase_diagram_scope",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:substrate_chern_flat_band::__conjunction_result_d6d4278a",
+            "operator": "conjunction",
+            "variables": [
+              "github:substrate_chern_flat_band::gcn_fb78cfd7_magic_angle_continuum_regime",
+              "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime"
+            ]
+          },
+          {
+            "conclusion": "github:substrate_chern_flat_band::__implication_result_1d60280e",
+            "operator": "implication",
+            "variables": [
+              "github:substrate_chern_flat_band::__conjunction_result_d6d4278a",
+              "github:substrate_chern_flat_band::helper_chern_phase_diagram_scope"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The LKM premise provides the model and near-magic-angle isolation conditions, while the selected root names the computed Chern-number phase diagrams for isolated active bands within that regime."
+      },
+      "premises": [
+        "github:substrate_chern_flat_band::gcn_fb78cfd7_magic_angle_continuum_regime",
+        "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_f352c2ea42a14b89",
+      "type": "support"
+    },
+    {
+      "conclusion": "github:substrate_chern_flat_band::helper_away_from_magic_angle_no_reconstruction",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:substrate_chern_flat_band::__implication_result_698d3b5d",
+            "operator": "implication",
+            "variables": [
+              "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime",
+              "github:substrate_chern_flat_band::helper_away_from_magic_angle_no_reconstruction"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The selected LKM root and factor step 3 explicitly state the failure mode: away from the first magic angle, large active-band bandwidth makes proximate couplings too weak to reconstruct the active bands."
+      },
+      "premises": [
+        "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_ab23c60de625cf26",
+      "type": "support"
+    }
+  ]
+}

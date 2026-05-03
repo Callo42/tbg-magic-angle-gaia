@@ -1,0 +1,20 @@
+[project]
+name = "bm-velocity-suppression-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for Bistritzer-MacDonald velocity suppression near the TBG magic angle."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "8f5ca7c5-ea75-43b1-8203-db7a77b58e93"
+generated_by = "lkm-to-gaia"
+generated_from_search = "narrow target supplied: gcn_7bca73ad98eb4ed4"
+generated_from_roots = ["gcn_7bca73ad98eb4ed4"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bm_velocity_suppression"]

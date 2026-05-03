@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:0552767ceb59065282b105d7316f0b3f4b329ba55fa7247ee013e76e1683f3b3",
+  "manifest_schema_version": 1,
+  "package": "twisted-few-layer-graphite",
+  "version": "0.1.0"
+}

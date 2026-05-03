@@ -1,0 +1,55 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.888721,
+      "knowledge_id": "github:twisted_monolayer_bilayer::gcn_14a55aff_smab2_flat_band_localization",
+      "label": "gcn_14a55aff_smab2_flat_band_localization"
+    },
+    {
+      "belief": 0.82,
+      "knowledge_id": "github:twisted_monolayer_bilayer::gcn_42c7afbd_smab2_layer_resolved_dos",
+      "label": "gcn_42c7afbd_smab2_layer_resolved_dos"
+    },
+    {
+      "belief": 0.8991246011,
+      "knowledge_id": "github:twisted_monolayer_bilayer::helper_smab2_isolated_low_energy_flat_bands",
+      "label": "helper_smab2_isolated_low_energy_flat_bands"
+    },
+    {
+      "belief": 0.8682620000000001,
+      "knowledge_id": "github:twisted_monolayer_bilayer::helper_smab2_layer_separated_character",
+      "label": "helper_smab2_layer_separated_character"
+    },
+    {
+      "belief": 0.8991246011,
+      "knowledge_id": "github:twisted_monolayer_bilayer::helper_smab2_less_flat_than_relaxed_tbg",
+      "label": "helper_smab2_less_flat_than_relaxed_tbg"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:twisted_monolayer_bilayer::gcn_14a55aff_smab2_flat_band_localization": [
+        0.888721
+      ],
+      "github:twisted_monolayer_bilayer::gcn_42c7afbd_smab2_layer_resolved_dos": [
+        0.82
+      ],
+      "github:twisted_monolayer_bilayer::helper_smab2_isolated_low_energy_flat_bands": [
+        0.8991246011
+      ],
+      "github:twisted_monolayer_bilayer::helper_smab2_layer_separated_character": [
+        0.8682620000000001
+      ],
+      "github:twisted_monolayer_bilayer::helper_smab2_less_flat_than_relaxed_tbg": [
+        0.8991246011
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 1
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:3d3a930f18b9f35cfc357b18af7a8b1b9bf183a45086b2d4486115c4f86b0844"
+}

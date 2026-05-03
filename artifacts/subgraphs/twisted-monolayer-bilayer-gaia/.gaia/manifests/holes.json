@@ -1,0 +1,18 @@
+{
+  "holes": [
+    {
+      "content": "In Nguyen et al.'s relaxed-geometry Slater-Koster p_z tight-binding calculation for SM-(AB)_2, defined as a graphene monolayer twisted by angle theta on an AB-stacked bilayer, the layer-decomposed density of states rho_l(E) at the magic-angle moire geometry shows a strong near-zero-energy flat-band peak on the twisted top monolayer and comparatively broadened near-zero-energy spectral weight across the two bottom bilayer layers; this indicates layer-polarized flat-band spectral weight with coexisting localized and delocalized character across layers [@Nguyen2022].",
+      "content_hash": "f9be26e5ebde98fdc9eb8baf59ae08b859a53265629dd8f899c141dea3046db5",
+      "interface_hash": "sha256:45931760887378b551042f73691b929c96080800483cf031c0cbd7214fc8d4f1",
+      "label": "gcn_42c7afbd_smab2_layer_resolved_dos",
+      "qid": "github:twisted_monolayer_bilayer::gcn_42c7afbd_smab2_layer_resolved_dos",
+      "required_by": [
+        "github:twisted_monolayer_bilayer::gcn_14a55aff_smab2_flat_band_localization"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:3d3a930f18b9f35cfc357b18af7a8b1b9bf183a45086b2d4486115c4f86b0844",
+  "manifest_schema_version": 1,
+  "package": "twisted-monolayer-bilayer",
+  "version": "0.1.0"
+}

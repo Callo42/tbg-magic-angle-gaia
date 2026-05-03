@@ -1,0 +1,55 @@
+{
+  "Tritsaris2020": {
+    "type": "article-journal",
+    "title": "Electronic structure calculations of twisted multi-layer graphene superlattices",
+    "DOI": "10.1088/2053-1583/ab8f62",
+    "container-title": "2D Materials",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          22
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Tritsaris",
+        "given": "Georgios A"
+      },
+      {
+        "family": "Carr",
+        "given": "Stephen"
+      },
+      {
+        "family": "Zhu",
+        "given": "Ziyan"
+      },
+      {
+        "family": "Xie",
+        "given": "Yiqi"
+      },
+      {
+        "family": "Torrisi",
+        "given": "Steven B"
+      },
+      {
+        "family": "Tang",
+        "given": "Jing"
+      },
+      {
+        "family": "Mattheakis",
+        "given": "Marios"
+      },
+      {
+        "family": "Larson",
+        "given": "Daniel T"
+      },
+      {
+        "family": "Kaxiras",
+        "given": "Efthimios"
+      }
+    ]
+  }
+}

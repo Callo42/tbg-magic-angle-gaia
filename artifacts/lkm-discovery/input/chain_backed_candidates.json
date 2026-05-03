@@ -1,0 +1,92 @@
+[
+  {
+    "id": "gcn_006f88d8df3548fa",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "The temperature versus gate-induced carrier-density phase diagram of magic-angle twisted bilayer graphene (MA-TBG, i.e., twisted bilayer graphene with $\\theta$ near the first magic angle) exhibits superconducting dome-shaped regions on both sides of a correlated insulating state centered at nominal half-filling $n=\\pm n_{s}/2$ of the flat moiré bands, where $n_{s}=4/A$ is the superlattice density and $A\\approx\\sqrt{3}a^2/(2\\theta^2)$ is the moiré unit cell area with graphene lattice constant $a=0.246\\ \\text{nm}$. In the two devices examined (device M1, $\\theta=1.16^\\circ$, and device M2, $\\theta=1.05^\\circ$), cooling at carrier densities just adjacent to the half-filling insulating density produces two pronounced superconducting regions (domes) whose four-probe resistance is fully suppressed below the measurement floor at the lowest temperature (70 mK). The correlated insulating region at nominal half-filling shows insulating temperature dependence (increasing resistance upon cooling) over an intermediate temperature window of roughly 1–4 K, and the superconducting domes appear when the device is electrostatically doped away from this correlated insulator.",
+    "title": "Unconventional superconductivity in magic-angle graphene superlattices",
+    "authors": "Yuan Cao | Valla Fatemi | Shiang Fang | Kenji Watanabe | Takashi Taniguchi | Efthimios Kaxiras | Pablo Jarillo-Herrero",
+    "doi": "10.1038/nature26160"
+  },
+  {
+    "id": "gcn_7bca73ad98eb4ed4",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "For twisted bilayer graphene (tBLG) the noninteracting low-energy Dirac-point band Fermi velocity v_F^*(θ) produced by the Bistritzer–MacDonald continuum moiré-band model is strongly suppressed as the twist angle θ (measured in degrees) approaches the largest magic angle θ_M (the angle at which the noninteracting Dirac-point band velocity vanishes), and for 0<θ<3° this noninteracting moiré-band velocity is well described by the empirical linear approximation $$ v_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F, $$ where v_F^*(θ) is the tBLG moiré-band Dirac-cone Fermi velocity, θ and θ_M are expressed in degrees, and v_F ≈ 10^8 cm/s is the monolayer-graphene Dirac velocity; this linear fit reproduces the numerical outputs of the continuum Bistritzer–MacDonald moiré-band calculation to useful accuracy in the stated angular window.",
+    "title": "Electron–phonon and electron–electron interaction effects in twisted bilayer graphene",
+    "authors": "Sankar Das Sarma | Fengcheng Wu",
+    "doi": "10.1016/j.aop.2020.168193"
+  },
+  {
+    "id": "gcn_afdfbd0c013048d8",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "The continuum Bistritzer–MacDonald (BM) model of twisted bilayer graphene, after applying a layer-dependent momentum shift that restores moiré periodicity, can be represented in the magnetic-translation-irrep Landau-level basis at flux $\\phi=2\\pi$ and diagonalized after truncating to a finite number of Landau levels. For magic-angle geometric parameters and typical BM interlayer tunneling strengths, this numerical diagonalization (with sufficient Landau-level cutoff) reveals two low-energy flat bands per valley and spin that reappear (reenter) at $\\phi=2\\pi$ and are, for the parameter sets considered, separated from higher-energy passive bands by a sizable gap on the order of 40 meV. The dispersion and topology of these reentrant flat bands depend sensitively on the interlayer hopping parameters $(w_0,w_1)$: scanning $(w_0,w_1)$ produces a phase diagram with a crystalline regime (parameter region including the physical TBG values) where the two flat bands together have vanishing total Chern number, and a Landau-level-type regime (including the first chiral limit $w_0=0$) where each flat band individually carries Chern number $-1$.",
+    "title": "Magnetic Bloch Theorem and Reentrant Flat Bands in Twisted Bilayer Graphene at $2π$ Flux",
+    "authors": "Jonah Herzog-Arbeitman | Aaron Chew | B. Andrei Bernevig",
+    "doi": "10.48550/arXiv.2206.07717"
+  },
+  {
+    "id": "gcn_105d2fc961f949b6",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "Applying external compression to twisted bilayer graphene with commensurate twist angles in the range from approximately 9.4$^\\circ$ up to approximately 27.8$^\\circ$ provides a route to generate narrow, flat electronic bands and associated van Hove singularities near the Fermi level in twist-angle regimes that exhibit single-layer-graphene-like linear dispersion at ambient pressure; pressure therefore provides a feasible control parameter for flat-band engineering in larger-angle twisted bilayer graphene, which could in principle enable electron-correlation phenomena (for example, superconductivity or correlated insulating behavior) in structures that are easier to fabricate than magic-angle devices.",
+    "title": "Emerging flat bands in large-angle twisted bi-layer graphene under pressure",
+    "authors": "Liangbing Ge | Kun Ni | Xiaojun Wu | Zhengping Fu | Yalin Lu | Yanwu Zhu",
+    "doi": "10.1039/d1nr00220a"
+  },
+  {
+    "id": "gcn_8159f32dda354258",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "In twisted bilayer graphene at sufficiently small twist angle, where the energy gap at the moiré $K$ point between the $2n_0$th and $(2n_0+1)$th bands becomes negligibly small and the upper two bands near charge neutrality become nearly degenerate, the same band-structure mechanism in which three moving Dirac points merge with the fixed Dirac point at $K$ is proposed to persist and to produce vanishing Dirac velocity at $K$. In this conjecture, the resulting suppression of the Dirac velocity at $K$ contributes to the emergence of extremely narrow (nearly flat) bands at the magic angles.",
+    "title": "Merged Four Dirac Points at the Critical Interlayer Distance in Commensurately Twisted Bilayer Graphene: the Origin of the Zero Velocity",
+    "authors": "Aya Yamada | Yasumasa Hasegawa",
+    "doi": "10.48550/arXiv.2001.01364"
+  },
+  {
+    "id": "gcn_f23eff9c755840f2",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "The numerically identified twist angle at which the two primary moiré bands become nearly flat in twisted few-layer graphite is about $1.05^\\circ$, the same numerical value as the principal magic angle obtained for twisted bilayer graphene within the same continuum description.",
+    "title": "Moiré Flat Bands of Twisted Few-layer Graphite",
+    "authors": "Zhen Ma | Shuai Li | Meng-Meng Xiao | Ya-Wen Zheng | Ming Lu | HaiWen Liu | Jin-Hua Gao | X. C. Xie",
+    "doi": "10.48550/arXiv.2001.07995"
+  },
+  {
+    "id": "gcn_2cf09f115b814154",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "Consider the continuum-model description of twisted trilayer graphene formed by placing a graphene monolayer (top layer, layer index 3) on an AB-stacked graphene bilayer (layers 1 and 2) with a small relative twist angle θ between the monolayer and the bilayer; in this model the low-energy electronic spectrum forms moiré Bloch bands. In the minimal-model limit in which the AB bilayer remote-hopping parameters are set to zero (trigonal-warping γ3 = 0, electron–hole–asymmetry γ4 = 0, and dimer-site on-site energy Δ' = 0) and with nearest-neighbor intralayer hopping γ0 = 2464 meV and dominant interlayer vertical hopping γ1 = 400 meV, there exists a largest \"magic\" twist angle at which the two low-energy moiré bands near charge neutrality become nearly flat, and the largest such magic angle in this minimal-model parameterization is approximately θ ≈ 1.12°; at θ ≈ 1.12° the continuum-model spectrum contains two nearly flat moiré bands around the Fermi level under the stated minimal-model assumptions and parameter values.",
+    "title": "Topological flat bands in twisted trilayer graphene",
+    "authors": "Zhen Ma | Shuai Li | Ya-Wen Zheng | Meng-Meng Xiao | Hua Jiang | Jin-Hua Gao | X. C. Xie",
+    "doi": "10.48550/arXiv.1905.00622"
+  },
+  {
+    "id": "gcn_225da7b340cb47b8",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "Comparing the two measured ATQG devices with twist angles $\\theta = 1.96^\\circ$ (above the magic angle $1.68^\\circ$) and $\\theta = 1.52^\\circ$ (below the magic angle $1.68^\\circ$) reveals an asymmetric twist-angle dependence of correlated phases: the $\\theta = 1.96^\\circ$ device exhibits dominant correlated-insulator resistance maxima on the hole-doped side and no observed superconductivity down to $160\\,$mK, whereas the $\\theta = 1.52^\\circ$ device shows evidence of superconducting-like transport signatures near half filling while correlated-insulator signatures in that device are weaker; this device-to-device comparison indicates that, in these ATQG samples, superconductivity favors angles smaller than the magic angle while correlated insulators favor angles larger than the magic angle, implying a decoupling of superconductivity and correlated insulating order as a function of twist angle in ATQG that differs from some reported trends in twisted bilayer graphene (TBG).",
+    "title": "Emergence of Correlations in Alternating Twist Quadrilayer Graphene",
+    "authors": "G. William Burg | Eslam Khalaf | Yimeng Wang | Kenji Watanabe | Takashi Taniguchi | Emanuel Tutuc",
+    "doi": "10.48550/arXiv.2201.01637"
+  },
+  {
+    "id": "gcn_14a55aff3de24a3a",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "For the twisted monolayer–bilayer geometry defined as a graphene monolayer rotated by angle $\\\\theta$ and placed on top of an AB-stacked graphene bilayer (denoted SM-(AB)$_2$), the moiré system at its magic-angle moiré geometry (near $\\\\theta\\\\simeq1.1^{\\\\circ}$) exhibits isolated low-energy flat bands, but these flat bands are quantitatively less flat than those of relaxed twisted bilayer graphene: the SM-(AB)$_2$ flat-band manifold has larger bandwidth and a smaller zero-energy DOS peak than magic-angle TBLG. Layer-resolved density of states $\\\\rho_{\\\\ell}(E)$ shows that the flat-band spectral weight is strongly localized on the twisted monolayer (top layer) while it is comparatively broadened and delocalized across the AB bilayer (the two bottom layers), producing a spatially separated localized–delocalized electronic character across layers.",
+    "title": "Electronic properties of twisted multilayer graphene",
+    "authors": "V. Hung Nguyen | Trinh X. Hoang | J.-C. Charlier",
+    "doi": "10.48550/arXiv.2203.09188"
+  },
+  {
+    "id": "gcn_5f58746bcc0b4098",
+    "role": "conclusion",
+    "total_chains": 1,
+    "content": "For commensurate twisted bilayer graphene supercells computed at 33 unique commensurate twist angles spanning 0.88° ≤ θ ≤ 21.79°, the ab initio Wannier-derived tight-binding calculations and automated flat-band detection identify a maximized flat-band likelihood p(θ) at a magic angle θ* ≈ 1.1°, with the emergence of low-dispersion (near-flat) bands near the Fermi level in the single-particle TB band structures at that angle.",
+    "title": "Electronic structure calculations of twisted multi-layer graphene superlattices",
+    "authors": "Georgios A Tritsaris | Stephen Carr | Ziyan Zhu | Yiqi Xie | Steven B Torrisi | Jing Tang | Marios Mattheakis | Daniel T Larson | Efthimios Kaxiras",
+    "doi": "10.1088/2053-1583/ab8f62"
+  }
+]

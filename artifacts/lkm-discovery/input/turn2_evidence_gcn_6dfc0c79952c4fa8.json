@@ -1,0 +1,86 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The narrow low-energy bands in twisted gapped honeycomb bilayers such as hBN originate from resonant tunneling and confinement in local homopolar stacking regions where atoms of the same chemical species lie on top of each other; these regions host in-gap bound-like states that populate energies inside the nominal monolayer gap, and this confinement mechanism is distinct from the interference-based magic-angle mechanism of twisted bilayer graphene, as evidenced by the numerical observation that artificially setting interlayer hopping amplitudes that couple heteropolar dimers (i.e., hoppings between atoms of opposite chemical polarity, for example $w_{\\mathrm{AB}'}$ and $w_{\\mathrm{BA}'}$) to zero removes the hBN low-energy flat bands, whereas analogous simplifications in twisted graphene produce completely flat bands at the magic angle, demonstrating different confinement physics in gapped versus gapless bilayers.",
+      "content_hash": "726c1a55dc6df95951c18dde551ef6791dcf03b4ead86a4a0fa194c7db8068e0",
+      "id": "gcn_6dfc0c79952c4fa8",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The narrow low-energy bands in twisted gapped honeycomb bilayers such as hBN originate from resonant tunneling and confinement in local homopolar stacking regions where atoms of the same chemical species lie on top of each other; these regions host in-gap bound-like states that populate energies inside the nominal monolayer gap, and this confinement mechanism is distinct from the interference-based magic-angle mechanism of twisted bilayer graphene, as evidenced by the numerical observation that artificially setting interlayer hopping amplitudes that couple heteropolar dimers (i.e., hoppings between atoms of opposite chemical polarity, for example $w_{\\mathrm{AB}'}$ and $w_{\\mathrm{BA}'}$) to zero removes the hBN low-energy flat bands, whereas analogous simplifications in twisted graphene produce completely flat bands at the magic angle, demonstrating different confinement physics in gapped versus gapless bilayers.",
+              "id": "gcn_6dfc0c79952c4fa8"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_9f79b01037114a66",
+            "premises": [
+              {
+                "content": "Neglecting atomic relaxation, layer-dependent lattice reconstruction, and in-plane strain—i.e., modeling the bilayer as two rigidly rotated monolayers with the stacking field $\\mathbf{d}(\\mathbf{r})=2\\sin(\\theta/2)\\,\\hat{\\mathbf{z}}\\times\\mathbf{r}+\\mathbf{u}$ and without including energetically driven local lattice relaxation—does not qualitatively change the origin of the low-energy narrow bands in gapped honeycomb bilayers: the in-gap resonant tunneling and confinement in homopolar stacking regions remains the dominant mechanism producing localized states inside the monolayer gap and narrow moiré bands.",
+                "id": "gcn_e500525871714f7d"
+              },
+              {
+                "content": "",
+                "id": "gcn_410f298a71ab4e55"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Treat as established the continuum Hamiltonian and the computed formation of narrow flat bands and their envelope wave functions (conclusions 1 and 3): the lowest bands are localized in homopolar stacking regions and have energies lying inside the nominal monolayer gap.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Identify the proposed confinement mechanism in gapped bilayers: the localized low-energy states arise from resonant tunneling in local homopolar stacking regions (regions where atoms of the same chemical species lie on top of each other), which produce in-gap bound-like states that populate the nominal monolayer gap; this interpretation is supported by the spatial localization of the envelope wave functions in those regions and by the observation that states become more localized as they enter deeper into the gap. Fig. 2",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Contrast this mechanism with the magic-angle interference mechanism operative in gapless twisted bilayer graphene: in graphene the emergence of flat bands requires a subtle interference condition at special (magic) twist angles, whereas in gapped bilayers like hBN a natural confinement energy scale allows flat bands to arise generically without fine tuning.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Provide the computational test that discriminates the two mechanisms: set the interlayer hoppings between heteropolar dimers to zero, specifically $w_{\\mathrm{AB}'}=w_{\\mathrm{BA}'}=0$, and observe the effect on the low-energy bands. The authors report that under this modification the lowest-energy flat bands of hBN disappear (i.e., the in-gap resonant states vanish), demonstrating that heteropolar interlayer couplings are essential for the resonant tunneling and confinement mechanism in hBN.",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Compare with the analogous simplification in twisted graphene: the authors note that performing an analogous simplification in a model of twisted bilayer graphene produces completely flat bands at the magic angle (i.e., removes certain couplings and the magic-angle interference remains operative), citing the known graphene result; this difference in outcome under the same simplification illustrates that the confinement physics in gapped bilayers (resonant homopolar-region tunneling) is qualitatively different from the magic-angle interference physics in gapless graphene. [17]",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The origin of moiré flat bands in bilayers with a finite monolayer gap was not established: it was unclear whether the same interference physics responsible for magic-angle flat bands in graphene would apply, or whether the intrinsic gap introduces a qualitatively different confinement mechanism. Resolving this question is important because it determines which microscopic hoppings and local registries (homopolar versus heteropolar) must be controlled to engineer narrow bands, and whether straightforward parameter changes (switching off certain couplings) would qualitatively alter the low-energy spectrum.",
+            "id": "paper:812587759892955137::conclusion_4_subproblem",
+            "source_package": "paper:812587759892955137"
+          }
+        ],
+        "source_package": "paper:812587759892955137"
+      }
+    ],
+    "papers": {
+      "paper:812587759892955137": {
+        "area": "Physics and Astrophysics",
+        "authors": "H. Ochoa | A. Asenjo-Garcia",
+        "available_online": "2020-7-15",
+        "cover_date_start": "2020-07-15",
+        "created_at": "2022-12-21T23:33:40+08:00",
+        "doi": "10.1103/physrevlett.125.037402",
+        "en_title": "Flat Bands and Chiral Optical Response of Moiré Insulators",
+        "id": "812587759892955137",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "莫尔绝缘体的平带与手性光学响应"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "343aec050737402ec703916b4f314e71"
+}

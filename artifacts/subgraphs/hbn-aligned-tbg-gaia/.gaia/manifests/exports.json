@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "In Zhang, Mao, and Senthil's single-valley continuum model for magic-angle TBG with the top graphene layer nearly aligned to h-BN, H = H_TBG + H_hBN combines the standard TBG continuum Hamiltonian with a top-layer h-BN term containing a staggered sublattice mass M and weaker V_j moire potentials; for M about 15-17 meV and |V_j| much smaller than w_1 about 110 meV, numerical diagonalization gives gapped MBZ-corner Dirac crossings, one isolated conduction and one isolated valence active band per valley, valley + Chern numbers C = +1 and C = -1 for the conduction and valence active bands respectively, and an indirect active-band gap of order 5 meV at M = 15 meV and theta_M = 1.20 degrees [@Zhang2019].",
+      "content_hash": "0020576d31d833e978be96a707cdff1a1c7c235cce765dd7dc11a82b7b0f1c64",
+      "label": "gcn_584669e24c6145a7",
+      "qid": "github:hbn_aligned_tbg::gcn_584669e24c6145a7",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:2c72b16af8c6b809b103179139636d6d49bbd48ea6e91a57ea5d78df3be7d154",
+  "manifest_schema_version": 1,
+  "package": "hbn-aligned-tbg",
+  "version": "0.1.0"
+}

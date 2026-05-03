@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The numerical comparison that states the computed flat-band bandwidths for bilayer graphene under the polar h-BN superlattice (with narrowest manifolds on the order of 5–10 meV) are comparable to the bandwidths reported for magic-angle twisted bilayer graphene (also quoted as about 5–10 meV) is assumed to be a meaningful comparison, i.e., that equating bandwidth magnitudes across these physically different systems is a useful indication that similar correlation-relevant energy scales may be present despite differences in microscopic origin, symmetry, and interaction screening between the two systems.",
+      "content_hash": "371ab8787c342a7d6acec829ef798286018acf39eae2248a613e53ce257a1110",
+      "id": "gcn_6ecf468ac4be4850",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "ed6e82f57246f5bcfbd61016d8b88831"
+}

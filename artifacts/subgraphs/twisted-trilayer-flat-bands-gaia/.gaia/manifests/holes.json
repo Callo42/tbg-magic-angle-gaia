@@ -1,0 +1,48 @@
+{
+  "holes": [
+    {
+      "content": "In Ma et al.'s numerical continuum-model calculation for twisted trilayer graphene, the finite plane-wave basis of moire reciprocal lattice vectors and the finite k-point sampling are assumed to be sufficiently converged that the observed narrowing of the two central bands and the identification of a nearly flat pair are not artifacts of basis truncation or coarse k-point sampling [@Ma2019].",
+      "content_hash": "7aee87e2e57de36b41bcbf5b1f39f394bc20c0d184fcbccfb49c519cda809d5b",
+      "interface_hash": "sha256:57c696d719208d739166354ee9500a7b8a20a12c54b4cf7bf8025cae65eabdd1",
+      "label": "gcn_2a4995cfc44a4638",
+      "qid": "github:twisted_trilayer_flat_bands::gcn_2a4995cfc44a4638",
+      "required_by": [
+        "github:twisted_trilayer_flat_bands::gcn_2cf09f115b814154"
+      ]
+    },
+    {
+      "content": "In Ma et al.'s search for the largest magic angle of twisted trilayer graphene, evaluating the continuum-model band structures on a discrete set of twist angles, including theta = 5.0 degrees, 1.53 degrees, and 1.12 degrees, is assumed to locate the largest nearly flat two-central-band angle within the angular resolution used, rather than missing a narrow higher-angle interval [@Ma2019].",
+      "content_hash": "fd9c920d70a0808ea91b1171106d21424236f7d2bc9d289d9ce65f7e3a6590d9",
+      "interface_hash": "sha256:edbe4d716978ad2c7c2a0801c0c1d25e591528f007b0257c139a6751926d6cd3",
+      "label": "gcn_4249f998947d4ee0",
+      "qid": "github:twisted_trilayer_flat_bands::gcn_4249f998947d4ee0",
+      "required_by": [
+        "github:twisted_trilayer_flat_bands::gcn_2cf09f115b814154"
+      ]
+    },
+    {
+      "content": "In Ma et al.'s continuum-model description of twisted trilayer graphene, a graphene monolayer on an AB-stacked bilayer is modeled with a single-valley 6x6 Bloch Hamiltonian in the (A1,B1,A2,B2,A3,B3) sublattice basis; setting the AB-bilayer remote hopping parameters gamma_3 = 0, gamma_4 = 0, and the dimer-site energy Delta' = 0 defines a minimal model intended to isolate the primary moire interlayer-coupling mechanisms that produce the largest magic-angle nearly flat central bands [@Ma2019].",
+      "content_hash": "154b5be13a4852094422cde66bcc419dc1815b4b7144735f2441d58fa9c17616",
+      "interface_hash": "sha256:7c494dc412066abeac2da2687fa1ff9ded7f6f69ab6005ecd20e88e8a08a6ccb",
+      "label": "gcn_768268d063184cb8",
+      "qid": "github:twisted_trilayer_flat_bands::gcn_768268d063184cb8",
+      "required_by": [
+        "github:twisted_trilayer_flat_bands::gcn_2cf09f115b814154"
+      ]
+    },
+    {
+      "content": "For Ma et al.'s minimal continuum-model Hamiltonian for twisted trilayer graphene, the tight-binding parameter choices gamma_0 = 2464 meV and gamma_1 = 400 meV, together with gamma_3 = gamma_4 = Delta' = 0, determine the numerically reported largest magic angle near theta = 1.12 degrees, so the precise value is sensitive to the adopted gamma_0 and gamma_1 parameters [@Ma2019].",
+      "content_hash": "4da1305b9475f0c9fc6b3a3ecb37cf7613740f78aa589d9e0b2f3da8786800ee",
+      "interface_hash": "sha256:56ca5c690f81cc7530b4189a73547d02bd79e0081caa7858d4b8fbd1a0814e7d",
+      "label": "gcn_ba18ade2bb8145ee",
+      "qid": "github:twisted_trilayer_flat_bands::gcn_ba18ade2bb8145ee",
+      "required_by": [
+        "github:twisted_trilayer_flat_bands::gcn_2cf09f115b814154"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:f31b40abc49cdfdd7e7eb6dc6d8811064d3bc6b9cbdb67b42f6e0899e6a540ec",
+  "manifest_schema_version": 1,
+  "package": "twisted-trilayer-flat-bands",
+  "version": "0.1.0"
+}

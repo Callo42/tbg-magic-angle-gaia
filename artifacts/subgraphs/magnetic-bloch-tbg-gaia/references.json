@@ -1,0 +1,31 @@
+{
+  "HerzogArbeitman2022": {
+    "type": "article",
+    "title": "Magnetic Bloch Theorem and Reentrant Flat Bands in Twisted Bilayer Graphene at $2\\pi$ Flux",
+    "DOI": "10.48550/arXiv.2206.07717",
+    "container-title": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          15
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Herzog-Arbeitman",
+        "given": "Jonah"
+      },
+      {
+        "family": "Chew",
+        "given": "Aaron"
+      },
+      {
+        "family": "Bernevig",
+        "given": "B. Andrei"
+      }
+    ]
+  }
+}

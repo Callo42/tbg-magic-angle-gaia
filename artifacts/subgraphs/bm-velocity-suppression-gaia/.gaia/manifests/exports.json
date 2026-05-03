@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "For twisted bilayer graphene, the noninteracting low-energy Dirac-point band Fermi velocity v_F*(theta) produced by the Bistritzer-MacDonald continuum moire-band model is strongly suppressed as theta approaches the largest magic angle theta_M where that velocity vanishes; for 0 < theta < 3 degrees it is usefully described by v_F*(theta) ~= 0.5 * |theta - theta_M| * v_F, with v_F about 1e8 cm/s [@DasSarma2020].",
+      "content_hash": "8aab4891ca59873701dc6a6a05cd865eeeb79b1b055c6812ed28364c542e1448",
+      "label": "gcn_7bca73ad98eb4ed4",
+      "qid": "github:bm_velocity_suppression::gcn_7bca73ad98eb4ed4",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:cd36ff2f6c9e0a580181607cd7ebe4bd4d706f48798f3a1fcb0370af1739e97b",
+  "manifest_schema_version": 1,
+  "package": "bm-velocity-suppression",
+  "version": "0.1.0"
+}

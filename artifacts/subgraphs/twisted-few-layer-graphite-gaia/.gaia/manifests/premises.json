@@ -1,0 +1,32 @@
+{
+  "ir_hash": "sha256:0552767ceb59065282b105d7316f0b3f4b329ba55fa7247ee013e76e1683f3b3",
+  "manifest_schema_version": 1,
+  "package": "twisted-few-layer-graphite",
+  "premises": [
+    {
+      "content": "For N=3 twisted few-layer graphite systems in Ma et al.'s minimal continuum-model twist-angle scan, with parameters omega_1/omega_2/gamma_0/gamma_1/gamma_3/gamma_4 = 78/98/2610/360/0/0 meV and xi = -1, the principal magic-angle estimate near 1.05 degrees is obtained while omitting remote hoppings gamma_3 and gamma_4; separate full-parameter calculations with gamma_3 = 283 meV and gamma_4 = 138 meV make the flat bands dispersive, separate them in energy, and open twist-angle-dependent gaps at the Dirac points of linear bands, so the precise magic-angle value depends on the chosen continuum parameters and on the minimal-model scan [@Ma2020].",
+      "content_hash": "d752f4b491042b503b5c93caceb41d9b4907d3b9e1eaa880178214376b628fd8",
+      "exported": false,
+      "interface_hash": "sha256:637a1059359c80f39df1a20563bfd59261f7c5d8fc266829bf91bd481e65c80a",
+      "label": "gcn_2ceab67f16f34d1e",
+      "qid": "github:twisted_few_layer_graphite::gcn_2ceab67f16f34d1e",
+      "required_by": [
+        "github:twisted_few_layer_graphite::gcn_f23eff9c755840f2"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "In Ma et al.'s continuum calculations for twisted few-layer graphite, the two few-layer-graphite slabs are treated as rigid, uniformly twisted atomic layers; the calculation does not include in-plane lattice relaxation, out-of-plane corrugation, or spatial twist-angle inhomogeneity across the moire supercell [@Ma2020].",
+      "content_hash": "e7d0e1e379e4018b4563fcd8b3f74c966a82255da9f9142a0f47a376f3890fcc",
+      "exported": false,
+      "interface_hash": "sha256:8b5d0711d2a97b6c1b6b4e97ad60273a402f308e6b3068a76f7803109ce8228f",
+      "label": "gcn_2fcfd55afc454c94",
+      "qid": "github:twisted_few_layer_graphite::gcn_2fcfd55afc454c94",
+      "required_by": [
+        "github:twisted_few_layer_graphite::gcn_f23eff9c755840f2"
+      ],
+      "role": "local_hole"
+    }
+  ],
+  "version": "0.1.0"
+}

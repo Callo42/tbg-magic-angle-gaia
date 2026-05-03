@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "In Ma et al.'s minimal continuum model for twisted trilayer graphene, formed by placing a graphene monolayer on an AB-stacked graphene bilayer, the parameter set gamma_3 = gamma_4 = Delta' = 0, gamma_0 = 2464 meV, and gamma_1 = 400 meV gives a largest magic twist angle near theta = 1.12 degrees, where two low-energy moire bands near charge neutrality become nearly flat around the Fermi level [@Ma2019].",
+      "content_hash": "aa267a7bd19bbafa6e9ae739ab622b7af7292782b7e09cbc3079b87c33c38d57",
+      "label": "gcn_2cf09f115b814154",
+      "qid": "github:twisted_trilayer_flat_bands::gcn_2cf09f115b814154",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:f31b40abc49cdfdd7e7eb6dc6d8811064d3bc6b9cbdb67b42f6e0899e6a540ec",
+  "manifest_schema_version": 1,
+  "package": "twisted-trilayer-flat-bands",
+  "version": "0.1.0"
+}

@@ -1,0 +1,31 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.64,
+      "knowledge_id": "github:merged_dirac_tbg::gcn_7687975d_small_angle_merging_conjecture",
+      "label": "gcn_7687975d_small_angle_merging_conjecture"
+    },
+    {
+      "belief": 0.803392,
+      "knowledge_id": "github:merged_dirac_tbg::gcn_8159f32d_merged_dirac_magic_angle_flat_band",
+      "label": "gcn_8159f32d_merged_dirac_magic_angle_flat_band"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:merged_dirac_tbg::gcn_7687975d_small_angle_merging_conjecture": [
+        0.64
+      ],
+      "github:merged_dirac_tbg::gcn_8159f32d_merged_dirac_magic_angle_flat_band": [
+        0.803392
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 1
+  },
+  "gaia_lang_version": "0.4.3",
+  "ir_hash": "sha256:12db4378e1a97efebc879b51b797b36b3953985db891e7bc980241d8a06cd5da"
+}

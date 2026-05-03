@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Computed moiré band structures and density-of-states (DOS) profiles for twisted bilayer graphene as functions of twist angle $\\theta$ (in particular for $\\theta$ in the interval $1.3^\\circ$–$1.9^\\circ$) obtained from the Bistritzer–MacDonald continuum model with relaxation-corrected tunneling parameters ($t_{AA},t_{AB}$) and Fermi velocity $v_F$ (for example, the Koshino parametrization $t_{AA}=79.7\\,$meV, $t_{AB}=97.5\\,$meV, $v_F=7.98\\times10^5\\,$m/s) and a finite discretization mesh yield that the two moiré Dirac bands remain energetically isolated by superlattice gaps across that range for those chosen parameters and numerical resolution; however, the existence and numerical size of those gaps depends on model parameter choices, relaxation implementation, and numerical mesh resolution, so conclusions about gap closure when extrapolating toward the magic angle carry model-dependent uncertainty.",
+      "content_hash": "11b601d50262bdc02b3a2e178a37c091c7c5adf53dd1aa9d0da42a37ead39c6b",
+      "id": "gcn_2f2dec0131284100",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "13c560aa071b5bc37de47465c1e689cd"
+}

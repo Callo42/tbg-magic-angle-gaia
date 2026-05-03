@@ -1,0 +1,47 @@
+{
+  "Ma2019": {
+    "type": "article",
+    "title": "Topological flat bands in twisted trilayer graphene",
+    "DOI": "10.48550/arXiv.1905.00622",
+    "container-title": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          2
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ma",
+        "given": "Zhen"
+      },
+      {
+        "family": "Li",
+        "given": "Shuai"
+      },
+      {
+        "family": "Zheng",
+        "given": "Ya-Wen"
+      },
+      {
+        "family": "Xiao",
+        "given": "Meng-Meng"
+      },
+      {
+        "family": "Jiang",
+        "given": "Hua"
+      },
+      {
+        "family": "Gao",
+        "given": "Jin-Hua"
+      },
+      {
+        "family": "Xie",
+        "given": "X. C."
+      }
+    ]
+  }
+}

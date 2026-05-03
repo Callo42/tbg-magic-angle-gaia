@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Using tight-binding Hamiltonians assembled from DFT/Wannier intralayer hoppings and fitted interlayer couplings, together with continuum-model mappings constructed from the same DFT-derived parameters, band structures of twisted bilayer graphene (TBG) were computed across many commensurate angles (primitive cells with atom counts from 28 to 13,468). The calculations show that (i) massless Dirac cones at $K$ persist under twisting; (ii) as $\\\\theta$ decreases the moiré potential causes progressive band folding and a reduction of Fermi velocity (band flattening); (iii) when lattice relaxation is included the central low-energy bands separate from higher bands (a gap opens) around $\\\\sim2.45^{\\\\circ}$; (iv) near the magic angle $\\\\sim1.05^{\\\\circ}$ an almost completely isolated flat band appears with bandwidth minimized and a gap to other bands exceeding $10\\\\,$meV on both electron and hole sides; and (v) continuum-model parameters extracted from first-principles are $\\\\hbar v=5.253\\\\ \\\\mathrm{eV}\\\\cdot\\\\AA$, $\\\\delta=0.0813\\\\ \\\\mathrm{eV}$, and $\\\\delta'=0.0951\\\\ \\\\mathrm{eV}$, and continuum bands obtained by plane-wave expansion closely reproduce the tight-binding results.",
+      "content_hash": "227bc1151abbbbff8c7e63d0eba86042ab177425eccbb86429a054bbada323ce",
+      "id": "gcn_e49e0dc4e7c442d7",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "6b8d6d79ff6149f319dd2bafd7d22a4a"
+}

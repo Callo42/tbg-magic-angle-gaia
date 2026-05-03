@@ -1,0 +1,90 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For the twisted monolayer–bilayer geometry defined as a graphene monolayer rotated by angle $\\\\theta$ and placed on top of an AB-stacked graphene bilayer (denoted SM-(AB)$_2$), the moiré system at its magic-angle moiré geometry (near $\\\\theta\\\\simeq1.1^{\\\\circ}$) exhibits isolated low-energy flat bands, but these flat bands are quantitatively less flat than those of relaxed twisted bilayer graphene: the SM-(AB)$_2$ flat-band manifold has larger bandwidth and a smaller zero-energy DOS peak than magic-angle TBLG. Layer-resolved density of states $\\\\rho_{\\\\ell}(E)$ shows that the flat-band spectral weight is strongly localized on the twisted monolayer (top layer) while it is comparatively broadened and delocalized across the AB bilayer (the two bottom layers), producing a spatially separated localized–delocalized electronic character across layers.",
+      "content_hash": "fd1ba51bd1bb4a7b22dc9e03b576ecc93e8d18c9a97147efb60ed18fa9bc1feb",
+      "id": "gcn_14a55aff3de24a3a",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "For the twisted monolayer–bilayer geometry defined as a graphene monolayer rotated by angle $\\\\theta$ and placed on top of an AB-stacked graphene bilayer (denoted SM-(AB)$_2$), the moiré system at its magic-angle moiré geometry (near $\\\\theta\\\\simeq1.1^{\\\\circ}$) exhibits isolated low-energy flat bands, but these flat bands are quantitatively less flat than those of relaxed twisted bilayer graphene: the SM-(AB)$_2$ flat-band manifold has larger bandwidth and a smaller zero-energy DOS peak than magic-angle TBLG. Layer-resolved density of states $\\\\rho_{\\\\ell}(E)$ shows that the flat-band spectral weight is strongly localized on the twisted monolayer (top layer) while it is comparatively broadened and delocalized across the AB bilayer (the two bottom layers), producing a spatially separated localized–delocalized electronic character across layers.",
+              "id": "gcn_14a55aff3de24a3a"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_f1d4418da247467d",
+            "premises": [
+              {
+                "content": "Define the SM-(AB)$_2$ system as a graphene monolayer twisted by angle $\\\\theta$ placed atop an AB-stacked bilayer substrate. Define the layer-decomposed density of states $\\\\rho_{\\\\ell}(E)=\\\\sum_{i\\\\in\\\\ell}\\\\langle i|\\\\delta(E-H)|i\\\\rangle$, where the sum runs over atomic orbitals on layer $\\\\ell$ and $H$ is the single-particle tight-binding Hamiltonian. The computed result at the magic-angle moiré geometry is that the low-energy flat-band eigenstates produce a strong peak in $\\\\rho_{\\\\mathrm{top}}(E\\\\approx0)$ (indicating spatial localization on the twisted monolayer top layer) while $\\\\rho_{\\\\mathrm{bottom\\\\ bilayer}}(E\\\\approx0)$ is comparatively broadened (indicating delocalization across the bilayer); i.e., the flat-band spectral weight in SM-(AB)$_2$ is layer-polarized and shows coexisting localized and delocalized character across layers.\n      [73][74]",
+                "id": "gcn_42c7afbd21b5483d"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Begin from upstream conclusions taken as known: conclusion 1 (the magic-angle $\\theta\\simeq1.1^{\\circ}$ coincides with maximized AA-region localization and yields flat bands in relaxed structures) and conclusion 10 (the atomistic relaxation and Slater–Koster $p_{z}$ TB protocol used to compute electronic structure) are treated as established starting points for analyzing SM-(AB)$_2$.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Describe the system considered and the computational setup: SM-(AB)$_2$ denotes a twisted monolayer placed atop an AB-stacked bilayer (define SM-(AB)$_2$ accordingly); calculations are performed at the system's magic-angle moiré using the relaxed geometries and the TB Hamiltonian from the established protocol.\nFig. 5",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Report the computed bandstructure observation for SM-(AB)$_2$: the TB bandstructure computed on relaxed geometry shows isolated low-energy flat bands near the Fermi level (i.e., similar in topology to magic-angle TBLG), and the DOS shows a zero-energy peak corresponding to these bands; these features are evident in the plotted bandstructure and DOS for SM-(AB)$_2$.\nFig. 5",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Quantitatively compare the flatness to magic-angle TBLG: although SM-(AB)$_2$ has isolated low-energy flat bands, the computed bandwidth of these flat bands is larger (i.e., the bands are less flat) and the zero-energy DOS peak is smaller than that obtained for magic-angle TBLG in the relaxed-geometry calculations presented; the paper explicitly states that the bands are \"less flat (lower)\" and the zero-energy DOS peak is reduced compared to TBLG in their magic-angle comparisons.\nFig. 5",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Explain the structural-electronic rationale provided: define AAB stacking as the local registry of the moiré AA-like regions in SM-(AB)$_2$ (i.e., a mixture of AA and AB stacking); because AA regions are favorable for strong electronic localization while AB is unfavorable, the AAB-type regions reduce net AA-like localization compared to pure AA in TBLG, which diminishes the strength of real-space localization and thereby produces a larger flat-band bandwidth and smaller zero-energy DOS peak in SM-(AB)$_2$.\nFig. 6",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Report the layer-resolved LDOS result that demonstrates spatially separated localized and delocalized character: layer-decomposed LDOS (define LD-DOS as layer-decomposed density of states) for SM-(AB)$_2$ shows that the flat-band states are spatially localized on the twisted monolayer side (top layer) while the same low-energy states are comparatively delocalized on the bilayer (bottom two layers), i.e., a coexistence of localized and delocalized behavior across different layers of the junction.\nFig. 6",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Cite supportive comparisons and prior observations: the reported layer-separated localized–delocalized electronic character in SM-(AB)$_2$ is consistent with recent experimental observations referenced by the authors and with related theoretical findings on delocalized correlated states in double-bilayer contexts.\n[73]\n[74]",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Physical context: multilayer twisted structures (monolayer on bilayer) extend twistronics possibilities, but stacking asymmetry mixes AA and AB registry motifs (AAB regions) and modifies interlayer couplings. Prior approaches: continuum models had given conflicting indications of bandwidth trends in monolayer–bilayer moirés, and atomistic relaxation effects were not systematically quantified for this geometry. Specific limitation: absence of layer-resolved atomistic electronic characterization left unclear whether flat bands survive and how they spatially distribute across layers. Consequences: without knowing the reduced flatness and the layer-resolved localization, predictions for correlated-state formation and experimental probes (e.g., STM layer sensitivity) are uncertain.",
+            "id": "paper:867761060289970778::conclusion_3_subproblem",
+            "source_package": "paper:867761060289970778"
+          }
+        ],
+        "source_package": "paper:867761060289970778"
+      }
+    ],
+    "papers": {
+      "paper:867761060289970778": {
+        "area": "arXiv-Physics",
+        "authors": "V. Hung Nguyen | Trinh X. Hoang | J.-C. Charlier",
+        "available_online": "",
+        "cover_date_start": "2022-03-17",
+        "created_at": "2023-05-23T05:32:39+08:00",
+        "doi": "10.48550/arXiv.2203.09188",
+        "en_title": "Electronic properties of twisted multilayer graphene",
+        "id": "867761060289970778",
+        "keywords": "",
+        "publication_date": "2022-03-17",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲多层石墨烯的电子性质"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "737f3f340c6c1be25ca1a072305d684e"
+}

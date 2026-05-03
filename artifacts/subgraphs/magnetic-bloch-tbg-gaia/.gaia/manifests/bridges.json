@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:29e02a02a079133d9ec54a5ca9ba2a472fb14be7503e944be68091a698d36cdf",
+  "manifest_schema_version": 1,
+  "package": "magnetic-bloch-tbg",
+  "version": "0.1.0"
+}

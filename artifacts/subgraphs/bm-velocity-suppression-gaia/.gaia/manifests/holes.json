@@ -1,0 +1,28 @@
+{
+  "holes": [
+    {
+      "content": "In twisted bilayer graphene, the Bistritzer-MacDonald continuum moire-band model supplies the noninteracting low-energy band structure, and the Dirac-point band Fermi velocity v_F*(theta) from that model is treated as the bare input velocity for subsequent low-energy many-body and phonon-transport calculations [@DasSarma2020].",
+      "content_hash": "5fbb5a1d128dc709804ffa17161fe1496dc80ffb90be8203024880379215b540",
+      "interface_hash": "sha256:1ef1dbc7798cdd4a688b806c3f54882fba788a588749114d73e037deba132ed4",
+      "label": "gcn_671ceef053a64aa7",
+      "qid": "github:bm_velocity_suppression::gcn_671ceef053a64aa7",
+      "required_by": [
+        "github:bm_velocity_suppression::gcn_7bca73ad98eb4ed4"
+      ]
+    },
+    {
+      "content": "For twisted bilayer graphene in the noninteracting Bistritzer-MacDonald continuum moire-band calculation, with twist angle theta and largest magic angle theta_M measured in degrees and monolayer graphene velocity v_F about 1e8 cm/s, the computed low-energy Dirac-point Fermi velocity v_F*(theta) for 0 < theta < 3 degrees is usefully approximated by v_F*(theta) ~= 0.5 * |theta - theta_M| * v_F [@DasSarma2020].",
+      "content_hash": "a39ef27d8f8b7b19ca6049c826225f29366eaa8c2667b7d5153a6c3eefe8ec10",
+      "interface_hash": "sha256:49fbe7dc22d2aa8265edb248a74df5629e843cb20d87ced396e9b7d29159a279",
+      "label": "gcn_d3808439ccf6496b",
+      "qid": "github:bm_velocity_suppression::gcn_d3808439ccf6496b",
+      "required_by": [
+        "github:bm_velocity_suppression::gcn_7bca73ad98eb4ed4"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:cd36ff2f6c9e0a580181607cd7ebe4bd4d706f48798f3a1fcb0370af1739e97b",
+  "manifest_schema_version": 1,
+  "package": "bm-velocity-suppression",
+  "version": "0.1.0"
+}

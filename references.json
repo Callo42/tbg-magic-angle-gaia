@@ -1,0 +1,586 @@
+{
+  "Cao2018": {
+    "type": "article-journal",
+    "title": "Unconventional superconductivity in magic-angle graphene superlattices",
+    "DOI": "10.1038/nature26160",
+    "container-title": "Nature",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Cao",
+        "given": "Yuan"
+      },
+      {
+        "family": "Fatemi",
+        "given": "Valla"
+      },
+      {
+        "family": "Fang",
+        "given": "Shiang"
+      },
+      {
+        "family": "Watanabe",
+        "given": "Kenji"
+      },
+      {
+        "family": "Taniguchi",
+        "given": "Takashi"
+      },
+      {
+        "family": "Kaxiras",
+        "given": "Efthimios"
+      },
+      {
+        "family": "Jarillo-Herrero",
+        "given": "Pablo"
+      }
+    ]
+  },
+  "DasSarma2020": {
+    "type": "article-journal",
+    "title": "Electron\u2013phonon and electron\u2013electron interaction effects in twisted bilayer graphene",
+    "DOI": "10.1016/j.aop.2020.168193",
+    "container-title": "Annals of Physics",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Das Sarma",
+        "given": "Sankar"
+      },
+      {
+        "family": "Wu",
+        "given": "Fengcheng"
+      }
+    ]
+  },
+  "HerzogArbeitman2022": {
+    "type": "article",
+    "title": "Magnetic Bloch Theorem and Reentrant Flat Bands in Twisted Bilayer Graphene at $2\\pi$ Flux",
+    "DOI": "10.48550/arXiv.2206.07717",
+    "container-title": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          15
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Herzog-Arbeitman",
+        "given": "Jonah"
+      },
+      {
+        "family": "Chew",
+        "given": "Aaron"
+      },
+      {
+        "family": "Bernevig",
+        "given": "B. Andrei"
+      }
+    ]
+  },
+  "Ge2021": {
+    "DOI": "10.1039/d1nr00220a",
+    "author": [
+      {
+        "family": "Ge",
+        "given": "Liangbing"
+      },
+      {
+        "family": "Ni",
+        "given": "Kun"
+      },
+      {
+        "family": "Wu",
+        "given": "Xiaojun"
+      },
+      {
+        "family": "Fu",
+        "given": "Zhengping"
+      },
+      {
+        "family": "Lu",
+        "given": "Yalin"
+      },
+      {
+        "family": "Zhu",
+        "given": "Yanwu"
+      }
+    ],
+    "container-title": "Nanoscale",
+    "id": "Ge2021",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "title": "Emerging flat bands in large-angle twisted bi-layer graphene under pressure",
+    "type": "article-journal"
+  },
+  "Yamada2020": {
+    "type": "article",
+    "title": "Merged Four Dirac Points at the Critical Interlayer Distance in Commensurately Twisted Bilayer Graphene: the Origin of the Zero Velocity",
+    "DOI": "10.48550/arXiv.2001.01364",
+    "container-title": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          6
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Yamada",
+        "given": "Aya"
+      },
+      {
+        "family": "Hasegawa",
+        "given": "Yasumasa"
+      }
+    ]
+  },
+  "Ma2020": {
+    "type": "article-journal",
+    "title": "Moir\u00e9 Flat Bands of Twisted Few-layer Graphite",
+    "DOI": "10.48550/arXiv.2001.07995",
+    "container-title": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          22
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ma",
+        "given": "Zhen"
+      },
+      {
+        "family": "Li",
+        "given": "Shuai"
+      },
+      {
+        "family": "Xiao",
+        "given": "Meng-Meng"
+      },
+      {
+        "family": "Zheng",
+        "given": "Ya-Wen"
+      },
+      {
+        "family": "Lu",
+        "given": "Ming"
+      },
+      {
+        "family": "Liu",
+        "given": "HaiWen"
+      },
+      {
+        "family": "Gao",
+        "given": "Jin-Hua"
+      },
+      {
+        "family": "Xie",
+        "given": "X. C."
+      }
+    ]
+  },
+  "Ma2019": {
+    "type": "article",
+    "title": "Topological flat bands in twisted trilayer graphene",
+    "DOI": "10.48550/arXiv.1905.00622",
+    "container-title": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          2
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ma",
+        "given": "Zhen"
+      },
+      {
+        "family": "Li",
+        "given": "Shuai"
+      },
+      {
+        "family": "Zheng",
+        "given": "Ya-Wen"
+      },
+      {
+        "family": "Xiao",
+        "given": "Meng-Meng"
+      },
+      {
+        "family": "Jiang",
+        "given": "Hua"
+      },
+      {
+        "family": "Gao",
+        "given": "Jin-Hua"
+      },
+      {
+        "family": "Xie",
+        "given": "X. C."
+      }
+    ]
+  },
+  "Burg2022": {
+    "type": "article-journal",
+    "title": "Emergence of Correlations in Alternating Twist Quadrilayer Graphene",
+    "DOI": "10.48550/arXiv.2201.01637",
+    "container-title": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Burg",
+        "given": "G. William"
+      },
+      {
+        "family": "Khalaf",
+        "given": "Eslam"
+      },
+      {
+        "family": "Wang",
+        "given": "Yimeng"
+      },
+      {
+        "family": "Watanabe",
+        "given": "Kenji"
+      },
+      {
+        "family": "Taniguchi",
+        "given": "Takashi"
+      },
+      {
+        "family": "Tutuc",
+        "given": "Emanuel"
+      }
+    ]
+  },
+  "Nguyen2022": {
+    "type": "article",
+    "title": "Electronic properties of twisted multilayer graphene",
+    "DOI": "10.48550/arXiv.2203.09188",
+    "container-title": "Materials Science _ Physics.cond-mat.mtrl-sci",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          17
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "V. Hung"
+      },
+      {
+        "family": "Hoang",
+        "given": "Trinh X."
+      },
+      {
+        "family": "Charlier",
+        "given": "J.-C."
+      }
+    ]
+  },
+  "Tritsaris2020": {
+    "type": "article-journal",
+    "title": "Electronic structure calculations of twisted multi-layer graphene superlattices",
+    "DOI": "10.1088/2053-1583/ab8f62",
+    "container-title": "2D Materials",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          22
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Tritsaris",
+        "given": "Georgios A"
+      },
+      {
+        "family": "Carr",
+        "given": "Stephen"
+      },
+      {
+        "family": "Zhu",
+        "given": "Ziyan"
+      },
+      {
+        "family": "Xie",
+        "given": "Yiqi"
+      },
+      {
+        "family": "Torrisi",
+        "given": "Steven B"
+      },
+      {
+        "family": "Tang",
+        "given": "Jing"
+      },
+      {
+        "family": "Mattheakis",
+        "given": "Marios"
+      },
+      {
+        "family": "Larson",
+        "given": "Daniel T"
+      },
+      {
+        "family": "Kaxiras",
+        "given": "Efthimios"
+      }
+    ]
+  },
+  "Liu2020": {
+    "type": "article-journal",
+    "title": "Tunable lattice reconstruction and bandwidth of flat bands in magic-angle twisted bilayer graphene",
+    "DOI": "10.48550/arXiv.2007.01993",
+    "container-title": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Yi-Wen"
+      },
+      {
+        "family": "Su",
+        "given": "Ying"
+      },
+      {
+        "family": "Zhou",
+        "given": "Xiao-Feng"
+      },
+      {
+        "family": "Yin",
+        "given": "Long-Jing"
+      },
+      {
+        "family": "Yan",
+        "given": "Chao"
+      },
+      {
+        "family": "Li",
+        "given": "Si-Yu"
+      },
+      {
+        "family": "Yan",
+        "given": "Wei"
+      },
+      {
+        "family": "Han",
+        "given": "Sheng"
+      },
+      {
+        "family": "Fu",
+        "given": "Zhong-Qiu"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yu"
+      },
+      {
+        "family": "Yang",
+        "given": "Qian"
+      },
+      {
+        "family": "Ren",
+        "given": "Ya-Ning"
+      },
+      {
+        "family": "He",
+        "given": "Lin"
+      }
+    ]
+  },
+  "Cantele2020": {
+    "type": "article-journal",
+    "title": "Structural relaxation and low-energy properties of twisted bilayer graphene",
+    "DOI": "10.1103/physrevresearch.2.043127",
+    "container-title": "Physical Review Research _ Phys. Rev. Research",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          23
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Cantele",
+        "given": "Giovanni"
+      },
+      {
+        "family": "Alfe",
+        "given": "Dario"
+      },
+      {
+        "family": "Conte",
+        "given": "Felice"
+      },
+      {
+        "family": "Cataudella",
+        "given": "Vittorio"
+      },
+      {
+        "family": "Ninno",
+        "given": "Domenico"
+      },
+      {
+        "family": "Lucignano",
+        "given": "Procolo"
+      }
+    ]
+  },
+  "Zhang2019": {
+    "type": "article-journal",
+    "title": "Twisted bilayer graphene aligned with hexagonal boron nitride: Anomalous Hall effect and a lattice model",
+    "DOI": "10.1103/physrevresearch.1.033126",
+    "container-title": "Physical Review Research _ Phys. Rev. Research",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Ya-Hui"
+      },
+      {
+        "family": "Mao",
+        "given": "Dan"
+      },
+      {
+        "family": "Senthil",
+        "given": "T."
+      }
+    ]
+  },
+  "Wang2020": {
+    "type": "article-journal",
+    "title": "Flat-band topology of magic angle graphene on a transition metal dichalcogenide",
+    "DOI": "10.1103/physrevb.102.235146",
+    "container-title": "Physical Review B _ Phys. Rev. B",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          22
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Tianle"
+      },
+      {
+        "family": "Bultinck",
+        "given": "Nick"
+      },
+      {
+        "family": "Zaletel",
+        "given": "Michael P."
+      }
+    ]
+  },
+  "Park2021": {
+    "type": "article-journal",
+    "title": "Tunable strongly coupled superconductivity in magic-angle twisted trilayer graphene",
+    "DOI": "10.1038/s41586-021-03192-0",
+    "container-title": "Nature _ Nature",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          11
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Park",
+        "given": "Jeong Min"
+      },
+      {
+        "family": "Cao",
+        "given": "Yuan"
+      },
+      {
+        "family": "Watanabe",
+        "given": "Kenji"
+      },
+      {
+        "family": "Taniguchi",
+        "given": "Takashi"
+      },
+      {
+        "family": "Jarillo-Herrero",
+        "given": "Pablo"
+      }
+    ]
+  }
+}

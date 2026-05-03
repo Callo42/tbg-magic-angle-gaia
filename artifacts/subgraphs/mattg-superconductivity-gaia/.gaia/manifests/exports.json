@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "For Park et al.'s mirror-symmetric A-tw-A magic-angle twisted trilayer graphene with sequential twist angles +theta and -theta and theta about 1.57 degrees, continuum-model calculations yield mirror-symmetry-protected flat bands derived from mirror-symmetric outer-layer hopping combinations and coexisting gapless Dirac bands of opposite mirror character, so flat-band/Dirac-band hybridization is forbidden when mirror symmetry is present; the flat bands map approximately to MATBG-like bands with effective twist angle theta/sqrt(2), giving a larger MATTG magic angle near 1.6 degrees, and a perpendicular displacement field D breaks mirror symmetry and hybridizes the flat and Dirac bands, enabling electrical control of flat-band bandwidth and topology under the stated continuum-model approximations [@Park2021].",
+      "content_hash": "8dee7fa0f69250dba192d6a02113b36f7cd6dee3940c6871f99618a5866aa3f8",
+      "label": "gcn_b4e3bdff_mattg_mirror_flat_dirac_control",
+      "qid": "github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:8d735aab98629c0a8bbd7790f62287c78f58ec379900321043360cb63d99f6d3",
+  "manifest_schema_version": 1,
+  "package": "mattg-superconductivity",
+  "version": "0.1.0"
+}

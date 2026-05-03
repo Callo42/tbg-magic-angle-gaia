@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The proposition: a Wannier-derived tight-binding model of magic-angle twisted bilayer graphene (TBG) is constructed as a lattice Hamiltonian $H_{\\\\mathrm{TB}}=\\\\sum_{i,j}t_{ij}c_{i}^{\\\\dagger}c_{j}$ obtained by projecting continuum-model Bloch states onto maximally localized Wannier functions and using exactly eight localized Wannier orbitals per graphene valley, with hopping matrix elements $t_{ij}$ retained out to a radius equal to ten moiré lattice constants; this Wannier model is parametrized using the continuum-model choices $v_{F}=2.34\\\\,a$ (graphene Fermi velocity, with $a$ the graphene lattice constant) and interlayer tunneling ratio $w_{0}/w_{1}=0.78$, and with those ingredients the model locates the magic angle at $\\\\theta_{\\\\mathrm{mag}}=1.12^{\\\\circ}$ and is claimed to reproduce the low-energy continuum-model bandstructure near the magic-angle regime so that the Wannier-model flat-band dispersion, bandwidths, and energetic separations to higher conduction bands are faithful to the continuum-model predictions used in the simulations; here 'moiré lattice constant' denotes the superlattice period set by the twist angle and 'flat-band dispersion' denotes the energy versus crystal momentum for the two bands nearest the Fermi energy, while 'accurately reproduces' is intended to mean band energies and band separations that are quantitatively similar in the energy windows relevant to $\\\\omega=1\\\\ \\\\mathrm{meV}$.",
+      "content_hash": "b4b4e88de65bf7066b3aca207a42acea0ed5a1586b3e00626885f18fd43bf237",
+      "id": "gcn_743ad512e28943ca",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "04b9967ab5645cd6278b42b4d55d990f"
+}

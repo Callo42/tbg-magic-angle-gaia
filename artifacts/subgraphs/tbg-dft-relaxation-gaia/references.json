@@ -1,0 +1,43 @@
+{
+  "Cantele2020": {
+    "type": "article-journal",
+    "title": "Structural relaxation and low-energy properties of twisted bilayer graphene",
+    "DOI": "10.1103/physrevresearch.2.043127",
+    "container-title": "Physical Review Research _ Phys. Rev. Research",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          23
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Cantele",
+        "given": "Giovanni"
+      },
+      {
+        "family": "Alfe",
+        "given": "Dario"
+      },
+      {
+        "family": "Conte",
+        "given": "Felice"
+      },
+      {
+        "family": "Cataudella",
+        "given": "Vittorio"
+      },
+      {
+        "family": "Ninno",
+        "given": "Domenico"
+      },
+      {
+        "family": "Lucignano",
+        "given": "Procolo"
+      }
+    ]
+  }
+}

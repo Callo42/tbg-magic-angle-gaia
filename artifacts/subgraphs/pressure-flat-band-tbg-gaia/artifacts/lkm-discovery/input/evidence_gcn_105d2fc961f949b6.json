@@ -1,0 +1,94 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Applying external compression to twisted bilayer graphene with commensurate twist angles in the range from approximately 9.4$^\\circ$ up to approximately 27.8$^\\circ$ provides a route to generate narrow, flat electronic bands and associated van Hove singularities near the Fermi level in twist-angle regimes that exhibit single-layer-graphene-like linear dispersion at ambient pressure; pressure therefore provides a feasible control parameter for flat-band engineering in larger-angle twisted bilayer graphene, which could in principle enable electron-correlation phenomena (for example, superconductivity or correlated insulating behavior) in structures that are easier to fabricate than magic-angle devices.",
+      "content_hash": "94dbe1d510640bae557830d5a19c418eb8744c015d74cec22f21525fc459b1f6",
+      "id": "gcn_105d2fc961f949b6",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Applying external compression to twisted bilayer graphene with commensurate twist angles in the range from approximately 9.4$^\\circ$ up to approximately 27.8$^\\circ$ provides a route to generate narrow, flat electronic bands and associated van Hove singularities near the Fermi level in twist-angle regimes that exhibit single-layer-graphene-like linear dispersion at ambient pressure; pressure therefore provides a feasible control parameter for flat-band engineering in larger-angle twisted bilayer graphene, which could in principle enable electron-correlation phenomena (for example, superconductivity or correlated insulating behavior) in structures that are easier to fabricate than magic-angle devices.",
+              "id": "gcn_105d2fc961f949b6"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_b4366b0e9b4a4f0f",
+            "premises": [
+              {
+                "content": "The emergence of pressure-induced narrow bands and van Hove singularities observed for commensurate 9.4$^\\circ$ twisted bilayer graphene at an interlayer spacing of $2.44\\,\\mathrm{\\AA}$ is assumed to be representative of behavior across commensurate large twist angles studied from approximately 9$^\\circ$ up to approximately 27.8$^\\circ$, such that compression can be used as a broadly applicable route to engineer flat bands in large-angle twisted bilayer graphene unit cells without requiring fine-tuning of the twist angle to a magic value.",
+                "id": "gcn_e83deb9969844b33"
+              },
+              {
+                "content": "An enhanced single-particle density of states at the Fermi level computed from Kohn–Sham density functional theory band structures and the presence of near-Fermi van Hove singularities are taken to be sufficient indicators to infer that electron correlations will necessarily produce many-body phases such as superconductivity or correlated insulating behavior in twisted bilayer graphene under the same pressure and geometry, without performing explicit many-body calculations or experimental verification.",
+                "id": "gcn_ba97172fd9264409"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "The previously established results provide three ingredients. First, at ambient pressure, large-angle TBG from about $9^\\circ$ up to nearly $30^\\circ$ has dispersion near $K$ that is linearly identical to single-layer graphene, so these systems are initially SLG-like rather than flat-banded. Second, pressure reduces the Fermi velocity monotonically for large twisted angles, showing a systematic pressure-driven renormalization of the Dirac-like bands. Third, for the specific $9.4^\\circ$ structure, strong compression to $75.52$ GPa removes the linear Dirac-like dispersion, creates flat bands near the Fermi level, and produces near-Fermi van Hove singularities associated with saddle points in the VBM and CBM.\nFig. 1, Fig. 3",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "The paper states in its results summary that for twisting angles ranging from above $9^\\circ$ up to nearly $30^\\circ$, the dispersion is SLG-like at $K$ under ambient conditions, but it drastically changes under external pressure and the eigenvalue spectra display a flat band around the Fermi level. This extends the pressure effect beyond the single $9.4^\\circ$ example to the studied larger-angle regime.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Because the control parameter is external pressure rather than precise tuning to the magic angle, the paper interprets compression as an alternative route to generating flat bands in TBG. The argument is specifically motivated by the experimental difficulty of preparing precisely controlled small-angle bilayers and by the fact that most prior work focused on twist angles below $2^\\circ$.\n[31], [32], [35], [36], [37], [38], [39]",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "The near-Fermi flat bands and the associated VHSs mean that pressure not only narrows the bands but also enhances the density of states close to the Fermi level. The paper explicitly links such electronic structures to the kinds of interesting properties previously found in small-angle TBG, including superconductivity and correlated insulation, while not claiming to have demonstrated those many-body phases directly here.\n[15], [16]",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "The text then makes a forward-looking inference: if pressure can generate in larger-angle TBG the same electronic ingredients that are associated with correlated phenomena in magic-angle systems, then applying pressure provides opportunities for flat-band engineering in larger-angle TBG and supports further exploration of related pressure-tuned correlated behavior.",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "At this point, the argument is explicitly suggestive rather than demonstrative concerning many-body phases. The paper says these flat bands \"may also induce interesting properties such as superconductivity\" and that \"consequently, electron correlations take place,\" but it does not provide a separate many-body derivation or experimental proof of superconductivity or correlated insulating order in the compressed large-angle systems.",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Therefore, the conclusion reached in the paper is that external compression acts as a practical engineering knob for producing narrow, flat bands and associated VHSs in larger-angle TBG, offering a feasible alternative to strict magic-angle fabrication and motivating experimental and theoretical exploration of possible correlation-driven phases in these easier-to-fabricate structures.",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The experimental difficulty of fabricating bilayer graphene with precise low-angle twists has motivated a search for other control parameters (electric field, doping, pressure) that can create narrow bands and high density-of-states near the Fermi level. Prior reports of correlated phases focused on the narrow window near the magic angle at ambient pressure, leaving open whether those correlated states could be realized in larger-angle devices using alternative tuning. Establishing that pressure can reproducibly induce flat bands and VHSs in multiple larger-angle commensurate cells demonstrates a general strategy—pressure-induced enhancement of interlayer coupling and localization—for achieving narrow-band electronic structures without extremely small twist angles, thereby addressing the fabrication bottleneck and suggesting new experimental directions.",
+            "id": "paper:812469412236886018::conclusion_5_subproblem",
+            "source_package": "paper:812469412236886018"
+          }
+        ],
+        "source_package": "paper:812469412236886018"
+      }
+    ],
+    "papers": {
+      "paper:812469412236886018": {
+        "area": "Material science",
+        "authors": "Liangbing Ge | Kun Ni | Xiaojun Wu | Zhengping Fu | Yalin Lu | Yanwu Zhu",
+        "available_online": "2021",
+        "cover_date_start": "2021-01-01",
+        "created_at": "2022-12-21T15:43:24+08:00",
+        "doi": "10.1039/d1nr00220a",
+        "en_title": "Emerging flat bands in large-angle twisted bi-layer graphene under pressure",
+        "id": "812469412236886018",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2079",
+        "publication_name": "Nanoscale _ Nanoscale",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "受压大角度扭曲双层石墨烯中出现的新兴平带"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "8a85b46f6bc55ccb949f4ebb656e6c21"
+}

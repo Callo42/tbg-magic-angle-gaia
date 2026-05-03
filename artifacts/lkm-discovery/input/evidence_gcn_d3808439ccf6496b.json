@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For twisted bilayer graphene (tBLG) with twist angle θ measured in degrees, let θ_M denote the largest magic angle at which the noninteracting continuum moiré-band Dirac-point band velocity vanishes, and let v_F ≈ 10^8 cm/s be the monolayer-graphene Dirac velocity; then the noninteracting continuum Bistritzer–MacDonald moiré-band calculation of the low-energy Dirac-point Fermi velocity v_F^*(θ) is accurately approximated for 0<θ<3° by the linear formula\n      $$\n      v_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F,\n      $$\n      with θ and θ_M in degrees, so that the numerical continuum-band outputs for v_F^*(θ) are captured to useful accuracy by this linear fit in the specified angular window.\n      R. Bistritzer and A.H. MacDonald, Proc. Natl. Acad. Sci. USA 108 (2011) 12233; F. Wu, E. Hwang, S. Das Sarma, Phys. Rev. B 99 (2019) 165112.",
+      "content_hash": "ab6b230aa37c25ce3130ae490969e118a1cda445c81ddcaaa16c0d2b4f037382",
+      "id": "gcn_d3808439ccf6496b",
+      "type": "claim"
+    },
+    "evidence_chains": [],
+    "papers": {},
+    "total_chains": 0
+  },
+  "trace_id": "a27b018c760586b79f834a12a352fbf1"
+}

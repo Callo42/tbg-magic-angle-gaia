@@ -1,0 +1,417 @@
+{
+  "ir_hash": "sha256:8d735aab98629c0a8bbd7790f62287c78f58ec379900321043360cb63d99f6d3",
+  "knowledges": [
+    {
+      "content": "For Park et al.'s continuum-model calculation of mirror-symmetric A-tw-A magic-angle twisted trilayer graphene, with three graphene monolayers sequentially twisted by +theta and -theta, the selected LKM chain treats the calculation as qualitatively capturing mirror-protected flat bands, coexisting gapless Dirac bands, and displacement-field-driven hybridization while using three approximations: neglecting direct top-bottom layer coupling, fixing interlayer hoppings w=0.1 eV and w'=0.08 eV with w' mimicking lattice relaxation, and representing perpendicular displacement field D by a non-self-consistent interlayer potential difference Delta V=dD/epsilon_0 with d about 0.3 nm [@Park2021].",
+      "content_hash": "38ba239aad25515c0e64d7ec923aab4667414a849a2d71772934aac607165039",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:mattg_superconductivity::gcn_c680c239_mattg_continuum_approximations",
+      "label": "gcn_c680c239_mattg_continuum_approximations",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Park2021"
+            ]
+          }
+        },
+        "lkm_id": "gcn_c680c2399704407b",
+        "lkm_original": "In continuum-model calculations of mirror-symmetric A-tw-A magic-angle twisted trilayer graphene, consisting of three graphene monolayers with sequential twist angles $+\\theta$ and $-\\theta$, qualitative band-structure features (mirror-protected flat bands, coexisting gapless Dirac bands, and displacement-field-driven hybridization) are assumed to be captured while making the approximations of (i) neglecting direct coupling matrix elements between the topmost and bottommost graphene layers, (ii) using fixed interlayer hopping parameters $w=0.1\\,\\mathrm{eV}$ and $w'=0.08\\,\\mathrm{eV}$ (with $w'$ included empirically to mimic lattice relaxation), and (iii) representing a perpendicular displacement field $D$ by a non-self-consistent imposed interlayer potential difference $\\Delta V=dD/\\varepsilon_0$ with interlayer spacing $d\\approx0.3\\,\\mathrm{nm}$ and vacuum permittivity $\\varepsilon_0$. These approximations are expected to affect quantitative details such as bandwidths, particle–hole asymmetry, Van Hove singularity energies, and hybridization strengths without being assumed to eliminate the coexistence of flat and Dirac bands or the symmetry-based hybridization control by $D$.",
+        "prior": 0.76,
+        "prior_justification": "LKM premise states the continuum-model approximations that ground the MATTG calculation, but several are quantitative modeling assumptions: no direct top-bottom coupling, fixed hopping parameters, empirical relaxation via w', and non-self-consistent displacement-field modeling. TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:812508547391684608"
+      },
+      "module": "paper_park2021",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "In the selected Park et al. LKM chain, the mirror-symmetric flat bands of A-tw-A twisted trilayer graphene are approximately reduced to a twisted-bilayer-like band structure with effective twist angle theta/sqrt(2), implying a MATTG magic-angle estimate near theta_MATTG about 1.6 degrees, while the mapping is explicitly scoped by neglected higher-order coupling terms, layer-dependent relaxation effects, and deviations from ideal mirror symmetry [@Park2021].",
+      "content_hash": "35cc74b1f616414f617b6eb78700e3f98b34fc3180ff09621cb5d44feaf3ba6a",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:mattg_superconductivity::gcn_3618ccee_mattg_theta_over_sqrt2_mapping",
+      "label": "gcn_3618ccee_mattg_theta_over_sqrt2_mapping",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Park2021"
+            ]
+          }
+        },
+        "lkm_id": "gcn_3618ccee24d94ab2",
+        "lkm_original": "The reduction of mirror-symmetric flat bands in A-tw-A stacked twisted trilayer graphene to an effective two-layer (twisted-bilayer-like) bandstructure with an effective twist angle $\\theta/\\sqrt{2}$, where $\\theta$ is the actual sequential twist angle between adjacent layers, is an approximate mapping that neglects higher-order coupling terms, layer-dependent relaxation effects, and deviations from ideal mirror symmetry; consequently, the numerical factor and the resulting magic-angle estimate $\\theta_{\\mathrm{MATTG}}\\approx1.6^\\circ$ depend on the neglected terms even if the mapping captures the qualitative trend that the trilayer magic angle exceeds the bilayer magic angle.",
+        "prior": 0.8,
+        "prior_justification": "LKM premise directly states the theta/sqrt(2) reduction and larger MATTG magic-angle trend, while also noting dependence on higher-order coupling, relaxation, and ideal mirror symmetry. TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:812508547391684608"
+      },
+      "module": "paper_park2021",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "In Park et al.'s MATTG continuum-model treatment, an externally applied perpendicular electric displacement field D is modeled as an imposed interlayer electrostatic potential difference Delta V=dD/epsilon_0 with interlayer spacing d about 0.3 nm; the selected LKM chain treats this non-self-consistent approximation as qualitatively capturing mirror-symmetry breaking and flat-band/Dirac-band hybridization, while warning that screening and non-local corrections can shift quantitative hybridization strengths and Van Hove singularity positions [@Park2021].",
+      "content_hash": "e015719edd6eb8a320b9111a985a54084716b4fe570ae5c377b1e93b7a3a156f",
+      "declaration_index": 2,
+      "exported": false,
+      "id": "github:mattg_superconductivity::gcn_71314760_mattg_displacement_field_modeling",
+      "label": "gcn_71314760_mattg_displacement_field_modeling",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Park2021"
+            ]
+          }
+        },
+        "lkm_id": "gcn_713147608cae4a93",
+        "lkm_original": "Modeling an externally applied perpendicular electric displacement field $D$ in twisted trilayer graphene by an interlayer electrostatic potential difference $\\Delta V=dD/\\varepsilon_0$, with interlayer spacing $d\\approx0.3\\,\\mathrm{nm}$ and vacuum permittivity $\\varepsilon_0$, assumes that neglecting self-consistent electronic screening and non-local screening corrections still qualitatively captures mirror-symmetry breaking and hybridization between flat and Dirac bands, even though the approximation can quantitatively misestimate hybridization strengths and the displacement-field values at which bandstructure features such as Van Hove singularities occur.",
+        "prior": 0.74,
+        "prior_justification": "LKM premise treats Delta V=dD/epsilon_0 as qualitatively adequate for mirror-symmetry breaking, but explicitly warns that neglected screening and non-local corrections can shift quantitative hybridization and Van Hove features. TODO:review",
+        "provenance_source": "lkm",
+        "source_paper": "paper:812508547391684608"
+      },
+      "module": "paper_park2021",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For Park et al.'s mirror-symmetric A-tw-A magic-angle twisted trilayer graphene with sequential twist angles +theta and -theta and theta about 1.57 degrees, continuum-model calculations yield mirror-symmetry-protected flat bands derived from mirror-symmetric outer-layer hopping combinations and coexisting gapless Dirac bands of opposite mirror character, so flat-band/Dirac-band hybridization is forbidden when mirror symmetry is present; the flat bands map approximately to MATBG-like bands with effective twist angle theta/sqrt(2), giving a larger MATTG magic angle near 1.6 degrees, and a perpendicular displacement field D breaks mirror symmetry and hybridizes the flat and Dirac bands, enabling electrical control of flat-band bandwidth and topology under the stated continuum-model approximations [@Park2021].",
+      "content_hash": "8dee7fa0f69250dba192d6a02113b36f7cd6dee3940c6871f99618a5866aa3f8",
+      "declaration_index": 3,
+      "exported": true,
+      "id": "github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control",
+      "label": "gcn_b4e3bdff_mattg_mirror_flat_dirac_control",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Park2021"
+            ]
+          }
+        },
+        "lkm_id": "gcn_b4e3bdff3c0c439a",
+        "lkm_original": "Continuum-model calculations for mirror-symmetric A-tw-A magic-angle twisted trilayer graphene (MATTG), consisting of three graphene monolayers sequentially twisted by $+\\theta$ and $-\\theta$ with $\\theta\\approx1.57^\\circ$, yield (a) mirror-symmetry-protected flat bands derived from mirror-symmetric combinations of outer-layer hopping and (b) coexisting gapless Dirac bands with opposite mirror character, such that hybridization between the flat and Dirac bands is forbidden when mirror symmetry is present. The flat bands can be mathematically reduced to magic-angle twisted bilayer graphene (MATBG)-like bands with an effective twist angle $\\theta/\\sqrt{2}$, implying a larger magic angle for MATTG of $\\theta_{\\mathrm{MATTG}}\\approx1.6^\\circ$. A perpendicular electric displacement field $D$ breaks the mirror symmetry and hybridizes the flat and Dirac bands, enabling in situ electrical control of the flat-band bandwidth and topology. These calculations neglect direct coupling between the topmost and bottommost graphene layers and use interlayer hopping parameters $w=0.1\\ \\mathrm{eV}$ and $w'=0.08\\ \\mathrm{eV}$, and they model the displacement field through an imposed interlayer potential difference $\\Delta V=dD/\\varepsilon_0$ with interlayer spacing $d\\approx0.3\\ \\mathrm{nm}$ and vacuum permittivity $\\varepsilon_0$.",
+        "provenance_source": "lkm",
+        "source_paper": "paper:812508547391684608"
+      },
+      "module": "paper_park2021",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For Park et al.'s zero-displacement-field continuum calculation of mirror-symmetric A-tw-A MATTG near theta about 1.57 degrees, the flat bands are mirror symmetric, the coexisting gapless Dirac bands are mirror antisymmetric, and symmetry forbids their hybridization at D=0 [@Park2021].",
+      "content_hash": "caa84d20f02cb1ee074272c49674743f071e1b037a138b2021f4b7691f5a89ff",
+      "declaration_index": 4,
+      "exported": false,
+      "id": "github:mattg_superconductivity::helper_mattg_zero_d_mirror_protected_flat_dirac",
+      "label": "helper_mattg_zero_d_mirror_protected_flat_dirac",
+      "metadata": {
+        "decomposition_of": "gcn_b4e3bdff3c0c439a",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Park2021"
+            ]
+          }
+        },
+        "lkm_id": "gcn_b4e3bdff3c0c439a",
+        "lkm_original": "Continuum-model calculations for mirror-symmetric A-tw-A magic-angle twisted trilayer graphene (MATTG), consisting of three graphene monolayers sequentially twisted by $+\\theta$ and $-\\theta$ with $\\theta\\approx1.57^\\circ$, yield (a) mirror-symmetry-protected flat bands derived from mirror-symmetric combinations of outer-layer hopping and (b) coexisting gapless Dirac bands with opposite mirror character, such that hybridization between the flat and Dirac bands is forbidden when mirror symmetry is present. The flat bands can be mathematically reduced to magic-angle twisted bilayer graphene (MATBG)-like bands with an effective twist angle $\\theta/\\sqrt{2}$, implying a larger magic angle for MATTG of $\\theta_{\\mathrm{MATTG}}\\approx1.6^\\circ$. A perpendicular electric displacement field $D$ breaks the mirror symmetry and hybridizes the flat and Dirac bands, enabling in situ electrical control of the flat-band bandwidth and topology. These calculations neglect direct coupling between the topmost and bottommost graphene layers and use interlayer hopping parameters $w=0.1\\ \\mathrm{eV}$ and $w'=0.08\\ \\mathrm{eV}$, and they model the displacement field through an imposed interlayer potential difference $\\Delta V=dD/\\varepsilon_0$ with interlayer spacing $d\\approx0.3\\ \\mathrm{nm}$ and vacuum permittivity $\\varepsilon_0$.",
+        "provenance_source": "lkm_decomposition",
+        "source_paper": "paper:812508547391684608"
+      },
+      "module": "paper_park2021",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For Park et al.'s mirror-symmetric A-tw-A MATTG model, the selected LKM chain states that the flat bands reduce mathematically to MATBG-like bands with effective twist angle theta/sqrt(2), so a physical twist theta about 1.57 degrees corresponds to a larger trilayer magic-angle estimate near 1.6 degrees [@Park2021].",
+      "content_hash": "de8cafa56024bd09aba041e5822cbe950dc24d458464d5bf25090c8e89bb3e32",
+      "declaration_index": 5,
+      "exported": false,
+      "id": "github:mattg_superconductivity::helper_mattg_magic_angle_larger_than_matbg",
+      "label": "helper_mattg_magic_angle_larger_than_matbg",
+      "metadata": {
+        "decomposition_of": "gcn_b4e3bdff3c0c439a",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Park2021"
+            ]
+          }
+        },
+        "lkm_id": "gcn_b4e3bdff3c0c439a",
+        "lkm_original": "Continuum-model calculations for mirror-symmetric A-tw-A magic-angle twisted trilayer graphene (MATTG), consisting of three graphene monolayers sequentially twisted by $+\\theta$ and $-\\theta$ with $\\theta\\approx1.57^\\circ$, yield (a) mirror-symmetry-protected flat bands derived from mirror-symmetric combinations of outer-layer hopping and (b) coexisting gapless Dirac bands with opposite mirror character, such that hybridization between the flat and Dirac bands is forbidden when mirror symmetry is present. The flat bands can be mathematically reduced to magic-angle twisted bilayer graphene (MATBG)-like bands with an effective twist angle $\\theta/\\sqrt{2}$, implying a larger magic angle for MATTG of $\\theta_{\\mathrm{MATTG}}\\approx1.6^\\circ$. A perpendicular electric displacement field $D$ breaks the mirror symmetry and hybridizes the flat and Dirac bands, enabling in situ electrical control of the flat-band bandwidth and topology. These calculations neglect direct coupling between the topmost and bottommost graphene layers and use interlayer hopping parameters $w=0.1\\ \\mathrm{eV}$ and $w'=0.08\\ \\mathrm{eV}$, and they model the displacement field through an imposed interlayer potential difference $\\Delta V=dD/\\varepsilon_0$ with interlayer spacing $d\\approx0.3\\ \\mathrm{nm}$ and vacuum permittivity $\\varepsilon_0$.",
+        "provenance_source": "lkm_decomposition",
+        "source_paper": "paper:812508547391684608"
+      },
+      "module": "paper_park2021",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "For Park et al.'s MATTG continuum model, applying a finite perpendicular displacement field D through Delta V=dD/epsilon_0 breaks the mirror symmetry, mixes mirror characters, and allows hybridization between formerly mirror-protected flat bands and Dirac bands, producing tunable changes in flat-band bandwidth and topology [@Park2021].",
+      "content_hash": "47c02f0fb66efe3fc7c78d0fac1fb61735c4218a073f2ad25df1f97c2429decd",
+      "declaration_index": 6,
+      "exported": false,
+      "id": "github:mattg_superconductivity::helper_mattg_displacement_field_hybridizes_bands",
+      "label": "helper_mattg_displacement_field_hybridizes_bands",
+      "metadata": {
+        "decomposition_of": "gcn_b4e3bdff3c0c439a",
+        "gaia": {
+          "provenance": {
+            "cited_refs": [
+              "Park2021"
+            ]
+          }
+        },
+        "lkm_id": "gcn_b4e3bdff3c0c439a",
+        "lkm_original": "Continuum-model calculations for mirror-symmetric A-tw-A magic-angle twisted trilayer graphene (MATTG), consisting of three graphene monolayers sequentially twisted by $+\\theta$ and $-\\theta$ with $\\theta\\approx1.57^\\circ$, yield (a) mirror-symmetry-protected flat bands derived from mirror-symmetric combinations of outer-layer hopping and (b) coexisting gapless Dirac bands with opposite mirror character, such that hybridization between the flat and Dirac bands is forbidden when mirror symmetry is present. The flat bands can be mathematically reduced to magic-angle twisted bilayer graphene (MATBG)-like bands with an effective twist angle $\\theta/\\sqrt{2}$, implying a larger magic angle for MATTG of $\\theta_{\\mathrm{MATTG}}\\approx1.6^\\circ$. A perpendicular electric displacement field $D$ breaks the mirror symmetry and hybridizes the flat and Dirac bands, enabling in situ electrical control of the flat-band bandwidth and topology. These calculations neglect direct coupling between the topmost and bottommost graphene layers and use interlayer hopping parameters $w=0.1\\ \\mathrm{eV}$ and $w'=0.08\\ \\mathrm{eV}$, and they model the displacement field through an imposed interlayer potential difference $\\Delta V=dD/\\varepsilon_0$ with interlayer spacing $d\\approx0.3\\ \\mathrm{nm}$ and vacuum permittivity $\\varepsilon_0$.",
+        "provenance_source": "lkm_decomposition",
+        "source_paper": "paper:812508547391684608"
+      },
+      "module": "paper_park2021",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "all_true(github:mattg_superconductivity::gcn_c680c239_mattg_continuum_approximations,github:mattg_superconductivity::gcn_3618ccee_mattg_theta_over_sqrt2_mapping,github:mattg_superconductivity::gcn_71314760_mattg_displacement_field_modeling)",
+      "content_hash": "3948213e3103f4cac77749be83b79bd67c6c4fd1763318cf532749e28fde7174",
+      "exported": false,
+      "id": "github:mattg_superconductivity::__conjunction_result_1c7172de",
+      "label": "__conjunction_result_1c7172de",
+      "metadata": {
+        "canonical_name": "all_true(github:mattg_superconductivity::gcn_c680c239_mattg_continuum_approximations,github:mattg_superconductivity::gcn_3618ccee_mattg_theta_over_sqrt2_mapping,github:mattg_superconductivity::gcn_71314760_mattg_displacement_field_modeling)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "conjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "conjunction_result",
+        "owning_strategy_id": "lcs_62a9e7fda2815c9d",
+        "owning_strategy_type": "deduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:mattg_superconductivity::__conjunction_result_1c7172de,github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control)",
+      "content_hash": "d3ac365aea6994973f91aa5aac9049fa3d1bda29399ac198c62c4a0c316faa65",
+      "exported": false,
+      "id": "github:mattg_superconductivity::__implication_result_488f69d3",
+      "label": "__implication_result_488f69d3",
+      "metadata": {
+        "canonical_name": "implies(github:mattg_superconductivity::__conjunction_result_1c7172de,github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_62a9e7fda2815c9d",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control,github:mattg_superconductivity::helper_mattg_zero_d_mirror_protected_flat_dirac)",
+      "content_hash": "e886931f7142c0aa43b64785677fb1c3799874ee615023cbd6ebbf2bc7c939d4",
+      "exported": false,
+      "id": "github:mattg_superconductivity::__implication_result_0a43a0ad",
+      "label": "__implication_result_0a43a0ad",
+      "metadata": {
+        "canonical_name": "implies(github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control,github:mattg_superconductivity::helper_mattg_zero_d_mirror_protected_flat_dirac)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_26784987bc39c5ba",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control,github:mattg_superconductivity::helper_mattg_magic_angle_larger_than_matbg)",
+      "content_hash": "ae27ef1f79ac1833b16f4221168c74769f450354e0ba6ffb93e2a9c16e5bb619",
+      "exported": false,
+      "id": "github:mattg_superconductivity::__implication_result_7eb578ae",
+      "label": "__implication_result_7eb578ae",
+      "metadata": {
+        "canonical_name": "implies(github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control,github:mattg_superconductivity::helper_mattg_magic_angle_larger_than_matbg)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_b6447a9e6187d12d",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control,github:mattg_superconductivity::helper_mattg_displacement_field_hybridizes_bands)",
+      "content_hash": "cff133ef67c6ae729e5e6ba1bf4d4a3ec41c53cbccced373c469212af431c348",
+      "exported": false,
+      "id": "github:mattg_superconductivity::__implication_result_1f977ad8",
+      "label": "__implication_result_1f977ad8",
+      "metadata": {
+        "canonical_name": "implies(github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control,github:mattg_superconductivity::helper_mattg_displacement_field_hybridizes_bands)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_0ef3d00ba311de95",
+        "owning_strategy_type": "support",
+        "prior": 0.9,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "paper_park2021"
+  ],
+  "module_titles": {
+    "paper_park2021": "paper_park2021 -- LKM claims and deduction from Park et al. (2021)."
+  },
+  "namespace": "github",
+  "operators": [],
+  "package_name": "mattg_superconductivity",
+  "scope": "local",
+  "strategies": [
+    {
+      "conclusion": "github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:mattg_superconductivity::__conjunction_result_1c7172de",
+            "operator": "conjunction",
+            "variables": [
+              "github:mattg_superconductivity::gcn_c680c239_mattg_continuum_approximations",
+              "github:mattg_superconductivity::gcn_3618ccee_mattg_theta_over_sqrt2_mapping",
+              "github:mattg_superconductivity::gcn_71314760_mattg_displacement_field_modeling"
+            ]
+          },
+          {
+            "conclusion": "github:mattg_superconductivity::__implication_result_488f69d3",
+            "operator": "implication",
+            "variables": [
+              "github:mattg_superconductivity::__conjunction_result_1c7172de",
+              "github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "deduction",
+        "generated_formal_expr": true,
+        "prior": 0.95,
+        "reason": "1. Define the system and calculation framework: MATTG consists of three graphene monolayers with sequential twist angles $\\theta$ and $-\\theta$ between layers; the continuum-model calculation used is the twisted-bilayer continuum model extended to a third layer with the same relative twist as the bottom layer. The calculation neglects direct coupling between the topmost and bottommost layers and uses interlayer hopping parameters off-diagonal $w=0.1\\ \\mathrm{eV}$ and diagonal $w'=0.08\\ \\mathrm{eV}$ (the latter empirically accounting for lattice relaxation). Fig. 1b, Fig. 1c [2,18,25,26]\n2. Present the calculated bandstructure at zero perpendicular electric displacement field $D$: the calculated bands for valley K show a set of nearly flat bands near charge neutrality and coexisting gapless Dirac bands, with the mirror-symmetry character of each eigenstate indicated by a colour scale (mirror-symmetric eigenstates evaluate to $+1$ under the top-bottom layer inner-product projection, mirror-antisymmetric to $-1$, and intermediate values for nonsymmetric states). In these zero-$D$ calculations, the flat bands are mirror symmetric and the Dirac bands are mirror antisymmetric, hence hybridization between them is symmetry-forbidden at $D=0$. Fig. 1b\n3. Explain the origin of the flat bands in this mirror-symmetric stacking: the flat bands arise from mirror-symmetric hopping from the two outer layers onto the central layer; mathematically, these flat bands reduce to an effective twisted-bilayer-like bandstructure with an effective twist angle $\\theta/\\sqrt{2}$ (that is, effective twist $=\\theta/\\sqrt{2}$), implying a larger MATTG magic angle than MATBG. Using $\\theta\\approx1.57^\\circ$, this reduction yields an estimated MATTG magic-angle value $\\theta_{\\mathrm{MATTG}}\\approx1.6^\\circ$. Fig. 1b [18]\n4. Describe the effect of a perpendicular displacement field $D$ in the calculation: applying a finite $D$ breaks the mirror symmetry by imposing an interlayer potential difference $\\Delta V = d D/\\varepsilon_{0}$ (where $d\\approx0.3\\ \\mathrm{nm}$ is the interlayer spacing and $\\varepsilon_{0}$ is the vacuum permittivity), which mixes mirror-symmetry characters and allows hybridization between the formerly mirror-protected flat bands and the Dirac bands. The calculated bandstructure at finite $D$ shows this hybridization and the resulting controllable changes in band bandwidth and topology. Fig. 1c\n5. State the approximations and limitations used in the calculations as presented: neglect of direct coupling between the topmost and bottommost layers is explicitly adopted; the chosen interlayer hopping parameters are $w=0.1\\ \\mathrm{eV}$ and $w'=0.08\\ \\mathrm{eV}$; the calculation does not include a self-consistent screening treatment of the applied $D$ (authors remark that screening by outer layers reduces the actual interlayer field relative to externally applied $D$), nor high-order and non-local interlayer coupling terms that can introduce particle-hole asymmetry. Extended Data Fig. 1"
+      },
+      "premises": [
+        "github:mattg_superconductivity::gcn_c680c239_mattg_continuum_approximations",
+        "github:mattg_superconductivity::gcn_3618ccee_mattg_theta_over_sqrt2_mapping",
+        "github:mattg_superconductivity::gcn_71314760_mattg_displacement_field_modeling"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_62a9e7fda2815c9d",
+      "type": "deduction"
+    },
+    {
+      "conclusion": "github:mattg_superconductivity::helper_mattg_zero_d_mirror_protected_flat_dirac",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:mattg_superconductivity::__implication_result_0a43a0ad",
+            "operator": "implication",
+            "variables": [
+              "github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control",
+              "github:mattg_superconductivity::helper_mattg_zero_d_mirror_protected_flat_dirac"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The selected root and LKM factor step 2 explicitly state that at zero displacement field the flat bands and Dirac bands have opposite mirror characters, making their hybridization symmetry-forbidden."
+      },
+      "premises": [
+        "github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_26784987bc39c5ba",
+      "type": "support"
+    },
+    {
+      "conclusion": "github:mattg_superconductivity::helper_mattg_magic_angle_larger_than_matbg",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:mattg_superconductivity::__implication_result_7eb578ae",
+            "operator": "implication",
+            "variables": [
+              "github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control",
+              "github:mattg_superconductivity::helper_mattg_magic_angle_larger_than_matbg"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The selected root and LKM factor step 3 explicitly state the theta/sqrt(2) reduction and the resulting larger MATTG magic-angle estimate near 1.6 degrees."
+      },
+      "premises": [
+        "github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_b6447a9e6187d12d",
+      "type": "support"
+    },
+    {
+      "conclusion": "github:mattg_superconductivity::helper_mattg_displacement_field_hybridizes_bands",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:mattg_superconductivity::__implication_result_1f977ad8",
+            "operator": "implication",
+            "variables": [
+              "github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control",
+              "github:mattg_superconductivity::helper_mattg_displacement_field_hybridizes_bands"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "support",
+        "generated_formal_expr": true,
+        "prior": 0.9,
+        "reason": "The selected root and LKM factor step 4 explicitly state that finite D breaks mirror symmetry, mixes mirror character, and permits flat/Dirac band hybridization with tunable bandwidth and topology."
+      },
+      "premises": [
+        "github:mattg_superconductivity::gcn_b4e3bdff_mattg_mirror_flat_dirac_control"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_0ef3d00ba311de95",
+      "type": "support"
+    }
+  ]
+}

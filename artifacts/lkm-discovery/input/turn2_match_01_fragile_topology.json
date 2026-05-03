@@ -1,0 +1,361 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:1149320046493827102": {
+        "area": "arXiv-Physics",
+        "authors": "Albert Zhu | Daniel Bennett | Daniel T. Larson | Mohammed M. Al Ezzi | Efstratios Manousakis | Efthimios Kaxiras",
+        "available_online": "",
+        "cover_date_start": "2025-07-04",
+        "created_at": "2025-07-08T04:27:32+08:00",
+        "doi": "10.48550/arxiv.2507.03675",
+        "en_title": "Wavefunction textures in twisted bilayer graphene from first principles",
+        "id": "1149320046493827102",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "基于第一性原理的扭曲双层石墨烯中的波函数纹理"
+      },
+      "paper:1210605147957231619": {
+        "area": "arXiv-Physics",
+        "authors": "Xiaoqian Liu | Yifei Guan | Oleg V. Yazyev",
+        "available_online": "",
+        "cover_date_start": "2025-12-23",
+        "created_at": "2025-12-24T07:12:39+08:00",
+        "doi": "10.48550/arXiv.2512.20493",
+        "en_title": "Electronic states at twist stacking faults in rhombohedral graphite",
+        "id": "1210605147957231619",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "菱方石墨中扭曲堆垛层错处的电子态"
+      },
+      "paper:812508547391684608": {
+        "area": "Comprehensive Periodical",
+        "authors": "Jeong Min Park | Yuan Cao | Kenji Watanabe | Takashi Taniguchi | Pablo Jarillo-Herrero",
+        "available_online": "2021-2-1",
+        "cover_date_start": "2021-02-01",
+        "created_at": "2022-12-21T18:18:54+08:00",
+        "doi": "10.1038/s41586-021-03192-0",
+        "en_title": "Tunable strongly coupled superconductivity in magic-angle twisted trilayer graphene",
+        "id": "812508547391684608",
+        "keywords": "",
+        "publication_date": "2021-2-11",
+        "publication_id": "8233",
+        "publication_name": "Nature _ Nature",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "魔角扭曲三层石墨烯中的可调谐强耦合超导性"
+      },
+      "paper:812527076643962881": {
+        "area": "Physics and Astrophysics",
+        "authors": "Tianle Wang | Nick Bultinck | Michael P. Zaletel",
+        "available_online": "2020-12-22",
+        "cover_date_start": "2020-12-22",
+        "created_at": "2022-12-21T19:32:32+08:00",
+        "doi": "10.1103/physrevb.102.235146",
+        "en_title": "Flat-band topology of magic angle graphene on a transition metal dichalcogenide",
+        "id": "812527076643962881",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "过渡金属二硫属化物上魔角石墨烯的平带拓扑结构"
+      },
+      "paper:812643486368006145": {
+        "area": "Material science",
+        "authors": "Georgios A Tritsaris | Stephen Carr | Ziyan Zhu | Yiqi Xie | Steven B Torrisi | Jing Tang | Marios Mattheakis | Daniel T Larson | Efthimios Kaxiras",
+        "available_online": "2020-6-22",
+        "cover_date_start": "2020-06-22",
+        "created_at": "2022-12-22T03:15:07+08:00",
+        "doi": "10.1088/2053-1583/ab8f62",
+        "en_title": "Electronic structure calculations of twisted multi-layer graphene superlattices",
+        "id": "812643486368006145",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2094",
+        "publication_name": "2D Materials _ 2D Mater.",
+        "research_categories": "",
+        "zh_title": "扭曲多层石墨烯超晶格的电子结构计算"
+      },
+      "paper:867748811072602427": {
+        "area": "arXiv-Physics",
+        "authors": "Zhen Ma | Shuai Li | Meng-Meng Xiao | Ya-Wen Zheng | Ming Lu | HaiWen Liu | Jin-Hua Gao | X. C. Xie",
+        "available_online": "",
+        "cover_date_start": "2020-01-22",
+        "created_at": "2023-05-23T04:43:58+08:00",
+        "doi": "10.48550/arXiv.2001.07995",
+        "en_title": "Moiré Flat Bands of Twisted Few-layer Graphite",
+        "id": "867748811072602427",
+        "keywords": "",
+        "publication_date": "2020-01-22",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扭曲少层石墨的莫尔平带"
+      },
+      "paper:867754345859383570": {
+        "area": "arXiv-Physics",
+        "authors": "V. Hung Nguyen | D. Paszko | M. Lamparski | B. Van Troeye | V. Meunier | J.-C. Charlier",
+        "available_online": "",
+        "cover_date_start": "2021-02-10",
+        "created_at": "2023-05-23T05:05:58+08:00",
+        "doi": "10.48550/arXiv.2102.05376",
+        "en_title": "Electronic localization in small-angle twisted bilayer graphene",
+        "id": "867754345859383570",
+        "keywords": "",
+        "publication_date": "2021-02-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "小角度扭曲双层石墨烯中的电子局域化"
+      },
+      "paper:867761060289970778": {
+        "area": "arXiv-Physics",
+        "authors": "V. Hung Nguyen | Trinh X. Hoang | J.-C. Charlier",
+        "available_online": "",
+        "cover_date_start": "2022-03-17",
+        "created_at": "2023-05-23T05:32:39+08:00",
+        "doi": "10.48550/arXiv.2203.09188",
+        "en_title": "Electronic properties of twisted multilayer graphene",
+        "id": "867761060289970778",
+        "keywords": "",
+        "publication_date": "2022-03-17",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲多层石墨烯的电子性质"
+      },
+      "paper:867772022996860937": {
+        "area": "arXiv-Physics",
+        "authors": "Yizhou Liu | Tobias Holder | Binghai Yan",
+        "available_online": "",
+        "cover_date_start": "2020-10-16",
+        "created_at": "2023-05-23T06:16:13+08:00",
+        "doi": "10.48550/arXiv.2010.08385",
+        "en_title": "Chirality induced Giant Unidirectional Magnetoresistance in Twisted Bilayer Graphene",
+        "id": "867772022996860937",
+        "keywords": "",
+        "publication_date": "2020-10-16",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯中手性诱导的巨单向磁电阻"
+      },
+      "paper:923643931596423748": {
+        "area": "arXiv-Physics",
+        "authors": "Yingyi Huang",
+        "available_online": "",
+        "cover_date_start": "2023-09-20",
+        "created_at": "2023-10-24T10:31:14+08:00",
+        "doi": "10.48550/arXiv.2309.11685",
+        "en_title": "Topological Floquet Flat Bands in Irradiated Alternating Twist Multilayer Graphene",
+        "id": "923643931596423748",
+        "keywords": "",
+        "publication_date": "2023-09-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "辐照交替扭曲多层石墨烯中的拓扑弗洛凯平带"
+      }
+    },
+    "variables": [
+      {
+        "content": "Proposition — Transfer of disorder threshold: the disorder amplitude scale of order $40\\,$meV reported in the twisted-bilayer-graphene literature as the approximate strength at which magic-angle flat-band topology is destroyed is adopted as an approximate upper bound for the disorder amplitude at which ensemble-averaged total Chern number of flat bands in twisted rhombohedral graphite is expected to vanish; claim: by assuming comparability of the remote band gaps protecting the flat bands, the spatial structure and valley separation of the wavefunctions, and the sensitivity to intervalley scattering between twisted bilayer graphene and the rhombohedral-stacking-fault system, the same order-of-magnitude threshold ($\\sim40\\,$meV) is used as the disorder scale beyond which topological protection breaks down in the rhombohedral stacking-fault system studied here.\n      [46]",
+        "content_hash": "293a107fff226ad9fb830dbbe56e0f68803aa02ec25bbd0d58f6ac8daaa62dfc",
+        "id": "gcn_82282b63077f491d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1210605147957231619::P12",
+            "package_id": "paper:1210605147957231619",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1210605147957231619"
+          ]
+        },
+        "role": "premise",
+        "score": 0.031024531024531024,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The numerically identified twist angle at which the two primary moiré bands become nearly flat in twisted few-layer graphite is about $1.05^\\circ$, the same numerical value as the principal magic angle obtained for twisted bilayer graphene within the same continuum description.",
+        "content_hash": "ec1888ec8b7bb66eaa287f7246475e698ad79352c1060d0f1d996453beba040f",
+        "id": "gcn_f23eff9c755840f2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748811072602427::conclusion_5",
+            "package_id": "paper:867748811072602427",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748811072602427"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.031009615384615385,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the twisted monolayer–bilayer geometry defined as a graphene monolayer rotated by angle $\\\\theta$ and placed on top of an AB-stacked graphene bilayer (denoted SM-(AB)$_2$), the moiré system at its magic-angle moiré geometry (near $\\\\theta\\\\simeq1.1^{\\\\circ}$) exhibits isolated low-energy flat bands, but these flat bands are quantitatively less flat than those of relaxed twisted bilayer graphene: the SM-(AB)$_2$ flat-band manifold has larger bandwidth and a smaller zero-energy DOS peak than magic-angle TBLG. Layer-resolved density of states $\\\\rho_{\\\\ell}(E)$ shows that the flat-band spectral weight is strongly localized on the twisted monolayer (top layer) while it is comparatively broadened and delocalized across the AB bilayer (the two bottom layers), producing a spatially separated localized–delocalized electronic character across layers.",
+        "content_hash": "fd1ba51bd1bb4a7b22dc9e03b576ecc93e8d18c9a97147efb60ed18fa9bc1feb",
+        "id": "gcn_14a55aff3de24a3a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761060289970778::conclusion_3",
+            "package_id": "paper:867761060289970778",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761060289970778"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.0304147465437788,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Continuum-model calculations for mirror-symmetric A-tw-A magic-angle twisted trilayer graphene (MATTG), consisting of three graphene monolayers sequentially twisted by $+\\theta$ and $-\\theta$ with $\\theta\\approx1.57^\\circ$, yield (a) mirror-symmetry-protected flat bands derived from mirror-symmetric combinations of outer-layer hopping and (b) coexisting gapless Dirac bands with opposite mirror character, such that hybridization between the flat and Dirac bands is forbidden when mirror symmetry is present. The flat bands can be mathematically reduced to magic-angle twisted bilayer graphene (MATBG)-like bands with an effective twist angle $\\theta/\\sqrt{2}$, implying a larger magic angle for MATTG of $\\theta_{\\mathrm{MATTG}}\\approx1.6^\\circ$. A perpendicular electric displacement field $D$ breaks the mirror symmetry and hybridizes the flat and Dirac bands, enabling in situ electrical control of the flat-band bandwidth and topology. These calculations neglect direct coupling between the topmost and bottommost graphene layers and use interlayer hopping parameters $w=0.1\\ \\mathrm{eV}$ and $w'=0.08\\ \\mathrm{eV}$, and they model the displacement field through an imposed interlayer potential difference $\\Delta V=dD/\\varepsilon_0$ with interlayer spacing $d\\approx0.3\\ \\mathrm{nm}$ and vacuum permittivity $\\varepsilon_0$.",
+        "content_hash": "6e5f8983db115291e3502f674290212d9c5e6755a1fceb1f3a97675feb4b0a89",
+        "id": "gcn_b4e3bdff3c0c439a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812508547391684608::conclusion_2",
+            "package_id": "paper:812508547391684608",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812508547391684608"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.028588564574170333,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A dense‑angle atomistic numerical survey of fully relaxed twisted bilayer graphene structures with twist angles sampled down to approximately 0.22^\\circ, using the relaxation procedure and the p_z tight‑binding Green’s‑function electronic‑structure methods described above, is sufficient to detect the reappearance of isolated flat bands (additional magic‑angle phenomena) if such isolated flat bands would occur in realistic relaxed samples; therefore the absence of observed isolated flat bands on the computed angle grid implies their practical non‑existence in reconstructed experimental samples within the sampled angle range.",
+        "content_hash": "3d673c71b391b575f1fae6abdf35ba6871b72cd7ad5bc81cca2bd73debffdbb1",
+        "id": "gcn_7053c937a8b34b19",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867754345859383570::P6",
+            "package_id": "paper:867754345859383570",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867754345859383570"
+          ]
+        },
+        "role": "premise",
+        "score": 0.028298204527712725,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Numerical calculations for alternating-twist four-layer and five-layer graphene, using the same drive parameters $A=0.08\\,a^{-1}$ and $\\hbar\\Omega=6\\,\\mathrm{eV}$ together with lattice-relaxation-informed effective interlayer tunneling ratios and magic-angle conditions, show that the central Floquet flat band remains gapped and topological at the first magic angle in both layer numbers. In the four-layer case the decomposition contains a twisted-bilayer-graphene subsystem and a nonmagic twisted-bilayer-graphene-like subsystem, and in the five-layer case it contains a twisted-bilayer-graphene subsystem together with an additional non-twisted-bilayer subsystem and a graphene subsystem. The corresponding phase diagrams contain additional gap closings at $\\Gamma_{M}$ and $K_M$ arising from extra Dirac cones, but the lattice-relaxed first-magic-angle parameter points lie inside gapped topological regions. Floquet driving therefore produces topological flat bands in four- and five-layer alternating-twist multilayer graphene under realistic relaxation-modified parameters.",
+        "content_hash": "29aef308511d98149d7a78789b9a303cdd8a62c789aef97f5a935d48f0857459",
+        "id": "gcn_892e48156263428c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:923643931596423748::conclusion_6",
+            "package_id": "paper:923643931596423748",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:923643931596423748"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02719970792259949,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let the \"magic angle\" denote a twist angle near $\\sim1^{\\circ}$ at which twisted bilayer graphene (TBG) exhibits very flat bands in realistic models that include lattice relaxation. The proposition is that a tight-binding band-structure computation for TBG at twist angle $\\theta=1.5^{\\circ}$, obtained without including lattice relaxation effects in the model, yields a band dispersion sufficiently similar in the low-energy flat-band window to the relaxed magic-angle dispersion that transport and UMR trends computed at $\\theta=1.5^{\\circ}$ can serve as a qualitative proxy for the magic-angle regime when discussing enhancement of UMR by flat bands.\n      [60]",
+        "content_hash": "8f04e4b23e6f2aa5d1922a6dc146d27905283690e777ece2badd5e050b012a89",
+        "id": "gcn_35513e8103c049f8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772022996860937::P12",
+            "package_id": "paper:867772022996860937",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772022996860937"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02649122807017544,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The reconstructed-band phenomena described above—Rashba-induced isolated extremely flat band pairs near K^{\\pm}, the sixteen-Dirac-point structure in the single-valley four-band spectrum, and the computed Chern-number phase diagrams for isolated active bands—are valid in the continuum two-decoupled-valley description of twisted bilayer graphene that applies at sufficiently small twist angles and require being near the first magic angle so that (i) the eight active flat bands are well separated from remote bands by appreciable gaps and (ii) the active-band bandwidth is comparable to or smaller than typical proximate energy scales (Rashba \\sim 16 meV, Ising \\sim 1 meV, sublattice u \\sim 1\\text{–}2 meV); if the twist angle is too far from the magic angle so that the active-band bandwidth is much larger than these proximate couplings, then the Rashba coupling will not reconstruct the active bands and the reported band topology and extreme flatness need not occur.",
+        "content_hash": "297d8c1b4bca50db708f8f4aa19299af88c4f13b67878fe2566974f46f97b2dc",
+        "id": "gcn_9f7dbaf8f0014316",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812527076643962881::conclusion_10",
+            "package_id": "paper:812527076643962881",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812527076643962881"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.026200135226504394,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For commensurate twisted bilayer graphene supercells computed at 33 unique commensurate twist angles spanning 0.88° ≤ θ ≤ 21.79°, the ab initio Wannier-derived tight-binding calculations and automated flat-band detection identify a maximized flat-band likelihood p(θ) at a magic angle θ* ≈ 1.1°, with the emergence of low-dispersion (near-flat) bands near the Fermi level in the single-particle TB band structures at that angle.",
+        "content_hash": "2d5ed181a24cdafdeb4af64ebb51594e1406d15ca70c5a056e2ff5ca98f5bee1",
+        "id": "gcn_5f58746bcc0b4098",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812643486368006145::conclusion_5",
+            "package_id": "paper:812643486368006145",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812643486368006145"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.025332691999358666,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The ab initio observation of band inversions that entangle bands originating both above and below the single-layer Dirac point implies that minimal phenomenological or few-band effective models intended to capture the symmetry and fragile topology of twisted bilayer graphene must include complementary bands from both sides of the Dirac point (i.e., include neighboring dispersive bands above and below the flat-band manifold); omitting these neighboring dispersive bands on either side of the flat bands will fail to reproduce the symmetry-entangling inversions and therefore cannot correctly capture the fragile-topological features observed in the ab initio spectrum.",
+        "content_hash": "dc2a073cb4453f4e8d91574fcf52040542285f259fdd3c9d7afe21065ba86937",
+        "id": "gcn_5668619c0c0e4b0e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1149320046493827102::conclusion_8",
+            "package_id": "paper:1149320046493827102",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1149320046493827102"
+          ]
+        },
+        "role": "premise",
+        "score": 0.023529411764705882,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "f8f1430212e45613bea081197db46bd5"
+}

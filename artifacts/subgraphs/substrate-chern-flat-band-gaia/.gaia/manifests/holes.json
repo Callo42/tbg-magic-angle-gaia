@@ -1,0 +1,18 @@
+{
+  "holes": [
+    {
+      "content": "In Wang, Bultinck, and Zaletel's TBG-on-transition-metal-dichalcogenide continuum analysis, the two-valley Bistritzer-MacDonald continuum model with effectively decoupled valley indices tau = +/- is an appropriate description of single-particle flat-band physics only for sufficiently small twist angles near the first magic angle theta* ~= 1.08 degrees, where intervalley scattering is negligible, the eight active flat bands are isolated from remote bands by appreciable gaps, and their bandwidths are comparable to or smaller than the proximate Rashba, Ising, and sublattice energy scales [@Wang2020].",
+      "content_hash": "f455334682d55f5818365c8ef8adb5067f135840acd91859cc77d122b3fc5b76",
+      "interface_hash": "sha256:03c895225dd03eae7b6a82447061374d6c385472fe66ef7e4cba21733282b32c",
+      "label": "gcn_fb78cfd7_magic_angle_continuum_regime",
+      "qid": "github:substrate_chern_flat_band::gcn_fb78cfd7_magic_angle_continuum_regime",
+      "required_by": [
+        "github:substrate_chern_flat_band::gcn_9f7dbaf8_substrate_flat_band_topology_regime"
+      ]
+    }
+  ],
+  "ir_hash": "sha256:9fa24c8cc6ea22539f46d5c8192ece15123cdfdd0017380d6486eb1b81381800",
+  "manifest_schema_version": 1,
+  "package": "substrate-chern-flat-band",
+  "version": "0.1.0"
+}

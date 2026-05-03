@@ -1,0 +1,43 @@
+{
+  "Burg2022": {
+    "type": "article-journal",
+    "title": "Emergence of Correlations in Alternating Twist Quadrilayer Graphene",
+    "DOI": "10.48550/arXiv.2201.01637",
+    "container-title": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Burg",
+        "given": "G. William"
+      },
+      {
+        "family": "Khalaf",
+        "given": "Eslam"
+      },
+      {
+        "family": "Wang",
+        "given": "Yimeng"
+      },
+      {
+        "family": "Watanabe",
+        "given": "Kenji"
+      },
+      {
+        "family": "Taniguchi",
+        "given": "Takashi"
+      },
+      {
+        "family": "Tutuc",
+        "given": "Emanuel"
+      }
+    ]
+  }
+}

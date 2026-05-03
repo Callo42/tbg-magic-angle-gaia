@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "Applying external compression to commensurate twisted bilayer graphene with twist angles from about 9.4 degrees to about 27.8 degrees can produce narrow flat electronic bands and near-Fermi van Hove singularities in large-angle regimes that are single-layer-graphene-like at ambient pressure; pressure is therefore a feasible control parameter for flat-band engineering in easier-to-fabricate larger-angle devices and motivates, but does not demonstrate, possible correlated phases [@Ge2021].",
+      "content_hash": "443e9c5a165375d8956ae87a1178c890d48e431c86c61a264a9d24f54db0cd49",
+      "label": "gcn_105d2fc961f949b6",
+      "qid": "github:pressure_flat_band_tbg::gcn_105d2fc961f949b6",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:e0b69201b42746b4059c2480f62316a256674487278b60241ae11e7356ddac80",
+  "manifest_schema_version": 1,
+  "package": "pressure-flat-band-tbg",
+  "version": "0.1.0"
+}

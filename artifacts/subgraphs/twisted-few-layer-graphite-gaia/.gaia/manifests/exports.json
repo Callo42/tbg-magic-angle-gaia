@@ -1,0 +1,15 @@
+{
+  "exports": [
+    {
+      "content": "In Ma et al.'s continuum description of twisted few-layer graphite, the numerical twist angle at which the two primary moire bands become nearly flat is about 1.05 degrees; this equals the principal magic-angle value obtained for twisted bilayer graphene within the same continuum-model formalism, while the claim is scoped to the primary two-band pair rather than all moire bands [@Ma2020].",
+      "content_hash": "bb09e2bcdcfc4240fdeae779bd826b4d34d8e14adf6c9e98912b1414636c2864",
+      "label": "gcn_f23eff9c755840f2",
+      "qid": "github:twisted_few_layer_graphite::gcn_f23eff9c755840f2",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:0552767ceb59065282b105d7316f0b3f4b329ba55fa7247ee013e76e1683f3b3",
+  "manifest_schema_version": 1,
+  "package": "twisted-few-layer-graphite",
+  "version": "0.1.0"
+}

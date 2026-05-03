@@ -1,0 +1,20 @@
+[project]
+name = "ab-initio-twisted-multilayer-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package generated from LKM evidence chains for ab initio magic-angle flat bands in twisted bilayer graphene."
+requires-python = ">=3.12"
+
+[tool.gaia]
+namespace = "github"
+type = "knowledge-package"
+uuid = "3dc21acf-9bd9-4a18-8b87-45d8e8023b92"
+generated_by = "lkm-to-gaia"
+generated_from_search = "targeted selected root gcn_5f58746bcc0b4098 for ab initio twisted multilayer graphene magic-angle flat bands"
+generated_from_roots = ["gcn_5f58746bcc0b4098"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ab_initio_twisted_multilayer"]

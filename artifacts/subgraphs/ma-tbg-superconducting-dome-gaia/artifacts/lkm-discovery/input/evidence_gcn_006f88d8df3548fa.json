@@ -1,0 +1,82 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The temperature versus gate-induced carrier-density phase diagram of magic-angle twisted bilayer graphene (MA-TBG, i.e., twisted bilayer graphene with $\\theta$ near the first magic angle) exhibits superconducting dome-shaped regions on both sides of a correlated insulating state centered at nominal half-filling $n=\\pm n_{s}/2$ of the flat moiré bands, where $n_{s}=4/A$ is the superlattice density and $A\\approx\\sqrt{3}a^2/(2\\theta^2)$ is the moiré unit cell area with graphene lattice constant $a=0.246\\ \\text{nm}$. In the two devices examined (device M1, $\\theta=1.16^\\circ$, and device M2, $\\theta=1.05^\\circ$), cooling at carrier densities just adjacent to the half-filling insulating density produces two pronounced superconducting regions (domes) whose four-probe resistance is fully suppressed below the measurement floor at the lowest temperature (70 mK). The correlated insulating region at nominal half-filling shows insulating temperature dependence (increasing resistance upon cooling) over an intermediate temperature window of roughly 1–4 K, and the superconducting domes appear when the device is electrostatically doped away from this correlated insulator.",
+      "content_hash": "8b1aa5791dff0c297d39dacac0d6eb8b8bf7dfbdfbbc7a7bced6ab25e558c0b7",
+      "id": "gcn_006f88d8df3548fa",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The temperature versus gate-induced carrier-density phase diagram of magic-angle twisted bilayer graphene (MA-TBG, i.e., twisted bilayer graphene with $\\theta$ near the first magic angle) exhibits superconducting dome-shaped regions on both sides of a correlated insulating state centered at nominal half-filling $n=\\pm n_{s}/2$ of the flat moiré bands, where $n_{s}=4/A$ is the superlattice density and $A\\approx\\sqrt{3}a^2/(2\\theta^2)$ is the moiré unit cell area with graphene lattice constant $a=0.246\\ \\text{nm}$. In the two devices examined (device M1, $\\theta=1.16^\\circ$, and device M2, $\\theta=1.05^\\circ$), cooling at carrier densities just adjacent to the half-filling insulating density produces two pronounced superconducting regions (domes) whose four-probe resistance is fully suppressed below the measurement floor at the lowest temperature (70 mK). The correlated insulating region at nominal half-filling shows insulating temperature dependence (increasing resistance upon cooling) over an intermediate temperature window of roughly 1–4 K, and the superconducting domes appear when the device is electrostatically doped away from this correlated insulator.",
+              "id": "gcn_006f88d8df3548fa"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_1433dc8665164d11",
+            "premises": [
+              {
+                "content": "When transport measured versus temperature at gate-induced carrier density equal to nominal half-filling of the moiré flat band ($n=\\pm n_s/2$) displays insulating temperature dependence (resistance that increases upon cooling) over an intermediate temperature range (here roughly 1–4 K), this phenomenology is consistent with the presence of a correlated insulating state driven by electron–electron interactions (a Mott-like insulator) under the assumption that single-particle band gaps or disorder-dominated localization do not fully account for the observed gap magnitude and temperature dependence; this interpretation is plausible in light of the very narrow flat-band bandwidth (of order 5–10 meV) and the enhanced Coulomb interaction energy in magic-angle twisted bilayer graphene, but does not constitute a rigorous microscopic proof of a Mott mechanism.",
+                "id": "gcn_ffd6d31f7b2642e6"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Treat conclusion 1 (observation of intrinsic, gate-tunable superconductivity in MA-TBG) as established and use it as the starting point: superconductivity appears in MA-TBG devices near the magic angle upon electrostatic doping away from correlated insulating states at half-filling.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Describe the $T$ versus $n$ measurements that map the phase diagram: four-probe resistance $R_{xx}$ measured as a function of carrier density $n$ and temperature $T$ for devices M1 and M2 reveals regions of vanishing resistance (superconducting domes) adjacent to an insulating region centered at half-filling $n=\\pm n_{s}/2$ of the flat bands.\nFig. 2b\nFig. 2c",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Characterize the superconducting domes in density–temperature space: in both devices, cooling at densities just adjacent to the half-filling correlated insulating state produces pronounced superconducting regions (domes) where the resistance is fully suppressed below the measurement floor at base temperature; the domes appear on both sides of the correlated insulator (i.e. on densities slightly less and slightly greater than $-n_{s}/2$ in the hole-doped side for these measurements).\nFig. 2b",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Describe the correlated insulating region's temperature dependence: when cooling through the density corresponding to half-filling, the system exhibits insulating temperature dependence over an intermediate temperature range (roughly 1--4 K) before superconductivity appears at lower temperatures in adjacent densities, indicating a Mott-like correlated insulating phase centered at $n=\\pm n_{s}/2$ that gives way to superconductivity upon doping.\nFig. 4a",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "State the authors' interpretation and analogy to cuprates: the presence of superconducting domes adjacent to a correlated insulating (Mott-like) state in the $T$–$n$ phase diagram is highlighted by the authors as phenomenologically similar to cuprate phase diagrams, supporting the description of the insulating phase as a correlated (Mott-like) state and the superconductivity as emerging upon electrostatic doping away from this parent insulator.",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Understanding how superconductivity emerges from or beside correlated insulating states is a key unresolved issue in unconventional superconductors broadly. Prior to this work, MA-TBG had shown correlated insulating behavior at $n=\\pm n_{s}/2$, but the relationship between that insulating state and any superconducting phase (e.g., whether superconductivity could be induced by doping the correlated insulator as in cuprates, and whether superconducting domes would appear adjacent to the insulator within a single, gate-tunable device) was not established experimentally. Without a well-resolved single-device phase diagram mapping $T$ and $n$, it was not possible to test analogies between MA-TBG and other unconventional superconductors (for instance, dome–insulator adjacency as in cuprates), nor to study coexistence or competition between superconductivity and correlation-driven insulating behavior. The absence of such data prevented direct assessment of whether the flat-band correlated insulator in MA-TBG is the parent state from which superconductivity emerges.",
+            "id": "paper:813052701314121729::conclusion_2_subproblem",
+            "source_package": "paper:813052701314121729"
+          }
+        ],
+        "source_package": "paper:813052701314121729"
+      }
+    ],
+    "papers": {
+      "paper:813052701314121729": {
+        "area": "Comprehensive Periodical",
+        "authors": "Yuan Cao | Valla Fatemi | Shiang Fang | Kenji Watanabe | Takashi Taniguchi | Efthimios Kaxiras | Pablo Jarillo-Herrero",
+        "available_online": "2018-3-5",
+        "cover_date_start": "2018-03-05",
+        "created_at": "2022-12-23T06:21:10+08:00",
+        "doi": "10.1038/nature26160",
+        "en_title": "Unconventional superconductivity in magic-angle graphene superlattices",
+        "id": "813052701314121729",
+        "keywords": "",
+        "publication_date": "2018-4",
+        "publication_id": "8233",
+        "publication_name": "Nature _ Nature",
+        "research_categories": "",
+        "zh_title": "魔角石墨烯超晶格中的非常规超导性"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "c0fe0ff56f5daf2f0da5743a9a07fdde"
+}
