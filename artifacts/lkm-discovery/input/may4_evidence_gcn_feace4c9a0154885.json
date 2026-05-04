@@ -1,0 +1,78 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The Bistritzer–MacDonald (BM) continuum moiré-band calculation, implemented as the two-layer continuum Dirac Hamiltonian with standard interlayer tunneling parameters and monolayer Dirac velocity $v_{F}$, predicts a strong suppression of the moiré-band Fermi velocity $v_{F}^{*}$ as the twist angle $\\theta$ approaches the magic angle near $1^\\circ$, with $v_{F}^{*}/v_{F}\\to0$ at the magic angle and with a numerical value $v_{F}^{*}/v_{F}\\approx 1/4$ at $\\theta=1.5^\\circ$ within the noninteracting BM model without lattice relaxation; since phonon-limited resistivity and its temperature coefficient scale as $1/v_{F}^{*2}$, this suppression implies up to $\\sim 16$-fold enhancement of phonon-limited resistivity relative to untwisted monolayer graphene when $v_{F}^{*}$ is reduced into the small-$v_{F}^{*}$ regime.",
+      "content_hash": "72b01f8292e724d2bd091abb5d5d836b2f1fcd7d0c949c87cc7416656ae4e217",
+      "id": "gcn_feace4c9a0154885",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The Bistritzer–MacDonald (BM) continuum moiré-band calculation, implemented as the two-layer continuum Dirac Hamiltonian with standard interlayer tunneling parameters and monolayer Dirac velocity $v_{F}$, predicts a strong suppression of the moiré-band Fermi velocity $v_{F}^{*}$ as the twist angle $\\theta$ approaches the magic angle near $1^\\circ$, with $v_{F}^{*}/v_{F}\\to0$ at the magic angle and with a numerical value $v_{F}^{*}/v_{F}\\approx 1/4$ at $\\theta=1.5^\\circ$ within the noninteracting BM model without lattice relaxation; since phonon-limited resistivity and its temperature coefficient scale as $1/v_{F}^{*2}$, this suppression implies up to $\\sim 16$-fold enhancement of phonon-limited resistivity relative to untwisted monolayer graphene when $v_{F}^{*}$ is reduced into the small-$v_{F}^{*}$ regime.",
+              "id": "gcn_feace4c9a0154885"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_80bf41b7112e4d20",
+            "premises": [
+              {
+                "content": "The Bistritzer–MacDonald (BM) continuum moiré-band model is defined as the continuum two-layer Dirac Hamiltonian with interlayer tunneling parameters $w_{0},w_{1}$ and monolayer Dirac velocity $v_{F}$ and predicts a moiré-band Fermi velocity $v_{F}^{*}(\\theta)$ at the moiré Dirac points as a function of twist angle $\\theta$; with standard BM parameter choices the model yields a strong suppression of $v_{F}^{*}$ approaching zero at a 'magic' twist angle near $1^\\circ$ and gives $v_{F}^{*}/v_{F}\\approx 1/4$ at $\\theta=1.5^\\circ$ within the noninteracting continuum approximation, this prediction referring to the single-particle moiré band velocity in the absence of lattice relaxation or many-body self-energy corrections.\n      R. Bistritzer and A. H. MacDonald, Proc. Natl. Acad. Sci. U.S.A. 108, 12233 (2011)",
+                "id": "gcn_1cb7675d5185405d"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Adopt the Bistritzer–MacDonald (BM) moiré-band model for twisted bilayer graphene (tBLG) as the electronic band-structure framework; denote by $v_{F}$ the Fermi velocity at the Dirac points in monolayer graphene (MLG) and by $v_{F}^{*}$ the Fermi velocity at the Dirac points in the moiré bands of tBLG.\n[18]",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Compute $v_{F}^{*}$ as a function of twist angle $\\theta$ within the BM model and observe the following behavior reported in the paper and illustrated in the calculated plot: $v_{F}^{*}$ is strongly suppressed as $\\theta$ approaches the magic angle near $1^{\\circ}$, with $v_{F}^{*}/v_{F}\\to0$ at the magic angle (the BM approximation produces $v_{F}^{*}=0$ at the magic angle).\nFig. 3",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Extract the specific numerical statement from the BM calculation as presented: at $\\theta=1.5^{\\circ}$ the BM model gives $v_{F}^{*}/v_{F}\\approx 1/4$ (i.e., $v_{F}^{*}\\approx v_{F}/4$), as shown in the paper's BM-model plot.\nFig. 3",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Translate suppression of $v_{F}^{*}$ into an expected enhancement of phonon-limited resistivity and its temperature coefficient using the $1/v_{F}^{*2}$ dependence in the minimal resistivity formula (see conclusion that the resistivity scales with $1/v_{F}^{*2}$). Conclude numerically that $v_{F}^{*}/v_{F}\\approx1/4$ implies up to a $\\sim 16$-fold enhancement of phonon-limited resistivity and its temperature coefficient in tBLG relative to untwisted MLG when $v_{F}^{*}$ is reduced to this small value.",
+                "step_id": "4"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "To translate the phonon-resistivity formula into quantitative predictions one needs the moiré-modified electronic velocity $v_{F}^{*}$ as a function of twist angle. Before this work, a direct assessment of how much $v_{F}^{*}$ is reduced across the experimental θ range and how that reduction amplifies electron–phonon scattering rates in transport was not quantified for use in fitting experimental slopes. A concrete BM-based mapping from θ to $v_{F}^{*}$ is necessary to evaluate whether phonon scattering can produce the observed enhancement of $d\\rho/dT$ near the magic angle.",
+            "id": "paper:867747792313909990::conclusion_3_subproblem",
+            "source_package": "paper:867747792313909990"
+          }
+        ],
+        "source_package": "paper:867747792313909990"
+      }
+    ],
+    "papers": {
+      "paper:867747792313909990": {
+        "area": "arXiv-Physics",
+        "authors": "Sankar Das Sarma | Fengcheng Wu",
+        "available_online": "",
+        "cover_date_start": "2022-01-25",
+        "created_at": "2023-05-23T04:39:55+08:00",
+        "doi": "10.48550/arXiv.2201.10270",
+        "en_title": "Strange metallicity of moiré twisted bilayer graphene",
+        "id": "867747792313909990",
+        "keywords": "",
+        "publication_date": "2022-01-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "莫尔扭曲双层石墨烯的奇特金属性"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "7f4a8e6bbc95b1ca2538021502bad041"
+}

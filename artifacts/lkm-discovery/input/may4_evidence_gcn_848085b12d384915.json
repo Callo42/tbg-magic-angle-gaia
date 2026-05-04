@@ -1,0 +1,94 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The computed dependence of the Kohn-Sham Dirac Fermi velocity on twist angle for twisted bilayer graphene (tBLG) exhibits a magic twist angle $\\\\theta_{\\\\mathrm{M}}\\\\approx 1.08^{\\\\circ}$ at which the Kohn-Sham Fermi velocity $v_{\\\\mathrm{F}}$ vanishes ($v_{\\\\mathrm{F}}=0$); in the vicinity of this angle the low-energy Kohn-Sham bands become extremely flat across most of the Brillouin zone, producing two nearly dispersionless bands that are half filled at the single-particle Kohn-Sham Fermi level $E_{\\\\mathrm{F}}$ (for example, at $\\\\theta=0.99^{\\\\circ}$ the calculated Kohn-Sham band structure shows nearly dispersionless bands around $E_{\\\\mathrm{F}}$ and an energy splitting of about $10\\\\ \\\\mathrm{meV}$ between these flat bands at the $\\\\Gamma$ point), and the computed function $v_{\\\\mathrm{F}}(\\\\theta)$ is nonmonotonic at small $\\\\theta$, vanishing at $\\\\theta_{\\\\mathrm{M}}$ and increasing slightly for still smaller $\\\\theta$.",
+      "content_hash": "6d80019f0345b611032aa49c12c8927c34e311761c46564c3ca8c726a37d7a96",
+      "id": "gcn_848085b12d384915",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The computed dependence of the Kohn-Sham Dirac Fermi velocity on twist angle for twisted bilayer graphene (tBLG) exhibits a magic twist angle $\\\\theta_{\\\\mathrm{M}}\\\\approx 1.08^{\\\\circ}$ at which the Kohn-Sham Fermi velocity $v_{\\\\mathrm{F}}$ vanishes ($v_{\\\\mathrm{F}}=0$); in the vicinity of this angle the low-energy Kohn-Sham bands become extremely flat across most of the Brillouin zone, producing two nearly dispersionless bands that are half filled at the single-particle Kohn-Sham Fermi level $E_{\\\\mathrm{F}}$ (for example, at $\\\\theta=0.99^{\\\\circ}$ the calculated Kohn-Sham band structure shows nearly dispersionless bands around $E_{\\\\mathrm{F}}$ and an energy splitting of about $10\\\\ \\\\mathrm{meV}$ between these flat bands at the $\\\\Gamma$ point), and the computed function $v_{\\\\mathrm{F}}(\\\\theta)$ is nonmonotonic at small $\\\\theta$, vanishing at $\\\\theta_{\\\\mathrm{M}}$ and increasing slightly for still smaller $\\\\theta$.",
+              "id": "gcn_848085b12d384915"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_e7f366dda20d45cf",
+            "premises": [
+              {
+                "content": "For commensurate twisted bilayer graphene (tBLG) unit cells labeled by integer indices $(N,N-1)$, let the lateral coordinates be $\\\\mathbf{r}=(x,y)$ in the plane of the layers and let $z(\\\\mathbf{r})$ denote the out-of-plane atomic coordinate (height) of atoms relative to a reference plane; the atomic corrugation $z(\\\\mathbf{r})$ is represented by the two-dimensional Fourier series\n      $$\n      z(\\\\mathbf{r})=\\\\sum_{j=0}^{\\\\infty}\\\\{\\\\alpha_j\\\\cos(\\\\mathbf{G}_j\\\\cdot\\\\mathbf{r})+\\\\beta_j\\\\sin(\\\\mathbf{G}_j\\\\cdot\\\\mathbf{r})\\\\},\n      $$\n      where $\\\\{\\\\mathbf{G}_j\\\\}$ are the reciprocal-lattice vectors of the lateral supercell and $\\\\{\\\\alpha_j,\\\\beta_j\\\\}$ are the corresponding Fourier coefficients; the procedure used to obtain atomic geometries for small twist angles $\\\\theta<2^{\\\\circ}$ in these $(N,N-1)$ commensurate cells is: compute Fourier coefficients $\\\\{\\\\alpha_j,\\\\beta_j\\\\}$ for fully optimized geometries at larger $\\\\theta$, fit the dominant coefficient $\\\\alpha_1$ (the cosine coefficient associated with the shortest nonzero reciprocal vector $\\\\mathbf{G}_1$) as a smooth Gaussian function of $\\\\theta$, extrapolate the small-$\\\\theta$ values of the dominant coefficients (the first seven shortest reciprocal vectors are assumed to dominate the corrugation) using these Gaussian fits, reconstruct $z(\\\\mathbf{r})$ from the extrapolated dominant coefficients, and use the resulting extrapolated corrugated geometry as input for band-structure calculations at $\\\\theta\\\\approx0.99^{\\\\circ}$ and similar small angles.\n      Uchida et al., PHYS. REV. B 90, 155451 (2014), Appendix D",
+                "id": "gcn_159120a419184e9e"
+              },
+              {
+                "content": "Let the Dirac Fermi velocity be $v_{\\\\mathrm{F}}\\\\equiv(1/\\\\hbar)\\\\partial\\\\varepsilon/\\\\partial k$ evaluated at the Dirac point in the Kohn-Sham band structure; the proposition is that the reported numerical value of the magic twist angle $\\\\theta_{\\\\mathrm{M}}\\\\approx 1.08^{\\\\circ}$, defined by the vanishing Kohn-Sham $v_{\\\\mathrm{F}}$, is obtained from band-structure computations that depend on (i) atomic geometries for $\\\\theta<2^{\\\\circ}$ constructed by extrapolating Fourier coefficients fitted from larger-$\\\\theta$ geometry optimizations, (ii) finite numerical real-space grids and the chosen pseudopotentials, and (iii) the chosen exchange-correlation approximation (LDA with limited vdW-DF checks); therefore the numeric value $1.08^{\\\\circ}$ is tied to these computational approximations and the stated precision assumes these approximations place the Kohn-Sham zero-crossing within the quoted uncertainty.",
+                "id": "gcn_75a1c2477ca448b0"
+              },
+              {
+                "content": "When the computed single-particle Kohn-Sham band structure at charge neutrality for twisted bilayer graphene shows two nearly dispersionless bands crossing the Kohn-Sham Fermi level $E_{\\\\mathrm{F}}$ that are half filled under the single-particle occupation, the proposition asserted is that the presence of half-filled flat Kohn-Sham bands is interpreted as indicating a tendency toward magnetic ordering (spontaneous spin polarization) upon slight twisting, despite the absence of explicit spin-polarized total-energy comparisons, Hubbard-model analyses, or many-body calculations that would be required to establish spontaneous magnetism and to determine its character.",
+                "id": "gcn_390a496067b94209"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Start from the established upstream result that Kohn-Sham orbitals localize in AA regions for small $\\\\theta$ (upstream conclusion: Moiré-induced localization), and that such localization reduces band dispersion and $v_{\\\\mathrm{F}}$ (upstream conclusion: critical $\\\\theta_{\\\\mathrm{e}}$ and velocity reduction); treat these as given inputs for the present derivation regarding the magic angle behavior.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Define the magic-angle phenomenon and the vanishing Fermi velocity: the Fermi velocity $v_{\\\\mathrm{F}}$ is defined as $v_{\\\\mathrm{F}}\\\\equiv\\\\dfrac{1}{\\\\hbar}\\\\dfrac{\\\\partial\\\\varepsilon}{\\\\partial k}$ at the Dirac point; the magic twist angle $\\\\theta_{\\\\mathrm{M}}$ is the particular $\\\\theta$ at which the computed $v_{\\\\mathrm{F}}$ becomes zero, implying essentially flat low-energy bands across the Brillouin zone.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Report computed band-structure evidence for vanishing $v_{\\\\mathrm{F}}$ and flat bands near the magic angle: for $\\\\theta=0.99^{\\\\circ}$ the calculated band structure shows bands near $E_{\\\\mathrm{F}}$ that are extremely flat across most of the Brillouin zone (plots in the paper), and an enlargement of the bands near $E_{\\\\mathrm{F}}$ shows a splitting at the $\\\\Gamma$ point between the flat bands of about $10\\\\ \\\\mathrm{meV}$; this empirical observation indicates nearly dispersionless, half-filled flat bands at the Fermi level in the small-$\\\\theta$ regime. \nFig. 3(c), Fig. 3(d)",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Extract the magic-angle location from the Fermi-velocity versus twist-angle curve: the plotted normalized Fermi velocity $v_{\\\\mathrm{F}}/v_{\\\\mathrm{F}}^{0}$ as a function of $\\\\theta$ exhibits a zero-crossing (vanishing $v_{\\\\mathrm{F}}$) at $\\\\theta_{\\\\mathrm{M}}\\\\approx1.08^{\\\\circ}$ and then a slight increase of $v_{\\\\mathrm{F}}$ for still smaller $\\\\theta$, revealing a nonmonotonic small-$\\\\theta$ dependence with a magic angle at which $v_{\\\\mathrm{F}}=0$. \nFig. 4 (inset)",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Relate localization mechanism to the emergence of half-filled flat bands: because Kohn-Sham orbitals at $E_{\\\\mathrm{F}}$ are localized in AA regions for tiny $\\\\theta$, the low-energy bands lose dispersion and become flat; these flat bands cross the Fermi level and, in the computed charge-neutral configuration, are half filled, which the authors note suggests potential magnetic behavior upon slight twisting. \nFig. 5",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Note comparison with prior theoretical predictions and nonmonotonicity: the paper remarks that the existence of a magic angle where $v_{\\\\mathrm{F}}$ vanishes is consistent with continuum-model predictions and tight-binding calculations in earlier literature, although the precise numerical value differs slightly from previous empirical estimates; the computed nonmonotonicity (vanishing at $\\\\theta_{\\\\mathrm{M}}$ and increasing for smaller $\\\\theta$) is reported explicitly. \n[20]\n[30]",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "Continuum-model and tight-binding studies had predicted a “magic” twist angle where the Dirac velocity vanishes and flat bands appear, but those predictions relied on model approximations and idealized geometries. A decisive, geometry-optimized first-principles confirmation (with atomic relaxation and realistic interlayer interactions) was lacking, leaving uncertain the precise value of the magic angle in ab initio calculations and the detailed character (e.g., band splitting at symmetry points) of the emergent flat bands.",
+            "id": "paper:814686513320165384::conclusion_4_subproblem",
+            "source_package": "paper:814686513320165384"
+          }
+        ],
+        "source_package": "paper:814686513320165384"
+      }
+    ],
+    "papers": {
+      "paper:814686513320165384": {
+        "area": "Physics and Astrophysics",
+        "authors": "Kazuyuki Uchida | Shinnosuke Furuya | Jun-Ichi Iwata | Atsushi Oshiyama",
+        "available_online": "2014-10-28",
+        "cover_date_start": "2014-10-28",
+        "created_at": "2022-12-27T18:33:22+08:00",
+        "doi": "10.1103/physrevb.90.155451",
+        "en_title": "Atomic corrugation and electron localization due to Moiré patterns in twisted bilayer graphenes",
+        "id": "814686513320165384",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯中莫尔图案引起的原子波纹和电子局域化"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "1e6b859caa7e1c2620bf1f7117ada1a6"
+}

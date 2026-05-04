@@ -1,0 +1,679 @@
+{
+  "code": 0,
+  "data": {
+    "new_claim_likely": true,
+    "papers": {
+      "paper:1039194982797279247": {
+        "area": "Comprehensive Periodical",
+        "authors": "Ilia Komissarov | Tobias Holder | Raquel Queiroz",
+        "available_online": "2024-5-30",
+        "cover_date_start": "2024-05-30",
+        "created_at": "2024-09-07T07:09:51+08:00",
+        "doi": "10.1038/s41467-024-48808-x",
+        "en_title": "The quantum geometric origin of capacitance in insulators",
+        "id": "1039194982797279247",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "",
+        "zh_title": "绝缘体中电容的量子几何起源"
+      },
+      "paper:1179759910989070356": {
+        "area": "arXiv-Physics",
+        "authors": "Nemin Wei | Felix von Oppen | Leonid I. Glazman",
+        "available_online": "",
+        "cover_date_start": "2025-09-26",
+        "created_at": "2025-09-30T04:24:41+08:00",
+        "doi": "10.48550/arXiv.2509.22902",
+        "en_title": "Tunneling spectroscopy of two-dimensional superconductors with the quantum twisting microscope",
+        "id": "1179759910989070356",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "利用量子扭曲显微镜对二维超导体进行隧穿光谱学研究"
+      },
+      "paper:1229361484681707537": {
+        "area": "arXiv-Physics",
+        "authors": "Bozhi Wang | Jingwei Wen | Jiawei Wu | Haonan Xie | Fan Yang | Shijie Wei | Gui-lu Long",
+        "available_online": "",
+        "cover_date_start": "2023-08-06",
+        "created_at": "2026-02-14T01:23:38+08:00",
+        "doi": "10.48550/arXiv.2308.03134",
+        "en_title": "A powered full quantum eigensolver for energy band structures",
+        "id": "1229361484681707537",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "一种用于能带结构的有源全量子本征解算器"
+      },
+      "paper:812527076643962881": {
+        "area": "Physics and Astrophysics",
+        "authors": "Tianle Wang | Nick Bultinck | Michael P. Zaletel",
+        "available_online": "2020-12-22",
+        "cover_date_start": "2020-12-22",
+        "created_at": "2022-12-21T19:32:32+08:00",
+        "doi": "10.1103/physrevb.102.235146",
+        "en_title": "Flat-band topology of magic angle graphene on a transition metal dichalcogenide",
+        "id": "812527076643962881",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "过渡金属二硫属化物上魔角石墨烯的平带拓扑结构"
+      },
+      "paper:812533726306107393": {
+        "area": "Physics and Astrophysics",
+        "authors": "Daniel Kaplan | Tobias Holder | Binghai Yan",
+        "available_online": "2022-3-18",
+        "cover_date_start": "2022-03-18",
+        "created_at": "2022-12-21T19:58:57+08:00",
+        "doi": "10.1103/physrevresearch.4.013209",
+        "en_title": "Twisted photovoltaics at terahertz frequencies from momentum shift current",
+        "id": "812533726306107393",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ Phys. Rev. Research",
+        "research_categories": "",
+        "zh_title": "基于动量转移电流的太赫兹频率下的扭曲光伏效应"
+      },
+      "paper:812578529123237889": {
+        "area": "Physics and Astrophysics",
+        "authors": "Nick Bultinck | Eslam Khalaf | Shang Liu | Shubhayu Chatterjee | Ashvin Vishwanath | Michael P. Zaletel",
+        "available_online": "2020-8-12",
+        "cover_date_start": "2020-08-12",
+        "created_at": "2022-12-21T22:56:59+08:00",
+        "doi": "10.1103/physrevx.10.031034",
+        "en_title": "Ground State and Hidden Symmetry of Magic-Angle Graphene at Even Integer Filling",
+        "id": "812578529123237889",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "479",
+        "publication_name": "Physical Review X _ Phys. Rev. X",
+        "research_categories": "",
+        "zh_title": "偶数整数填充时魔角石墨烯的基态与隐藏对称性"
+      },
+      "paper:812643486368006145": {
+        "area": "Material science",
+        "authors": "Georgios A Tritsaris | Stephen Carr | Ziyan Zhu | Yiqi Xie | Steven B Torrisi | Jing Tang | Marios Mattheakis | Daniel T Larson | Efthimios Kaxiras",
+        "available_online": "2020-6-22",
+        "cover_date_start": "2020-06-22",
+        "created_at": "2022-12-22T03:15:07+08:00",
+        "doi": "10.1088/2053-1583/ab8f62",
+        "en_title": "Electronic structure calculations of twisted multi-layer graphene superlattices",
+        "id": "812643486368006145",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2094",
+        "publication_name": "2D Materials _ 2D Mater.",
+        "research_categories": "",
+        "zh_title": "扭曲多层石墨烯超晶格的电子结构计算"
+      },
+      "paper:812646407474249731": {
+        "area": "Physics and Astrophysics",
+        "authors": "Sankar Das Sarma | Fengcheng Wu",
+        "available_online": "",
+        "cover_date_start": "2020-06-01",
+        "created_at": "2022-12-22T03:26:43+08:00",
+        "doi": "10.1016/j.aop.2020.168193",
+        "en_title": "Electron–phonon and electron–electron interaction effects in twisted bilayer graphene",
+        "id": "812646407474249731",
+        "keywords": "",
+        "publication_date": "2020-6",
+        "publication_id": "577",
+        "publication_name": "Annals of Physics _ Annals of Physics",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯中的电子-声子和电子-电子相互作用效应"
+      },
+      "paper:812730958368210944": {
+        "area": "Comprehensive Periodical",
+        "authors": "Emilio Codecido | Qiyue Wang | Ryan Koester | Shi Che | Haidong Tian | Rui Lv | Son Tran | Kenji Watanabe | Takashi Taniguchi | Fan Zhang | Marc Bockrath | Chun Ning Lau",
+        "available_online": "",
+        "cover_date_start": "2019-09-06",
+        "created_at": "2022-12-22T09:02:42+08:00",
+        "doi": "10.1126/sciadv.aaw9770",
+        "en_title": "Correlated insulating and superconducting states in twisted bilayer graphene below the magic angle",
+        "id": "812730958368210944",
+        "keywords": "",
+        "publication_date": "2019-9-6",
+        "publication_id": "6329",
+        "publication_name": "Science Advances _ Sci. Adv.",
+        "research_categories": "",
+        "zh_title": "魔角以下扭曲双层石墨烯中的关联绝缘态和超导态"
+      },
+      "paper:813052825503268868": {
+        "area": "Comprehensive Periodical",
+        "authors": "Yuan Cao | Valla Fatemi | Ahmet Demir | Shiang Fang | Spencer L. Tomarken | Jason Y. Luo | Javier D. Sanchez-Yamagishi | Kenji Watanabe | Takashi Taniguchi | Efthimios Kaxiras | Ray C. Ashoori | Pablo Jarillo-Herrero",
+        "available_online": "2018-3-5",
+        "cover_date_start": "2018-03-05",
+        "created_at": "2022-12-23T06:21:40+08:00",
+        "doi": "10.1038/nature26154",
+        "en_title": "Correlated insulator behaviour at half-filling in magic-angle graphene superlattices",
+        "id": "813052825503268868",
+        "keywords": "",
+        "publication_date": "2018-4-5",
+        "publication_id": "8233",
+        "publication_name": "Nature _ Nature",
+        "research_categories": "",
+        "zh_title": "魔角石墨烯超晶格半填充时的相关绝缘体行为"
+      },
+      "paper:814715546384728065": {
+        "area": "Comprehensive Periodical",
+        "authors": "Yonglong Xie | Andrew T. Pierce | Jeong Min Park | Daniel E. Parker | Eslam Khalaf | Patrick Ledwith | Yuan Cao | Seung Hwan Lee | Shaowen Chen | Patrick R. Forrester | Kenji Watanabe | Takashi Taniguchi | Ashvin Vishwanath | Pablo Jarillo-Herrero | Amir Yacoby",
+        "available_online": "2021-12-15",
+        "cover_date_start": "2021-12-15",
+        "created_at": "2022-12-27T20:28:44+08:00",
+        "doi": "10.1038/s41586-021-04002-3",
+        "en_title": "Fractional Chern insulators in magic-angle twisted bilayer graphene",
+        "id": "814715546384728065",
+        "keywords": "",
+        "publication_date": "2021-12-16",
+        "publication_id": "8233",
+        "publication_name": "Nature _ Nature",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "魔角扭曲双层石墨烯中的分数陈绝缘体"
+      },
+      "paper:817336178389811204": {
+        "area": "Physics and Astrophysics",
+        "authors": "Qi Zheng | Chen-Yue Hao | Xiao-Feng Zhou | Ya-Xin Zhao | Jia-Qi He | Lin He",
+        "available_online": "",
+        "cover_date_start": "2022-08-12",
+        "created_at": "2023-01-04T02:02:12+08:00",
+        "doi": "10.1103/PhysRevLett.129.076803",
+        "en_title": "Tunable Sample-Wide Electronic Kagome Lattice in Low-Angle Twisted Bilayer Graphene",
+        "id": "817336178389811204",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "低角度扭曲双层石墨烯中可调控的全样本电子类 Kagome 晶格"
+      },
+      "paper:867745366357836075": {
+        "area": "arXiv-Physics",
+        "authors": "Yi-Wen Liu | Ying Su | Xiao-Feng Zhou | Long-Jing Yin | Chao Yan | Si-Yu Li | Wei Yan | Sheng Han | Zhong-Qiu Fu | Yu Zhang | Qian Yang | Ya-Ning Ren | Lin He",
+        "available_online": "",
+        "cover_date_start": "2020-07-04",
+        "created_at": "2023-05-23T04:30:18+08:00",
+        "doi": "10.48550/arXiv.2007.01993",
+        "en_title": "Tunable lattice reconstruction and bandwidth of flat bands in magic-angle twisted bilayer graphene",
+        "id": "867745366357836075",
+        "keywords": "",
+        "publication_date": "2020-07-04",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "魔角扭曲双层石墨烯中可调谐的晶格重构与平带带宽"
+      },
+      "paper:867749185871413598": {
+        "area": "arXiv-Physics",
+        "authors": "Yarden Sheffer | Ady Stern",
+        "available_online": "",
+        "cover_date_start": "2021-06-20",
+        "created_at": "2023-05-23T04:45:28+08:00",
+        "doi": "10.48550/arXiv.2106.10650",
+        "en_title": "Chiral Magic-Angle Twisted Bilayer Graphene in a Magnetic Field: Landau Level Correspondence, Exact Wavefunctions and Fractional Chern Insulators",
+        "id": "867749185871413598",
+        "keywords": "",
+        "publication_date": "2021-06-20",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "磁场中的手性魔角扭曲双层石墨烯：朗道能级对应、精确波函数与分数陈绝缘体"
+      },
+      "paper:867750290286182677": {
+        "area": "arXiv-Physics",
+        "authors": "Eduardo B. Molinero | Anushree Datta | María J. Calderón | Elena Bascones | Rui E. F. Silva",
+        "available_online": "",
+        "cover_date_start": "2023-02-05",
+        "created_at": "2023-05-23T04:49:51+08:00",
+        "doi": "10.48550/arXiv.2302.04127",
+        "en_title": "High-Harmonic Generation with a twist: all-optical characterization of magic-angle twisted bilayer graphene",
+        "id": "867750290286182677",
+        "keywords": "",
+        "publication_date": "2023-02-05",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "具有扭转的高次谐波产生：魔角扭曲双层石墨烯的全光学表征"
+      },
+      "paper:867756008208859697": {
+        "area": "arXiv-Physics",
+        "authors": "Bjørnulf Brekke | Asle Sudbø | Arne Brataas",
+        "available_online": "",
+        "cover_date_start": "2023-01-19",
+        "created_at": "2023-05-23T05:12:34+08:00",
+        "doi": "10.48550/arXiv.2301.07909",
+        "en_title": "Interfacial Magnon-Mediated Superconductivity in Twisted Bilayer Graphene",
+        "id": "867756008208859697",
+        "keywords": "",
+        "publication_date": "2023-01-19",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯中界面磁振子介导的超导性"
+      },
+      "paper:867760007804879173": {
+        "area": "arXiv-Physics",
+        "authors": "Cheng Shen | Jianghua Ying | Le Liu | Jianpeng Liu | Na Li | Shuopei Wang | Jian Tang | Yanchong Zhao | Yanbang Chu | Kenji Watanabe | Takashi Taniguchi | Rong Yang | Dongxia Shi | Fanming Qu | Li Lu | Wei Yang | Guangyu Zhang",
+        "available_online": "",
+        "cover_date_start": "2020-10-08",
+        "created_at": "2023-05-23T05:28:28+08:00",
+        "doi": "10.48550/arXiv.2010.03999",
+        "en_title": "Emergence of Chern insulating states in non-Magic angle twisted bilayer graphene",
+        "id": "867760007804879173",
+        "keywords": "",
+        "publication_date": "2020-10-08",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "非魔角扭曲双层石墨烯中陈绝缘态的出现"
+      },
+      "paper:867760961551860070": {
+        "area": "arXiv-Physics",
+        "authors": "Jonah Herzog-Arbeitman | Aaron Chew | B. Andrei Bernevig",
+        "available_online": "",
+        "cover_date_start": "2022-06-15",
+        "created_at": "2023-05-23T05:32:16+08:00",
+        "doi": "10.48550/arXiv.2206.07717",
+        "en_title": "Magnetic Bloch Theorem and Reentrant Flat Bands in Twisted Bilayer Graphene at $2π$ Flux",
+        "id": "867760961551860070",
+        "keywords": "",
+        "publication_date": "2022-06-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "磁布洛赫定理与具有$$2\\pi$$磁通的扭曲双层石墨烯中的折返平带"
+      }
+    },
+    "variables": [
+      {
+        "content": "The two-valley continuum model of twisted bilayer graphene (TBG), which treats valley indices $\\tau=\\pm$ as effectively decoupled and describes low-energy moiré physics via the Bistritzer–MacDonald continuum Hamiltonian parametrized by the twist angle $\\theta$, accurately captures the single-particle flat-band physics when the twist angle $\\theta$ is sufficiently small so that intervalley scattering is negligible and is sufficiently close to the first magic angle $\\theta^{*}\\approx1.08^\\circ$ so that (i) the eight active flat bands are narrowly separated from remote bands by appreciable gaps and (ii) the active-band bandwidths are comparable to or smaller than proximate energy scales (Rashba, Ising, sublattice $u$); outside this regime processes such as valley-mixing, remote-band hybridization, or large kinetic bandwidth invalidate the isolated-band projection and the subsequent conclusions.",
+        "content_hash": "b0a32a6bb220f1b689e1ecf17485794f9da2fa41e13c0ccc1b7f0882ff50fdfa",
+        "id": "gcn_fb78cfd75da34fb5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812527076643962881::P12",
+            "package_id": "paper:812527076643962881",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812527076643962881"
+          ]
+        },
+        "role": "premise",
+        "score": 0.030776515151515152,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Modeling hBN-aligned twisted bilayer graphene near the magic angle $\\theta_{\\mathrm{M}}\\simeq1.063^\\circ$ by the Bistritzer–MacDonald moiré continuum model with interlayer tunneling parameters $u=0.077\\ \\mathrm{eV}$ and $u'=0.11\\ \\mathrm{eV}$ and adding a uniform sublattice-staggering on-site term of magnitude $\\Delta/2$ to mimic hBN alignment reproduces the single-particle flat-band spectrum features relevant for computing the intrinsic capacitance; this continuum modeling neglects atomic relaxation, strain, lattice reconstruction, screening, and interaction-driven band renormalization, so quantitative predictions for the exact depth and location of capacitance extrema may differ in experimental devices.\n      Bistritzer, R. & MacDonald, A. H., PNAS 108, 12233 (2011)",
+        "content_hash": "2f9d83aba23b88b05f46d6a4217e7657b4c0b0b4207abeab1efc1859ed0bf29b",
+        "id": "gcn_a69019888e07483e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1039194982797279247::P13",
+            "package_id": "paper:1039194982797279247",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1039194982797279247"
+          ]
+        },
+        "role": "premise",
+        "score": 0.0304147465437788,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For continuum-model electronic-structure calculations of magic-angle twisted bilayer graphene that explicitly incorporate lattice relaxation via atomic-registry-dependent interlayer coupling leading to enlarged AB/BA regions and shrunken AA regions, the computed low-energy flat-band manifold exhibits qualitatively increased bandwidth (broader flat bands) and increased energetic separation from remote bands in the reconstructed geometry relative to the unreconstructed rigid geometry, and this qualitative trend is robust to moderate variations of model parameters even when spatially non-uniform heterostrain is not included in the calculation; here \"continuum model\" refers to the Bistritzer–MacDonald-type moiré Hamiltonian augmented by a registry-dependent interlayer tunneling parameterization and a relaxation-derived displacement field.\n      [18-21]",
+        "content_hash": "3988a92a5edfc3105c037c646c2611fcb43ffc42e55fb3e39640aa7e57326361",
+        "id": "gcn_8cd2984a6296435c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745366357836075::P9",
+            "package_id": "paper:867745366357836075",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745366357836075"
+          ]
+        },
+        "role": "premise",
+        "score": 0.029631255487269532,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The noninteracting Bistritzer-MacDonald continuum model of $1.05^{\\circ}$ twisted bilayer graphene, with Dirac velocity $v_{F}=10^{6}~\\mathrm{m/s}$ in both graphene layers and intra- and inter-sublattice tunneling parameters $w_{0}=77~\\mathrm{meV}$ and $w_{1}=110~\\mathrm{meV}$, yields band dispersions and Bloch wave functions that reproduce the qualitative tunneling singularity phenomenology of interest, including inverse-root onsets, coherence peaks, and cone-shaped low-bias features, when used in momentum-conserving tunneling simulations. This approximation assumes that interaction-driven renormalizations in actual magic-angle twisted bilayer graphene do not qualitatively alter the geometric origin of the tangency-induced singularities.",
+        "content_hash": "020b525286f14181f277202c1a2140503e1689f333666f0cfc44b13fa6c78647",
+        "id": "gcn_5627832fe1fe4274",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1179759910989070356::P13",
+            "package_id": "paper:1179759910989070356",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1179759910989070356"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02946912242686891,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The chiral-model magic-angle twisted bilayer graphene Hamiltonian — defined as the continuum Bistritzer–MacDonald model with the same-sublattice interlayer tunneling terms (the AA and BB interlayer hoppings) set to zero and with the dimensionless interlayer-coupling parameter alpha tuned to a magic-angle value at which the zero-field bands are exactly flat — has two exactly dispersionless (zero-energy) bands that remain exactly flat for any applied uniform perpendicular magnetic field b when the units absorb the electron charge and set Planck's constant and the speed of light to unity (ℏ = c = 1).  Denoting by A_M > 0 the area of the moiré unit cell and by Φ = b A_M the magnetic flux per moiré unit cell, the A-sublattice-polarized flat band carries Chern number C = +1 and the B-sublattice-polarized flat band carries Chern number C = −1 for flux magnitude |Φ| less than the flux quantum Φ_0 = 2π (in these units).  The exact flatness and the sublattice-resolved Chern-number assignment hold for arbitrary commensurate flux values b = (p/q) (2π/A_M) with integers p,q.",
+        "content_hash": "d0934e41f81262a75a517accfa7291df747753fff8de849f3a54cf319f41f464",
+        "id": "gcn_86107b0743434e9a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867749185871413598::conclusion_1",
+            "package_id": "paper:867749185871413598",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867749185871413598"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.02928692699490662,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For commensurate twisted bilayer graphene supercells computed at 33 unique commensurate twist angles spanning 0.88° ≤ θ ≤ 21.79°, the ab initio Wannier-derived tight-binding calculations and automated flat-band detection identify a maximized flat-band likelihood p(θ) at a magic angle θ* ≈ 1.1°, with the emergence of low-dispersion (near-flat) bands near the Fermi level in the single-particle TB band structures at that angle.",
+        "content_hash": "2d5ed181a24cdafdeb4af64ebb51594e1406d15ca70c5a056e2ff5ca98f5bee1",
+        "id": "gcn_5f58746bcc0b4098",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812643486368006145::conclusion_5",
+            "package_id": "paper:812643486368006145",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812643486368006145"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.028373015873015873,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Bistritzer–MacDonald continuum moiré-band model, a continuum effective model parameterized by intralayer graphene parameters and interlayer tunneling amplitudes, provides the noninteracting low-energy band structure of twisted bilayer graphene (tBLG), and the Dirac-point band Fermi velocity v_F^*(θ) obtained from that noninteracting continuum model is to be treated as the bare (noninteracting) input parameter for subsequent low-energy many-body and phonon-transport calculations.\n      R. Bistritzer and A.H. MacDonald, Proc. Natl. Acad. Sci. USA 108 (2011) 12233.",
+        "content_hash": "983d6c1db9e02cd4ca85535c520271c72298d1bed49fb782c1a31e0e64a5c034",
+        "id": "gcn_671ceef053a64aa7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812646407474249731::P2",
+            "package_id": "paper:812646407474249731",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812646407474249731"
+          ]
+        },
+        "role": "premise",
+        "score": 0.027583600982429624,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The continuum Bistritzer–MacDonald (BM) model of twisted bilayer graphene, after applying a layer-dependent momentum shift that restores moiré periodicity, can be represented in the magnetic-translation-irrep Landau-level basis at flux $\\phi=2\\pi$ and diagonalized after truncating to a finite number of Landau levels. For magic-angle geometric parameters and typical BM interlayer tunneling strengths, this numerical diagonalization (with sufficient Landau-level cutoff) reveals two low-energy flat bands per valley and spin that reappear (reenter) at $\\phi=2\\pi$ and are, for the parameter sets considered, separated from higher-energy passive bands by a sizable gap on the order of 40 meV. The dispersion and topology of these reentrant flat bands depend sensitively on the interlayer hopping parameters $(w_0,w_1)$: scanning $(w_0,w_1)$ produces a phase diagram with a crystalline regime (parameter region including the physical TBG values) where the two flat bands together have vanishing total Chern number, and a Landau-level-type regime (including the first chiral limit $w_0=0$) where each flat band individually carries Chern number $-1$.",
+        "content_hash": "97b8b101d398b107f5a5a9c98a5a04b25119c041e10e67e5b60eea5f6e0f5507",
+        "id": "gcn_afdfbd0c013048d8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867760961551860070::conclusion_8",
+            "package_id": "paper:867760961551860070",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867760961551860070"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.02750455373406193,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Numerical evaluation of a Bistritzer–MacDonald-type continuum model for twisted bilayer graphene, combined with a discrete Brillouin-zone topological-invariant computation using the method of Fukui, Hatsugi, and Suzuki, yields that at the model's first magic angle $\\theta_{\\mathrm{magic}}^{(1)}\\approx 1.064^\\circ$ each corner of the mini Brillouin zone (the $K_s$ and $K_s'$ points for a fixed graphene valley) hosts a parabolic band touching with winding number $-2$, and that for a fixed graphene valley the two inequivalent mini-Brillouin-zone corners have the same winding number so that reducing $\\theta$ from a regime with winding numbers $(+1,+1)$ at the two corners to the magic-angle regime with winding numbers $(-2,-2)$ produces a net winding-number change $\\Delta w=6$ between the two lowest energy bands. This statement asserts that these numerical outcomes represent the continuum-model physics for the parameter set used, without claiming invariance under all microscopic corrections such as strong lattice relaxation or intervalley coupling beyond the continuum approximation.\nCao et al., Nature 2018 Methods and Extended Data Fig. 1; Fukui et al., J. Phys. Soc. Jpn. 2005",
+        "content_hash": "1ae69fa738724caea0f6f5d9451ff84e9a1c04e13c8729f36a14ae8bea2d7634",
+        "id": "gcn_8a4bacbd69d74de5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813052825503268868::P11",
+            "package_id": "paper:813052825503268868",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813052825503268868"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02532051282051282,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For twisted bilayer graphene (tBLG) with twist angle θ measured in degrees, let θ_M denote the largest magic angle at which the noninteracting continuum moiré-band Dirac-point band velocity vanishes, and let v_F ≈ 10^8 cm/s be the monolayer-graphene Dirac velocity; then the noninteracting continuum Bistritzer–MacDonald moiré-band calculation of the low-energy Dirac-point Fermi velocity v_F^*(θ) is accurately approximated for 0<θ<3° by the linear formula\n      $$\n      v_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F,\n      $$\n      with θ and θ_M in degrees, so that the numerical continuum-band outputs for v_F^*(θ) are captured to useful accuracy by this linear fit in the specified angular window.\n      R. Bistritzer and A.H. MacDonald, Proc. Natl. Acad. Sci. USA 108 (2011) 12233; F. Wu, E. Hwang, S. Das Sarma, Phys. Rev. B 99 (2019) 165112.",
+        "content_hash": "ab6b230aa37c25ce3130ae490969e118a1cda445c81ddcaaa16c0d2b4f037382",
+        "id": "gcn_d3808439ccf6496b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812646407474249731::P1",
+            "package_id": "paper:812646407474249731",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812646407474249731"
+          ]
+        },
+        "role": "premise",
+        "score": 0.025240384615384616,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Consider the Bistritzer–MacDonald continuum model for twisted bilayer graphene represented in a plane-wave basis truncated to include plane waves up to the third honeycomb shell. Truncating the momentum-space basis in this way produces a finite Hamiltonian matrix of dimension 196\\times196. The computational proposition used in the numerical study is: the eigenvalues and eigenvectors obtained by classical diagonalization of this 196\\times196 truncated Hamiltonian provide an adequate representation of the low-energy moiré-band features of the continuum model (including twist-angle–dependent band narrowing and the emergence of near-flat bands at the magic-angle regime) for the twist angles studied, so that agreement between P-FQE numerical simulation and the truncated classical diagonalization reflects algorithmic correctness within the chosen finite basis.",
+        "content_hash": "4fafa109f5781137961e9fc75b38ccb2c2209842e0254ed9df989d81db63e436",
+        "id": "gcn_5206e2693e5644d4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1229361484681707537::P12",
+            "package_id": "paper:1229361484681707537",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1229361484681707537"
+          ]
+        },
+        "role": "premise",
+        "score": 0.0250384024577573,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The single‑particle moiré flat‑band bandwidths $W(\\\\theta)$ reported in the paper are obtained from continuum‑model computations based on the Bistritzer–MacDonald model for twisted bilayer graphene, where the bandwidth of a given band is defined as the difference between the maximum and minimum band energies along a chosen path in the moiré mini–Brillouin zone (for example the $\\\\Gamma\\\\to M\\\\to K$ path). The computed $W(\\\\theta)$ values depend on model parameter choices such as the interlayer hopping amplitudes (the computations in the paper used an interlayer hopping energy parameter of $110.7\\\\,$meV in the plotted results) and on whether lattice relaxation/corrugation effects are included; therefore the reported $W(\\\\theta)$ reflects the single‑particle kinetic‑energy scale within the continuum‑model assumptions but quantitative values may shift if alternative parameterizations or relaxation effects are included.\n      Bistritzer–MacDonald model; Paper Fig. 3a–c and Supplementary Sec.5",
+        "content_hash": "70ec7534dc6b0257c624ff6058791594b58059180729c46bceecd563dd4fb8a2",
+        "id": "gcn_8693bf3c486444d1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867760007804879173::P9",
+            "package_id": "paper:867760007804879173",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867760007804879173"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02378987898789879,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The full width at half maximum (FWHM) of the low‑energy flat bands localized in AA‑stacked regions of twisted bilayer graphene depends sensitively on the twist angle θ and reaches a minimum near the first magic angle (θ ≃ 1.08°); the experimentally measured FWHM values are substantially larger than the bandwidths predicted by a standard continuum‑model calculation (Bistritzer–MacDonald‑type moiré continuum model) even after accounting for instrumental broadening estimated from the measurement temperature T = 78 K (thermal broadening on the order of ≃10 meV) and the lock‑in bias modulation amplitude used in spectroscopy (≃5 meV), and the excess broadening is consistent with additional sample‑related effects such as loss of electronic phase coherence, static disorder, or strain in real devices.",
+        "content_hash": "ba2b316e7eaa3c6a94e80cfb425c2c07e60c9d9ec26b2a3d6b849bbc4d01c420",
+        "id": "gcn_7b5cb5ded6384198",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817336178389811204::conclusion_5",
+            "package_id": "paper:817336178389811204",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817336178389811204"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.023392612859097127,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The proposition: a Wannier-derived tight-binding model of magic-angle twisted bilayer graphene (TBG) is constructed as a lattice Hamiltonian $H_{\\\\mathrm{TB}}=\\\\sum_{i,j}t_{ij}c_{i}^{\\\\dagger}c_{j}$ obtained by projecting continuum-model Bloch states onto maximally localized Wannier functions and using exactly eight localized Wannier orbitals per graphene valley, with hopping matrix elements $t_{ij}$ retained out to a radius equal to ten moiré lattice constants; this Wannier model is parametrized using the continuum-model choices $v_{F}=2.34\\\\,a$ (graphene Fermi velocity, with $a$ the graphene lattice constant) and interlayer tunneling ratio $w_{0}/w_{1}=0.78$, and with those ingredients the model locates the magic angle at $\\\\theta_{\\\\mathrm{mag}}=1.12^{\\\\circ}$ and is claimed to reproduce the low-energy continuum-model bandstructure near the magic-angle regime so that the Wannier-model flat-band dispersion, bandwidths, and energetic separations to higher conduction bands are faithful to the continuum-model predictions used in the simulations; here 'moiré lattice constant' denotes the superlattice period set by the twist angle and 'flat-band dispersion' denotes the energy versus crystal momentum for the two bands nearest the Fermi energy, while 'accurately reproduces' is intended to mean band energies and band separations that are quantitatively similar in the energy windows relevant to $\\\\omega=1\\\\ \\\\mathrm{meV}$.",
+        "content_hash": "b4b4e88de65bf7066b3aca207a42acea0ed5a1586b3e00626885f18fd43bf237",
+        "id": "gcn_743ad512e28943ca",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867750290286182677::P1",
+            "package_id": "paper:867750290286182677",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867750290286182677"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02279093455564044,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Using the Bistritzer–MacDonald continuum model of magic-angle twisted bilayer graphene (MATBG) with model parameters set to twist angle $\\theta=1.06^\\circ$, interlayer tunnelling parameter $w_1=110\\ \\mathrm{meV}$, sublattice splitting $\\Delta_{\\mathrm{sub}}=30\\ \\mathrm{meV}$, and an AA-to-AB tunnelling ratio $w_0/w_1\\approx0.8$, the computed continuum-model band structure and Hofstadter-spectrum Berry-curvature evolution yield $\\sigma(F)$ versus flux curves and an estimated critical flux $\\phi/\\phi_0\\sim1/5$ (corresponding to $B_{\\mathrm{c}}\\approx5.4\\ \\mathrm{T}$) that are quantitatively representative of the device regions probed in the experiments, assuming that spatial inhomogeneity, sample-dependent variations of $w_0/w_1$, strain, and interaction-driven renormalization of parameters do not qualitatively change the computed quantum-geometry trends.\n      Methods: Hofstadter spectrum; Main text (refs. 25,35,36)",
+        "content_hash": "7c89fe8137449b6e93061489781684eec65053a02a7c449d306dc64b23b31da1",
+        "id": "gcn_a42f57e9f51845f8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814715546384728065::P6",
+            "package_id": "paper:814715546384728065",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814715546384728065"
+          ]
+        },
+        "role": "premise",
+        "score": 0.022504400301734978,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Modeling hexagonal-boron-nitride-aligned magic-angle twisted bilayer graphene (TBG) by the Bistritzer–MacDonald continuum moiré model with interlayer tunneling parameters $u=0.077\\ \\mathrm{eV}$ and $u'=0.11\\ \\mathrm{eV}$ and including a uniform sublattice-staggering on-site term of magnitude $\\Delta/2$ that opens a gap of order $\\Delta\\sim 10\\ \\mathrm{meV}$ in the flat-band sector, the intrinsic capacitance per unit area $c(\\theta)$ computed from the metric-gap formula exhibits a sharp local minimum at the magic twist angle $\\theta_{\\mathrm{M}}\\simeq 1.063^\\circ$. This capacitance minimum is attributed to an abrupt decrease of the quantum metric of the nearly flat bands around $\\theta_{\\mathrm{M}}$ (a metric \"quench\" associated with trace-condition saturation in the chiral-limit flat-band regime), and estimating the minimum by treating each massive Dirac quasiparticle as contributing $c_0=e^2/(12\\pi|M|)$ with $|M|=\\Delta/2$ and counting eight degeneracy channels (spin and valley multiplicity) yields the rough numerical estimate $8c_0\\approx 17\\ \\mathrm{aF}$ for $\\Delta=4\\ \\mathrm{meV}$; this prediction arises from single-particle continuum eigenstates and neglects electron-electron interaction-driven band renormalization and other device-specific effects.",
+        "content_hash": "f81f7032ff261186c65365319baf38d0d62adaf88fb7ddf1c4c3400a2f213bea",
+        "id": "gcn_b5559a40e7c04b31",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1039194982797279247::conclusion_6",
+            "package_id": "paper:1039194982797279247",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1039194982797279247"
+          ]
+        },
+        "role": "conclusion",
+        "score": 0.022266204849084613,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the Bistritzer–MacDonald (BM) continuum model of twisted bilayer graphene, define the chiral limit by setting the intrasublattice moiré tunneling amplitude $w_0=0$ while keeping intersublattice tunneling $w_1>0$ finite; in this chiral limit and at the magic angle the two flat bands per valley become perfectly flat and the BM Hamiltonian $H_{\\mathrm{BM}}$ anticommutes with the chiral operator $\\mathcal{S}=\\sigma_z$. Project the full interacting density operator onto the two flat bands per spin and valley and define the projected form-factor matrix by $\\left[\\Lambda_{\\boldsymbol{q}}(\\boldsymbol{k})\\right]_{\\alpha\\beta}=\\langle u_{\\alpha,\\boldsymbol{k}}|u_{\\beta,\\boldsymbol{k}+\\boldsymbol{q}}\\rangle$, where $|u_{\\alpha,\\boldsymbol{k}}\\rangle$ are the two flat-band Bloch eigenstates. In this strict chiral limit the projected form factor admits the exact factorized form\n      $$\n      \\Lambda_{\\boldsymbol{q}}(\\boldsymbol{k})=F_{\\boldsymbol{q}}(\\boldsymbol{k})\\,e^{i\\Phi_{\\boldsymbol{q}}(\\boldsymbol{k})\\sigma_z\\tau_z},\n      $$\n      where $F_{\\boldsymbol{q}}(\\boldsymbol{k})$ and $\\Phi_{\\boldsymbol{q}}(\\boldsymbol{k})$ are real-valued scalar functions of $\\boldsymbol{q}$ and $\\boldsymbol{k}$, and $\\sigma_z,\\tau_z$ are the sublattice and valley Pauli matrices acting in the two-band projected subspace; this algebraic simplification follows from the chiral symmetry $\\{\\mathcal{S},H_{\\mathrm{BM}}\\}=0$ and the resulting complete sublattice polarization of the flat-band wave functions in this limit.",
+        "content_hash": "843ca0187b0fcfb55ddad1bebeeb0f00bfcda8f6c0c3e736c823c937230ff6dc",
+        "id": "gcn_52ea0eb682e64641",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812578529123237889::P2",
+            "package_id": "paper:812578529123237889",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812578529123237889"
+          ]
+        },
+        "role": "premise",
+        "score": 0.02217320640817274,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let the continuum Bistritzer–MacDonald (BM) model for twisted bilayer graphene with interlayer hopping amplitude $w$, monolayer Fermi velocity $v$, moiré wave number $k_{\\theta}=2k_D\\sin(\\theta/2)$, and BM dimensionless parameter $\\alpha=w/(v k_{\\theta})$ be given. For twist angles near the first magic angle and for electronic states with crystal momenta measured relative to each Dirac-cone label $I\\in\\{K_1,K_1',K_2,K_2'\\}$, projecting the full BM Hamiltonian onto the twofold low-energy subspace associated with the lower BM band (using the normalized low-energy eigenstates $\\Psi^{I}$ with normalization factor $1+6\\alpha^{2}$) yields effective two-component Dirac-like band operators $c_{\\boldsymbol{k}I s}$ with projected lower-band dispersion $\\varepsilon_{\\boldsymbol{k}}$ and two-component Dirac-band spinors $\\phi_{\\boldsymbol{k}}^{\\eta}$ as the relevant electronic degrees of freedom. This projection neglects remote bands and assumes that coupling to higher-energy BM bands does not qualitatively change the low-energy layer and valley-resolved spinor structure used for electron–magnon matrix elements.",
+        "content_hash": "d67b95838245ad58bb9b1467ca31e4563ec8a44a8ffe91b2af807b5968401ef5",
+        "id": "gcn_d53613dcd4824ada",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867756008208859697::P2",
+            "package_id": "paper:867756008208859697",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867756008208859697"
+          ]
+        },
+        "role": "premise",
+        "score": 0.021961063627730294,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The single-particle electronic structure of twisted bilayer graphene at twist angle θ = 0.93° is computed using the Bistritzer–MacDonald continuum moiré Hamiltonian for two graphene layers, with interlayer tunneling matrices parameterized by amplitudes t_{AA} (same-sublattice tunneling) and t_{AB} (different-sublattice tunneling); this continuum-model procedure, augmented by parameter refinement intended to account for lattice relaxation, is assumed to yield an accurate description of band dispersions and single-particle densities of states relevant to interpreting the transport data. The proposition explicitly defines the model as the continuum moiré Hamiltonian with interlayer tunneling matrices specified by t_{AA} and t_{AB}, and assumes that effects beyond the single-particle continuum description (for example, strong electronic self-energy corrections, environment-induced screening, or substantial disorder) do not qualitatively alter the predicted locations of flat regions, band overlaps, or high-energy Dirac points.\n      Ref. 7",
+        "content_hash": "a15e8bcd3c95028fe8e9648e3c80be3586f073fad3acf4a915d2b9c1a19b85d5",
+        "id": "gcn_4dcf2500ffb14adc",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812730958368210944::P5",
+            "package_id": "paper:812730958368210944",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812730958368210944"
+          ]
+        },
+        "role": "premise",
+        "score": 0.021369433877825018,
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let $H_{\\mathrm{BM}}$ denote the modified Bistritzer–MacDonald continuum Hamiltonian for twisted bilayer graphene constructed by coupling two rotated monolayer graphene continuum Hamiltonians with interlayer tunneling matrices, including a staggered potential $\\Delta$ applied to the bottom layer and optional uniaxial strain parameter $\\varepsilon$, with twist angle fixed at $\\theta=1.05^\\circ$. Optical transitions computed from the non-interacting eigenstates and eigenvalues of $H_{\\mathrm{BM}}$ (i.e., neglecting electron-electron self-energy, band renormalization, and correlation-induced gaps) provide qualitatively correct and semiquantitatively reliable predictions for the existence and approximate magnitude of giant shift-current resonances across single-particle flat-band gaps at photon energies of order $1$–$4\\ \\mathrm{meV}$ under the assumption that many-body correlation effects primarily shift resonance positions or renormalize magnitudes but do not eliminate the large momentum-space geometric contributions that arise from band flatness.",
+        "content_hash": "3b987ab6f552a4d30d8270f9ba937312ed66410dda6d1c37ab8890822e116cae",
+        "id": "gcn_1a340874e1a04432",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812533726306107393::P5",
+            "package_id": "paper:812533726306107393",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812533726306107393"
+          ]
+        },
+        "role": "premise",
+        "score": 0.020622895622895623,
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "9df8464b2a68af72898f0dfae7e66935"
+}

@@ -67,6 +67,122 @@
       }
     ]
   },
+  "Wu2018": {
+    "type": "article",
+    "title": "Phonon-induced giant linear-in-T resistivity in magic angle twisted bilayer graphene: Ordinary strangeness and exotic superconductivity",
+    "DOI": "10.48550/arXiv.1811.04920",
+    "container-title": "Mesoscale and Nanoscale Physics",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          12
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Fengcheng"
+      },
+      {
+        "family": "Hwang",
+        "given": "Euyheon"
+      },
+      {
+        "family": "Das Sarma",
+        "given": "Sankar"
+      }
+    ]
+  },
+  "DasSarma2022": {
+    "type": "article",
+    "title": "Strange metallicity of moire twisted bilayer graphene",
+    "DOI": "10.48550/arXiv.2201.10270",
+    "container-title": "Mesoscale and Nanoscale Physics",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Das Sarma",
+        "given": "Sankar"
+      },
+      {
+        "family": "Wu",
+        "given": "Fengcheng"
+      }
+    ]
+  },
+  "Qin2021": {
+    "type": "article",
+    "title": "Critical magnetic fields and electron-pairing in magic-angle twisted bilayer graphene",
+    "DOI": "10.48550/arXiv.2102.10504",
+    "container-title": "Superconductivity",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          21
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Qin",
+        "given": "Wei"
+      },
+      {
+        "family": "Zou",
+        "given": "Bo"
+      },
+      {
+        "family": "MacDonald",
+        "given": "Allan H."
+      }
+    ]
+  },
+  "Uchida2014": {
+    "type": "article-journal",
+    "title": "Atomic corrugation and electron localization due to Moire patterns in twisted bilayer graphenes",
+    "DOI": "10.1103/physrevb.90.155451",
+    "container-title": "Physical Review B",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          10,
+          28
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Uchida",
+        "given": "Kazuyuki"
+      },
+      {
+        "family": "Furuya",
+        "given": "Shinnosuke"
+      },
+      {
+        "family": "Iwata",
+        "given": "Jun-Ichi"
+      },
+      {
+        "family": "Oshiyama",
+        "given": "Atsushi"
+      }
+    ]
+  },
   "HerzogArbeitman2022": {
     "type": "article",
     "title": "Magnetic Bloch Theorem and Reentrant Flat Bands in Twisted Bilayer Graphene at $2\\pi$ Flux",

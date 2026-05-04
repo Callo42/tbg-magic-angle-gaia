@@ -1,0 +1,110 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Mean-field finite-pairing-momentum Bogoliubov–de Gennes calculations for magic-angle twisted bilayer graphene continuum-model band structures in which in-plane optical phonons provide an effectively instantaneous electron–electron attraction (parameterized by static coupling strengths g_0 and g_1) that competes with a repulsive intra-valley Coulomb interaction of strength u show the following band-filling dependent relationships: (i) the zero-pairing-momentum critical temperature T_c(\\mu) exhibits dome-like maxima that are centered at chemical potentials \\mu where the flat-band density-of-states (DOS) has van Hove singularities (VHSs); (ii) the perpendicular upper critical field H_{c2}(\\mu), obtained from the microscopic critical pairing wavevector q_c(\\mu) via H_{c2}(\\mu)=\\Phi_s q_c(\\mu)^2/(2\\pi) with \\Phi_s=\\pi\\hbar c/e, exhibits sharp peaks at the same VHS chemical potentials; and (iii) the extracted average velocity v_F^*(\\mu)=k_B T_c(\\mu)/[\\hbar q_c(\\mu)] exhibits V-shaped minima located at those VHS chemical potentials, so that v_F^* minima are coincident with T_c maxima. These relationships are robust across the continuum-model parameter variations explored in the calculations reported here, specifically for intra-valley Coulomb strengths u of order tens of meV·nm^2 (examples shown for u\\approx20–40 meV·nm^2), intersublattice-to-intrasublattice tunneling ratios \\eta=t_{\\mathrm{AA}}/t_{\\mathrm{AB}} in the range \\sim0.7–0.85, and twist angles \\theta near the magic-angle values employed in the numerical studies (\\sim1.07^\\circ–1.15^\\circ).",
+      "content_hash": "1302ceb2079942cd1f8b12faa249e16a77913c998f9cc678fa4334623476d071",
+      "id": "gcn_a0ab3201de0e41ad",
+      "type": "claim"
+    },
+    "evidence_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Mean-field finite-pairing-momentum Bogoliubov–de Gennes calculations for magic-angle twisted bilayer graphene continuum-model band structures in which in-plane optical phonons provide an effectively instantaneous electron–electron attraction (parameterized by static coupling strengths g_0 and g_1) that competes with a repulsive intra-valley Coulomb interaction of strength u show the following band-filling dependent relationships: (i) the zero-pairing-momentum critical temperature T_c(\\mu) exhibits dome-like maxima that are centered at chemical potentials \\mu where the flat-band density-of-states (DOS) has van Hove singularities (VHSs); (ii) the perpendicular upper critical field H_{c2}(\\mu), obtained from the microscopic critical pairing wavevector q_c(\\mu) via H_{c2}(\\mu)=\\Phi_s q_c(\\mu)^2/(2\\pi) with \\Phi_s=\\pi\\hbar c/e, exhibits sharp peaks at the same VHS chemical potentials; and (iii) the extracted average velocity v_F^*(\\mu)=k_B T_c(\\mu)/[\\hbar q_c(\\mu)] exhibits V-shaped minima located at those VHS chemical potentials, so that v_F^* minima are coincident with T_c maxima. These relationships are robust across the continuum-model parameter variations explored in the calculations reported here, specifically for intra-valley Coulomb strengths u of order tens of meV·nm^2 (examples shown for u\\approx20–40 meV·nm^2), intersublattice-to-intrasublattice tunneling ratios \\eta=t_{\\mathrm{AA}}/t_{\\mathrm{AB}} in the range \\sim0.7–0.85, and twist angles \\theta near the magic-angle values employed in the numerical studies (\\sim1.07^\\circ–1.15^\\circ).",
+              "id": "gcn_a0ab3201de0e41ad"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_8e790c60b9c94313",
+            "premises": [
+              {
+                "content": "In twisted bilayer graphene flat-band models where the relevant in-plane optical phonon mode energies are \\hbar\\omega_{E_2}\\approx196\\ \\text{meV} and \\hbar\\omega_{A_1,B_1}\\approx170\\ \\text{meV} while the electronic flat-band bandwidth \\mathcal{W} is much smaller than 100\\ \\text{meV} (typical flat-band widths in the continuum models are a few to a few tens of meV), the electron–optical-phonon-mediated interaction can be treated as effectively instantaneous for mean-field pairing calculations; accordingly retardation effects are neglected and the phonon-induced attraction is represented by static BCS-like interaction parameters g_0 and g_1 that enter the gap equation and parameterize the contributions of the E_2 and A_1/B_1 phonon modes to the effective instantaneous attraction.",
+                "id": "gcn_1b0c5250d2574e24"
+              },
+              {
+                "content": "In mean-field Bogoliubov–de Gennes modeling of MATBG superconductivity with optical-phonon-mediated attraction and repulsive Coulomb interactions, the short-range intra-valley Coulomb repulsion strength parameter u (with units of meV·nm^2 in the continuum-model interaction tensor) can be treated as a phenomenological tuning parameter and adjusted to reproduce experimentally observed critical temperatures T_c, even when the tuned value differs from crude microscopic estimates of the screened Coulomb interaction; in this modeling u parametrizes the principal depairing short-range Coulomb effect entering the static interaction tensor V used in the self-consistent gap equation.",
+                "id": "gcn_4eda4fedb8364912"
+              },
+              {
+                "content": "For the purposes of the mean-field finite-pairing-momentum BdG calculations reported for MATBG, Coulomb-scattering processes that change electron valley index (intervalley Coulomb scattering matrix elements) are neglected (taken to be parametrically small compared to intravalley Coulomb repulsion), so that the principal depairing Coulomb effect in the interaction tensor is described by a single intra-valley parameter u; here 'valley' denotes the inequivalent graphene Dirac points and 'intervalley scattering' denotes two-body Coulomb matrix elements that connect states in different valley sectors.",
+                "id": "gcn_993c306ad37c4dfb"
+              },
+              {
+                "content": "The non-interaction-reconstructed continuum-model band structures of MATBG used in the finite-pairing-momentum mean-field calculations, parameterized by twist angle \\theta and intersublattice-to-intrasublattice tunneling ratio \\eta=t_{\\mathrm{AA}}/t_{\\mathrm{AB}}, are taken to represent the salient features of the electronic structure relevant for predicting where flat-band van Hove singularities (VHSs) occur in band filling, with the modeling assumption that neglecting possible interaction-driven flavor (spin/valley) symmetry breaking and the associated Fermi-surface reconstructions does not qualitatively change the prediction that phonon-mediated pairing produces maxima of T_c(\\mu) and minima of the extracted average velocity v_F^*(\\mu) at the VHSs determined from the non-reconstructed continuum-model band structure.",
+                "id": "gcn_2bc94d32817142f7"
+              },
+              {
+                "content": "The coincidence that superconducting critical temperature maxima and minima of the extracted average velocity v_F^* occur at chemical potentials corresponding to flat-band van Hove singularities is a generic feature of phonon-mediated pairing in two-dimensional flat-band continuum-model representations of magic-angle twisted bilayer graphene and persists across the continuum-model parameter variations explored here (variations of \\eta, \\theta, and Coulomb depairing strength u), provided that the interaction remains phonon-dominated and is not itself strongly dependent on band filling.",
+                "id": "gcn_324b385e04254463"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Treat the microscopic finite-momentum BdG computational protocol and its GL-form fit (conclusion 6) as established and available for analysis; in particular, $q_c$ can be extracted reliably from microscopic $\\delta F(\\boldsymbol{q})$ fits and used to compute $H_{c2}$ and $v_F^*$.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Specify the pairing model used in the mean-field BdG calculations: electrons in MATBG are paired by in-plane optical phonons (treated as providing instantaneous electron-electron attraction because the flat-band electronic bandwidth is small compared to the optical-phonon energies), with optical-phonon-mediated interaction strengths parameterized by $g_0$ and $g_1$, and with a competing repulsive intra-valley Coulomb interaction parameterized by $u$ (a Coulomb repulsion strength in units of meV·nm$^2$); the total interaction tensor $V$ entering the self-consistent gap equation includes $-g$ contributions from phonons and $+u$ contributions from Coulomb repulsion.\n[36]\n[43]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Define the zero-pairing-momentum critical temperature $T_c(\\mu)$ as the temperature at which the pair potential vanishes for pairing momentum $\\boldsymbol{q}=0$ for a given chemical potential $\\mu$ (band filling $\\nu$), as obtained from the mean-field BdG self-consistent solution; compute $T_c(\\mu)$ across a range of $\\mu$ for representative MATBG models (specified twist angle $\\theta$, tunneling ratio $\\eta$, and Coulomb strength $u$).\nFig. 2(a)",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Observe from the mean-field calculations that $T_c(\\mu)$ shows dome-like features as a function of chemical potential and that the maxima of these domes are centered at the chemical potentials where the flat-band density-of-states (DOS) exhibits van Hove singularities (VHSs); in the plotted results the positions of the flat-band VHSs (chemical potentials where the DOS has singular peaks) are indicated by vertical dotted lines and the coincidence of $T_c$ maxima with these VHS positions is explicit.\nFig. 2(a)",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Compute the condensation-energy-derived critical pairing wavevector $q_c(\\mu)$ and the corresponding perpendicular upper critical magnetic field $H_{c2}(\\mu)=\\Phi_s q_c(\\mu)^2/2\\pi$ (with $\\Phi_s=\\pi\\hbar c/e$) from the microscopic fits; observe that $H_{c2}(\\mu)$ exhibits sharp peaks at the same chemical potentials where the flat-band DOS has VHSs, consistent with the phenomenological expectation that $H_{c2}$ is proportional to an effective mass (i.e., inversely related to quasiparticle velocity), so that near VHSs where velocities are anomalously small $H_{c2}$ is large.\nFig. 2(b)",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Using the previously defined average velocity diagnostic $v_F^*(\\mu)=k_B T_c(\\mu)/(\\hbar q_c(\\mu))$, compute $v_F^*(\\mu)$ from the mean-field results for $T_c(\\mu)$ and $q_c(\\mu)$; observe that $v_F^*(\\mu)$ is two orders of magnitude or more smaller than the isolated-graphene Dirac velocity and that $v_F^*(\\mu)$ exhibits pronounced V-shaped minima located at the VHS chemical potentials, so that the minima of $v_F^*$ are coincident with the maxima of $T_c$.\nFig. 2(c)",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Demonstrate robustness of these relationships to variations in model parameters: perform calculations varying the intra-valley Coulomb repulsion strength $u$, the intersublattice-to-intrasublattice tunneling ratio $\\eta = t_{\\text{AA}}/t_{\\text{AB}}$, and the twist angle $\\theta$ within the continuum-model parameter ranges studied; show (in the plotted results) that for each band-structure model explored the extracted $v_F^*(\\mu)$ possesses a V-shaped minimum near the VHS that is always coincident with a $T_c$ maximum, and that $H_{c2}(\\mu)$ peaks at the VHSs across these parameter variations.\nFig. 3",
+                "step_id": "7"
+              },
+              {
+                "reasoning": "Conclude that, within the mean-field BdG calculations for MATBG with optical-phonon-mediated instantaneous pairing (characterized by coupling parameters $g_0,g_1$) competing with repulsive intra-valley Coulomb interaction $u$, (i) the zero-pairing-momentum critical temperature $T_c(\\mu)$ has dome-like maxima centered at chemical potentials where the flat-band DOS has VHSs; (ii) the perpendicular upper critical field $H_{c2}(\\mu)$ exhibits sharp peaks at the same VHS chemical potentials; and (iii) the extracted average velocity $v_F^*(\\mu)=k_B T_c/(\\hbar q_c)$ exhibits V-shaped minima at the VHSs so that minima of $v_F^*$ are always coincident with maxima of $T_c$. These relationships are found to hold as $\\eta$, $u$, and $\\theta$ are varied within the parameter ranges studied.\nFig. 2\nFig. 3",
+                "step_id": "8"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The theoretical expectation for a filling-independent bosonic pairing glue (for example optical phonons whose energies exceed flat-band electronic bandwidths) is that $T_c$ should track the electronic density of states and typical quasiparticle velocity; however, a concrete demonstration in realistic MATBG band-structure models was lacking. Prior work did not compute the finite-pairing-momentum condensation-energy $\\delta F(\\boldsymbol{q})$ self-consistently in MATBG to extract the critical pairing wavevector $q_c$ and hence $H_{c2}$ and $v_F^*$. Without such calculations there was no direct, model-based prediction that phonon-mediated pairing must produce $T_c$ maxima that coincide with VHSs and with minima in an experimentally extractable $v_F^*$. Providing those microscopic BdG calculations fills this gap by making precise predictions that can be confronted with experiment and thereby discriminate phonon-mediated scenarios from filling-dependent electronic pairing mechanisms.",
+            "id": "paper:867761816883691597::conclusion_2_subproblem",
+            "source_package": "paper:867761816883691597"
+          }
+        ],
+        "source_package": "paper:867761816883691597"
+      }
+    ],
+    "papers": {
+      "paper:867761816883691597": {
+        "area": "arXiv-Physics",
+        "authors": "Wei Qin | Bo Zou | Allan H. MacDonald",
+        "available_online": "",
+        "cover_date_start": "2021-02-21",
+        "created_at": "2023-05-23T05:35:40+08:00",
+        "doi": "10.48550/arXiv.2102.10504",
+        "en_title": "Critical magnetic fields and electron-pairing in magic-angle twisted bilayer graphene",
+        "id": "867761816883691597",
+        "keywords": "",
+        "publication_date": "2021-02-21",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "魔角扭曲双层石墨烯中的临界磁场与电子配对"
+      }
+    },
+    "total_chains": 1
+  },
+  "trace_id": "82a232beec68c562c285e3b9c111a656"
+}
