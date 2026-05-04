@@ -1,12 +1,12 @@
 {
-  "review_id": "2026-05-04T04-32-54Z_1e8bceba_auto",
-  "created_at": "2026-05-04T04:32:54Z",
-  "ir_hash": "sha256:1e8bcebad86a09f791f6fb0f4c148dbd40cc01f7b349418226335e47e2d2bab3",
+  "review_id": "2026-05-04T05-26-00Z_1c875116_auto",
+  "created_at": "2026-05-04T05:26:00Z",
+  "ir_hash": "sha256:1c8751168ae3f2bbf0502960a034e288c9d2155a3a9c199ff09a9b0f6f50be5d",
   "ir": {
     "knowledges": [
       {
-        "id": "github:tbg_magic_angle::gcn_d3808439ccf6496b",
-        "label": "gcn_d3808439ccf6496b",
+        "id": "github:tbg_magic_angle::bm_velocity_linear_fit",
+        "label": "bm_velocity_linear_fit",
         "type": "claim",
         "content": "For twisted bilayer graphene in the noninteracting Bistritzer-MacDonald continuum moire-band calculation, with twist angle theta and largest magic angle theta_M measured in degrees and monolayer graphene velocity v_F about 1e8 cm/s, the computed low-energy Dirac-point Fermi velocity v_F*(theta) for 0 < theta < 3 degrees is usefully approximated by v_F*(theta) ~= 0.5 * |theta - theta_M| * v_F [@DasSarma2020].",
         "metadata": {
@@ -27,8 +27,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_671ceef053a64aa7",
-        "label": "gcn_671ceef053a64aa7",
+        "id": "github:tbg_magic_angle::bm_velocity_bare_input",
+        "label": "bm_velocity_bare_input",
         "type": "claim",
         "content": "In twisted bilayer graphene, the Bistritzer-MacDonald continuum moire-band model supplies the noninteracting low-energy band structure, and the Dirac-point band Fermi velocity v_F*(theta) from that model is treated as the bare input velocity for subsequent low-energy many-body and phonon-transport calculations [@DasSarma2020].",
         "metadata": {
@@ -49,8 +49,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
-        "label": "gcn_7bca73ad98eb4ed4",
+        "id": "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
+        "label": "bm_magic_angle_velocity_suppression",
         "type": "claim",
         "content": "For twisted bilayer graphene, the noninteracting low-energy Dirac-point band Fermi velocity v_F*(theta) produced by the Bistritzer-MacDonald continuum moire-band model is strongly suppressed as theta approaches the largest magic angle theta_M where that velocity vanishes; for 0 < theta < 3 degrees it is usefully described by v_F*(theta) ~= 0.5 * |theta - theta_M| * v_F, with v_F about 1e8 cm/s [@DasSarma2020].",
         "metadata": {
@@ -69,8 +69,8 @@
         "exported": true
       },
       {
-        "id": "github:tbg_magic_angle::gcn_b411dd99a41e4de2",
-        "label": "gcn_b411dd99a41e4de2",
+        "id": "github:tbg_magic_angle::moire_spinor_phonon_form_factor",
+        "label": "moire_spinor_phonon_form_factor",
         "type": "claim",
         "content": "For a moire Dirac point in twisted bilayer graphene, Wu, Hwang, and Das Sarma construct degenerate Dirac-point eigenstates from four layer/momentum spinors with amplitudes set by alpha_j=w_j/(hbar v_F |kappa_{+1}|), define beta=3(alpha_0^2+alpha_1^2), and approximate the deformation-potential electron-phonon spinor-overlap factor as F(theta)=(1+beta^2)/(1+beta)^2, with 0.5 <= F(theta) <= 1 used as a transport matrix-element correction [@Wu2018].",
         "metadata": {
@@ -92,8 +92,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_570f7bfc906e4dbd",
-        "label": "gcn_570f7bfc906e4dbd",
+        "id": "github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity",
+        "label": "relaxed_tunneling_magic_angle_velocity",
         "type": "claim",
         "content": "Using continuum-model interlayer tunneling parameters w_0=90 meV and w_1=117 meV to incorporate atomic-relaxation effects, Wu, Hwang, and Das Sarma obtain a largest magic angle theta_magic about 1.025 degrees and a strongly suppressed twist-angle-dependent Dirac velocity v_F*(theta), while noting sample-dependent relaxation and strain can shift theta_magic and v_F* by order tens of percent [@Wu2018].",
         "metadata": {
@@ -115,8 +115,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_93c279f20f364a40",
-        "label": "gcn_93c279f20f364a40",
+        "id": "github:tbg_magic_angle::wu_velocity_phonon_form_factor",
+        "label": "wu_velocity_phonon_form_factor",
         "type": "claim",
         "content": "In Wu, Hwang, and Das Sarma's continuum moire Hamiltonian calculation for twisted bilayer graphene, v_F*(theta) is strongly suppressed near theta_magic about 1.025 degrees, and a perturbative moire-wavefunction calculation gives the electron-phonon matrix-element form factor F(theta)=(1+beta^2)/(1+beta)^2 with beta=3(alpha_0^2+alpha_1^2), where alpha_j=w_j/(hbar v_F |kappa_{+1}|) for the AA and AB/BA tunneling parameters [@Wu2018].",
         "metadata": {
@@ -136,8 +136,8 @@
         "exported": true
       },
       {
-        "id": "github:tbg_magic_angle::gcn_1cb7675d5185405d",
-        "label": "gcn_1cb7675d5185405d",
+        "id": "github:tbg_magic_angle::bm_velocity_suppression_caveated",
+        "label": "bm_velocity_suppression_caveated",
         "type": "claim",
         "content": "For twisted bilayer graphene, the Bistritzer-MacDonald continuum moire-band model predicts a moire-band Fermi velocity v_F*(theta) at the moire Dirac points; with standard BM parameters it strongly suppresses v_F* toward zero near a magic twist angle around 1 degree and gives v_F*/v_F about 1/4 at theta=1.5 degrees within the noninteracting continuum approximation without lattice relaxation or many-body self-energy corrections [@DasSarma2022].",
         "metadata": {
@@ -159,8 +159,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_feace4c9a0154885",
-        "label": "gcn_feace4c9a0154885",
+        "id": "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement",
+        "label": "phonon_resistivity_velocity_enhancement",
         "type": "claim",
         "content": "In Das Sarma and Wu's strange-metallicity model for twisted bilayer graphene, the BM continuum calculation predicts strong v_F* suppression near the magic angle and v_F*/v_F about 1/4 at theta=1.5 degrees; because the phonon-limited resistivity and its temperature coefficient scale as 1/v_F*^2, this velocity reduction implies up to about a 16-fold enhancement of phonon-limited resistivity relative to untwisted monolayer graphene in the small-v_F* regime [@DasSarma2022].",
         "metadata": {
@@ -180,8 +180,8 @@
         "exported": true
       },
       {
-        "id": "github:tbg_magic_angle::gcn_1b0c5250d2574e24",
-        "label": "gcn_1b0c5250d2574e24",
+        "id": "github:tbg_magic_angle::optical_phonons_instantaneous_couplings",
+        "label": "optical_phonons_instantaneous_couplings",
         "type": "claim",
         "content": "In MATBG flat-band models where optical phonon energies are about 196 meV for E_2 modes and about 170 meV for A_1/B_1 modes while the electronic flat-band bandwidth is much smaller than 100 meV, Qin, Zou, and MacDonald treat the electron-optical-phonon interaction as effectively instantaneous and parameterize it by static BCS-like couplings g_0 and g_1 [@Qin2021].",
         "metadata": {
@@ -203,8 +203,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_4eda4fedb8364912",
-        "label": "gcn_4eda4fedb8364912",
+        "id": "github:tbg_magic_angle::intravalley_coulomb_tuning_parameter",
+        "label": "intravalley_coulomb_tuning_parameter",
         "type": "claim",
         "content": "In Qin, Zou, and MacDonald's mean-field BdG modeling of MATBG superconductivity, the short-range intravalley Coulomb repulsion parameter u is treated as a phenomenological tuning parameter in meV nm^2 that can be adjusted to reproduce experimental critical temperatures and represents the principal depairing short-range Coulomb effect in the static interaction tensor [@Qin2021].",
         "metadata": {
@@ -226,8 +226,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_993c306ad37c4dfb",
-        "label": "gcn_993c306ad37c4dfb",
+        "id": "github:tbg_magic_angle::intervalley_scattering_neglect",
+        "label": "intervalley_scattering_neglect",
         "type": "claim",
         "content": "For Qin, Zou, and MacDonald's MATBG finite-pairing-momentum BdG calculations, intervalley Coulomb scattering matrix elements are neglected relative to intravalley Coulomb repulsion, so the principal depairing Coulomb effect is represented by a single intravalley parameter u in the interaction tensor [@Qin2021].",
         "metadata": {
@@ -249,8 +249,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_2bc94d32817142f7",
-        "label": "gcn_2bc94d32817142f7",
+        "id": "github:tbg_magic_angle::continuum_vhs_pairing_band_assumption",
+        "label": "continuum_vhs_pairing_band_assumption",
         "type": "claim",
         "content": "Qin, Zou, and MacDonald use non-interaction-reconstructed MATBG continuum-model band structures parameterized by twist angle theta and tunneling ratio eta=t_AA/t_AB to represent the flat-band van Hove singularities that determine where phonon-mediated pairing produces maxima of T_c(mu) and minima of extracted average velocity v_F*(mu), while assuming neglected interaction-driven flavor symmetry breaking does not qualitatively change this prediction [@Qin2021].",
         "metadata": {
@@ -272,8 +272,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_324b385e04254463",
-        "label": "gcn_324b385e04254463",
+        "id": "github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence",
+        "label": "vhs_tc_velocity_extrema_coincidence",
         "type": "claim",
         "content": "In Qin, Zou, and MacDonald's MATBG calculations, superconducting critical-temperature maxima and minima of extracted average velocity v_F* occur at chemical potentials corresponding to flat-band van Hove singularities, and this coincidence persists across explored variations of eta, theta, and Coulomb depairing strength u when the interaction remains phonon-dominated and not strongly filling-dependent [@Qin2021].",
         "metadata": {
@@ -295,8 +295,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_a0ab3201de0e41ad",
-        "label": "gcn_a0ab3201de0e41ad",
+        "id": "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema",
+        "label": "phonon_bdg_vhs_tc_hc2_velocity_extrema",
         "type": "claim",
         "content": "Qin, Zou, and MacDonald's mean-field finite-pairing-momentum BdG calculations for MATBG continuum-model flat bands with optical-phonon attraction and intravalley Coulomb repulsion find that T_c(mu) has dome-like maxima at flat-band van Hove singularities, H_c2(mu) peaks at the same chemical potentials, and extracted v_F*(mu)=k_B T_c(mu)/(hbar q_c(mu)) has V-shaped minima there, robust across the explored ranges eta about 0.7-0.85, theta about 1.07-1.15 degrees, and u about 20-40 meV nm^2 [@Qin2021].",
         "metadata": {
@@ -316,8 +316,8 @@
         "exported": true
       },
       {
-        "id": "github:tbg_magic_angle::gcn_159120a419184e9e",
-        "label": "gcn_159120a419184e9e",
+        "id": "github:tbg_magic_angle::small_angle_corrugation_extrapolation",
+        "label": "small_angle_corrugation_extrapolation",
         "type": "claim",
         "content": "For commensurate twisted bilayer graphene unit cells labeled by integer pairs (N,N-1), Uchida et al. represent out-of-plane corrugation z(r) by a two-dimensional Fourier series, fit dominant coefficients from optimized larger-angle geometries, extrapolate those coefficients for theta<2 degrees, reconstruct z(r), and use the resulting corrugated geometries as inputs for small-angle band-structure calculations near theta=0.99 degrees [@Uchida2014].",
         "metadata": {
@@ -339,8 +339,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_75a1c2477ca448b0",
-        "label": "gcn_75a1c2477ca448b0",
+        "id": "github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope",
+        "label": "kohn_sham_magic_angle_numerical_scope",
         "type": "claim",
         "content": "In Uchida et al.'s Kohn-Sham calculations for twisted bilayer graphene, the quoted magic angle theta_M about 1.08 degrees is defined by the vanishing Dirac Fermi velocity and depends on extrapolated small-angle atomic geometries, finite real-space grids, chosen pseudopotentials, and the LDA exchange-correlation approximation with limited vdW-DF checks [@Uchida2014].",
         "metadata": {
@@ -362,8 +362,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_390a496067b94209",
-        "label": "gcn_390a496067b94209",
+        "id": "github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency",
+        "label": "half_filled_flat_band_magnetism_tendency",
         "type": "claim",
         "content": "Uchida et al. interpret half-filled flat Kohn-Sham bands at charge neutrality in twisted bilayer graphene as indicating a possible tendency toward magnetic ordering upon slight twisting, while acknowledging that explicit spin-polarized total-energy comparisons, Hubbard-model analysis, or many-body calculations would be required to establish spontaneous magnetism [@Uchida2014].",
         "metadata": {
@@ -385,8 +385,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_848085b12d384915",
-        "label": "gcn_848085b12d384915",
+        "id": "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands",
+        "label": "kohn_sham_magic_angle_flat_bands",
         "type": "claim",
         "content": "Uchida et al.'s Kohn-Sham band-structure calculations for twisted bilayer graphene find a magic twist angle theta_M about 1.08 degrees where the Dirac Fermi velocity vanishes; near this angle the low-energy Kohn-Sham bands become extremely flat over most of the Brillouin zone, including nearly dispersionless half-filled bands around E_F and about 10 meV splitting between flat bands at Gamma for theta=0.99 degrees [@Uchida2014].",
         "metadata": {
@@ -406,8 +406,8 @@
         "exported": true
       },
       {
-        "id": "github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow",
-        "label": "gcn_af432bff_ab_initio_tb_workflow",
+        "id": "github:tbg_magic_angle::ab_initio_tb_flat_band_workflow",
+        "label": "ab_initio_tb_flat_band_workflow",
         "type": "claim",
         "content": "For commensurate twisted bilayer graphene in the Tritsaris et al. 2020 high-throughput workflow, the selected LKM chain treats as established a Wannier-derived tight-binding Hamiltonian workflow in which band structures are diagonalized with 60 k-points along Gamma-M-K and automated flat-band detectors inspect a 0.30 eV window around the Fermi level [@Tritsaris2020].",
         "metadata": {
@@ -429,8 +429,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_be5d1975_detector_interpolation",
-        "label": "gcn_be5d1975_detector_interpolation",
+        "id": "github:tbg_magic_angle::flat_band_detector_interpolation",
+        "label": "flat_band_detector_interpolation",
         "type": "claim",
         "content": "For the same Tritsaris et al. 2020 commensurate twisted-bilayer-graphene workflow, the selected LKM chain treats automated low-dispersion-band detections at the sampled commensurate twist angles as inputs that are converted into a continuous flat-band likelihood p(theta) by an interpolation and blending prescription [@Tritsaris2020].",
         "metadata": {
@@ -452,8 +452,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood",
-        "label": "gcn_5f58746b_magic_angle_flat_band_likelihood",
+        "id": "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood",
+        "label": "ab_initio_magic_angle_flat_band_likelihood",
         "type": "claim",
         "content": "For 33 unique commensurate twisted bilayer graphene supercells spanning 0.88 degrees <= theta <= 21.79 degrees, Tritsaris et al. 2020 use ab initio Wannier-derived tight-binding calculations and automated flat-band detection to find that the blended flat-band likelihood p(theta) is maximized near theta* approximately 1.1 degrees, where low-dispersion near-flat bands emerge near the Fermi level in the single-particle tight-binding band structures [@Tritsaris2020].",
         "metadata": {
@@ -472,8 +472,8 @@
         "exported": true
       },
       {
-        "id": "github:tbg_magic_angle::gcn_8cd2984a6296435c",
-        "label": "gcn_8cd2984a6296435c",
+        "id": "github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands",
+        "label": "relaxation_broadens_isolates_flat_bands",
         "type": "claim",
         "content": "For Liu et al.'s continuum-model calculations of magic-angle twisted bilayer graphene, the Bistritzer-MacDonald-type moire Hamiltonian is augmented by atomic-registry-dependent interlayer tunneling and a relaxation-derived displacement field that enlarges AB/BA regions and shrinks AA regions; in that reconstructed geometry, the computed low-energy flat-band manifold has larger bandwidth and greater energetic separation from remote bands than in the unreconstructed rigid geometry, with the qualitative trend robust to moderate model-parameter changes even though explicit spatially non-uniform heterostrain is not included [@Liu2020].",
         "metadata": {
@@ -494,8 +494,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_ed8fa9253ea24982",
-        "label": "gcn_ed8fa9253ea24982",
+        "id": "github:tbg_magic_angle::heterostrain_flat_band_fine_splitting",
+        "label": "heterostrain_flat_band_fine_splitting",
         "type": "claim",
         "content": "For magic-angle twisted bilayer graphene spectra discussed by Liu et al., spatially non-uniform heterostrain means a slowly varying relative in-plane deformation between graphene layers, parameterized by a local strain tensor field epsilon(r) at the moire scale; such heterostrain can reconstruct the electronic band structure and generate additional flat-band density-of-states fine structure, including three-subpeak splitting seen in some STS spectra, but those heterostrain-induced features are not reproduced by continuum-model calculations that include only atomic-registry-driven lattice relaxation [@Liu2020].",
         "metadata": {
@@ -516,8 +516,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_c220df1acc8b476a",
-        "label": "gcn_c220df1acc8b476a",
+        "id": "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends",
+        "label": "relaxation_reproduces_sts_flat_band_trends",
         "type": "claim",
         "content": "In Liu et al.'s continuum-model electronic-structure calculation for magic-angle twisted bilayer graphene, adding atomic-registry-driven lattice relaxation produces reconstructed geometry with enlarged AB/BA regions and reduced AA regions; compared with the rigid unreconstructed calculation, this reconstructed geometry reproduces the key STS spectroscopic trends of broader low-energy flat bands and greater energetic isolation from remote bands, while the calculation omits explicit spatially non-uniform heterostrain and therefore does not reproduce extra flat-band peak splitting, such as three-subpeak structure, observed in some spectra [@Liu2020].",
         "metadata": {
@@ -536,8 +536,8 @@
         "exported": true
       },
       {
-        "id": "github:tbg_magic_angle::gcn_6463be97083b44fd",
-        "label": "gcn_6463be97083b44fd",
+        "id": "github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption",
+        "label": "dft_gap_spectroscopy_comparison_assumption",
         "type": "claim",
         "content": "For first-magic-angle twisted bilayer graphene, comparing plane-wave DFT Kohn-Sham gaps computed with the vdW-DF2 exchange-correlation functional against spectroscopic gaps assumes that electron-electron correlation and quasiparticle self-energy corrections do not substantially renormalize the relevant gap magnitudes, so DFT gaps of about $26\\,\\mathrm{meV}$ and $16\\,\\mathrm{meV}$ can be quantitatively compared to nano-ARPES or tunneling spectroscopy in the same energy window [@Cantele2020].",
         "metadata": {
@@ -558,8 +558,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_abaf80790d664630",
-        "label": "gcn_abaf80790d664630",
+        "id": "github:tbg_magic_angle::relaxation_component_diagnostic_assumption",
+        "label": "relaxation_component_diagnostic_assumption",
         "type": "claim",
         "content": "For twisted bilayer graphene at $\\theta=1.08^\\circ$, using two constrained optimizations--out-of-plane-only relaxation with fixed in-plane coordinates and in-plane-only relaxation with fixed z coordinates--is treated as a meaningful diagnostic separation of the electronic effects of the two relaxation components, while retaining the caveat that the fully relaxed structure may couple in-plane and out-of-plane degrees of freedom nonlinearly [@Cantele2020].",
         "metadata": {
@@ -580,8 +580,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_de1d329f326f4e75",
-        "label": "gcn_de1d329f326f4e75",
+        "id": "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps",
+        "label": "full_relaxation_reproduces_flat_band_gaps",
         "type": "claim",
         "content": "For twisted bilayer graphene at the first magic twist angle $\\theta=1.08^\\circ$, plane-wave DFT with vdW-DF2 reproduces the near-Fermi narrow flat-band manifold and the $\\Gamma$-point gaps to higher and lower bands only when full atomic relaxation includes both in-plane and out-of-plane displacements. In the fully relaxed geometry, the reported flat-band bandwidth is about $20\\,\\mathrm{meV}$, with upper and lower separation gaps of about $26\\,\\mathrm{meV}$ and $16\\,\\mathrm{meV}$, and tight-binding calculations on the same relaxed coordinates give consistent low-energy bands. Unrelaxed flat geometries lack or strongly underestimate these gaps; in-plane-only relaxation gives zero gaps, while out-of-plane-only relaxation gives underestimated gaps of about $2\\,\\mathrm{meV}$ and $14\\,\\mathrm{meV}$ [@Cantele2020].",
         "metadata": {
@@ -600,8 +600,8 @@
         "exported": true
       },
       {
-        "id": "github:tbg_magic_angle::gcn_06caff12a4d84b26",
-        "label": "gcn_06caff12a4d84b26",
+        "id": "github:tbg_magic_angle::magnetic_bloch_cutoff_convergence",
+        "label": "magnetic_bloch_cutoff_convergence",
         "type": "claim",
         "content": "For the Bistritzer-MacDonald magnetic Bloch Hamiltonian\n$H^{\\phi=2\\pi}(\\mathbf{k})$ of twisted bilayer graphene represented in the\nLandau-level basis $|\\mathbf{k},n\\rangle$, the numerical procedure truncates\nthe basis to $n \\le n_{\\max}$, diagonalizes the resulting finite Hermitian\nmatrix at sampled $\\mathbf{k}$ points, and assumes that for the magic-angle BM\nparameters and flux $\\phi=2\\pi$ a numerically accessible cutoff makes the\nlow-energy flat-band eigenvalues and topological diagnostics converge within\nquoted tolerances such as energy errors of order 1 meV [@HerzogArbeitman2022].",
         "metadata": {
@@ -623,8 +623,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_fedb8c2683fb48c7",
-        "label": "gcn_fedb8c2683fb48c7",
+        "id": "github:tbg_magic_angle::reentrant_flat_band_parameter_convergence",
+        "label": "reentrant_flat_band_parameter_convergence",
         "type": "claim",
         "content": "For the BM magnetic Bloch Hamiltonian\n$H_{BM}^{\\phi}(\\mathbf{k};w_0,w_1)$ of magic-angle twisted bilayer graphene at\nflux $\\phi=2\\pi$, truncated in Landau levels and diagonalized across sampled\ninterlayer parameters $(w_0,w_1)$, the observed reentrant two flat bands, their\napproximately 40 meV gap to passive bands, and the topology assignments\nseparating a crystalline regime from a Landau-level regime are interpreted as\nphysical parameter dependence only after convergence in Landau-level cutoff,\n$\\mathbf{k}$ mesh, and parameter-grid refinement, subject to the stated BM-model\napproximations [@HerzogArbeitman2022].",
         "metadata": {
@@ -646,8 +646,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_afdfbd0c013048d8",
-        "label": "gcn_afdfbd0c013048d8",
+        "id": "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands",
+        "label": "magnetic_bloch_reentrant_flat_bands",
         "type": "claim",
         "content": "The continuum Bistritzer-MacDonald model of magic-angle twisted bilayer\ngraphene, after a layer-dependent momentum shift restores moire periodicity,\ncan be represented in a magnetic-translation-irrep Landau-level basis at flux\n$\\phi=2\\pi$ and diagonalized with a finite Landau-level cutoff; for the BM\ninterlayer tunneling parameters studied, this calculation produces two\nlow-energy reentrant flat bands per valley and spin separated from passive\nbands by a gap of order 40 meV, with topology controlled by $(w_0,w_1)$:\nphysical TBG lies in a crystalline regime with vanishing total Chern number for\nthe two flat bands, while the first chiral limit $w_0=0$ lies in a\nLandau-level-type regime where each flat band has Chern number -1\n[@HerzogArbeitman2022].",
         "metadata": {
@@ -667,8 +667,8 @@
         "exported": true
       },
       {
-        "id": "github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture",
-        "label": "gcn_7687975d_small_angle_merging_conjecture",
+        "id": "github:tbg_magic_angle::small_angle_dirac_merging_conjecture",
+        "label": "small_angle_dirac_merging_conjecture",
         "type": "claim",
         "content": "For twisted bilayer graphene in the small-angle continuum limit considered by Yamada and Hasegawa 2020, the K-K' intervalley gap at moire K is treated as negligibly small, the upper two bands near charge neutrality are nearly degenerate, and the four-Dirac-point merging mechanism seen in commensurate tight-binding calculations at moderate twist angles is conjectured to persist continuously to magic-angle conditions, assuming no intervening topological or symmetry reconstruction and no qualitative change from lattice relaxation or electron-electron interactions [@Yamada2020].",
         "metadata": {
@@ -689,8 +689,8 @@
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band",
-        "label": "gcn_8159f32d_merged_dirac_magic_angle_flat_band",
+        "id": "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band",
+        "label": "merged_dirac_magic_angle_flat_band",
         "type": "claim",
         "content": "In sufficiently small-angle twisted bilayer graphene, where the moire-K gap between the $2n_0$th and $(2n_0+1)$th bands is negligibly small and the upper two bands near charge neutrality are nearly degenerate, Yamada and Hasegawa 2020 propose that three moving Dirac points merge with the fixed K-point Dirac point, producing vanishing Dirac velocity at K; this suppression is conjectured to contribute to extremely narrow nearly flat bands at the magic angles [@Yamada2020].",
         "metadata": {
@@ -709,579 +709,579 @@
         "exported": true
       },
       {
-        "id": "github:tbg_magic_angle::__conjunction_result_1fe9184f",
-        "label": "__conjunction_result_1fe9184f",
+        "id": "github:tbg_magic_angle::__conjunction_result_42b2769a",
+        "label": "__conjunction_result_42b2769a",
         "type": "claim",
-        "content": "all_true(github:tbg_magic_angle::gcn_d3808439ccf6496b,github:tbg_magic_angle::gcn_671ceef053a64aa7)",
+        "content": "all_true(github:tbg_magic_angle::bm_velocity_linear_fit,github:tbg_magic_angle::bm_velocity_bare_input)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "conjunction_result",
           "visibility": "formal_internal",
-          "canonical_name": "all_true(github:tbg_magic_angle::gcn_d3808439ccf6496b,github:tbg_magic_angle::gcn_671ceef053a64aa7)",
+          "canonical_name": "all_true(github:tbg_magic_angle::bm_velocity_linear_fit,github:tbg_magic_angle::bm_velocity_bare_input)",
           "owning_strategy_type": "deduction",
           "helper_kind": "conjunction_result",
           "helper_visibility": "formal_internal",
-          "owning_strategy_id": "lcs_341a9efd815fffbd"
+          "owning_strategy_id": "lcs_975bc259dd166601"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_7e166c08",
-        "label": "__implication_result_7e166c08",
+        "id": "github:tbg_magic_angle::__implication_result_47848d6e",
+        "label": "__implication_result_47848d6e",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::__conjunction_result_1fe9184f,github:tbg_magic_angle::gcn_7bca73ad98eb4ed4)",
+        "content": "implies(github:tbg_magic_angle::__conjunction_result_42b2769a,github:tbg_magic_angle::bm_magic_angle_velocity_suppression)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_1fe9184f,github:tbg_magic_angle::gcn_7bca73ad98eb4ed4)",
+          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_42b2769a,github:tbg_magic_angle::bm_magic_angle_velocity_suppression)",
           "owning_strategy_type": "deduction",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.95,
-          "owning_strategy_id": "lcs_341a9efd815fffbd"
+          "owning_strategy_id": "lcs_975bc259dd166601"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__conjunction_result_f0a2c37b",
-        "label": "__conjunction_result_f0a2c37b",
+        "id": "github:tbg_magic_angle::__conjunction_result_f587f609",
+        "label": "__conjunction_result_f587f609",
         "type": "claim",
-        "content": "all_true(github:tbg_magic_angle::gcn_b411dd99a41e4de2,github:tbg_magic_angle::gcn_570f7bfc906e4dbd)",
+        "content": "all_true(github:tbg_magic_angle::moire_spinor_phonon_form_factor,github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "conjunction_result",
           "visibility": "formal_internal",
-          "canonical_name": "all_true(github:tbg_magic_angle::gcn_b411dd99a41e4de2,github:tbg_magic_angle::gcn_570f7bfc906e4dbd)",
+          "canonical_name": "all_true(github:tbg_magic_angle::moire_spinor_phonon_form_factor,github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity)",
           "owning_strategy_type": "deduction",
           "helper_kind": "conjunction_result",
           "helper_visibility": "formal_internal",
-          "owning_strategy_id": "lcs_4ad11460dddc6f3f"
+          "owning_strategy_id": "lcs_baba044220f78c24"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_00758f68",
-        "label": "__implication_result_00758f68",
+        "id": "github:tbg_magic_angle::__implication_result_3b551a0e",
+        "label": "__implication_result_3b551a0e",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::__conjunction_result_f0a2c37b,github:tbg_magic_angle::gcn_93c279f20f364a40)",
+        "content": "implies(github:tbg_magic_angle::__conjunction_result_f587f609,github:tbg_magic_angle::wu_velocity_phonon_form_factor)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_f0a2c37b,github:tbg_magic_angle::gcn_93c279f20f364a40)",
+          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_f587f609,github:tbg_magic_angle::wu_velocity_phonon_form_factor)",
           "owning_strategy_type": "deduction",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.95,
-          "owning_strategy_id": "lcs_4ad11460dddc6f3f"
+          "owning_strategy_id": "lcs_baba044220f78c24"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_69fe0a55",
-        "label": "__implication_result_69fe0a55",
+        "id": "github:tbg_magic_angle::__implication_result_59d300cd",
+        "label": "__implication_result_59d300cd",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::gcn_1cb7675d5185405d,github:tbg_magic_angle::gcn_feace4c9a0154885)",
+        "content": "implies(github:tbg_magic_angle::bm_velocity_suppression_caveated,github:tbg_magic_angle::phonon_resistivity_velocity_enhancement)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::gcn_1cb7675d5185405d,github:tbg_magic_angle::gcn_feace4c9a0154885)",
+          "canonical_name": "implies(github:tbg_magic_angle::bm_velocity_suppression_caveated,github:tbg_magic_angle::phonon_resistivity_velocity_enhancement)",
           "owning_strategy_type": "deduction",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.95,
-          "owning_strategy_id": "lcs_56c0ffc7c35a5f15"
+          "owning_strategy_id": "lcs_ebf61aa874fff2fb"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__conjunction_result_cac8ff6a",
-        "label": "__conjunction_result_cac8ff6a",
+        "id": "github:tbg_magic_angle::__conjunction_result_335223e1",
+        "label": "__conjunction_result_335223e1",
         "type": "claim",
-        "content": "all_true(github:tbg_magic_angle::gcn_1b0c5250d2574e24,github:tbg_magic_angle::gcn_4eda4fedb8364912,github:tbg_magic_angle::gcn_993c306ad37c4dfb,github:tbg_magic_angle::gcn_2bc94d32817142f7,github:tbg_magic_angle::gcn_324b385e04254463)",
+        "content": "all_true(github:tbg_magic_angle::optical_phonons_instantaneous_couplings,github:tbg_magic_angle::intravalley_coulomb_tuning_parameter,github:tbg_magic_angle::intervalley_scattering_neglect,github:tbg_magic_angle::continuum_vhs_pairing_band_assumption,github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "conjunction_result",
           "visibility": "formal_internal",
-          "canonical_name": "all_true(github:tbg_magic_angle::gcn_1b0c5250d2574e24,github:tbg_magic_angle::gcn_4eda4fedb8364912,github:tbg_magic_angle::gcn_993c306ad37c4dfb,github:tbg_magic_angle::gcn_2bc94d32817142f7,github:tbg_magic_angle::gcn_324b385e04254463)",
+          "canonical_name": "all_true(github:tbg_magic_angle::optical_phonons_instantaneous_couplings,github:tbg_magic_angle::intravalley_coulomb_tuning_parameter,github:tbg_magic_angle::intervalley_scattering_neglect,github:tbg_magic_angle::continuum_vhs_pairing_band_assumption,github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence)",
           "owning_strategy_type": "deduction",
           "helper_kind": "conjunction_result",
           "helper_visibility": "formal_internal",
-          "owning_strategy_id": "lcs_70a66378bd3a08af"
+          "owning_strategy_id": "lcs_ffbbbfecdb2ba122"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_0ad010c1",
-        "label": "__implication_result_0ad010c1",
+        "id": "github:tbg_magic_angle::__implication_result_a0480cb2",
+        "label": "__implication_result_a0480cb2",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::__conjunction_result_cac8ff6a,github:tbg_magic_angle::gcn_a0ab3201de0e41ad)",
+        "content": "implies(github:tbg_magic_angle::__conjunction_result_335223e1,github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_cac8ff6a,github:tbg_magic_angle::gcn_a0ab3201de0e41ad)",
+          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_335223e1,github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema)",
           "owning_strategy_type": "deduction",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.95,
-          "owning_strategy_id": "lcs_70a66378bd3a08af"
+          "owning_strategy_id": "lcs_ffbbbfecdb2ba122"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__conjunction_result_c7e971a8",
-        "label": "__conjunction_result_c7e971a8",
+        "id": "github:tbg_magic_angle::__conjunction_result_1a625120",
+        "label": "__conjunction_result_1a625120",
         "type": "claim",
-        "content": "all_true(github:tbg_magic_angle::gcn_159120a419184e9e,github:tbg_magic_angle::gcn_75a1c2477ca448b0,github:tbg_magic_angle::gcn_390a496067b94209)",
+        "content": "all_true(github:tbg_magic_angle::small_angle_corrugation_extrapolation,github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope,github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "conjunction_result",
           "visibility": "formal_internal",
-          "canonical_name": "all_true(github:tbg_magic_angle::gcn_159120a419184e9e,github:tbg_magic_angle::gcn_75a1c2477ca448b0,github:tbg_magic_angle::gcn_390a496067b94209)",
+          "canonical_name": "all_true(github:tbg_magic_angle::small_angle_corrugation_extrapolation,github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope,github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency)",
           "owning_strategy_type": "deduction",
           "helper_kind": "conjunction_result",
           "helper_visibility": "formal_internal",
-          "owning_strategy_id": "lcs_cac6513039fe3d09"
+          "owning_strategy_id": "lcs_81bbacf85db3aa5b"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_39e96ccc",
-        "label": "__implication_result_39e96ccc",
+        "id": "github:tbg_magic_angle::__implication_result_1e5f933f",
+        "label": "__implication_result_1e5f933f",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::__conjunction_result_c7e971a8,github:tbg_magic_angle::gcn_848085b12d384915)",
+        "content": "implies(github:tbg_magic_angle::__conjunction_result_1a625120,github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_c7e971a8,github:tbg_magic_angle::gcn_848085b12d384915)",
+          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_1a625120,github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands)",
           "owning_strategy_type": "deduction",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.95,
-          "owning_strategy_id": "lcs_cac6513039fe3d09"
+          "owning_strategy_id": "lcs_81bbacf85db3aa5b"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__conjunction_result_32a868a1",
-        "label": "__conjunction_result_32a868a1",
+        "id": "github:tbg_magic_angle::__conjunction_result_fa93cd53",
+        "label": "__conjunction_result_fa93cd53",
         "type": "claim",
-        "content": "all_true(github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow,github:tbg_magic_angle::gcn_be5d1975_detector_interpolation)",
+        "content": "all_true(github:tbg_magic_angle::ab_initio_tb_flat_band_workflow,github:tbg_magic_angle::flat_band_detector_interpolation)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "conjunction_result",
           "visibility": "formal_internal",
-          "canonical_name": "all_true(github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow,github:tbg_magic_angle::gcn_be5d1975_detector_interpolation)",
+          "canonical_name": "all_true(github:tbg_magic_angle::ab_initio_tb_flat_band_workflow,github:tbg_magic_angle::flat_band_detector_interpolation)",
           "owning_strategy_type": "deduction",
           "helper_kind": "conjunction_result",
           "helper_visibility": "formal_internal",
-          "owning_strategy_id": "lcs_06bb83272269bae6"
+          "owning_strategy_id": "lcs_19fb556da5863d56"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_b4dcefa9",
-        "label": "__implication_result_b4dcefa9",
+        "id": "github:tbg_magic_angle::__implication_result_daf4caa9",
+        "label": "__implication_result_daf4caa9",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::__conjunction_result_32a868a1,github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood)",
+        "content": "implies(github:tbg_magic_angle::__conjunction_result_fa93cd53,github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_32a868a1,github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood)",
+          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_fa93cd53,github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood)",
           "owning_strategy_type": "deduction",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.95,
-          "owning_strategy_id": "lcs_06bb83272269bae6"
+          "owning_strategy_id": "lcs_19fb556da5863d56"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__conjunction_result_2c3dbe39",
-        "label": "__conjunction_result_2c3dbe39",
+        "id": "github:tbg_magic_angle::__conjunction_result_553ab7d5",
+        "label": "__conjunction_result_553ab7d5",
         "type": "claim",
-        "content": "all_true(github:tbg_magic_angle::gcn_8cd2984a6296435c,github:tbg_magic_angle::gcn_ed8fa9253ea24982)",
+        "content": "all_true(github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands,github:tbg_magic_angle::heterostrain_flat_band_fine_splitting)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "conjunction_result",
           "visibility": "formal_internal",
-          "canonical_name": "all_true(github:tbg_magic_angle::gcn_8cd2984a6296435c,github:tbg_magic_angle::gcn_ed8fa9253ea24982)",
+          "canonical_name": "all_true(github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands,github:tbg_magic_angle::heterostrain_flat_band_fine_splitting)",
           "owning_strategy_type": "deduction",
           "helper_kind": "conjunction_result",
           "helper_visibility": "formal_internal",
-          "owning_strategy_id": "lcs_ec5d395c095b512e"
+          "owning_strategy_id": "lcs_0013d1dc6a5330ec"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_d0bb4c65",
-        "label": "__implication_result_d0bb4c65",
+        "id": "github:tbg_magic_angle::__implication_result_667ff07c",
+        "label": "__implication_result_667ff07c",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::__conjunction_result_2c3dbe39,github:tbg_magic_angle::gcn_c220df1acc8b476a)",
+        "content": "implies(github:tbg_magic_angle::__conjunction_result_553ab7d5,github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_2c3dbe39,github:tbg_magic_angle::gcn_c220df1acc8b476a)",
+          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_553ab7d5,github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends)",
           "owning_strategy_type": "deduction",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.95,
-          "owning_strategy_id": "lcs_ec5d395c095b512e"
+          "owning_strategy_id": "lcs_0013d1dc6a5330ec"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__conjunction_result_e449c40c",
-        "label": "__conjunction_result_e449c40c",
+        "id": "github:tbg_magic_angle::__conjunction_result_506d734a",
+        "label": "__conjunction_result_506d734a",
         "type": "claim",
-        "content": "all_true(github:tbg_magic_angle::gcn_6463be97083b44fd,github:tbg_magic_angle::gcn_abaf80790d664630)",
+        "content": "all_true(github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption,github:tbg_magic_angle::relaxation_component_diagnostic_assumption)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "conjunction_result",
           "visibility": "formal_internal",
-          "canonical_name": "all_true(github:tbg_magic_angle::gcn_6463be97083b44fd,github:tbg_magic_angle::gcn_abaf80790d664630)",
+          "canonical_name": "all_true(github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption,github:tbg_magic_angle::relaxation_component_diagnostic_assumption)",
           "owning_strategy_type": "deduction",
           "helper_kind": "conjunction_result",
           "helper_visibility": "formal_internal",
-          "owning_strategy_id": "lcs_d07f2f0f7b73e1c5"
+          "owning_strategy_id": "lcs_8a5be0174abfa592"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_47d0484b",
-        "label": "__implication_result_47d0484b",
+        "id": "github:tbg_magic_angle::__implication_result_a0948e51",
+        "label": "__implication_result_a0948e51",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::__conjunction_result_e449c40c,github:tbg_magic_angle::gcn_de1d329f326f4e75)",
+        "content": "implies(github:tbg_magic_angle::__conjunction_result_506d734a,github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_e449c40c,github:tbg_magic_angle::gcn_de1d329f326f4e75)",
+          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_506d734a,github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps)",
           "owning_strategy_type": "deduction",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.95,
-          "owning_strategy_id": "lcs_d07f2f0f7b73e1c5"
+          "owning_strategy_id": "lcs_8a5be0174abfa592"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__conjunction_result_13603494",
-        "label": "__conjunction_result_13603494",
+        "id": "github:tbg_magic_angle::__conjunction_result_b870c538",
+        "label": "__conjunction_result_b870c538",
         "type": "claim",
-        "content": "all_true(github:tbg_magic_angle::gcn_06caff12a4d84b26,github:tbg_magic_angle::gcn_fedb8c2683fb48c7)",
+        "content": "all_true(github:tbg_magic_angle::magnetic_bloch_cutoff_convergence,github:tbg_magic_angle::reentrant_flat_band_parameter_convergence)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "conjunction_result",
           "visibility": "formal_internal",
-          "canonical_name": "all_true(github:tbg_magic_angle::gcn_06caff12a4d84b26,github:tbg_magic_angle::gcn_fedb8c2683fb48c7)",
+          "canonical_name": "all_true(github:tbg_magic_angle::magnetic_bloch_cutoff_convergence,github:tbg_magic_angle::reentrant_flat_band_parameter_convergence)",
           "owning_strategy_type": "deduction",
           "helper_kind": "conjunction_result",
           "helper_visibility": "formal_internal",
-          "owning_strategy_id": "lcs_1323156542060009"
+          "owning_strategy_id": "lcs_75ca0cbf520f31b1"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_94990860",
-        "label": "__implication_result_94990860",
+        "id": "github:tbg_magic_angle::__implication_result_e3bdc4db",
+        "label": "__implication_result_e3bdc4db",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::__conjunction_result_13603494,github:tbg_magic_angle::gcn_afdfbd0c013048d8)",
+        "content": "implies(github:tbg_magic_angle::__conjunction_result_b870c538,github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_13603494,github:tbg_magic_angle::gcn_afdfbd0c013048d8)",
+          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_b870c538,github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands)",
           "owning_strategy_type": "deduction",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.95,
-          "owning_strategy_id": "lcs_1323156542060009"
+          "owning_strategy_id": "lcs_75ca0cbf520f31b1"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_7eb1dd83",
-        "label": "__implication_result_7eb1dd83",
+        "id": "github:tbg_magic_angle::__implication_result_4f144de4",
+        "label": "__implication_result_4f144de4",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture,github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band)",
+        "content": "implies(github:tbg_magic_angle::small_angle_dirac_merging_conjecture,github:tbg_magic_angle::merged_dirac_magic_angle_flat_band)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture,github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band)",
+          "canonical_name": "implies(github:tbg_magic_angle::small_angle_dirac_merging_conjecture,github:tbg_magic_angle::merged_dirac_magic_angle_flat_band)",
           "owning_strategy_type": "deduction",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.95,
-          "owning_strategy_id": "lcs_1f00a36db5eaa82a"
+          "owning_strategy_id": "lcs_50896814606c8221"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_e3ba6e07",
-        "label": "__implication_result_e3ba6e07",
+        "id": "github:tbg_magic_angle::__implication_result_860c202d",
+        "label": "__implication_result_860c202d",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::gcn_93c279f20f364a40,github:tbg_magic_angle::gcn_7bca73ad98eb4ed4)",
+        "content": "implies(github:tbg_magic_angle::wu_velocity_phonon_form_factor,github:tbg_magic_angle::bm_magic_angle_velocity_suppression)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::gcn_93c279f20f364a40,github:tbg_magic_angle::gcn_7bca73ad98eb4ed4)",
+          "canonical_name": "implies(github:tbg_magic_angle::wu_velocity_phonon_form_factor,github:tbg_magic_angle::bm_magic_angle_velocity_suppression)",
           "owning_strategy_type": "support",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.82,
-          "owning_strategy_id": "lcs_656c276b5b02572e"
+          "owning_strategy_id": "lcs_f8cec33d8c325642"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__conjunction_result_9fa7f4e2",
-        "label": "__conjunction_result_9fa7f4e2",
+        "id": "github:tbg_magic_angle::__conjunction_result_f924c3f8",
+        "label": "__conjunction_result_f924c3f8",
         "type": "claim",
-        "content": "all_true(github:tbg_magic_angle::gcn_7bca73ad98eb4ed4,github:tbg_magic_angle::gcn_93c279f20f364a40)",
+        "content": "all_true(github:tbg_magic_angle::bm_magic_angle_velocity_suppression,github:tbg_magic_angle::wu_velocity_phonon_form_factor)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "conjunction_result",
           "visibility": "formal_internal",
-          "canonical_name": "all_true(github:tbg_magic_angle::gcn_7bca73ad98eb4ed4,github:tbg_magic_angle::gcn_93c279f20f364a40)",
+          "canonical_name": "all_true(github:tbg_magic_angle::bm_magic_angle_velocity_suppression,github:tbg_magic_angle::wu_velocity_phonon_form_factor)",
           "owning_strategy_type": "support",
           "helper_kind": "conjunction_result",
           "helper_visibility": "formal_internal",
-          "owning_strategy_id": "lcs_6f1e7d1b38979081"
+          "owning_strategy_id": "lcs_7be996b5be71875b"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_6d2e8a26",
-        "label": "__implication_result_6d2e8a26",
+        "id": "github:tbg_magic_angle::__implication_result_701e4578",
+        "label": "__implication_result_701e4578",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::__conjunction_result_9fa7f4e2,github:tbg_magic_angle::gcn_feace4c9a0154885)",
+        "content": "implies(github:tbg_magic_angle::__conjunction_result_f924c3f8,github:tbg_magic_angle::phonon_resistivity_velocity_enhancement)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_9fa7f4e2,github:tbg_magic_angle::gcn_feace4c9a0154885)",
+          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_f924c3f8,github:tbg_magic_angle::phonon_resistivity_velocity_enhancement)",
           "owning_strategy_type": "support",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.78,
-          "owning_strategy_id": "lcs_6f1e7d1b38979081"
+          "owning_strategy_id": "lcs_7be996b5be71875b"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__conjunction_result_8e0862cc",
-        "label": "__conjunction_result_8e0862cc",
+        "id": "github:tbg_magic_angle::__conjunction_result_ce1906a7",
+        "label": "__conjunction_result_ce1906a7",
         "type": "claim",
-        "content": "all_true(github:tbg_magic_angle::gcn_93c279f20f364a40,github:tbg_magic_angle::gcn_feace4c9a0154885)",
+        "content": "all_true(github:tbg_magic_angle::wu_velocity_phonon_form_factor,github:tbg_magic_angle::phonon_resistivity_velocity_enhancement)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "conjunction_result",
           "visibility": "formal_internal",
-          "canonical_name": "all_true(github:tbg_magic_angle::gcn_93c279f20f364a40,github:tbg_magic_angle::gcn_feace4c9a0154885)",
+          "canonical_name": "all_true(github:tbg_magic_angle::wu_velocity_phonon_form_factor,github:tbg_magic_angle::phonon_resistivity_velocity_enhancement)",
           "owning_strategy_type": "support",
           "helper_kind": "conjunction_result",
           "helper_visibility": "formal_internal",
-          "owning_strategy_id": "lcs_6ade9371d17185ea"
+          "owning_strategy_id": "lcs_e84f73c0b0865d80"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_df602bdf",
-        "label": "__implication_result_df602bdf",
+        "id": "github:tbg_magic_angle::__implication_result_bd8bba19",
+        "label": "__implication_result_bd8bba19",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::__conjunction_result_8e0862cc,github:tbg_magic_angle::gcn_a0ab3201de0e41ad)",
+        "content": "implies(github:tbg_magic_angle::__conjunction_result_ce1906a7,github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_8e0862cc,github:tbg_magic_angle::gcn_a0ab3201de0e41ad)",
+          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_ce1906a7,github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema)",
           "owning_strategy_type": "support",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.6,
-          "owning_strategy_id": "lcs_6ade9371d17185ea"
+          "owning_strategy_id": "lcs_e84f73c0b0865d80"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_ba6ab776",
-        "label": "__implication_result_ba6ab776",
+        "id": "github:tbg_magic_angle::__implication_result_d93337b5",
+        "label": "__implication_result_d93337b5",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::gcn_848085b12d384915,github:tbg_magic_angle::gcn_7bca73ad98eb4ed4)",
+        "content": "implies(github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands,github:tbg_magic_angle::bm_magic_angle_velocity_suppression)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::gcn_848085b12d384915,github:tbg_magic_angle::gcn_7bca73ad98eb4ed4)",
+          "canonical_name": "implies(github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands,github:tbg_magic_angle::bm_magic_angle_velocity_suppression)",
           "owning_strategy_type": "support",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.72,
-          "owning_strategy_id": "lcs_6aed699201cf1dc5"
+          "owning_strategy_id": "lcs_be756f55098e3a35"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_590687df",
-        "label": "__implication_result_590687df",
+        "id": "github:tbg_magic_angle::__implication_result_4b04863c",
+        "label": "__implication_result_4b04863c",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::gcn_848085b12d384915,github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood)",
+        "content": "implies(github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands,github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::gcn_848085b12d384915,github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood)",
+          "canonical_name": "implies(github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands,github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood)",
           "owning_strategy_type": "support",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.7,
-          "owning_strategy_id": "lcs_046e8012de40ea1c"
+          "owning_strategy_id": "lcs_e519d39922ccf102"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__conjunction_result_b9c6859a",
-        "label": "__conjunction_result_b9c6859a",
+        "id": "github:tbg_magic_angle::__conjunction_result_779b7c86",
+        "label": "__conjunction_result_779b7c86",
         "type": "claim",
-        "content": "all_true(github:tbg_magic_angle::gcn_848085b12d384915,github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood)",
+        "content": "all_true(github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands,github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "conjunction_result",
           "visibility": "formal_internal",
-          "canonical_name": "all_true(github:tbg_magic_angle::gcn_848085b12d384915,github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood)",
+          "canonical_name": "all_true(github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands,github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood)",
           "owning_strategy_type": "support",
           "helper_kind": "conjunction_result",
           "helper_visibility": "formal_internal",
-          "owning_strategy_id": "lcs_4a998b0ac46867b7"
+          "owning_strategy_id": "lcs_802e2fe5850eaae4"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_e4b4f41e",
-        "label": "__implication_result_e4b4f41e",
+        "id": "github:tbg_magic_angle::__implication_result_d55751a5",
+        "label": "__implication_result_d55751a5",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::__conjunction_result_b9c6859a,github:tbg_magic_angle::gcn_de1d329f326f4e75)",
+        "content": "implies(github:tbg_magic_angle::__conjunction_result_779b7c86,github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_b9c6859a,github:tbg_magic_angle::gcn_de1d329f326f4e75)",
+          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_779b7c86,github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps)",
           "owning_strategy_type": "support",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.68,
-          "owning_strategy_id": "lcs_4a998b0ac46867b7"
+          "owning_strategy_id": "lcs_802e2fe5850eaae4"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_afa11f3d",
-        "label": "__implication_result_afa11f3d",
+        "id": "github:tbg_magic_angle::__implication_result_4b67b273",
+        "label": "__implication_result_4b67b273",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::gcn_de1d329f326f4e75,github:tbg_magic_angle::gcn_c220df1acc8b476a)",
+        "content": "implies(github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps,github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::gcn_de1d329f326f4e75,github:tbg_magic_angle::gcn_c220df1acc8b476a)",
+          "canonical_name": "implies(github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps,github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends)",
           "owning_strategy_type": "support",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.7,
-          "owning_strategy_id": "lcs_66cb91b580b37981"
+          "owning_strategy_id": "lcs_be09dce07dd03f06"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_05bfbcfa",
-        "label": "__implication_result_05bfbcfa",
+        "id": "github:tbg_magic_angle::__implication_result_1c303636",
+        "label": "__implication_result_1c303636",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::gcn_7bca73ad98eb4ed4,github:tbg_magic_angle::gcn_afdfbd0c013048d8)",
+        "content": "implies(github:tbg_magic_angle::bm_magic_angle_velocity_suppression,github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::gcn_7bca73ad98eb4ed4,github:tbg_magic_angle::gcn_afdfbd0c013048d8)",
+          "canonical_name": "implies(github:tbg_magic_angle::bm_magic_angle_velocity_suppression,github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands)",
           "owning_strategy_type": "support",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.66,
-          "owning_strategy_id": "lcs_9f3aefd96ddc1c50"
+          "owning_strategy_id": "lcs_5bbe7bcd58f92298"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__conjunction_result_580f762e",
-        "label": "__conjunction_result_580f762e",
+        "id": "github:tbg_magic_angle::__conjunction_result_348fa486",
+        "label": "__conjunction_result_348fa486",
         "type": "claim",
-        "content": "all_true(github:tbg_magic_angle::gcn_7bca73ad98eb4ed4,github:tbg_magic_angle::gcn_848085b12d384915)",
+        "content": "all_true(github:tbg_magic_angle::bm_magic_angle_velocity_suppression,github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "conjunction_result",
           "visibility": "formal_internal",
-          "canonical_name": "all_true(github:tbg_magic_angle::gcn_7bca73ad98eb4ed4,github:tbg_magic_angle::gcn_848085b12d384915)",
+          "canonical_name": "all_true(github:tbg_magic_angle::bm_magic_angle_velocity_suppression,github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands)",
           "owning_strategy_type": "support",
           "helper_kind": "conjunction_result",
           "helper_visibility": "formal_internal",
-          "owning_strategy_id": "lcs_fdfa0d1bb7066a8c"
+          "owning_strategy_id": "lcs_a5a3019d0a22e329"
         },
         "exported": false
       },
       {
-        "id": "github:tbg_magic_angle::__implication_result_9bc684b7",
-        "label": "__implication_result_9bc684b7",
+        "id": "github:tbg_magic_angle::__implication_result_8a514b93",
+        "label": "__implication_result_8a514b93",
         "type": "claim",
-        "content": "implies(github:tbg_magic_angle::__conjunction_result_580f762e,github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band)",
+        "content": "implies(github:tbg_magic_angle::__conjunction_result_348fa486,github:tbg_magic_angle::merged_dirac_magic_angle_flat_band)",
         "metadata": {
           "generated": true,
           "generated_kind": "helper_claim",
           "intermediate_role": "implication_result",
           "visibility": "formal_internal",
-          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_580f762e,github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band)",
+          "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_348fa486,github:tbg_magic_angle::merged_dirac_magic_angle_flat_band)",
           "owning_strategy_type": "support",
           "helper_kind": "implication_result",
           "helper_visibility": "formal_internal",
           "prior": 0.62,
-          "owning_strategy_id": "lcs_fdfa0d1bb7066a8c"
+          "owning_strategy_id": "lcs_a5a3019d0a22e329"
         },
         "exported": false
       }
@@ -1289,169 +1289,169 @@
     "strategies": [
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
+        "conclusion": "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
         "premises": [
-          "github:tbg_magic_angle::gcn_d3808439ccf6496b",
-          "github:tbg_magic_angle::gcn_671ceef053a64aa7"
+          "github:tbg_magic_angle::bm_velocity_linear_fit",
+          "github:tbg_magic_angle::bm_velocity_bare_input"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_93c279f20f364a40",
+        "conclusion": "github:tbg_magic_angle::wu_velocity_phonon_form_factor",
         "premises": [
-          "github:tbg_magic_angle::gcn_b411dd99a41e4de2",
-          "github:tbg_magic_angle::gcn_570f7bfc906e4dbd"
+          "github:tbg_magic_angle::moire_spinor_phonon_form_factor",
+          "github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_feace4c9a0154885",
+        "conclusion": "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement",
         "premises": [
-          "github:tbg_magic_angle::gcn_1cb7675d5185405d"
+          "github:tbg_magic_angle::bm_velocity_suppression_caveated"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_a0ab3201de0e41ad",
+        "conclusion": "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema",
         "premises": [
-          "github:tbg_magic_angle::gcn_1b0c5250d2574e24",
-          "github:tbg_magic_angle::gcn_4eda4fedb8364912",
-          "github:tbg_magic_angle::gcn_993c306ad37c4dfb",
-          "github:tbg_magic_angle::gcn_2bc94d32817142f7",
-          "github:tbg_magic_angle::gcn_324b385e04254463"
+          "github:tbg_magic_angle::optical_phonons_instantaneous_couplings",
+          "github:tbg_magic_angle::intravalley_coulomb_tuning_parameter",
+          "github:tbg_magic_angle::intervalley_scattering_neglect",
+          "github:tbg_magic_angle::continuum_vhs_pairing_band_assumption",
+          "github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_848085b12d384915",
+        "conclusion": "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands",
         "premises": [
-          "github:tbg_magic_angle::gcn_159120a419184e9e",
-          "github:tbg_magic_angle::gcn_75a1c2477ca448b0",
-          "github:tbg_magic_angle::gcn_390a496067b94209"
+          "github:tbg_magic_angle::small_angle_corrugation_extrapolation",
+          "github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope",
+          "github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood",
+        "conclusion": "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood",
         "premises": [
-          "github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow",
-          "github:tbg_magic_angle::gcn_be5d1975_detector_interpolation"
+          "github:tbg_magic_angle::ab_initio_tb_flat_band_workflow",
+          "github:tbg_magic_angle::flat_band_detector_interpolation"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_c220df1acc8b476a",
+        "conclusion": "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends",
         "premises": [
-          "github:tbg_magic_angle::gcn_8cd2984a6296435c",
-          "github:tbg_magic_angle::gcn_ed8fa9253ea24982"
+          "github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands",
+          "github:tbg_magic_angle::heterostrain_flat_band_fine_splitting"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_de1d329f326f4e75",
+        "conclusion": "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps",
         "premises": [
-          "github:tbg_magic_angle::gcn_6463be97083b44fd",
-          "github:tbg_magic_angle::gcn_abaf80790d664630"
+          "github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption",
+          "github:tbg_magic_angle::relaxation_component_diagnostic_assumption"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_afdfbd0c013048d8",
+        "conclusion": "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands",
         "premises": [
-          "github:tbg_magic_angle::gcn_06caff12a4d84b26",
-          "github:tbg_magic_angle::gcn_fedb8c2683fb48c7"
+          "github:tbg_magic_angle::magnetic_bloch_cutoff_convergence",
+          "github:tbg_magic_angle::reentrant_flat_band_parameter_convergence"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band",
+        "conclusion": "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band",
         "premises": [
-          "github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture"
+          "github:tbg_magic_angle::small_angle_dirac_merging_conjecture"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
+        "conclusion": "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
         "premises": [
-          "github:tbg_magic_angle::gcn_93c279f20f364a40"
+          "github:tbg_magic_angle::wu_velocity_phonon_form_factor"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_feace4c9a0154885",
+        "conclusion": "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement",
         "premises": [
-          "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
-          "github:tbg_magic_angle::gcn_93c279f20f364a40"
+          "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
+          "github:tbg_magic_angle::wu_velocity_phonon_form_factor"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_a0ab3201de0e41ad",
+        "conclusion": "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema",
         "premises": [
-          "github:tbg_magic_angle::gcn_93c279f20f364a40",
-          "github:tbg_magic_angle::gcn_feace4c9a0154885"
+          "github:tbg_magic_angle::wu_velocity_phonon_form_factor",
+          "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
+        "conclusion": "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
         "premises": [
-          "github:tbg_magic_angle::gcn_848085b12d384915"
+          "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood",
+        "conclusion": "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood",
         "premises": [
-          "github:tbg_magic_angle::gcn_848085b12d384915"
+          "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_de1d329f326f4e75",
+        "conclusion": "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps",
         "premises": [
-          "github:tbg_magic_angle::gcn_848085b12d384915",
-          "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood"
+          "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands",
+          "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_c220df1acc8b476a",
+        "conclusion": "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends",
         "premises": [
-          "github:tbg_magic_angle::gcn_de1d329f326f4e75"
+          "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_afdfbd0c013048d8",
+        "conclusion": "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands",
         "premises": [
-          "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4"
+          "github:tbg_magic_angle::bm_magic_angle_velocity_suppression"
         ],
         "background": []
       },
       {
         "id": "",
-        "conclusion": "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band",
+        "conclusion": "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band",
         "premises": [
-          "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
-          "github:tbg_magic_angle::gcn_848085b12d384915"
+          "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
+          "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands"
         ],
         "background": []
       }
@@ -1460,224 +1460,224 @@
   },
   "beliefs": [
     {
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_13603494",
-      "label": "__conjunction_result_13603494",
-      "belief": 0.6213899989770538
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_1fe9184f",
-      "label": "__conjunction_result_1fe9184f",
-      "belief": 0.8079387179016689
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_2c3dbe39",
-      "label": "__conjunction_result_2c3dbe39",
-      "belief": 0.6832638964155203
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_32a868a1",
-      "label": "__conjunction_result_32a868a1",
-      "belief": 0.6729849982840761
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_580f762e",
-      "label": "__conjunction_result_580f762e",
-      "belief": 0.8721654899400395
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_8e0862cc",
-      "label": "__conjunction_result_8e0862cc",
-      "belief": 0.9020132204893703
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_9fa7f4e2",
-      "label": "__conjunction_result_9fa7f4e2",
-      "belief": 0.9143895311883105
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_b9c6859a",
-      "label": "__conjunction_result_b9c6859a",
-      "belief": 0.841085179801325
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_c7e971a8",
-      "label": "__conjunction_result_c7e971a8",
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_1a625120",
+      "label": "__conjunction_result_1a625120",
       "belief": 0.35173538477910504
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_cac8ff6a",
-      "label": "__conjunction_result_cac8ff6a",
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_335223e1",
+      "label": "__conjunction_result_335223e1",
       "belief": 0.2653317661751945
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_e449c40c",
-      "label": "__conjunction_result_e449c40c",
-      "belief": 0.5527101586337487
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_348fa486",
+      "label": "__conjunction_result_348fa486",
+      "belief": 0.8721654899400395
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_f0a2c37b",
-      "label": "__conjunction_result_f0a2c37b",
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_42b2769a",
+      "label": "__conjunction_result_42b2769a",
+      "belief": 0.807938717901669
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_506d734a",
+      "label": "__conjunction_result_506d734a",
+      "belief": 0.5527101586337486
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_553ab7d5",
+      "label": "__conjunction_result_553ab7d5",
+      "belief": 0.6832638964155204
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_779b7c86",
+      "label": "__conjunction_result_779b7c86",
+      "belief": 0.841085179801325
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_b870c538",
+      "label": "__conjunction_result_b870c538",
+      "belief": 0.6213899989770538
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_ce1906a7",
+      "label": "__conjunction_result_ce1906a7",
+      "belief": 0.9020132204893703
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_f587f609",
+      "label": "__conjunction_result_f587f609",
       "belief": 0.6835708822043405
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::gcn_06caff12a4d84b26",
-      "label": "gcn_06caff12a4d84b26",
-      "belief": 0.8017342926458908
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_f924c3f8",
+      "label": "__conjunction_result_f924c3f8",
+      "belief": 0.9143895311883105
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::gcn_159120a419184e9e",
-      "label": "gcn_159120a419184e9e",
-      "belief": 0.738943233548979
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_fa93cd53",
+      "label": "__conjunction_result_fa93cd53",
+      "belief": 0.6729849982840761
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::gcn_1b0c5250d2574e24",
-      "label": "gcn_1b0c5250d2574e24",
-      "belief": 0.7448534836473015
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_1cb7675d5185405d",
-      "label": "gcn_1cb7675d5185405d",
-      "belief": 0.8689797804224689
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_2bc94d32817142f7",
-      "label": "gcn_2bc94d32817142f7",
-      "belief": 0.7266287324792516
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_324b385e04254463",
-      "label": "gcn_324b385e04254463",
-      "belief": 0.7813029859834014
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_390a496067b94209",
-      "label": "gcn_390a496067b94209",
-      "belief": 0.6084148503234684
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_4eda4fedb8364912",
-      "label": "gcn_4eda4fedb8364912",
-      "belief": 0.708403981311202
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_570f7bfc906e4dbd",
-      "label": "gcn_570f7bfc906e4dbd",
-      "belief": 0.8290362441223702
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood",
-      "label": "gcn_5f58746b_magic_angle_flat_band_likelihood",
+      "knowledge_id": "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood",
+      "label": "ab_initio_magic_angle_flat_band_likelihood",
       "belief": 0.9373217056792539
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::gcn_6463be97083b44fd",
-      "label": "gcn_6463be97083b44fd",
-      "belief": 0.6994459267088671
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_671ceef053a64aa7",
-      "label": "gcn_671ceef053a64aa7",
-      "belief": 0.9012843587786381
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_75a1c2477ca448b0",
-      "label": "gcn_75a1c2477ca448b0",
-      "belief": 0.7041356646888429
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture",
-      "label": "gcn_7687975d_small_angle_merging_conjecture",
-      "belief": 0.7257061101616387
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
-      "label": "gcn_7bca73ad98eb4ed4",
-      "belief": 0.9950125402682821
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band",
-      "label": "gcn_8159f32d_merged_dirac_magic_angle_flat_band",
-      "belief": 0.9273383800110725
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_848085b12d384915",
-      "label": "gcn_848085b12d384915",
-      "belief": 0.8749157175209523
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_8cd2984a6296435c",
-      "label": "gcn_8cd2984a6296435c",
-      "belief": 0.8505617614721555
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_93c279f20f364a40",
-      "label": "gcn_93c279f20f364a40",
-      "belief": 0.9168942163029168
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_993c306ad37c4dfb",
-      "label": "gcn_993c306ad37c4dfb",
-      "belief": 0.7630782348153514
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_a0ab3201de0e41ad",
-      "label": "gcn_a0ab3201de0e41ad",
-      "belief": 0.8268330718176338
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_abaf80790d664630",
-      "label": "gcn_abaf80790d664630",
-      "belief": 0.7627204684543686
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow",
-      "label": "gcn_af432bff_ab_initio_tb_workflow",
+      "knowledge_id": "github:tbg_magic_angle::ab_initio_tb_flat_band_workflow",
+      "label": "ab_initio_tb_flat_band_workflow",
       "belief": 0.8358422269362916
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::gcn_afdfbd0c013048d8",
-      "label": "gcn_afdfbd0c013048d8",
-      "belief": 0.9311309224308506
+      "knowledge_id": "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
+      "label": "bm_magic_angle_velocity_suppression",
+      "belief": 0.9950125402682821
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::gcn_b411dd99a41e4de2",
-      "label": "gcn_b411dd99a41e4de2",
-      "belief": 0.8134940844971312
+      "knowledge_id": "github:tbg_magic_angle::bm_velocity_bare_input",
+      "label": "bm_velocity_bare_input",
+      "belief": 0.9012843587786381
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::gcn_be5d1975_detector_interpolation",
-      "label": "gcn_be5d1975_detector_interpolation",
+      "knowledge_id": "github:tbg_magic_angle::bm_velocity_linear_fit",
+      "label": "bm_velocity_linear_fit",
+      "belief": 0.888944903625968
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::bm_velocity_suppression_caveated",
+      "label": "bm_velocity_suppression_caveated",
+      "belief": 0.8689797804224689
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::continuum_vhs_pairing_band_assumption",
+      "label": "continuum_vhs_pairing_band_assumption",
+      "belief": 0.7266287324792517
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption",
+      "label": "dft_gap_spectroscopy_comparison_assumption",
+      "belief": 0.6994459267088671
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::flat_band_detector_interpolation",
+      "label": "flat_band_detector_interpolation",
       "belief": 0.7910719251916438
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::gcn_c220df1acc8b476a",
-      "label": "gcn_c220df1acc8b476a",
-      "belief": 0.9357777434253015
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_d3808439ccf6496b",
-      "label": "gcn_d3808439ccf6496b",
-      "belief": 0.8889449036259679
-    },
-    {
-      "knowledge_id": "github:tbg_magic_angle::gcn_de1d329f326f4e75",
-      "label": "gcn_de1d329f326f4e75",
+      "knowledge_id": "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps",
+      "label": "full_relaxation_reproduces_flat_band_gaps",
       "belief": 0.9172308068080817
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::gcn_ed8fa9253ea24982",
-      "label": "gcn_ed8fa9253ea24982",
-      "belief": 0.7907864660610175
+      "knowledge_id": "github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency",
+      "label": "half_filled_flat_band_magnetism_tendency",
+      "belief": 0.6084148503234684
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::gcn_feace4c9a0154885",
-      "label": "gcn_feace4c9a0154885",
+      "knowledge_id": "github:tbg_magic_angle::heterostrain_flat_band_fine_splitting",
+      "label": "heterostrain_flat_band_fine_splitting",
+      "belief": 0.7907864660610177
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::intervalley_scattering_neglect",
+      "label": "intervalley_scattering_neglect",
+      "belief": 0.7630782348153515
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::intravalley_coulomb_tuning_parameter",
+      "label": "intravalley_coulomb_tuning_parameter",
+      "belief": 0.7084039813112019
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands",
+      "label": "kohn_sham_magic_angle_flat_bands",
+      "belief": 0.8749157175209523
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope",
+      "label": "kohn_sham_magic_angle_numerical_scope",
+      "belief": 0.7041356646888429
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::magnetic_bloch_cutoff_convergence",
+      "label": "magnetic_bloch_cutoff_convergence",
+      "belief": 0.8017342926458908
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands",
+      "label": "magnetic_bloch_reentrant_flat_bands",
+      "belief": 0.9311309224308506
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band",
+      "label": "merged_dirac_magic_angle_flat_band",
+      "belief": 0.9273383800110725
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::moire_spinor_phonon_form_factor",
+      "label": "moire_spinor_phonon_form_factor",
+      "belief": 0.8134940844971311
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::optical_phonons_instantaneous_couplings",
+      "label": "optical_phonons_instantaneous_couplings",
+      "belief": 0.7448534836473016
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema",
+      "label": "phonon_bdg_vhs_tc_hc2_velocity_extrema",
+      "belief": 0.8268330718176337
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement",
+      "label": "phonon_resistivity_velocity_enhancement",
       "belief": 0.9758024365977159
     },
     {
-      "knowledge_id": "github:tbg_magic_angle::gcn_fedb8c2683fb48c7",
-      "label": "gcn_fedb8c2683fb48c7",
+      "knowledge_id": "github:tbg_magic_angle::reentrant_flat_band_parameter_convergence",
+      "label": "reentrant_flat_band_parameter_convergence",
       "belief": 0.7559806678718655
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands",
+      "label": "relaxation_broadens_isolates_flat_bands",
+      "belief": 0.8505617614721556
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::relaxation_component_diagnostic_assumption",
+      "label": "relaxation_component_diagnostic_assumption",
+      "belief": 0.7627204684543686
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends",
+      "label": "relaxation_reproduces_sts_flat_band_trends",
+      "belief": 0.9357777434253015
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity",
+      "label": "relaxed_tunneling_magic_angle_velocity",
+      "belief": 0.8290362441223703
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::small_angle_corrugation_extrapolation",
+      "label": "small_angle_corrugation_extrapolation",
+      "belief": 0.738943233548979
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::small_angle_dirac_merging_conjecture",
+      "label": "small_angle_dirac_merging_conjecture",
+      "belief": 0.7257061101616387
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence",
+      "label": "vhs_tc_velocity_extrema_coincidence",
+      "belief": 0.7813029859834014
+    },
+    {
+      "knowledge_id": "github:tbg_magic_angle::wu_velocity_phonon_form_factor",
+      "label": "wu_velocity_phonon_form_factor",
+      "belief": 0.9168942163029168
     }
   ]
 }

@@ -1,0 +1,205 @@
+digraph starmap {
+    rankdir=TB;
+    compound=true;
+    node [fontname="Helvetica", fontsize=10];
+    edge [fontname="Helvetica", fontsize=9];
+
+    subgraph cluster_paper_cantele2020 {
+        label="paper_cantele2020";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption" [label="dft_gap_spectroscopy_comparison_assumption\n(0.62 → 0.70)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::relaxation_component_diagnostic_assumption" [label="relaxation_component_diagnostic_assumption\n(0.70 → 0.76)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps" [label="★ full_relaxation_reproduces_flat_band_gaps\n(0.92)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_7" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_dassarma2020 {
+        label="paper_dassarma2020";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:tbg_magic_angle::bm_velocity_linear_fit" [label="bm_velocity_linear_fit\n(0.82 → 0.89)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::bm_velocity_bare_input" [label="bm_velocity_bare_input\n(0.84 → 0.90)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::bm_magic_angle_velocity_suppression" [label="★ bm_magic_angle_velocity_suppression\n(1.00)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_0" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_dassarma2022 {
+        label="paper_dassarma2022";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:tbg_magic_angle::bm_velocity_suppression_caveated" [label="bm_velocity_suppression_caveated\n(0.80 → 0.87)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement" [label="★ phonon_resistivity_velocity_enhancement\n(0.98)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_2" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_herzogarbeitman2022 {
+        label="paper_herzogarbeitman2022";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:tbg_magic_angle::magnetic_bloch_cutoff_convergence" [label="magnetic_bloch_cutoff_convergence\n(0.74 → 0.80)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::reentrant_flat_band_parameter_convergence" [label="reentrant_flat_band_parameter_convergence\n(0.68 → 0.76)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands" [label="★ magnetic_bloch_reentrant_flat_bands\n(0.93)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_8" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_liu2020 {
+        label="paper_liu2020";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands" [label="relaxation_broadens_isolates_flat_bands\n(0.80 → 0.85)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::heterostrain_flat_band_fine_splitting" [label="heterostrain_flat_band_fine_splitting\n(0.72 → 0.79)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends" [label="★ relaxation_reproduces_sts_flat_band_trends\n(0.94)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_6" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_qin2021 {
+        label="paper_qin2021";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:tbg_magic_angle::optical_phonons_instantaneous_couplings" [label="optical_phonons_instantaneous_couplings\n(0.72 → 0.74)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::intravalley_coulomb_tuning_parameter" [label="intravalley_coulomb_tuning_parameter\n(0.68 → 0.71)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::intervalley_scattering_neglect" [label="intervalley_scattering_neglect\n(0.74 → 0.76)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::continuum_vhs_pairing_band_assumption" [label="continuum_vhs_pairing_band_assumption\n(0.70 → 0.73)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence" [label="vhs_tc_velocity_extrema_coincidence\n(0.76 → 0.78)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema" [label="★ phonon_bdg_vhs_tc_hc2_velocity_extrema\n(0.83)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_3" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_tritsaris2020 {
+        label="paper_tritsaris2020";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:tbg_magic_angle::ab_initio_tb_flat_band_workflow" [label="ab_initio_tb_flat_band_workflow\n(0.78 → 0.84)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::flat_band_detector_interpolation" [label="flat_band_detector_interpolation\n(0.72 → 0.79)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood" [label="★ ab_initio_magic_angle_flat_band_likelihood\n(0.94)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_5" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_uchida2014 {
+        label="paper_uchida2014";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:tbg_magic_angle::small_angle_corrugation_extrapolation" [label="small_angle_corrugation_extrapolation\n(0.70 → 0.74)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope" [label="kohn_sham_magic_angle_numerical_scope\n(0.66 → 0.70)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency" [label="half_filled_flat_band_magnetism_tendency\n(0.55 → 0.61)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands" [label="★ kohn_sham_magic_angle_flat_bands\n(0.87)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_4" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_wu2018 {
+        label="paper_wu2018";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:tbg_magic_angle::moire_spinor_phonon_form_factor" [label="moire_spinor_phonon_form_factor\n(0.76 → 0.81)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity" [label="relaxed_tunneling_magic_angle_velocity\n(0.78 → 0.83)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::wu_velocity_phonon_form_factor" [label="★ wu_velocity_phonon_form_factor\n(0.92)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_1" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    subgraph cluster_paper_yamada2020 {
+        label="paper_yamada2020";
+        style="rounded,filled";
+        fillcolor="#fafafa";
+        color="#999999";
+        fontsize=11;
+
+        "github:tbg_magic_angle::small_angle_dirac_merging_conjecture" [label="small_angle_dirac_merging_conjecture\n(0.64 → 0.73)", shape=box, style=filled, fillcolor="#ddeeff", color="#4488bb"];
+        "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band" [label="★ merged_dirac_magic_angle_flat_band\n(0.93)", shape=box, style=filled, fillcolor="#d4edda", color="#28a745", penwidth=2];
+        "strat_9" [label="deduction", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    }
+
+    // cross-module strategy/operator nodes (outside clusters)
+    "strat_10" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_11" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_12" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_13" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_14" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_15" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_16" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_17" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+    "strat_18" [label="support", shape=ellipse, style=filled, fillcolor="#fff9c4", color="#f9a825"];
+
+    // edges
+    "github:tbg_magic_angle::bm_velocity_linear_fit" -> "strat_0";
+    "github:tbg_magic_angle::bm_velocity_bare_input" -> "strat_0";
+    "strat_0" -> "github:tbg_magic_angle::bm_magic_angle_velocity_suppression";
+    "github:tbg_magic_angle::moire_spinor_phonon_form_factor" -> "strat_1";
+    "github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity" -> "strat_1";
+    "strat_1" -> "github:tbg_magic_angle::wu_velocity_phonon_form_factor";
+    "github:tbg_magic_angle::bm_velocity_suppression_caveated" -> "strat_2";
+    "strat_2" -> "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement";
+    "github:tbg_magic_angle::optical_phonons_instantaneous_couplings" -> "strat_3";
+    "github:tbg_magic_angle::intravalley_coulomb_tuning_parameter" -> "strat_3";
+    "github:tbg_magic_angle::intervalley_scattering_neglect" -> "strat_3";
+    "github:tbg_magic_angle::continuum_vhs_pairing_band_assumption" -> "strat_3";
+    "github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence" -> "strat_3";
+    "strat_3" -> "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema";
+    "github:tbg_magic_angle::small_angle_corrugation_extrapolation" -> "strat_4";
+    "github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope" -> "strat_4";
+    "github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency" -> "strat_4";
+    "strat_4" -> "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands";
+    "github:tbg_magic_angle::ab_initio_tb_flat_band_workflow" -> "strat_5";
+    "github:tbg_magic_angle::flat_band_detector_interpolation" -> "strat_5";
+    "strat_5" -> "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood";
+    "github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands" -> "strat_6";
+    "github:tbg_magic_angle::heterostrain_flat_band_fine_splitting" -> "strat_6";
+    "strat_6" -> "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends";
+    "github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption" -> "strat_7";
+    "github:tbg_magic_angle::relaxation_component_diagnostic_assumption" -> "strat_7";
+    "strat_7" -> "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps";
+    "github:tbg_magic_angle::magnetic_bloch_cutoff_convergence" -> "strat_8";
+    "github:tbg_magic_angle::reentrant_flat_band_parameter_convergence" -> "strat_8";
+    "strat_8" -> "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands";
+    "github:tbg_magic_angle::small_angle_dirac_merging_conjecture" -> "strat_9";
+    "strat_9" -> "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band";
+    "github:tbg_magic_angle::wu_velocity_phonon_form_factor" -> "strat_10";
+    "strat_10" -> "github:tbg_magic_angle::bm_magic_angle_velocity_suppression";
+    "github:tbg_magic_angle::bm_magic_angle_velocity_suppression" -> "strat_11";
+    "github:tbg_magic_angle::wu_velocity_phonon_form_factor" -> "strat_11";
+    "strat_11" -> "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement";
+    "github:tbg_magic_angle::wu_velocity_phonon_form_factor" -> "strat_12";
+    "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement" -> "strat_12";
+    "strat_12" -> "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema";
+    "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands" -> "strat_13";
+    "strat_13" -> "github:tbg_magic_angle::bm_magic_angle_velocity_suppression";
+    "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands" -> "strat_14";
+    "strat_14" -> "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood";
+    "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands" -> "strat_15";
+    "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood" -> "strat_15";
+    "strat_15" -> "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps";
+    "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps" -> "strat_16";
+    "strat_16" -> "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends";
+    "github:tbg_magic_angle::bm_magic_angle_velocity_suppression" -> "strat_17";
+    "strat_17" -> "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands";
+    "github:tbg_magic_angle::bm_magic_angle_velocity_suppression" -> "strat_18";
+    "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands" -> "strat_18";
+    "strat_18" -> "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band";
+}

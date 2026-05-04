@@ -9,7 +9,7 @@ Reference key: HerzogArbeitman2022
 from gaia.lang import claim, deduction
 
 
-gcn_06caff12a4d84b26 = claim(
+magnetic_bloch_cutoff_convergence = claim(
     r"""For the Bistritzer-MacDonald magnetic Bloch Hamiltonian
 $H^{\phi=2\pi}(\mathbf{k})$ of twisted bilayer graphene represented in the
 Landau-level basis $|\mathbf{k},n\rangle$, the numerical procedure truncates
@@ -22,10 +22,10 @@ quoted tolerances such as energy errors of order 1 meV [@HerzogArbeitman2022].""
     source_paper="paper:867760961551860070",
     provenance_source="lkm",
     provenance_file="artifacts/lkm-discovery/input/evidence_gcn_afdfbd0c013048d8.json",
-    lkm_original=r"""Let $H^{\phi=2\pi}(\mathbf{k})$ be the Bistritzer-MacDonald (BM) magnetic Bloch Hamiltonian represented in the Landau-level basis $|\mathbf{k},n\rangle$ with $n\ge0$. The numerical procedure truncates the Landau-level basis to $n\le n_{\max}$ and diagonalizes the finite Hermitian matrix $H^{\phi=2\pi}_{n,n'}(\mathbf{k})$ at each sampled $\mathbf{k}$. The empirical claim is: for the magic-angle BM parameter values and flux $\phi=2\pi$ studied, there exists a numerically accessible cutoff $n_{\max}$ such that the low-energy (flat-band) eigenvalues and topological diagnostics (for example Wilson-loop windings and computed Chern numbers) converge within the quoted numerical tolerances, e.g., energy errors below O(1 meV). This proposition specifies the truncation procedure and the convergence notion; it is an empirical numerical assumption that must be checked by systematic $n_{\max}$ scans in practice.""",
+    lkm_original=r"""Let $H^{\phi=2\pi}(\mathbf{k})$ be the Bistritzer–MacDonald (BM) magnetic Bloch Hamiltonian represented in the Landau-level basis $|\mathbf{k},n\rangle$ with $n\ge0$. The numerical procedure truncates the Landau-level basis to $n\le n_{\max}$ and diagonalizes the finite Hermitian matrix $H^{\phi=2\pi}_{n,n'}(\mathbf{k})$ at each sampled $\mathbf{k}$. The empirical claim is: for the magic-angle BM parameter values and flux $\phi=2\pi$ studied, there exists a numerically accessible cutoff $n_{\max}$ such that the low-energy (flat-band) eigenvalues and topological diagnostics (for example Wilson-loop windings and computed Chern numbers) converge within the quoted numerical tolerances, e.g., energy errors below O(1 meV). This proposition specifies the truncation procedure and the convergence notion; it is an empirical numerical assumption that must be checked by systematic $n_{\max}$ scans in practice.""",
 )
 
-gcn_fedb8c2683fb48c7 = claim(
+reentrant_flat_band_parameter_convergence = claim(
     r"""For the BM magnetic Bloch Hamiltonian
 $H_{BM}^{\phi}(\mathbf{k};w_0,w_1)$ of magic-angle twisted bilayer graphene at
 flux $\phi=2\pi$, truncated in Landau levels and diagonalized across sampled
@@ -39,10 +39,10 @@ approximations [@HerzogArbeitman2022].""",
     source_paper="paper:867760961551860070",
     provenance_source="lkm",
     provenance_file="artifacts/lkm-discovery/input/evidence_gcn_afdfbd0c013048d8.json",
-    lkm_original=r"""Let $H_{BM}^\phi(\mathbf{k};w_0,w_1)$ denote the BM magnetic Bloch Hamiltonian at flux $\phi=2\pi$, truncated to a Landau-level cutoff $n_{\max}$ and diagonalized numerically on a grid of interlayer-parameter values $(w_0,w_1)$. The proposition is that the numerically observed features -- namely the reentrant two flat bands, the approximate gap to passive bands of order $\sim40\,$meV, and the topology assignments separating a crystalline regime (physical TBG parameters) from a Landau-level regime (including the first chiral limit) -- persist upon systematic extrapolation in Landau-level cutoff, Brillouin-zone sampling, and parameter-grid refinement, and therefore reflect the physical parameter dependence of magic-angle TBG. This assertion packages multiple numerical extrapolations (Landau-level cutoff convergence, $\mathbf{k}$-mesh convergence, parameter discretization) together with model approximations (for example neglecting explicit twist-angle dependence in some kinetic terms) into a physical-interpretation claim whose quantitative validity requires the indicated convergence and consistency checks.""",
+    lkm_original=r"""Let $H_{BM}^\phi(\mathbf{k};w_0,w_1)$ denote the BM magnetic Bloch Hamiltonian at flux $\phi=2\pi$, truncated to a Landau-level cutoff $n_{\max}$ and diagonalized numerically on a grid of interlayer-parameter values $(w_0,w_1)$. The proposition is that the numerically observed features — namely the reentrant two flat bands, the approximate gap to passive bands of order $\sim40\,$meV, and the topology assignments separating a crystalline regime (physical TBG parameters) from a Landau-level regime (including the first chiral limit) — persist upon systematic extrapolation in Landau-level cutoff, Brillouin-zone sampling, and parameter-grid refinement, and therefore reflect the physical parameter dependence of magic-angle TBG. This assertion packages multiple numerical extrapolations (Landau-level cutoff convergence, $\mathbf{k}$-mesh convergence, parameter discretization) together with model approximations (for example neglecting explicit twist-angle dependence in some kinetic terms) into a physical-interpretation claim whose quantitative validity requires the indicated convergence and consistency checks.""",
 )
 
-gcn_afdfbd0c013048d8 = claim(
+magnetic_bloch_reentrant_flat_bands = claim(
     r"""The continuum Bistritzer-MacDonald model of magic-angle twisted bilayer
 graphene, after a layer-dependent momentum shift restores moire periodicity,
 can be represented in a magnetic-translation-irrep Landau-level basis at flux
@@ -58,12 +58,12 @@ Landau-level-type regime where each flat band has Chern number -1
     source_paper="paper:867760961551860070",
     provenance_source="lkm",
     provenance_file="artifacts/lkm-discovery/input/evidence_gcn_afdfbd0c013048d8.json",
-    lkm_original=r"""The continuum Bistritzer-MacDonald (BM) model of twisted bilayer graphene, after applying a layer-dependent momentum shift that restores moire periodicity, can be represented in the magnetic-translation-irrep Landau-level basis at flux $\phi=2\pi$ and diagonalized after truncating to a finite number of Landau levels. For magic-angle geometric parameters and typical BM interlayer tunneling strengths, this numerical diagonalization (with sufficient Landau-level cutoff) reveals two low-energy flat bands per valley and spin that reappear (reenter) at $\phi=2\pi$ and are, for the parameter sets considered, separated from higher-energy passive bands by a sizable gap on the order of 40 meV. The dispersion and topology of these reentrant flat bands depend sensitively on the interlayer hopping parameters $(w_0,w_1)$: scanning $(w_0,w_1)$ produces a phase diagram with a crystalline regime (parameter region including the physical TBG values) where the two flat bands together have vanishing total Chern number, and a Landau-level-type regime (including the first chiral limit $w_0=0$) where each flat band individually carries Chern number $-1$.""",
+    lkm_original=r"""The continuum Bistritzer–MacDonald (BM) model of twisted bilayer graphene, after applying a layer-dependent momentum shift that restores moiré periodicity, can be represented in the magnetic-translation-irrep Landau-level basis at flux $\phi=2\pi$ and diagonalized after truncating to a finite number of Landau levels. For magic-angle geometric parameters and typical BM interlayer tunneling strengths, this numerical diagonalization (with sufficient Landau-level cutoff) reveals two low-energy flat bands per valley and spin that reappear (reenter) at $\phi=2\pi$ and are, for the parameter sets considered, separated from higher-energy passive bands by a sizable gap on the order of 40 meV. The dispersion and topology of these reentrant flat bands depend sensitively on the interlayer hopping parameters $(w_0,w_1)$: scanning $(w_0,w_1)$ produces a phase diagram with a crystalline regime (parameter region including the physical TBG values) where the two flat bands together have vanishing total Chern number, and a Landau-level-type regime (including the first chiral limit $w_0=0$) where each flat band individually carries Chern number $-1$.""",
 )
 
-gfac_9fc5b7efdef44e14 = deduction(
-    [gcn_06caff12a4d84b26, gcn_fedb8c2683fb48c7],
-    gcn_afdfbd0c013048d8,
+derive_magnetic_bloch_reentrant_flat_bands = deduction(
+    [magnetic_bloch_cutoff_convergence, reentrant_flat_band_parameter_convergence],
+    magnetic_bloch_reentrant_flat_bands,
     prior=0.95,
     reason=r"""1. Begin with the Bistritzer-MacDonald (BM) continuum model for a single valley at zero flux:
    $$

@@ -19,7 +19,7 @@ _ROOT_ORIGINAL = (
 )
 
 
-gcn_af432bff_ab_initio_tb_workflow = claim(
+ab_initio_tb_flat_band_workflow = claim(
     "For commensurate twisted bilayer graphene in the Tritsaris et al. 2020 "
     "high-throughput workflow, the selected LKM chain treats as established "
     "a Wannier-derived tight-binding Hamiltonian workflow in which band "
@@ -34,7 +34,7 @@ gcn_af432bff_ab_initio_tb_workflow = claim(
 )
 
 
-gcn_be5d1975_detector_interpolation = claim(
+flat_band_detector_interpolation = claim(
     "For the same Tritsaris et al. 2020 commensurate twisted-bilayer-graphene "
     "workflow, the selected LKM chain treats automated low-dispersion-band "
     "detections at the sampled commensurate twist angles as inputs that are "
@@ -48,7 +48,7 @@ gcn_be5d1975_detector_interpolation = claim(
 )
 
 
-gcn_5f58746b_magic_angle_flat_band_likelihood = claim(
+ab_initio_magic_angle_flat_band_likelihood = claim(
     "For 33 unique commensurate twisted bilayer graphene supercells spanning "
     "0.88 degrees <= theta <= 21.79 degrees, Tritsaris et al. 2020 use ab "
     "initio Wannier-derived tight-binding calculations and automated flat-band "
@@ -63,12 +63,12 @@ gcn_5f58746b_magic_angle_flat_band_likelihood = claim(
 )
 
 
-strat_gfac_c4fed52224164214 = deduction(
+derive_ab_initio_magic_angle_flat_band_likelihood = deduction(
     [
-        gcn_af432bff_ab_initio_tb_workflow,
-        gcn_be5d1975_detector_interpolation,
+        ab_initio_tb_flat_band_workflow,
+        flat_band_detector_interpolation,
     ],
-    gcn_5f58746b_magic_angle_flat_band_likelihood,
+    ab_initio_magic_angle_flat_band_likelihood,
     reason=(
         "1. Treat the high-throughput ab initio TB workflow (conclusion 3) "
         "as established and use it to compute commensurate twisted bilayer "

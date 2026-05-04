@@ -9,7 +9,7 @@ Reference key (CSL): Cantele2020
 from gaia.lang import claim, deduction
 
 
-gcn_6463be97083b44fd = claim(
+dft_gap_spectroscopy_comparison_assumption = claim(
     "For first-magic-angle twisted bilayer graphene, comparing plane-wave DFT "
     "Kohn-Sham gaps computed with the vdW-DF2 exchange-correlation functional "
     "against spectroscopic gaps assumes that electron-electron correlation and "
@@ -34,7 +34,7 @@ gcn_6463be97083b44fd = claim(
     ),
 )
 
-gcn_abaf80790d664630 = claim(
+relaxation_component_diagnostic_assumption = claim(
     "For twisted bilayer graphene at $\\theta=1.08^\\circ$, using two "
     "constrained optimizations--out-of-plane-only relaxation with fixed "
     "in-plane coordinates and in-plane-only relaxation with fixed z "
@@ -59,7 +59,7 @@ gcn_abaf80790d664630 = claim(
     ),
 )
 
-gcn_de1d329f326f4e75 = claim(
+full_relaxation_reproduces_flat_band_gaps = claim(
     "For twisted bilayer graphene at the first magic twist angle "
     "$\\theta=1.08^\\circ$, plane-wave DFT with vdW-DF2 reproduces the "
     "near-Fermi narrow flat-band manifold and the $\\Gamma$-point gaps to "
@@ -101,9 +101,12 @@ gcn_de1d329f326f4e75 = claim(
     ),
 )
 
-strat_gfac_3a3936eff4a1434c = deduction(
-    [gcn_6463be97083b44fd, gcn_abaf80790d664630],
-    gcn_de1d329f326f4e75,
+derive_full_relaxation_reproduces_flat_band_gaps = deduction(
+    [
+        dft_gap_spectroscopy_comparison_assumption,
+        relaxation_component_diagnostic_assumption,
+    ],
+    full_relaxation_reproduces_flat_band_gaps,
     reason=(
         "1. State upstream result being used as known: the atomistic relaxation "
         "patterns induced by interlayer vdW interactions and their quantitative "

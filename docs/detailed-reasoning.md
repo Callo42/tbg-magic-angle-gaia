@@ -2,35 +2,33 @@
 
 Gaia knowledge package regenerated from one BM velocity root and connected LKM-backed TBG magic-angle extensions.
 
-May 4 scope note: this rendered reasoning document covers the connected graph rooted at `gcn_7bca73ad98eb4ed4`. The package intentionally stops below the approximate 100-node target because bridge searches did not find chain-backed paths to the rejected pressure, substrate, superconducting-observation, or multilayer branches without agent-authored synthesis.
-
 ## Overview
 
 ```mermaid
 graph LR
-    gcn_7bca73ad98eb4ed4["gcn_7bca73ad98eb4ed4 (1.00)"]:::derived
-    gcn_93c279f20f364a40["gcn_93c279f20f364a40 (0.92)"]:::derived
-    gcn_feace4c9a0154885["gcn_feace4c9a0154885 (0.98)"]:::derived
-    gcn_a0ab3201de0e41ad["gcn_a0ab3201de0e41ad (0.83)"]:::derived
-    gcn_848085b12d384915["gcn_848085b12d384915 (0.87)"]:::derived
-    gcn_5f58746b_magic_angle_flat_band_likelihood["gcn_5f58746b_magic_angle_flat_band_likelihood (0.94)"]:::derived
-    gcn_c220df1acc8b476a["gcn_c220df1acc8b476a (0.94)"]:::derived
-    gcn_de1d329f326f4e75["gcn_de1d329f326f4e75 (0.92)"]:::derived
-    gcn_afdfbd0c013048d8["gcn_afdfbd0c013048d8 (0.93)"]:::derived
-    gcn_8159f32d_merged_dirac_magic_angle_flat_band["gcn_8159f32d_merged_dirac_magic_angle_flat_band (0.93)"]:::derived
-    gcn_5f58746b_magic_angle_flat_band_likelihood --> gcn_de1d329f326f4e75
-    gcn_7bca73ad98eb4ed4 --> gcn_8159f32d_merged_dirac_magic_angle_flat_band
-    gcn_7bca73ad98eb4ed4 --> gcn_afdfbd0c013048d8
-    gcn_7bca73ad98eb4ed4 --> gcn_feace4c9a0154885
-    gcn_848085b12d384915 --> gcn_5f58746b_magic_angle_flat_band_likelihood
-    gcn_848085b12d384915 --> gcn_7bca73ad98eb4ed4
-    gcn_848085b12d384915 --> gcn_8159f32d_merged_dirac_magic_angle_flat_band
-    gcn_848085b12d384915 --> gcn_de1d329f326f4e75
-    gcn_93c279f20f364a40 --> gcn_7bca73ad98eb4ed4
-    gcn_93c279f20f364a40 --> gcn_a0ab3201de0e41ad
-    gcn_93c279f20f364a40 --> gcn_feace4c9a0154885
-    gcn_de1d329f326f4e75 --> gcn_c220df1acc8b476a
-    gcn_feace4c9a0154885 --> gcn_a0ab3201de0e41ad
+    bm_magic_angle_velocity_suppression["bm_magic_angle_velocity_suppression (1.00)"]:::derived
+    wu_velocity_phonon_form_factor["wu_velocity_phonon_form_factor (0.92)"]:::derived
+    phonon_resistivity_velocity_enhancement["phonon_resistivity_velocity_enhancement (0.98)"]:::derived
+    phonon_bdg_vhs_tc_hc2_velocity_extrema["phonon_bdg_vhs_tc_hc2_velocity_extrema (0.83)"]:::derived
+    kohn_sham_magic_angle_flat_bands["kohn_sham_magic_angle_flat_bands (0.87)"]:::derived
+    ab_initio_magic_angle_flat_band_likelihood["ab_initio_magic_angle_flat_band_likelihood (0.94)"]:::derived
+    relaxation_reproduces_sts_flat_band_trends["relaxation_reproduces_sts_flat_band_trends (0.94)"]:::derived
+    full_relaxation_reproduces_flat_band_gaps["full_relaxation_reproduces_flat_band_gaps (0.92)"]:::derived
+    magnetic_bloch_reentrant_flat_bands["magnetic_bloch_reentrant_flat_bands (0.93)"]:::derived
+    merged_dirac_magic_angle_flat_band["merged_dirac_magic_angle_flat_band (0.93)"]:::derived
+    ab_initio_magic_angle_flat_band_likelihood --> full_relaxation_reproduces_flat_band_gaps
+    bm_magic_angle_velocity_suppression --> magnetic_bloch_reentrant_flat_bands
+    bm_magic_angle_velocity_suppression --> merged_dirac_magic_angle_flat_band
+    bm_magic_angle_velocity_suppression --> phonon_resistivity_velocity_enhancement
+    full_relaxation_reproduces_flat_band_gaps --> relaxation_reproduces_sts_flat_band_trends
+    kohn_sham_magic_angle_flat_bands --> ab_initio_magic_angle_flat_band_likelihood
+    kohn_sham_magic_angle_flat_bands --> bm_magic_angle_velocity_suppression
+    kohn_sham_magic_angle_flat_bands --> full_relaxation_reproduces_flat_band_gaps
+    kohn_sham_magic_angle_flat_bands --> merged_dirac_magic_angle_flat_band
+    phonon_resistivity_velocity_enhancement --> phonon_bdg_vhs_tc_hc2_velocity_extrema
+    wu_velocity_phonon_form_factor --> bm_magic_angle_velocity_suppression
+    wu_velocity_phonon_form_factor --> phonon_bdg_vhs_tc_hc2_velocity_extrema
+    wu_velocity_phonon_form_factor --> phonon_resistivity_velocity_enhancement
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -45,13 +43,13 @@ graph LR
 
 ## Introduction
 
-#### gcn_7bca73ad98eb4ed4 ★
+#### bm_magic_angle_velocity_suppression ★
 
-📌 `gcn_7bca73ad98eb4ed4`   |   Belief: **1.00**
+📌 `bm_magic_angle_velocity_suppression`   |   Belief: **1.00**
 
 > For twisted bilayer graphene, the noninteracting low-energy Dirac-point band Fermi velocity v_F*(theta) produced by the Bistritzer-MacDonald continuum moire-band model is strongly suppressed as theta approaches the largest magic angle theta_M where that velocity vanishes; for 0 < theta < 3 degrees it is usefully described by v_F*(theta) ~= 0.5 * |theta - theta_M| * v_F, with v_F about 1e8 cm/s [@DasSarma2020].
 
-🔗 **support**([gcn_848085b12d384915](#gcn_848085b12d384915))
+🔗 **support**([kohn_sham_magic_angle_flat_bands](#kohn_sham_magic_angle_flat_bands))
 
 <details><summary>Reasoning</summary>
 
@@ -60,13 +58,13 @@ The Uchida et al. LKM chain is an independent Kohn-Sham calculation where the Di
 </details>
 
 
-#### gcn_93c279f20f364a40 ★
+#### wu_velocity_phonon_form_factor ★
 
-📌 `gcn_93c279f20f364a40`   |   Belief: **0.92**
+📌 `wu_velocity_phonon_form_factor`   |   Belief: **0.92**
 
 > In Wu, Hwang, and Das Sarma's continuum moire Hamiltonian calculation for twisted bilayer graphene, v_F*(theta) is strongly suppressed near theta_magic about 1.025 degrees, and a perturbative moire-wavefunction calculation gives the electron-phonon matrix-element form factor F(theta)=(1+beta^2)/(1+beta)^2 with beta=3(alpha_0^2+alpha_1^2), where alpha_j=w_j/(hbar v_F |kappa_{+1}|) for the AA and AB/BA tunneling parameters [@Wu2018].
 
-🔗 **deduction**([gcn_b411dd99a41e4de2](#gcn_b411dd99a41e4de2), [gcn_570f7bfc906e4dbd](#gcn_570f7bfc906e4dbd))
+🔗 **deduction**([moire_spinor_phonon_form_factor](#moire_spinor_phonon_form_factor), [relaxed_tunneling_magic_angle_velocity](#relaxed_tunneling_magic_angle_velocity))
 
 <details><summary>Reasoning</summary>
 
@@ -82,13 +80,13 @@ The Uchida et al. LKM chain is an independent Kohn-Sham calculation where the Di
 </details>
 
 
-#### gcn_feace4c9a0154885 ★
+#### phonon_resistivity_velocity_enhancement ★
 
-📌 `gcn_feace4c9a0154885`   |   Belief: **0.98**
+📌 `phonon_resistivity_velocity_enhancement`   |   Belief: **0.98**
 
 > In Das Sarma and Wu's strange-metallicity model for twisted bilayer graphene, the BM continuum calculation predicts strong v_F* suppression near the magic angle and v_F*/v_F about 1/4 at theta=1.5 degrees; because the phonon-limited resistivity and its temperature coefficient scale as 1/v_F*^2, this velocity reduction implies up to about a 16-fold enhancement of phonon-limited resistivity relative to untwisted monolayer graphene in the small-v_F* regime [@DasSarma2022].
 
-🔗 **support**([gcn_7bca73ad98eb4ed4](#gcn_7bca73ad98eb4ed4), [gcn_93c279f20f364a40](#gcn_93c279f20f364a40))
+🔗 **support**([bm_magic_angle_velocity_suppression](#bm_magic_angle_velocity_suppression), [wu_velocity_phonon_form_factor](#wu_velocity_phonon_form_factor))
 
 <details><summary>Reasoning</summary>
 
@@ -97,13 +95,13 @@ Both source claims are LKM-backed BM/continuum velocity claims used as low-energ
 </details>
 
 
-#### gcn_a0ab3201de0e41ad ★
+#### phonon_bdg_vhs_tc_hc2_velocity_extrema ★
 
-📌 `gcn_a0ab3201de0e41ad`   |   Belief: **0.83**
+📌 `phonon_bdg_vhs_tc_hc2_velocity_extrema`   |   Belief: **0.83**
 
 > Qin, Zou, and MacDonald's mean-field finite-pairing-momentum BdG calculations for MATBG continuum-model flat bands with optical-phonon attraction and intravalley Coulomb repulsion find that T_c(mu) has dome-like maxima at flat-band van Hove singularities, H_c2(mu) peaks at the same chemical potentials, and extracted v_F*(mu)=k_B T_c(mu)/(hbar q_c(mu)) has V-shaped minima there, robust across the explored ranges eta about 0.7-0.85, theta about 1.07-1.15 degrees, and u about 20-40 meV nm^2 [@Qin2021].
 
-🔗 **support**([gcn_93c279f20f364a40](#gcn_93c279f20f364a40), [gcn_feace4c9a0154885](#gcn_feace4c9a0154885))
+🔗 **support**([wu_velocity_phonon_form_factor](#wu_velocity_phonon_form_factor), [phonon_resistivity_velocity_enhancement](#phonon_resistivity_velocity_enhancement))
 
 <details><summary>Reasoning</summary>
 
@@ -112,13 +110,13 @@ The accepted extensions keep the path within LKM-backed MATBG continuum calculat
 </details>
 
 
-#### gcn_848085b12d384915 ★
+#### kohn_sham_magic_angle_flat_bands ★
 
-📌 `gcn_848085b12d384915`   |   Belief: **0.87**
+📌 `kohn_sham_magic_angle_flat_bands`   |   Belief: **0.87**
 
 > Uchida et al.'s Kohn-Sham band-structure calculations for twisted bilayer graphene find a magic twist angle theta_M about 1.08 degrees where the Dirac Fermi velocity vanishes; near this angle the low-energy Kohn-Sham bands become extremely flat over most of the Brillouin zone, including nearly dispersionless half-filled bands around E_F and about 10 meV splitting between flat bands at Gamma for theta=0.99 degrees [@Uchida2014].
 
-🔗 **deduction**([gcn_159120a419184e9e](#gcn_159120a419184e9e), [gcn_75a1c2477ca448b0](#gcn_75a1c2477ca448b0), [gcn_390a496067b94209](#gcn_390a496067b94209))
+🔗 **deduction**([small_angle_corrugation_extrapolation](#small_angle_corrugation_extrapolation), [kohn_sham_magic_angle_numerical_scope](#kohn_sham_magic_angle_numerical_scope), [half_filled_flat_band_magnetism_tendency](#half_filled_flat_band_magnetism_tendency))
 
 <details><summary>Reasoning</summary>
 
@@ -132,13 +130,13 @@ The accepted extensions keep the path within LKM-backed MATBG continuum calculat
 </details>
 
 
-#### gcn_5f58746b_magic_angle_flat_band_likelihood ★
+#### ab_initio_magic_angle_flat_band_likelihood ★
 
-📌 `gcn_5f58746b_magic_angle_flat_band_likelihood`   |   Belief: **0.94**
+📌 `ab_initio_magic_angle_flat_band_likelihood`   |   Belief: **0.94**
 
 > For 33 unique commensurate twisted bilayer graphene supercells spanning 0.88 degrees <= theta <= 21.79 degrees, Tritsaris et al. 2020 use ab initio Wannier-derived tight-binding calculations and automated flat-band detection to find that the blended flat-band likelihood p(theta) is maximized near theta* approximately 1.1 degrees, where low-dispersion near-flat bands emerge near the Fermi level in the single-particle tight-binding band structures [@Tritsaris2020].
 
-🔗 **support**([gcn_848085b12d384915](#gcn_848085b12d384915))
+🔗 **support**([kohn_sham_magic_angle_flat_bands](#kohn_sham_magic_angle_flat_bands))
 
 <details><summary>Reasoning</summary>
 
@@ -147,13 +145,13 @@ Both LKM-backed claims are first-principles or ab initio-derived TBG calculation
 </details>
 
 
-#### gcn_c220df1acc8b476a ★
+#### relaxation_reproduces_sts_flat_band_trends ★
 
-📌 `gcn_c220df1acc8b476a`   |   Belief: **0.94**
+📌 `relaxation_reproduces_sts_flat_band_trends`   |   Belief: **0.94**
 
 > In Liu et al.'s continuum-model electronic-structure calculation for magic-angle twisted bilayer graphene, adding atomic-registry-driven lattice relaxation produces reconstructed geometry with enlarged AB/BA regions and reduced AA regions; compared with the rigid unreconstructed calculation, this reconstructed geometry reproduces the key STS spectroscopic trends of broader low-energy flat bands and greater energetic isolation from remote bands, while the calculation omits explicit spatially non-uniform heterostrain and therefore does not reproduce extra flat-band peak splitting, such as three-subpeak structure, observed in some spectra [@Liu2020].
 
-🔗 **support**([gcn_de1d329f326f4e75](#gcn_de1d329f326f4e75))
+🔗 **support**([full_relaxation_reproduces_flat_band_gaps](#full_relaxation_reproduces_flat_band_gaps))
 
 <details><summary>Reasoning</summary>
 
@@ -162,13 +160,13 @@ The Cantele DFT relaxation chain and the Liu continuum/STS chain both concern ma
 </details>
 
 
-#### gcn_de1d329f326f4e75 ★
+#### full_relaxation_reproduces_flat_band_gaps ★
 
-📌 `gcn_de1d329f326f4e75`   |   Belief: **0.92**
+📌 `full_relaxation_reproduces_flat_band_gaps`   |   Belief: **0.92**
 
 > For twisted bilayer graphene at the first magic twist angle $\theta=1.08^\circ$, plane-wave DFT with vdW-DF2 reproduces the near-Fermi narrow flat-band manifold and the $\Gamma$-point gaps to higher and lower bands only when full atomic relaxation includes both in-plane and out-of-plane displacements. In the fully relaxed geometry, the reported flat-band bandwidth is about $20\,\mathrm{meV}$, with upper and lower separation gaps of about $26\,\mathrm{meV}$ and $16\,\mathrm{meV}$, and tight-binding calculations on the same relaxed coordinates give consistent low-energy bands. Unrelaxed flat geometries lack or strongly underestimate these gaps; in-plane-only relaxation gives zero gaps, while out-of-plane-only relaxation gives underestimated gaps of about $2\,\mathrm{meV}$ and $14\,\mathrm{meV}$ [@Cantele2020].
 
-🔗 **support**([gcn_848085b12d384915](#gcn_848085b12d384915), [gcn_5f58746b_magic_angle_flat_band_likelihood](#gcn_5f58746b_magic_angle_flat_band_likelihood))
+🔗 **support**([kohn_sham_magic_angle_flat_bands](#kohn_sham_magic_angle_flat_bands), [ab_initio_magic_angle_flat_band_likelihood](#ab_initio_magic_angle_flat_band_likelihood))
 
 <details><summary>Reasoning</summary>
 
@@ -177,9 +175,9 @@ The accepted ab initio/Kohn-Sham flat-band claims provide the connected TBG firs
 </details>
 
 
-#### gcn_afdfbd0c013048d8 ★
+#### magnetic_bloch_reentrant_flat_bands ★
 
-📌 `gcn_afdfbd0c013048d8`   |   Belief: **0.93**
+📌 `magnetic_bloch_reentrant_flat_bands`   |   Belief: **0.93**
 
 > The continuum Bistritzer-MacDonald model of magic-angle twisted bilayer
 > graphene, after a layer-dependent momentum shift restores moire periodicity,
@@ -193,7 +191,7 @@ The accepted ab initio/Kohn-Sham flat-band claims provide the connected TBG firs
 > Landau-level-type regime where each flat band has Chern number -1
 > [@HerzogArbeitman2022].
 
-🔗 **support**([gcn_7bca73ad98eb4ed4](#gcn_7bca73ad98eb4ed4))
+🔗 **support**([bm_magic_angle_velocity_suppression](#bm_magic_angle_velocity_suppression))
 
 <details><summary>Reasoning</summary>
 
@@ -202,13 +200,13 @@ The magnetic-Bloch extension explicitly starts from the BM continuum model at ma
 </details>
 
 
-#### gcn_8159f32d_merged_dirac_magic_angle_flat_band ★
+#### merged_dirac_magic_angle_flat_band ★
 
-📌 `gcn_8159f32d_merged_dirac_magic_angle_flat_band`   |   Belief: **0.93**
+📌 `merged_dirac_magic_angle_flat_band`   |   Belief: **0.93**
 
 > In sufficiently small-angle twisted bilayer graphene, where the moire-K gap between the $2n_0$th and $(2n_0+1)$th bands is negligibly small and the upper two bands near charge neutrality are nearly degenerate, Yamada and Hasegawa 2020 propose that three moving Dirac points merge with the fixed K-point Dirac point, producing vanishing Dirac velocity at K; this suppression is conjectured to contribute to extremely narrow nearly flat bands at the magic angles [@Yamada2020].
 
-🔗 **support**([gcn_7bca73ad98eb4ed4](#gcn_7bca73ad98eb4ed4), [gcn_848085b12d384915](#gcn_848085b12d384915))
+🔗 **support**([bm_magic_angle_velocity_suppression](#bm_magic_angle_velocity_suppression), [kohn_sham_magic_angle_flat_bands](#kohn_sham_magic_angle_flat_bands))
 
 <details><summary>Reasoning</summary>
 
@@ -220,33 +218,33 @@ The merged-Dirac chain is a conjectural same-system mechanism for vanishing Dira
 
 ## paper_dassarma2020 -- LKM claims and deduction from Das Sarma and Wu (2020).
 
-<a id="gcn_d3808439ccf6496b"></a>
+<a id="bm_velocity_linear_fit"></a>
 
-#### gcn_d3808439ccf6496b
+#### bm_velocity_linear_fit
 
-📌 `gcn_d3808439ccf6496b`   |   Prior: 0.82   |   Belief: **0.89**
+📌 `bm_velocity_linear_fit`   |   Prior: 0.82   |   Belief: **0.89**
 
 > For twisted bilayer graphene in the noninteracting Bistritzer-MacDonald continuum moire-band calculation, with twist angle theta and largest magic angle theta_M measured in degrees and monolayer graphene velocity v_F about 1e8 cm/s, the computed low-energy Dirac-point Fermi velocity v_F*(theta) for 0 < theta < 3 degrees is usefully approximated by v_F*(theta) ~= 0.5 * |theta - theta_M| * v_F [@DasSarma2020].
 
 
-<a id="gcn_671ceef053a64aa7"></a>
+<a id="bm_velocity_bare_input"></a>
 
-#### gcn_671ceef053a64aa7
+#### bm_velocity_bare_input
 
-📌 `gcn_671ceef053a64aa7`   |   Prior: 0.84   |   Belief: **0.90**
+📌 `bm_velocity_bare_input`   |   Prior: 0.84   |   Belief: **0.90**
 
 > In twisted bilayer graphene, the Bistritzer-MacDonald continuum moire-band model supplies the noninteracting low-energy band structure, and the Dirac-point band Fermi velocity v_F*(theta) from that model is treated as the bare input velocity for subsequent low-energy many-body and phonon-transport calculations [@DasSarma2020].
 
 
-<a id="gcn_7bca73ad98eb4ed4"></a>
+<a id="bm_magic_angle_velocity_suppression"></a>
 
-#### gcn_7bca73ad98eb4ed4 ★
+#### bm_magic_angle_velocity_suppression ★
 
-📌 `gcn_7bca73ad98eb4ed4`   |   Belief: **1.00**
+📌 `bm_magic_angle_velocity_suppression`   |   Belief: **1.00**
 
 > For twisted bilayer graphene, the noninteracting low-energy Dirac-point band Fermi velocity v_F*(theta) produced by the Bistritzer-MacDonald continuum moire-band model is strongly suppressed as theta approaches the largest magic angle theta_M where that velocity vanishes; for 0 < theta < 3 degrees it is usefully described by v_F*(theta) ~= 0.5 * |theta - theta_M| * v_F, with v_F about 1e8 cm/s [@DasSarma2020].
 
-🔗 **support**([gcn_848085b12d384915](#gcn_848085b12d384915))
+🔗 **support**([kohn_sham_magic_angle_flat_bands](#kohn_sham_magic_angle_flat_bands))
 
 <details><summary>Reasoning</summary>
 
@@ -259,13 +257,13 @@ The Uchida et al. LKM chain is an independent Kohn-Sham calculation where the Di
 
 ```mermaid
 graph TD
-    gcn_b411dd99a41e4de2["gcn_b411dd99a41e4de2 (0.81)"]:::premise
-    gcn_570f7bfc906e4dbd["gcn_570f7bfc906e4dbd (0.83)"]:::premise
-    gcn_93c279f20f364a40["gcn_93c279f20f364a40 (0.92)"]:::derived
+    moire_spinor_phonon_form_factor["moire_spinor_phonon_form_factor (0.81)"]:::premise
+    relaxed_tunneling_magic_angle_velocity["relaxed_tunneling_magic_angle_velocity (0.83)"]:::premise
+    wu_velocity_phonon_form_factor["wu_velocity_phonon_form_factor (0.92)"]:::derived
     strat_1(["deduction"])
-    gcn_b411dd99a41e4de2 --> strat_1
-    gcn_570f7bfc906e4dbd --> strat_1
-    strat_1 --> gcn_93c279f20f364a40
+    moire_spinor_phonon_form_factor --> strat_1
+    relaxed_tunneling_magic_angle_velocity --> strat_1
+    strat_1 --> wu_velocity_phonon_form_factor
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -278,33 +276,33 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_b411dd99a41e4de2"></a>
+<a id="moire_spinor_phonon_form_factor"></a>
 
-#### gcn_b411dd99a41e4de2
+#### moire_spinor_phonon_form_factor
 
-📌 `gcn_b411dd99a41e4de2`   |   Prior: 0.76   |   Belief: **0.81**
+📌 `moire_spinor_phonon_form_factor`   |   Prior: 0.76   |   Belief: **0.81**
 
 > For a moire Dirac point in twisted bilayer graphene, Wu, Hwang, and Das Sarma construct degenerate Dirac-point eigenstates from four layer/momentum spinors with amplitudes set by alpha_j=w_j/(hbar v_F |kappa_{+1}|), define beta=3(alpha_0^2+alpha_1^2), and approximate the deformation-potential electron-phonon spinor-overlap factor as F(theta)=(1+beta^2)/(1+beta)^2, with 0.5 <= F(theta) <= 1 used as a transport matrix-element correction [@Wu2018].
 
 
-<a id="gcn_570f7bfc906e4dbd"></a>
+<a id="relaxed_tunneling_magic_angle_velocity"></a>
 
-#### gcn_570f7bfc906e4dbd
+#### relaxed_tunneling_magic_angle_velocity
 
-📌 `gcn_570f7bfc906e4dbd`   |   Prior: 0.78   |   Belief: **0.83**
+📌 `relaxed_tunneling_magic_angle_velocity`   |   Prior: 0.78   |   Belief: **0.83**
 
 > Using continuum-model interlayer tunneling parameters w_0=90 meV and w_1=117 meV to incorporate atomic-relaxation effects, Wu, Hwang, and Das Sarma obtain a largest magic angle theta_magic about 1.025 degrees and a strongly suppressed twist-angle-dependent Dirac velocity v_F*(theta), while noting sample-dependent relaxation and strain can shift theta_magic and v_F* by order tens of percent [@Wu2018].
 
 
-<a id="gcn_93c279f20f364a40"></a>
+<a id="wu_velocity_phonon_form_factor"></a>
 
-#### gcn_93c279f20f364a40 ★
+#### wu_velocity_phonon_form_factor ★
 
-📌 `gcn_93c279f20f364a40`   |   Belief: **0.92**
+📌 `wu_velocity_phonon_form_factor`   |   Belief: **0.92**
 
 > In Wu, Hwang, and Das Sarma's continuum moire Hamiltonian calculation for twisted bilayer graphene, v_F*(theta) is strongly suppressed near theta_magic about 1.025 degrees, and a perturbative moire-wavefunction calculation gives the electron-phonon matrix-element form factor F(theta)=(1+beta^2)/(1+beta)^2 with beta=3(alpha_0^2+alpha_1^2), where alpha_j=w_j/(hbar v_F |kappa_{+1}|) for the AA and AB/BA tunneling parameters [@Wu2018].
 
-🔗 **deduction**([gcn_b411dd99a41e4de2](#gcn_b411dd99a41e4de2), [gcn_570f7bfc906e4dbd](#gcn_570f7bfc906e4dbd))
+🔗 **deduction**([moire_spinor_phonon_form_factor](#moire_spinor_phonon_form_factor), [relaxed_tunneling_magic_angle_velocity](#relaxed_tunneling_magic_angle_velocity))
 
 <details><summary>Reasoning</summary>
 
@@ -324,20 +322,20 @@ graph TD
 
 ```mermaid
 graph TD
-    gcn_7bca73ad98eb4ed4["gcn_7bca73ad98eb4ed4 (1.00)"]:::external
-    gcn_93c279f20f364a40["gcn_93c279f20f364a40 (0.92)"]:::external
-    gcn_1cb7675d5185405d["gcn_1cb7675d5185405d (0.87)"]:::premise
-    gcn_feace4c9a0154885["gcn_feace4c9a0154885 (0.98)"]:::derived
+    bm_magic_angle_velocity_suppression["bm_magic_angle_velocity_suppression (1.00)"]:::external
+    wu_velocity_phonon_form_factor["wu_velocity_phonon_form_factor (0.92)"]:::external
+    bm_velocity_suppression_caveated["bm_velocity_suppression_caveated (0.87)"]:::premise
+    phonon_resistivity_velocity_enhancement["phonon_resistivity_velocity_enhancement (0.98)"]:::derived
     strat_2(["deduction"])
-    gcn_1cb7675d5185405d --> strat_2
-    strat_2 --> gcn_feace4c9a0154885
+    bm_velocity_suppression_caveated --> strat_2
+    strat_2 --> phonon_resistivity_velocity_enhancement
     strat_10(["support"]):::weak
-    gcn_93c279f20f364a40 --> strat_10
-    strat_10 --> gcn_7bca73ad98eb4ed4
+    wu_velocity_phonon_form_factor --> strat_10
+    strat_10 --> bm_magic_angle_velocity_suppression
     strat_11(["support"]):::weak
-    gcn_7bca73ad98eb4ed4 --> strat_11
-    gcn_93c279f20f364a40 --> strat_11
-    strat_11 --> gcn_feace4c9a0154885
+    bm_magic_angle_velocity_suppression --> strat_11
+    wu_velocity_phonon_form_factor --> strat_11
+    strat_11 --> phonon_resistivity_velocity_enhancement
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -350,24 +348,24 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_1cb7675d5185405d"></a>
+<a id="bm_velocity_suppression_caveated"></a>
 
-#### gcn_1cb7675d5185405d
+#### bm_velocity_suppression_caveated
 
-📌 `gcn_1cb7675d5185405d`   |   Prior: 0.80   |   Belief: **0.87**
+📌 `bm_velocity_suppression_caveated`   |   Prior: 0.80   |   Belief: **0.87**
 
 > For twisted bilayer graphene, the Bistritzer-MacDonald continuum moire-band model predicts a moire-band Fermi velocity v_F*(theta) at the moire Dirac points; with standard BM parameters it strongly suppresses v_F* toward zero near a magic twist angle around 1 degree and gives v_F*/v_F about 1/4 at theta=1.5 degrees within the noninteracting continuum approximation without lattice relaxation or many-body self-energy corrections [@DasSarma2022].
 
 
-<a id="gcn_feace4c9a0154885"></a>
+<a id="phonon_resistivity_velocity_enhancement"></a>
 
-#### gcn_feace4c9a0154885 ★
+#### phonon_resistivity_velocity_enhancement ★
 
-📌 `gcn_feace4c9a0154885`   |   Belief: **0.98**
+📌 `phonon_resistivity_velocity_enhancement`   |   Belief: **0.98**
 
 > In Das Sarma and Wu's strange-metallicity model for twisted bilayer graphene, the BM continuum calculation predicts strong v_F* suppression near the magic angle and v_F*/v_F about 1/4 at theta=1.5 degrees; because the phonon-limited resistivity and its temperature coefficient scale as 1/v_F*^2, this velocity reduction implies up to about a 16-fold enhancement of phonon-limited resistivity relative to untwisted monolayer graphene in the small-v_F* regime [@DasSarma2022].
 
-🔗 **support**([gcn_7bca73ad98eb4ed4](#gcn_7bca73ad98eb4ed4), [gcn_93c279f20f364a40](#gcn_93c279f20f364a40))
+🔗 **support**([bm_magic_angle_velocity_suppression](#bm_magic_angle_velocity_suppression), [wu_velocity_phonon_form_factor](#wu_velocity_phonon_form_factor))
 
 <details><summary>Reasoning</summary>
 
@@ -380,28 +378,28 @@ Both source claims are LKM-backed BM/continuum velocity claims used as low-energ
 
 ```mermaid
 graph TD
-    gcn_93c279f20f364a40["gcn_93c279f20f364a40 (0.92)"]:::external
-    gcn_feace4c9a0154885["gcn_feace4c9a0154885 (0.98)"]:::external
-    gcn_1b0c5250d2574e24["gcn_1b0c5250d2574e24 (0.74)"]:::premise
-    gcn_4eda4fedb8364912["gcn_4eda4fedb8364912 (0.71)"]:::premise
-    gcn_993c306ad37c4dfb["gcn_993c306ad37c4dfb (0.76)"]:::premise
-    gcn_2bc94d32817142f7["gcn_2bc94d32817142f7 (0.73)"]:::premise
-    gcn_324b385e04254463["gcn_324b385e04254463 (0.78)"]:::premise
-    gcn_a0ab3201de0e41ad["gcn_a0ab3201de0e41ad (0.83)"]:::derived
+    wu_velocity_phonon_form_factor["wu_velocity_phonon_form_factor (0.92)"]:::external
+    phonon_resistivity_velocity_enhancement["phonon_resistivity_velocity_enhancement (0.98)"]:::external
+    optical_phonons_instantaneous_couplings["optical_phonons_instantaneous_couplings (0.74)"]:::premise
+    intravalley_coulomb_tuning_parameter["intravalley_coulomb_tuning_parameter (0.71)"]:::premise
+    intervalley_scattering_neglect["intervalley_scattering_neglect (0.76)"]:::premise
+    continuum_vhs_pairing_band_assumption["continuum_vhs_pairing_band_assumption (0.73)"]:::premise
+    vhs_tc_velocity_extrema_coincidence["vhs_tc_velocity_extrema_coincidence (0.78)"]:::premise
+    phonon_bdg_vhs_tc_hc2_velocity_extrema["phonon_bdg_vhs_tc_hc2_velocity_extrema (0.83)"]:::derived
     strat_3(["deduction"])
-    gcn_1b0c5250d2574e24 --> strat_3
-    gcn_4eda4fedb8364912 --> strat_3
-    gcn_993c306ad37c4dfb --> strat_3
-    gcn_2bc94d32817142f7 --> strat_3
-    gcn_324b385e04254463 --> strat_3
-    strat_3 --> gcn_a0ab3201de0e41ad
+    optical_phonons_instantaneous_couplings --> strat_3
+    intravalley_coulomb_tuning_parameter --> strat_3
+    intervalley_scattering_neglect --> strat_3
+    continuum_vhs_pairing_band_assumption --> strat_3
+    vhs_tc_velocity_extrema_coincidence --> strat_3
+    strat_3 --> phonon_bdg_vhs_tc_hc2_velocity_extrema
     strat_11(["support"]):::weak
-    gcn_93c279f20f364a40 --> strat_11
-    strat_11 --> gcn_feace4c9a0154885
+    wu_velocity_phonon_form_factor --> strat_11
+    strat_11 --> phonon_resistivity_velocity_enhancement
     strat_12(["support"]):::weak
-    gcn_93c279f20f364a40 --> strat_12
-    gcn_feace4c9a0154885 --> strat_12
-    strat_12 --> gcn_a0ab3201de0e41ad
+    wu_velocity_phonon_form_factor --> strat_12
+    phonon_resistivity_velocity_enhancement --> strat_12
+    strat_12 --> phonon_bdg_vhs_tc_hc2_velocity_extrema
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -414,60 +412,60 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_1b0c5250d2574e24"></a>
+<a id="optical_phonons_instantaneous_couplings"></a>
 
-#### gcn_1b0c5250d2574e24
+#### optical_phonons_instantaneous_couplings
 
-📌 `gcn_1b0c5250d2574e24`   |   Prior: 0.72   |   Belief: **0.74**
+📌 `optical_phonons_instantaneous_couplings`   |   Prior: 0.72   |   Belief: **0.74**
 
 > In MATBG flat-band models where optical phonon energies are about 196 meV for E_2 modes and about 170 meV for A_1/B_1 modes while the electronic flat-band bandwidth is much smaller than 100 meV, Qin, Zou, and MacDonald treat the electron-optical-phonon interaction as effectively instantaneous and parameterize it by static BCS-like couplings g_0 and g_1 [@Qin2021].
 
 
-<a id="gcn_4eda4fedb8364912"></a>
+<a id="intravalley_coulomb_tuning_parameter"></a>
 
-#### gcn_4eda4fedb8364912
+#### intravalley_coulomb_tuning_parameter
 
-📌 `gcn_4eda4fedb8364912`   |   Prior: 0.68   |   Belief: **0.71**
+📌 `intravalley_coulomb_tuning_parameter`   |   Prior: 0.68   |   Belief: **0.71**
 
 > In Qin, Zou, and MacDonald's mean-field BdG modeling of MATBG superconductivity, the short-range intravalley Coulomb repulsion parameter u is treated as a phenomenological tuning parameter in meV nm^2 that can be adjusted to reproduce experimental critical temperatures and represents the principal depairing short-range Coulomb effect in the static interaction tensor [@Qin2021].
 
 
-<a id="gcn_993c306ad37c4dfb"></a>
+<a id="intervalley_scattering_neglect"></a>
 
-#### gcn_993c306ad37c4dfb
+#### intervalley_scattering_neglect
 
-📌 `gcn_993c306ad37c4dfb`   |   Prior: 0.74   |   Belief: **0.76**
+📌 `intervalley_scattering_neglect`   |   Prior: 0.74   |   Belief: **0.76**
 
 > For Qin, Zou, and MacDonald's MATBG finite-pairing-momentum BdG calculations, intervalley Coulomb scattering matrix elements are neglected relative to intravalley Coulomb repulsion, so the principal depairing Coulomb effect is represented by a single intravalley parameter u in the interaction tensor [@Qin2021].
 
 
-<a id="gcn_2bc94d32817142f7"></a>
+<a id="continuum_vhs_pairing_band_assumption"></a>
 
-#### gcn_2bc94d32817142f7
+#### continuum_vhs_pairing_band_assumption
 
-📌 `gcn_2bc94d32817142f7`   |   Prior: 0.70   |   Belief: **0.73**
+📌 `continuum_vhs_pairing_band_assumption`   |   Prior: 0.70   |   Belief: **0.73**
 
 > Qin, Zou, and MacDonald use non-interaction-reconstructed MATBG continuum-model band structures parameterized by twist angle theta and tunneling ratio eta=t_AA/t_AB to represent the flat-band van Hove singularities that determine where phonon-mediated pairing produces maxima of T_c(mu) and minima of extracted average velocity v_F*(mu), while assuming neglected interaction-driven flavor symmetry breaking does not qualitatively change this prediction [@Qin2021].
 
 
-<a id="gcn_324b385e04254463"></a>
+<a id="vhs_tc_velocity_extrema_coincidence"></a>
 
-#### gcn_324b385e04254463
+#### vhs_tc_velocity_extrema_coincidence
 
-📌 `gcn_324b385e04254463`   |   Prior: 0.76   |   Belief: **0.78**
+📌 `vhs_tc_velocity_extrema_coincidence`   |   Prior: 0.76   |   Belief: **0.78**
 
 > In Qin, Zou, and MacDonald's MATBG calculations, superconducting critical-temperature maxima and minima of extracted average velocity v_F* occur at chemical potentials corresponding to flat-band van Hove singularities, and this coincidence persists across explored variations of eta, theta, and Coulomb depairing strength u when the interaction remains phonon-dominated and not strongly filling-dependent [@Qin2021].
 
 
-<a id="gcn_a0ab3201de0e41ad"></a>
+<a id="phonon_bdg_vhs_tc_hc2_velocity_extrema"></a>
 
-#### gcn_a0ab3201de0e41ad ★
+#### phonon_bdg_vhs_tc_hc2_velocity_extrema ★
 
-📌 `gcn_a0ab3201de0e41ad`   |   Belief: **0.83**
+📌 `phonon_bdg_vhs_tc_hc2_velocity_extrema`   |   Belief: **0.83**
 
 > Qin, Zou, and MacDonald's mean-field finite-pairing-momentum BdG calculations for MATBG continuum-model flat bands with optical-phonon attraction and intravalley Coulomb repulsion find that T_c(mu) has dome-like maxima at flat-band van Hove singularities, H_c2(mu) peaks at the same chemical potentials, and extracted v_F*(mu)=k_B T_c(mu)/(hbar q_c(mu)) has V-shaped minima there, robust across the explored ranges eta about 0.7-0.85, theta about 1.07-1.15 degrees, and u about 20-40 meV nm^2 [@Qin2021].
 
-🔗 **support**([gcn_93c279f20f364a40](#gcn_93c279f20f364a40), [gcn_feace4c9a0154885](#gcn_feace4c9a0154885))
+🔗 **support**([wu_velocity_phonon_form_factor](#wu_velocity_phonon_form_factor), [phonon_resistivity_velocity_enhancement](#phonon_resistivity_velocity_enhancement))
 
 <details><summary>Reasoning</summary>
 
@@ -480,15 +478,15 @@ The accepted extensions keep the path within LKM-backed MATBG continuum calculat
 
 ```mermaid
 graph TD
-    gcn_159120a419184e9e["gcn_159120a419184e9e (0.74)"]:::premise
-    gcn_75a1c2477ca448b0["gcn_75a1c2477ca448b0 (0.70)"]:::premise
-    gcn_390a496067b94209["gcn_390a496067b94209 (0.61)"]:::premise
-    gcn_848085b12d384915["gcn_848085b12d384915 (0.87)"]:::derived
+    small_angle_corrugation_extrapolation["small_angle_corrugation_extrapolation (0.74)"]:::premise
+    kohn_sham_magic_angle_numerical_scope["kohn_sham_magic_angle_numerical_scope (0.70)"]:::premise
+    half_filled_flat_band_magnetism_tendency["half_filled_flat_band_magnetism_tendency (0.61)"]:::premise
+    kohn_sham_magic_angle_flat_bands["kohn_sham_magic_angle_flat_bands (0.87)"]:::derived
     strat_4(["deduction"])
-    gcn_159120a419184e9e --> strat_4
-    gcn_75a1c2477ca448b0 --> strat_4
-    gcn_390a496067b94209 --> strat_4
-    strat_4 --> gcn_848085b12d384915
+    small_angle_corrugation_extrapolation --> strat_4
+    kohn_sham_magic_angle_numerical_scope --> strat_4
+    half_filled_flat_band_magnetism_tendency --> strat_4
+    strat_4 --> kohn_sham_magic_angle_flat_bands
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -501,42 +499,42 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_159120a419184e9e"></a>
+<a id="small_angle_corrugation_extrapolation"></a>
 
-#### gcn_159120a419184e9e
+#### small_angle_corrugation_extrapolation
 
-📌 `gcn_159120a419184e9e`   |   Prior: 0.70   |   Belief: **0.74**
+📌 `small_angle_corrugation_extrapolation`   |   Prior: 0.70   |   Belief: **0.74**
 
 > For commensurate twisted bilayer graphene unit cells labeled by integer pairs (N,N-1), Uchida et al. represent out-of-plane corrugation z(r) by a two-dimensional Fourier series, fit dominant coefficients from optimized larger-angle geometries, extrapolate those coefficients for theta<2 degrees, reconstruct z(r), and use the resulting corrugated geometries as inputs for small-angle band-structure calculations near theta=0.99 degrees [@Uchida2014].
 
 
-<a id="gcn_75a1c2477ca448b0"></a>
+<a id="kohn_sham_magic_angle_numerical_scope"></a>
 
-#### gcn_75a1c2477ca448b0
+#### kohn_sham_magic_angle_numerical_scope
 
-📌 `gcn_75a1c2477ca448b0`   |   Prior: 0.66   |   Belief: **0.70**
+📌 `kohn_sham_magic_angle_numerical_scope`   |   Prior: 0.66   |   Belief: **0.70**
 
 > In Uchida et al.'s Kohn-Sham calculations for twisted bilayer graphene, the quoted magic angle theta_M about 1.08 degrees is defined by the vanishing Dirac Fermi velocity and depends on extrapolated small-angle atomic geometries, finite real-space grids, chosen pseudopotentials, and the LDA exchange-correlation approximation with limited vdW-DF checks [@Uchida2014].
 
 
-<a id="gcn_390a496067b94209"></a>
+<a id="half_filled_flat_band_magnetism_tendency"></a>
 
-#### gcn_390a496067b94209
+#### half_filled_flat_band_magnetism_tendency
 
-📌 `gcn_390a496067b94209`   |   Prior: 0.55   |   Belief: **0.61**
+📌 `half_filled_flat_band_magnetism_tendency`   |   Prior: 0.55   |   Belief: **0.61**
 
 > Uchida et al. interpret half-filled flat Kohn-Sham bands at charge neutrality in twisted bilayer graphene as indicating a possible tendency toward magnetic ordering upon slight twisting, while acknowledging that explicit spin-polarized total-energy comparisons, Hubbard-model analysis, or many-body calculations would be required to establish spontaneous magnetism [@Uchida2014].
 
 
-<a id="gcn_848085b12d384915"></a>
+<a id="kohn_sham_magic_angle_flat_bands"></a>
 
-#### gcn_848085b12d384915 ★
+#### kohn_sham_magic_angle_flat_bands ★
 
-📌 `gcn_848085b12d384915`   |   Belief: **0.87**
+📌 `kohn_sham_magic_angle_flat_bands`   |   Belief: **0.87**
 
 > Uchida et al.'s Kohn-Sham band-structure calculations for twisted bilayer graphene find a magic twist angle theta_M about 1.08 degrees where the Dirac Fermi velocity vanishes; near this angle the low-energy Kohn-Sham bands become extremely flat over most of the Brillouin zone, including nearly dispersionless half-filled bands around E_F and about 10 meV splitting between flat bands at Gamma for theta=0.99 degrees [@Uchida2014].
 
-🔗 **deduction**([gcn_159120a419184e9e](#gcn_159120a419184e9e), [gcn_75a1c2477ca448b0](#gcn_75a1c2477ca448b0), [gcn_390a496067b94209](#gcn_390a496067b94209))
+🔗 **deduction**([small_angle_corrugation_extrapolation](#small_angle_corrugation_extrapolation), [kohn_sham_magic_angle_numerical_scope](#kohn_sham_magic_angle_numerical_scope), [half_filled_flat_band_magnetism_tendency](#half_filled_flat_band_magnetism_tendency))
 
 <details><summary>Reasoning</summary>
 
@@ -554,17 +552,17 @@ graph TD
 
 ```mermaid
 graph TD
-    gcn_848085b12d384915["gcn_848085b12d384915 (0.87)"]:::external
-    gcn_af432bff_ab_initio_tb_workflow["gcn_af432bff_ab_initio_tb_workflow (0.84)"]:::premise
-    gcn_be5d1975_detector_interpolation["gcn_be5d1975_detector_interpolation (0.79)"]:::premise
-    gcn_5f58746b_magic_angle_flat_band_likelihood["gcn_5f58746b_magic_angle_flat_band_likelihood (0.94)"]:::derived
+    kohn_sham_magic_angle_flat_bands["kohn_sham_magic_angle_flat_bands (0.87)"]:::external
+    ab_initio_tb_flat_band_workflow["ab_initio_tb_flat_band_workflow (0.84)"]:::premise
+    flat_band_detector_interpolation["flat_band_detector_interpolation (0.79)"]:::premise
+    ab_initio_magic_angle_flat_band_likelihood["ab_initio_magic_angle_flat_band_likelihood (0.94)"]:::derived
     strat_5(["deduction"])
-    gcn_af432bff_ab_initio_tb_workflow --> strat_5
-    gcn_be5d1975_detector_interpolation --> strat_5
-    strat_5 --> gcn_5f58746b_magic_angle_flat_band_likelihood
+    ab_initio_tb_flat_band_workflow --> strat_5
+    flat_band_detector_interpolation --> strat_5
+    strat_5 --> ab_initio_magic_angle_flat_band_likelihood
     strat_14(["support"]):::weak
-    gcn_848085b12d384915 --> strat_14
-    strat_14 --> gcn_5f58746b_magic_angle_flat_band_likelihood
+    kohn_sham_magic_angle_flat_bands --> strat_14
+    strat_14 --> ab_initio_magic_angle_flat_band_likelihood
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -577,33 +575,33 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_af432bff_ab_initio_tb_workflow"></a>
+<a id="ab_initio_tb_flat_band_workflow"></a>
 
-#### gcn_af432bff_ab_initio_tb_workflow
+#### ab_initio_tb_flat_band_workflow
 
-📌 `gcn_af432bff_ab_initio_tb_workflow`   |   Prior: 0.78   |   Belief: **0.84**
+📌 `ab_initio_tb_flat_band_workflow`   |   Prior: 0.78   |   Belief: **0.84**
 
 > For commensurate twisted bilayer graphene in the Tritsaris et al. 2020 high-throughput workflow, the selected LKM chain treats as established a Wannier-derived tight-binding Hamiltonian workflow in which band structures are diagonalized with 60 k-points along Gamma-M-K and automated flat-band detectors inspect a 0.30 eV window around the Fermi level [@Tritsaris2020].
 
 
-<a id="gcn_be5d1975_detector_interpolation"></a>
+<a id="flat_band_detector_interpolation"></a>
 
-#### gcn_be5d1975_detector_interpolation
+#### flat_band_detector_interpolation
 
-📌 `gcn_be5d1975_detector_interpolation`   |   Prior: 0.72   |   Belief: **0.79**
+📌 `flat_band_detector_interpolation`   |   Prior: 0.72   |   Belief: **0.79**
 
 > For the same Tritsaris et al. 2020 commensurate twisted-bilayer-graphene workflow, the selected LKM chain treats automated low-dispersion-band detections at the sampled commensurate twist angles as inputs that are converted into a continuous flat-band likelihood p(theta) by an interpolation and blending prescription [@Tritsaris2020].
 
 
-<a id="gcn_5f58746b_magic_angle_flat_band_likelihood"></a>
+<a id="ab_initio_magic_angle_flat_band_likelihood"></a>
 
-#### gcn_5f58746b_magic_angle_flat_band_likelihood ★
+#### ab_initio_magic_angle_flat_band_likelihood ★
 
-📌 `gcn_5f58746b_magic_angle_flat_band_likelihood`   |   Belief: **0.94**
+📌 `ab_initio_magic_angle_flat_band_likelihood`   |   Belief: **0.94**
 
 > For 33 unique commensurate twisted bilayer graphene supercells spanning 0.88 degrees <= theta <= 21.79 degrees, Tritsaris et al. 2020 use ab initio Wannier-derived tight-binding calculations and automated flat-band detection to find that the blended flat-band likelihood p(theta) is maximized near theta* approximately 1.1 degrees, where low-dispersion near-flat bands emerge near the Fermi level in the single-particle tight-binding band structures [@Tritsaris2020].
 
-🔗 **support**([gcn_848085b12d384915](#gcn_848085b12d384915))
+🔗 **support**([kohn_sham_magic_angle_flat_bands](#kohn_sham_magic_angle_flat_bands))
 
 <details><summary>Reasoning</summary>
 
@@ -616,17 +614,17 @@ Both LKM-backed claims are first-principles or ab initio-derived TBG calculation
 
 ```mermaid
 graph TD
-    gcn_8cd2984a6296435c["gcn_8cd2984a6296435c (0.85)"]:::premise
-    gcn_ed8fa9253ea24982["gcn_ed8fa9253ea24982 (0.79)"]:::premise
-    gcn_c220df1acc8b476a["gcn_c220df1acc8b476a (0.94)"]:::derived
-    gcn_de1d329f326f4e75["gcn_de1d329f326f4e75 (0.92)"]:::external
+    relaxation_broadens_isolates_flat_bands["relaxation_broadens_isolates_flat_bands (0.85)"]:::premise
+    heterostrain_flat_band_fine_splitting["heterostrain_flat_band_fine_splitting (0.79)"]:::premise
+    relaxation_reproduces_sts_flat_band_trends["relaxation_reproduces_sts_flat_band_trends (0.94)"]:::derived
+    full_relaxation_reproduces_flat_band_gaps["full_relaxation_reproduces_flat_band_gaps (0.92)"]:::external
     strat_6(["deduction"])
-    gcn_8cd2984a6296435c --> strat_6
-    gcn_ed8fa9253ea24982 --> strat_6
-    strat_6 --> gcn_c220df1acc8b476a
+    relaxation_broadens_isolates_flat_bands --> strat_6
+    heterostrain_flat_band_fine_splitting --> strat_6
+    strat_6 --> relaxation_reproduces_sts_flat_band_trends
     strat_16(["support"]):::weak
-    gcn_de1d329f326f4e75 --> strat_16
-    strat_16 --> gcn_c220df1acc8b476a
+    full_relaxation_reproduces_flat_band_gaps --> strat_16
+    strat_16 --> relaxation_reproduces_sts_flat_band_trends
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -639,33 +637,33 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_8cd2984a6296435c"></a>
+<a id="relaxation_broadens_isolates_flat_bands"></a>
 
-#### gcn_8cd2984a6296435c
+#### relaxation_broadens_isolates_flat_bands
 
-📌 `gcn_8cd2984a6296435c`   |   Prior: 0.80   |   Belief: **0.85**
+📌 `relaxation_broadens_isolates_flat_bands`   |   Prior: 0.80   |   Belief: **0.85**
 
 > For Liu et al.'s continuum-model calculations of magic-angle twisted bilayer graphene, the Bistritzer-MacDonald-type moire Hamiltonian is augmented by atomic-registry-dependent interlayer tunneling and a relaxation-derived displacement field that enlarges AB/BA regions and shrinks AA regions; in that reconstructed geometry, the computed low-energy flat-band manifold has larger bandwidth and greater energetic separation from remote bands than in the unreconstructed rigid geometry, with the qualitative trend robust to moderate model-parameter changes even though explicit spatially non-uniform heterostrain is not included [@Liu2020].
 
 
-<a id="gcn_ed8fa9253ea24982"></a>
+<a id="heterostrain_flat_band_fine_splitting"></a>
 
-#### gcn_ed8fa9253ea24982
+#### heterostrain_flat_band_fine_splitting
 
-📌 `gcn_ed8fa9253ea24982`   |   Prior: 0.72   |   Belief: **0.79**
+📌 `heterostrain_flat_band_fine_splitting`   |   Prior: 0.72   |   Belief: **0.79**
 
 > For magic-angle twisted bilayer graphene spectra discussed by Liu et al., spatially non-uniform heterostrain means a slowly varying relative in-plane deformation between graphene layers, parameterized by a local strain tensor field epsilon(r) at the moire scale; such heterostrain can reconstruct the electronic band structure and generate additional flat-band density-of-states fine structure, including three-subpeak splitting seen in some STS spectra, but those heterostrain-induced features are not reproduced by continuum-model calculations that include only atomic-registry-driven lattice relaxation [@Liu2020].
 
 
-<a id="gcn_c220df1acc8b476a"></a>
+<a id="relaxation_reproduces_sts_flat_band_trends"></a>
 
-#### gcn_c220df1acc8b476a ★
+#### relaxation_reproduces_sts_flat_band_trends ★
 
-📌 `gcn_c220df1acc8b476a`   |   Belief: **0.94**
+📌 `relaxation_reproduces_sts_flat_band_trends`   |   Belief: **0.94**
 
 > In Liu et al.'s continuum-model electronic-structure calculation for magic-angle twisted bilayer graphene, adding atomic-registry-driven lattice relaxation produces reconstructed geometry with enlarged AB/BA regions and reduced AA regions; compared with the rigid unreconstructed calculation, this reconstructed geometry reproduces the key STS spectroscopic trends of broader low-energy flat bands and greater energetic isolation from remote bands, while the calculation omits explicit spatially non-uniform heterostrain and therefore does not reproduce extra flat-band peak splitting, such as three-subpeak structure, observed in some spectra [@Liu2020].
 
-🔗 **support**([gcn_de1d329f326f4e75](#gcn_de1d329f326f4e75))
+🔗 **support**([full_relaxation_reproduces_flat_band_gaps](#full_relaxation_reproduces_flat_band_gaps))
 
 <details><summary>Reasoning</summary>
 
@@ -678,22 +676,22 @@ The Cantele DFT relaxation chain and the Liu continuum/STS chain both concern ma
 
 ```mermaid
 graph TD
-    gcn_848085b12d384915["gcn_848085b12d384915 (0.87)"]:::external
-    gcn_5f58746b_magic_angle_flat_band_likelihood["gcn_5f58746b_magic_angle_flat_band_likelihood (0.94)"]:::external
-    gcn_6463be97083b44fd["gcn_6463be97083b44fd (0.70)"]:::premise
-    gcn_abaf80790d664630["gcn_abaf80790d664630 (0.76)"]:::premise
-    gcn_de1d329f326f4e75["gcn_de1d329f326f4e75 (0.92)"]:::derived
+    kohn_sham_magic_angle_flat_bands["kohn_sham_magic_angle_flat_bands (0.87)"]:::external
+    ab_initio_magic_angle_flat_band_likelihood["ab_initio_magic_angle_flat_band_likelihood (0.94)"]:::external
+    dft_gap_spectroscopy_comparison_assumption["dft_gap_spectroscopy_comparison_assumption (0.70)"]:::premise
+    relaxation_component_diagnostic_assumption["relaxation_component_diagnostic_assumption (0.76)"]:::premise
+    full_relaxation_reproduces_flat_band_gaps["full_relaxation_reproduces_flat_band_gaps (0.92)"]:::derived
     strat_7(["deduction"])
-    gcn_6463be97083b44fd --> strat_7
-    gcn_abaf80790d664630 --> strat_7
-    strat_7 --> gcn_de1d329f326f4e75
+    dft_gap_spectroscopy_comparison_assumption --> strat_7
+    relaxation_component_diagnostic_assumption --> strat_7
+    strat_7 --> full_relaxation_reproduces_flat_band_gaps
     strat_14(["support"]):::weak
-    gcn_848085b12d384915 --> strat_14
-    strat_14 --> gcn_5f58746b_magic_angle_flat_band_likelihood
+    kohn_sham_magic_angle_flat_bands --> strat_14
+    strat_14 --> ab_initio_magic_angle_flat_band_likelihood
     strat_15(["support"]):::weak
-    gcn_848085b12d384915 --> strat_15
-    gcn_5f58746b_magic_angle_flat_band_likelihood --> strat_15
-    strat_15 --> gcn_de1d329f326f4e75
+    kohn_sham_magic_angle_flat_bands --> strat_15
+    ab_initio_magic_angle_flat_band_likelihood --> strat_15
+    strat_15 --> full_relaxation_reproduces_flat_band_gaps
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -706,33 +704,33 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_6463be97083b44fd"></a>
+<a id="dft_gap_spectroscopy_comparison_assumption"></a>
 
-#### gcn_6463be97083b44fd
+#### dft_gap_spectroscopy_comparison_assumption
 
-📌 `gcn_6463be97083b44fd`   |   Prior: 0.62   |   Belief: **0.70**
+📌 `dft_gap_spectroscopy_comparison_assumption`   |   Prior: 0.62   |   Belief: **0.70**
 
 > For first-magic-angle twisted bilayer graphene, comparing plane-wave DFT Kohn-Sham gaps computed with the vdW-DF2 exchange-correlation functional against spectroscopic gaps assumes that electron-electron correlation and quasiparticle self-energy corrections do not substantially renormalize the relevant gap magnitudes, so DFT gaps of about $26\,\mathrm{meV}$ and $16\,\mathrm{meV}$ can be quantitatively compared to nano-ARPES or tunneling spectroscopy in the same energy window [@Cantele2020].
 
 
-<a id="gcn_abaf80790d664630"></a>
+<a id="relaxation_component_diagnostic_assumption"></a>
 
-#### gcn_abaf80790d664630
+#### relaxation_component_diagnostic_assumption
 
-📌 `gcn_abaf80790d664630`   |   Prior: 0.70   |   Belief: **0.76**
+📌 `relaxation_component_diagnostic_assumption`   |   Prior: 0.70   |   Belief: **0.76**
 
 > For twisted bilayer graphene at $\theta=1.08^\circ$, using two constrained optimizations--out-of-plane-only relaxation with fixed in-plane coordinates and in-plane-only relaxation with fixed z coordinates--is treated as a meaningful diagnostic separation of the electronic effects of the two relaxation components, while retaining the caveat that the fully relaxed structure may couple in-plane and out-of-plane degrees of freedom nonlinearly [@Cantele2020].
 
 
-<a id="gcn_de1d329f326f4e75"></a>
+<a id="full_relaxation_reproduces_flat_band_gaps"></a>
 
-#### gcn_de1d329f326f4e75 ★
+#### full_relaxation_reproduces_flat_band_gaps ★
 
-📌 `gcn_de1d329f326f4e75`   |   Belief: **0.92**
+📌 `full_relaxation_reproduces_flat_band_gaps`   |   Belief: **0.92**
 
 > For twisted bilayer graphene at the first magic twist angle $\theta=1.08^\circ$, plane-wave DFT with vdW-DF2 reproduces the near-Fermi narrow flat-band manifold and the $\Gamma$-point gaps to higher and lower bands only when full atomic relaxation includes both in-plane and out-of-plane displacements. In the fully relaxed geometry, the reported flat-band bandwidth is about $20\,\mathrm{meV}$, with upper and lower separation gaps of about $26\,\mathrm{meV}$ and $16\,\mathrm{meV}$, and tight-binding calculations on the same relaxed coordinates give consistent low-energy bands. Unrelaxed flat geometries lack or strongly underestimate these gaps; in-plane-only relaxation gives zero gaps, while out-of-plane-only relaxation gives underestimated gaps of about $2\,\mathrm{meV}$ and $14\,\mathrm{meV}$ [@Cantele2020].
 
-🔗 **support**([gcn_848085b12d384915](#gcn_848085b12d384915), [gcn_5f58746b_magic_angle_flat_band_likelihood](#gcn_5f58746b_magic_angle_flat_band_likelihood))
+🔗 **support**([kohn_sham_magic_angle_flat_bands](#kohn_sham_magic_angle_flat_bands), [ab_initio_magic_angle_flat_band_likelihood](#ab_initio_magic_angle_flat_band_likelihood))
 
 <details><summary>Reasoning</summary>
 
@@ -745,17 +743,17 @@ The accepted ab initio/Kohn-Sham flat-band claims provide the connected TBG firs
 
 ```mermaid
 graph TD
-    gcn_7bca73ad98eb4ed4["gcn_7bca73ad98eb4ed4 (1.00)"]:::external
-    gcn_06caff12a4d84b26["gcn_06caff12a4d84b26 (0.80)"]:::premise
-    gcn_fedb8c2683fb48c7["gcn_fedb8c2683fb48c7 (0.76)"]:::premise
-    gcn_afdfbd0c013048d8["gcn_afdfbd0c013048d8 (0.93)"]:::derived
+    bm_magic_angle_velocity_suppression["bm_magic_angle_velocity_suppression (1.00)"]:::external
+    magnetic_bloch_cutoff_convergence["magnetic_bloch_cutoff_convergence (0.80)"]:::premise
+    reentrant_flat_band_parameter_convergence["reentrant_flat_band_parameter_convergence (0.76)"]:::premise
+    magnetic_bloch_reentrant_flat_bands["magnetic_bloch_reentrant_flat_bands (0.93)"]:::derived
     strat_8(["deduction"])
-    gcn_06caff12a4d84b26 --> strat_8
-    gcn_fedb8c2683fb48c7 --> strat_8
-    strat_8 --> gcn_afdfbd0c013048d8
+    magnetic_bloch_cutoff_convergence --> strat_8
+    reentrant_flat_band_parameter_convergence --> strat_8
+    strat_8 --> magnetic_bloch_reentrant_flat_bands
     strat_17(["support"]):::weak
-    gcn_7bca73ad98eb4ed4 --> strat_17
-    strat_17 --> gcn_afdfbd0c013048d8
+    bm_magic_angle_velocity_suppression --> strat_17
+    strat_17 --> magnetic_bloch_reentrant_flat_bands
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -768,11 +766,11 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_06caff12a4d84b26"></a>
+<a id="magnetic_bloch_cutoff_convergence"></a>
 
-#### gcn_06caff12a4d84b26
+#### magnetic_bloch_cutoff_convergence
 
-📌 `gcn_06caff12a4d84b26`   |   Prior: 0.74   |   Belief: **0.80**
+📌 `magnetic_bloch_cutoff_convergence`   |   Prior: 0.74   |   Belief: **0.80**
 
 > For the Bistritzer-MacDonald magnetic Bloch Hamiltonian
 > $H^{\phi=2\pi}(\mathbf{k})$ of twisted bilayer graphene represented in the
@@ -784,11 +782,11 @@ graph TD
 > quoted tolerances such as energy errors of order 1 meV [@HerzogArbeitman2022].
 
 
-<a id="gcn_fedb8c2683fb48c7"></a>
+<a id="reentrant_flat_band_parameter_convergence"></a>
 
-#### gcn_fedb8c2683fb48c7
+#### reentrant_flat_band_parameter_convergence
 
-📌 `gcn_fedb8c2683fb48c7`   |   Prior: 0.68   |   Belief: **0.76**
+📌 `reentrant_flat_band_parameter_convergence`   |   Prior: 0.68   |   Belief: **0.76**
 
 > For the BM magnetic Bloch Hamiltonian
 > $H_{BM}^{\phi}(\mathbf{k};w_0,w_1)$ of magic-angle twisted bilayer graphene at
@@ -801,11 +799,11 @@ graph TD
 > approximations [@HerzogArbeitman2022].
 
 
-<a id="gcn_afdfbd0c013048d8"></a>
+<a id="magnetic_bloch_reentrant_flat_bands"></a>
 
-#### gcn_afdfbd0c013048d8 ★
+#### magnetic_bloch_reentrant_flat_bands ★
 
-📌 `gcn_afdfbd0c013048d8`   |   Belief: **0.93**
+📌 `magnetic_bloch_reentrant_flat_bands`   |   Belief: **0.93**
 
 > The continuum Bistritzer-MacDonald model of magic-angle twisted bilayer
 > graphene, after a layer-dependent momentum shift restores moire periodicity,
@@ -819,7 +817,7 @@ graph TD
 > Landau-level-type regime where each flat band has Chern number -1
 > [@HerzogArbeitman2022].
 
-🔗 **support**([gcn_7bca73ad98eb4ed4](#gcn_7bca73ad98eb4ed4))
+🔗 **support**([bm_magic_angle_velocity_suppression](#bm_magic_angle_velocity_suppression))
 
 <details><summary>Reasoning</summary>
 
@@ -832,20 +830,20 @@ The magnetic-Bloch extension explicitly starts from the BM continuum model at ma
 
 ```mermaid
 graph TD
-    gcn_7bca73ad98eb4ed4["gcn_7bca73ad98eb4ed4 (1.00)"]:::external
-    gcn_848085b12d384915["gcn_848085b12d384915 (0.87)"]:::external
-    gcn_7687975d_small_angle_merging_conjecture["gcn_7687975d_small_angle_merging_conjecture (0.73)"]:::premise
-    gcn_8159f32d_merged_dirac_magic_angle_flat_band["gcn_8159f32d_merged_dirac_magic_angle_flat_band (0.93)"]:::derived
+    bm_magic_angle_velocity_suppression["bm_magic_angle_velocity_suppression (1.00)"]:::external
+    kohn_sham_magic_angle_flat_bands["kohn_sham_magic_angle_flat_bands (0.87)"]:::external
+    small_angle_dirac_merging_conjecture["small_angle_dirac_merging_conjecture (0.73)"]:::premise
+    merged_dirac_magic_angle_flat_band["merged_dirac_magic_angle_flat_band (0.93)"]:::derived
     strat_9(["deduction"])
-    gcn_7687975d_small_angle_merging_conjecture --> strat_9
-    strat_9 --> gcn_8159f32d_merged_dirac_magic_angle_flat_band
+    small_angle_dirac_merging_conjecture --> strat_9
+    strat_9 --> merged_dirac_magic_angle_flat_band
     strat_13(["support"]):::weak
-    gcn_848085b12d384915 --> strat_13
-    strat_13 --> gcn_7bca73ad98eb4ed4
+    kohn_sham_magic_angle_flat_bands --> strat_13
+    strat_13 --> bm_magic_angle_velocity_suppression
     strat_18(["support"]):::weak
-    gcn_7bca73ad98eb4ed4 --> strat_18
-    gcn_848085b12d384915 --> strat_18
-    strat_18 --> gcn_8159f32d_merged_dirac_magic_angle_flat_band
+    bm_magic_angle_velocity_suppression --> strat_18
+    kohn_sham_magic_angle_flat_bands --> strat_18
+    strat_18 --> merged_dirac_magic_angle_flat_band
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -858,24 +856,24 @@ graph TD
     classDef contra fill:#ffebee,stroke:#c62828,color:#333
 ```
 
-<a id="gcn_7687975d_small_angle_merging_conjecture"></a>
+<a id="small_angle_dirac_merging_conjecture"></a>
 
-#### gcn_7687975d_small_angle_merging_conjecture
+#### small_angle_dirac_merging_conjecture
 
-📌 `gcn_7687975d_small_angle_merging_conjecture`   |   Prior: 0.64   |   Belief: **0.73**
+📌 `small_angle_dirac_merging_conjecture`   |   Prior: 0.64   |   Belief: **0.73**
 
 > For twisted bilayer graphene in the small-angle continuum limit considered by Yamada and Hasegawa 2020, the K-K' intervalley gap at moire K is treated as negligibly small, the upper two bands near charge neutrality are nearly degenerate, and the four-Dirac-point merging mechanism seen in commensurate tight-binding calculations at moderate twist angles is conjectured to persist continuously to magic-angle conditions, assuming no intervening topological or symmetry reconstruction and no qualitative change from lattice relaxation or electron-electron interactions [@Yamada2020].
 
 
-<a id="gcn_8159f32d_merged_dirac_magic_angle_flat_band"></a>
+<a id="merged_dirac_magic_angle_flat_band"></a>
 
-#### gcn_8159f32d_merged_dirac_magic_angle_flat_band ★
+#### merged_dirac_magic_angle_flat_band ★
 
-📌 `gcn_8159f32d_merged_dirac_magic_angle_flat_band`   |   Belief: **0.93**
+📌 `merged_dirac_magic_angle_flat_band`   |   Belief: **0.93**
 
 > In sufficiently small-angle twisted bilayer graphene, where the moire-K gap between the $2n_0$th and $(2n_0+1)$th bands is negligibly small and the upper two bands near charge neutrality are nearly degenerate, Yamada and Hasegawa 2020 propose that three moving Dirac points merge with the fixed K-point Dirac point, producing vanishing Dirac velocity at K; this suppression is conjectured to contribute to extremely narrow nearly flat bands at the magic angles [@Yamada2020].
 
-🔗 **support**([gcn_7bca73ad98eb4ed4](#gcn_7bca73ad98eb4ed4), [gcn_848085b12d384915](#gcn_848085b12d384915))
+🔗 **support**([bm_magic_angle_velocity_suppression](#bm_magic_angle_velocity_suppression), [kohn_sham_magic_angle_flat_bands](#kohn_sham_magic_angle_flat_bands))
 
 <details><summary>Reasoning</summary>
 
@@ -890,35 +888,35 @@ The merged-Dirac chain is a conjectural same-system mechanism for vanishing Dira
 
 | Label | Type | Prior | Belief | Role |
 |-------|------|-------|--------|------|
-| [gcn_390a496067b94209](#gcn_390a496067b94209) | claim | 0.55 | 0.6084 | independent |
-| [gcn_6463be97083b44fd](#gcn_6463be97083b44fd) | claim | 0.62 | 0.6994 | independent |
-| [gcn_75a1c2477ca448b0](#gcn_75a1c2477ca448b0) | claim | 0.66 | 0.7041 | independent |
-| [gcn_4eda4fedb8364912](#gcn_4eda4fedb8364912) | claim | 0.68 | 0.7084 | independent |
-| [gcn_7687975d_small_angle_merging_conjecture](#gcn_7687975d_small_angle_merging_conjecture) | claim | 0.64 | 0.7257 | independent |
-| [gcn_2bc94d32817142f7](#gcn_2bc94d32817142f7) | claim | 0.70 | 0.7266 | independent |
-| [gcn_159120a419184e9e](#gcn_159120a419184e9e) | claim | 0.70 | 0.7389 | independent |
-| [gcn_1b0c5250d2574e24](#gcn_1b0c5250d2574e24) | claim | 0.72 | 0.7449 | independent |
-| [gcn_fedb8c2683fb48c7](#gcn_fedb8c2683fb48c7) | claim | 0.68 | 0.7560 | independent |
-| [gcn_abaf80790d664630](#gcn_abaf80790d664630) | claim | 0.70 | 0.7627 | independent |
-| [gcn_993c306ad37c4dfb](#gcn_993c306ad37c4dfb) | claim | 0.74 | 0.7631 | independent |
-| [gcn_324b385e04254463](#gcn_324b385e04254463) | claim | 0.76 | 0.7813 | independent |
-| [gcn_ed8fa9253ea24982](#gcn_ed8fa9253ea24982) | claim | 0.72 | 0.7908 | independent |
-| [gcn_be5d1975_detector_interpolation](#gcn_be5d1975_detector_interpolation) | claim | 0.72 | 0.7911 | independent |
-| [gcn_06caff12a4d84b26](#gcn_06caff12a4d84b26) | claim | 0.74 | 0.8017 | independent |
-| [gcn_b411dd99a41e4de2](#gcn_b411dd99a41e4de2) | claim | 0.76 | 0.8135 | independent |
-| [gcn_a0ab3201de0e41ad](#gcn_a0ab3201de0e41ad) | claim | — | 0.8268 | derived |
-| [gcn_570f7bfc906e4dbd](#gcn_570f7bfc906e4dbd) | claim | 0.78 | 0.8290 | independent |
-| [gcn_af432bff_ab_initio_tb_workflow](#gcn_af432bff_ab_initio_tb_workflow) | claim | 0.78 | 0.8358 | independent |
-| [gcn_8cd2984a6296435c](#gcn_8cd2984a6296435c) | claim | 0.80 | 0.8506 | independent |
-| [gcn_1cb7675d5185405d](#gcn_1cb7675d5185405d) | claim | 0.80 | 0.8690 | independent |
-| [gcn_848085b12d384915](#gcn_848085b12d384915) | claim | — | 0.8749 | derived |
-| [gcn_d3808439ccf6496b](#gcn_d3808439ccf6496b) | claim | 0.82 | 0.8889 | independent |
-| [gcn_671ceef053a64aa7](#gcn_671ceef053a64aa7) | claim | 0.84 | 0.9013 | independent |
-| [gcn_93c279f20f364a40](#gcn_93c279f20f364a40) | claim | — | 0.9169 | derived |
-| [gcn_de1d329f326f4e75](#gcn_de1d329f326f4e75) | claim | — | 0.9172 | derived |
-| [gcn_8159f32d_merged_dirac_magic_angle_flat_band](#gcn_8159f32d_merged_dirac_magic_angle_flat_band) | claim | — | 0.9273 | derived |
-| [gcn_afdfbd0c013048d8](#gcn_afdfbd0c013048d8) | claim | — | 0.9311 | derived |
-| [gcn_c220df1acc8b476a](#gcn_c220df1acc8b476a) | claim | — | 0.9358 | derived |
-| [gcn_5f58746b_magic_angle_flat_band_likelihood](#gcn_5f58746b_magic_angle_flat_band_likelihood) | claim | — | 0.9373 | derived |
-| [gcn_feace4c9a0154885](#gcn_feace4c9a0154885) | claim | — | 0.9758 | derived |
-| [gcn_7bca73ad98eb4ed4](#gcn_7bca73ad98eb4ed4) | claim | — | 0.9950 | derived |
+| [half_filled_flat_band_magnetism_tendency](#half_filled_flat_band_magnetism_tendency) | claim | 0.55 | 0.6084 | independent |
+| [dft_gap_spectroscopy_comparison_assumption](#dft_gap_spectroscopy_comparison_assumption) | claim | 0.62 | 0.6994 | independent |
+| [kohn_sham_magic_angle_numerical_scope](#kohn_sham_magic_angle_numerical_scope) | claim | 0.66 | 0.7041 | independent |
+| [intravalley_coulomb_tuning_parameter](#intravalley_coulomb_tuning_parameter) | claim | 0.68 | 0.7084 | independent |
+| [small_angle_dirac_merging_conjecture](#small_angle_dirac_merging_conjecture) | claim | 0.64 | 0.7257 | independent |
+| [continuum_vhs_pairing_band_assumption](#continuum_vhs_pairing_band_assumption) | claim | 0.70 | 0.7266 | independent |
+| [small_angle_corrugation_extrapolation](#small_angle_corrugation_extrapolation) | claim | 0.70 | 0.7389 | independent |
+| [optical_phonons_instantaneous_couplings](#optical_phonons_instantaneous_couplings) | claim | 0.72 | 0.7449 | independent |
+| [reentrant_flat_band_parameter_convergence](#reentrant_flat_band_parameter_convergence) | claim | 0.68 | 0.7560 | independent |
+| [relaxation_component_diagnostic_assumption](#relaxation_component_diagnostic_assumption) | claim | 0.70 | 0.7627 | independent |
+| [intervalley_scattering_neglect](#intervalley_scattering_neglect) | claim | 0.74 | 0.7631 | independent |
+| [vhs_tc_velocity_extrema_coincidence](#vhs_tc_velocity_extrema_coincidence) | claim | 0.76 | 0.7813 | independent |
+| [heterostrain_flat_band_fine_splitting](#heterostrain_flat_band_fine_splitting) | claim | 0.72 | 0.7908 | independent |
+| [flat_band_detector_interpolation](#flat_band_detector_interpolation) | claim | 0.72 | 0.7911 | independent |
+| [magnetic_bloch_cutoff_convergence](#magnetic_bloch_cutoff_convergence) | claim | 0.74 | 0.8017 | independent |
+| [moire_spinor_phonon_form_factor](#moire_spinor_phonon_form_factor) | claim | 0.76 | 0.8135 | independent |
+| [phonon_bdg_vhs_tc_hc2_velocity_extrema](#phonon_bdg_vhs_tc_hc2_velocity_extrema) | claim | — | 0.8268 | derived |
+| [relaxed_tunneling_magic_angle_velocity](#relaxed_tunneling_magic_angle_velocity) | claim | 0.78 | 0.8290 | independent |
+| [ab_initio_tb_flat_band_workflow](#ab_initio_tb_flat_band_workflow) | claim | 0.78 | 0.8358 | independent |
+| [relaxation_broadens_isolates_flat_bands](#relaxation_broadens_isolates_flat_bands) | claim | 0.80 | 0.8506 | independent |
+| [bm_velocity_suppression_caveated](#bm_velocity_suppression_caveated) | claim | 0.80 | 0.8690 | independent |
+| [kohn_sham_magic_angle_flat_bands](#kohn_sham_magic_angle_flat_bands) | claim | — | 0.8749 | derived |
+| [bm_velocity_linear_fit](#bm_velocity_linear_fit) | claim | 0.82 | 0.8889 | independent |
+| [bm_velocity_bare_input](#bm_velocity_bare_input) | claim | 0.84 | 0.9013 | independent |
+| [wu_velocity_phonon_form_factor](#wu_velocity_phonon_form_factor) | claim | — | 0.9169 | derived |
+| [full_relaxation_reproduces_flat_band_gaps](#full_relaxation_reproduces_flat_band_gaps) | claim | — | 0.9172 | derived |
+| [merged_dirac_magic_angle_flat_band](#merged_dirac_magic_angle_flat_band) | claim | — | 0.9273 | derived |
+| [magnetic_bloch_reentrant_flat_bands](#magnetic_bloch_reentrant_flat_bands) | claim | — | 0.9311 | derived |
+| [relaxation_reproduces_sts_flat_band_trends](#relaxation_reproduces_sts_flat_band_trends) | claim | — | 0.9358 | derived |
+| [ab_initio_magic_angle_flat_band_likelihood](#ab_initio_magic_angle_flat_band_likelihood) | claim | — | 0.9373 | derived |
+| [phonon_resistivity_velocity_enhancement](#phonon_resistivity_velocity_enhancement) | claim | — | 0.9758 | derived |
+| [bm_magic_angle_velocity_suppression](#bm_magic_angle_velocity_suppression) | claim | — | 0.9950 | derived |

@@ -4,6 +4,12 @@ Regeneration date: 2026-05-04
 
 Policy: May 4 single-root regeneration. The executable package starts from exactly one chain-backed LKM root (`gcn_7bca73ad98eb4ed4`) and adds only connected Turn-2 extensions. No executable claim uses agent-authored synthesis provenance. Scope, non-contradiction, and non-equivalence judgments are logged here and in `merge_audit.md`, not promoted to `claim(...)` nodes.
 
+## Metadata-only provenance repair
+
+| date | repair | labels | decision |
+|---|---|---|---|
+| 2026-05-04 | approved repair #3 | active claims with non-empty raw LKM content, including `wu_velocity_phonon_form_factor`, `phonon_resistivity_velocity_enhancement`, `phonon_bdg_vhs_tc_hc2_velocity_extrema`, and `kohn_sham_magic_angle_flat_bands` | restored `lkm_original` to exact raw `data.claim.content` or corresponding raw premise content from `artifacts/lkm-discovery/input/*.json`; metadata-only, no label, claim-content, prior, or graph-operator change |
+
 ## Starting root
 
 | root id | module | exported label | evidence file | decision |

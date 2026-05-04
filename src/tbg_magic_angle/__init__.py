@@ -13,14 +13,14 @@ from .paper_yamada2020 import *
 from .cross_paper import *
 
 __all__ = [
-    'gcn_7bca73ad98eb4ed4',
-    'gcn_93c279f20f364a40',
-    'gcn_feace4c9a0154885',
-    'gcn_a0ab3201de0e41ad',
-    'gcn_848085b12d384915',
-    'gcn_5f58746b_magic_angle_flat_band_likelihood',
-    'gcn_c220df1acc8b476a',
-    'gcn_de1d329f326f4e75',
-    'gcn_afdfbd0c013048d8',
-    'gcn_8159f32d_merged_dirac_magic_angle_flat_band',
+    'bm_magic_angle_velocity_suppression',
+    'wu_velocity_phonon_form_factor',
+    'phonon_resistivity_velocity_enhancement',
+    'phonon_bdg_vhs_tc_hc2_velocity_extrema',
+    'kohn_sham_magic_angle_flat_bands',
+    'ab_initio_magic_angle_flat_band_likelihood',
+    'relaxation_reproduces_sts_flat_band_trends',
+    'full_relaxation_reproduces_flat_band_gaps',
+    'magnetic_bloch_reentrant_flat_bands',
+    'merged_dirac_magic_angle_flat_band',
 ]

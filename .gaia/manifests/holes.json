@@ -1,227 +1,227 @@
 {
   "holes": [
     {
-      "content": "For the Bistritzer-MacDonald magnetic Bloch Hamiltonian\n$H^{\\phi=2\\pi}(\\mathbf{k})$ of twisted bilayer graphene represented in the\nLandau-level basis $|\\mathbf{k},n\\rangle$, the numerical procedure truncates\nthe basis to $n \\le n_{\\max}$, diagonalizes the resulting finite Hermitian\nmatrix at sampled $\\mathbf{k}$ points, and assumes that for the magic-angle BM\nparameters and flux $\\phi=2\\pi$ a numerically accessible cutoff makes the\nlow-energy flat-band eigenvalues and topological diagnostics converge within\nquoted tolerances such as energy errors of order 1 meV [@HerzogArbeitman2022].",
-      "content_hash": "7788dbc8f5b042b38f5548b73aaffa20f680759d1ec6f2efad891774068eef5d",
-      "interface_hash": "sha256:e36031a206be46bbdf2aa27f64858332b4974b8d28a58675bb6012a512c9662b",
-      "label": "gcn_06caff12a4d84b26",
-      "qid": "github:tbg_magic_angle::gcn_06caff12a4d84b26",
+      "content": "For commensurate twisted bilayer graphene in the Tritsaris et al. 2020 high-throughput workflow, the selected LKM chain treats as established a Wannier-derived tight-binding Hamiltonian workflow in which band structures are diagonalized with 60 k-points along Gamma-M-K and automated flat-band detectors inspect a 0.30 eV window around the Fermi level [@Tritsaris2020].",
+      "content_hash": "d946558cfe58296701c8af1d3f57b2a75bb15efaf84ad9c1494b74a4b67ab5f7",
+      "interface_hash": "sha256:102463bf9733e2e6b7dadb67599a718f9c3a25e4c572599a02e98c0ac581eb62",
+      "label": "ab_initio_tb_flat_band_workflow",
+      "qid": "github:tbg_magic_angle::ab_initio_tb_flat_band_workflow",
       "required_by": [
-        "github:tbg_magic_angle::gcn_afdfbd0c013048d8"
-      ]
-    },
-    {
-      "content": "For commensurate twisted bilayer graphene unit cells labeled by integer pairs (N,N-1), Uchida et al. represent out-of-plane corrugation z(r) by a two-dimensional Fourier series, fit dominant coefficients from optimized larger-angle geometries, extrapolate those coefficients for theta<2 degrees, reconstruct z(r), and use the resulting corrugated geometries as inputs for small-angle band-structure calculations near theta=0.99 degrees [@Uchida2014].",
-      "content_hash": "166d9458862278cd2b9b23207c15da7853a9983abaef382506b258474e2aea61",
-      "interface_hash": "sha256:c18cf8f7537b60da2f791129e5dc9be7be7f53baf011da03ffa023dd858a7eb0",
-      "label": "gcn_159120a419184e9e",
-      "qid": "github:tbg_magic_angle::gcn_159120a419184e9e",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_848085b12d384915"
-      ]
-    },
-    {
-      "content": "In MATBG flat-band models where optical phonon energies are about 196 meV for E_2 modes and about 170 meV for A_1/B_1 modes while the electronic flat-band bandwidth is much smaller than 100 meV, Qin, Zou, and MacDonald treat the electron-optical-phonon interaction as effectively instantaneous and parameterize it by static BCS-like couplings g_0 and g_1 [@Qin2021].",
-      "content_hash": "46e98af955f9f24d1e676b69e749a1985cdcef1f856ef038731adb000b368cce",
-      "interface_hash": "sha256:ff84723d6c727bc1a9201797ee412285198c5499a98456a4f6d4bfdb74fe2d9a",
-      "label": "gcn_1b0c5250d2574e24",
-      "qid": "github:tbg_magic_angle::gcn_1b0c5250d2574e24",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_a0ab3201de0e41ad"
-      ]
-    },
-    {
-      "content": "For twisted bilayer graphene, the Bistritzer-MacDonald continuum moire-band model predicts a moire-band Fermi velocity v_F*(theta) at the moire Dirac points; with standard BM parameters it strongly suppresses v_F* toward zero near a magic twist angle around 1 degree and gives v_F*/v_F about 1/4 at theta=1.5 degrees within the noninteracting continuum approximation without lattice relaxation or many-body self-energy corrections [@DasSarma2022].",
-      "content_hash": "e3a4d758063054e5a772c7374edf94ccdb8ef061824e77c7efa1b548756e8f37",
-      "interface_hash": "sha256:04f63effd9800871b44baa96e4b40533a75ed1d42fbbaa9f3b0a72ba915af327",
-      "label": "gcn_1cb7675d5185405d",
-      "qid": "github:tbg_magic_angle::gcn_1cb7675d5185405d",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_feace4c9a0154885"
-      ]
-    },
-    {
-      "content": "Qin, Zou, and MacDonald use non-interaction-reconstructed MATBG continuum-model band structures parameterized by twist angle theta and tunneling ratio eta=t_AA/t_AB to represent the flat-band van Hove singularities that determine where phonon-mediated pairing produces maxima of T_c(mu) and minima of extracted average velocity v_F*(mu), while assuming neglected interaction-driven flavor symmetry breaking does not qualitatively change this prediction [@Qin2021].",
-      "content_hash": "f07199c4ac7b6c616b22ffc3f0a70d2e57fe0e436acf173f456f6880b99f96f5",
-      "interface_hash": "sha256:cca9dfef1ffe132012e43915b9925c5de0c230542989ee5ee036f7bf06fd0d56",
-      "label": "gcn_2bc94d32817142f7",
-      "qid": "github:tbg_magic_angle::gcn_2bc94d32817142f7",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_a0ab3201de0e41ad"
-      ]
-    },
-    {
-      "content": "In Qin, Zou, and MacDonald's MATBG calculations, superconducting critical-temperature maxima and minima of extracted average velocity v_F* occur at chemical potentials corresponding to flat-band van Hove singularities, and this coincidence persists across explored variations of eta, theta, and Coulomb depairing strength u when the interaction remains phonon-dominated and not strongly filling-dependent [@Qin2021].",
-      "content_hash": "0bdf454555021b784849b41fdd094d976a443065f68727a6be321cf12e4f2992",
-      "interface_hash": "sha256:12db203e461866d4d107599931ea6bb6f82f3cf0fb3d51757fbbb96d698c2588",
-      "label": "gcn_324b385e04254463",
-      "qid": "github:tbg_magic_angle::gcn_324b385e04254463",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_a0ab3201de0e41ad"
-      ]
-    },
-    {
-      "content": "Uchida et al. interpret half-filled flat Kohn-Sham bands at charge neutrality in twisted bilayer graphene as indicating a possible tendency toward magnetic ordering upon slight twisting, while acknowledging that explicit spin-polarized total-energy comparisons, Hubbard-model analysis, or many-body calculations would be required to establish spontaneous magnetism [@Uchida2014].",
-      "content_hash": "a7239c9909630655a2490a7261044e94fd4d6f3beb5ba46412c293d14e79a802",
-      "interface_hash": "sha256:4c37739bd9203e968a2771c4d0ec1158d2ea7b578bf9d895f7d66fd2a772044c",
-      "label": "gcn_390a496067b94209",
-      "qid": "github:tbg_magic_angle::gcn_390a496067b94209",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_848085b12d384915"
-      ]
-    },
-    {
-      "content": "In Qin, Zou, and MacDonald's mean-field BdG modeling of MATBG superconductivity, the short-range intravalley Coulomb repulsion parameter u is treated as a phenomenological tuning parameter in meV nm^2 that can be adjusted to reproduce experimental critical temperatures and represents the principal depairing short-range Coulomb effect in the static interaction tensor [@Qin2021].",
-      "content_hash": "21cfccaacd0f549980d2efce7831b63d5e547fc258582a0d539c0da36186c102",
-      "interface_hash": "sha256:1d4dc2f568d09272b662c32e756cd05bcf6222c3be23716f44604316972864ca",
-      "label": "gcn_4eda4fedb8364912",
-      "qid": "github:tbg_magic_angle::gcn_4eda4fedb8364912",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_a0ab3201de0e41ad"
-      ]
-    },
-    {
-      "content": "Using continuum-model interlayer tunneling parameters w_0=90 meV and w_1=117 meV to incorporate atomic-relaxation effects, Wu, Hwang, and Das Sarma obtain a largest magic angle theta_magic about 1.025 degrees and a strongly suppressed twist-angle-dependent Dirac velocity v_F*(theta), while noting sample-dependent relaxation and strain can shift theta_magic and v_F* by order tens of percent [@Wu2018].",
-      "content_hash": "27c73d87c1999df42f0273de7931e1e53d34cdc838e5766c3ed3bb5d39df1dba",
-      "interface_hash": "sha256:05ff8f9fefb8a89653fbced41c211c3800c0c6600e01d91c72aede46587e7c8f",
-      "label": "gcn_570f7bfc906e4dbd",
-      "qid": "github:tbg_magic_angle::gcn_570f7bfc906e4dbd",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_93c279f20f364a40"
-      ]
-    },
-    {
-      "content": "For first-magic-angle twisted bilayer graphene, comparing plane-wave DFT Kohn-Sham gaps computed with the vdW-DF2 exchange-correlation functional against spectroscopic gaps assumes that electron-electron correlation and quasiparticle self-energy corrections do not substantially renormalize the relevant gap magnitudes, so DFT gaps of about $26\\,\\mathrm{meV}$ and $16\\,\\mathrm{meV}$ can be quantitatively compared to nano-ARPES or tunneling spectroscopy in the same energy window [@Cantele2020].",
-      "content_hash": "ecbd4425712804e005ed4d4119ec550b0349e88b162d94e8c7fa5a070ee36447",
-      "interface_hash": "sha256:bfcf5e82e72e5197276f696588024d566e8ecb7650695114479803e55e350ec8",
-      "label": "gcn_6463be97083b44fd",
-      "qid": "github:tbg_magic_angle::gcn_6463be97083b44fd",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_de1d329f326f4e75"
+        "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood"
       ]
     },
     {
       "content": "In twisted bilayer graphene, the Bistritzer-MacDonald continuum moire-band model supplies the noninteracting low-energy band structure, and the Dirac-point band Fermi velocity v_F*(theta) from that model is treated as the bare input velocity for subsequent low-energy many-body and phonon-transport calculations [@DasSarma2020].",
       "content_hash": "5fbb5a1d128dc709804ffa17161fe1496dc80ffb90be8203024880379215b540",
-      "interface_hash": "sha256:f2b2cae9e6f94f10d154e185df0dacb419ab825404dcc19889de3a2134ceda98",
-      "label": "gcn_671ceef053a64aa7",
-      "qid": "github:tbg_magic_angle::gcn_671ceef053a64aa7",
+      "interface_hash": "sha256:e22bf0831a39434f9e34052adcdb1805039eefb54e2a2657cf6ff5a326b931f4",
+      "label": "bm_velocity_bare_input",
+      "qid": "github:tbg_magic_angle::bm_velocity_bare_input",
       "required_by": [
-        "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4"
-      ]
-    },
-    {
-      "content": "In Uchida et al.'s Kohn-Sham calculations for twisted bilayer graphene, the quoted magic angle theta_M about 1.08 degrees is defined by the vanishing Dirac Fermi velocity and depends on extrapolated small-angle atomic geometries, finite real-space grids, chosen pseudopotentials, and the LDA exchange-correlation approximation with limited vdW-DF checks [@Uchida2014].",
-      "content_hash": "36ab459bca4f740c16b0dc4f5d174ca5cae31be5eacbb1463b8bbdf36e7eeae4",
-      "interface_hash": "sha256:05a971c74b3a08ab474f0bb3a6bb6448d256aeb1c5cf4f9f73b8f7280da4d715",
-      "label": "gcn_75a1c2477ca448b0",
-      "qid": "github:tbg_magic_angle::gcn_75a1c2477ca448b0",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_848085b12d384915"
-      ]
-    },
-    {
-      "content": "For twisted bilayer graphene in the small-angle continuum limit considered by Yamada and Hasegawa 2020, the K-K' intervalley gap at moire K is treated as negligibly small, the upper two bands near charge neutrality are nearly degenerate, and the four-Dirac-point merging mechanism seen in commensurate tight-binding calculations at moderate twist angles is conjectured to persist continuously to magic-angle conditions, assuming no intervening topological or symmetry reconstruction and no qualitative change from lattice relaxation or electron-electron interactions [@Yamada2020].",
-      "content_hash": "3878812266e4993003c50fbfc0772502a4c929d90587dd8304d9c4fc16929d48",
-      "interface_hash": "sha256:0b6ab61f082982540037668cf7aa40d686f647126765b8fd24d34e45a9482284",
-      "label": "gcn_7687975d_small_angle_merging_conjecture",
-      "qid": "github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band"
-      ]
-    },
-    {
-      "content": "For Liu et al.'s continuum-model calculations of magic-angle twisted bilayer graphene, the Bistritzer-MacDonald-type moire Hamiltonian is augmented by atomic-registry-dependent interlayer tunneling and a relaxation-derived displacement field that enlarges AB/BA regions and shrinks AA regions; in that reconstructed geometry, the computed low-energy flat-band manifold has larger bandwidth and greater energetic separation from remote bands than in the unreconstructed rigid geometry, with the qualitative trend robust to moderate model-parameter changes even though explicit spatially non-uniform heterostrain is not included [@Liu2020].",
-      "content_hash": "54d6bb24a1805021705c7abfde056fe70061d8909129e6b8bdf02907ee5846f3",
-      "interface_hash": "sha256:dce07a5567192c0655c11cabb5c90186787eacee810ad631be1fc2dbc4dfa811",
-      "label": "gcn_8cd2984a6296435c",
-      "qid": "github:tbg_magic_angle::gcn_8cd2984a6296435c",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_c220df1acc8b476a"
-      ]
-    },
-    {
-      "content": "For Qin, Zou, and MacDonald's MATBG finite-pairing-momentum BdG calculations, intervalley Coulomb scattering matrix elements are neglected relative to intravalley Coulomb repulsion, so the principal depairing Coulomb effect is represented by a single intravalley parameter u in the interaction tensor [@Qin2021].",
-      "content_hash": "0599aeaddae03f59adf88a4716a4981747610f5b612bf7abd3f1a674e26a38b6",
-      "interface_hash": "sha256:34f47277563321d14773c78c430ceffd9b5d37635d11e36653c960ac424a4e45",
-      "label": "gcn_993c306ad37c4dfb",
-      "qid": "github:tbg_magic_angle::gcn_993c306ad37c4dfb",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_a0ab3201de0e41ad"
-      ]
-    },
-    {
-      "content": "For twisted bilayer graphene at $\\theta=1.08^\\circ$, using two constrained optimizations--out-of-plane-only relaxation with fixed in-plane coordinates and in-plane-only relaxation with fixed z coordinates--is treated as a meaningful diagnostic separation of the electronic effects of the two relaxation components, while retaining the caveat that the fully relaxed structure may couple in-plane and out-of-plane degrees of freedom nonlinearly [@Cantele2020].",
-      "content_hash": "f8e9a5eef38eeba2e44475708650fbf6ee7cc7487bbdc65c7f1dcda49b9aa292",
-      "interface_hash": "sha256:7aa0d9248be4dad28aea9dde9baf0bf0f7a2dedc5551fae19e6ca7c1a782c1f7",
-      "label": "gcn_abaf80790d664630",
-      "qid": "github:tbg_magic_angle::gcn_abaf80790d664630",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_de1d329f326f4e75"
-      ]
-    },
-    {
-      "content": "For commensurate twisted bilayer graphene in the Tritsaris et al. 2020 high-throughput workflow, the selected LKM chain treats as established a Wannier-derived tight-binding Hamiltonian workflow in which band structures are diagonalized with 60 k-points along Gamma-M-K and automated flat-band detectors inspect a 0.30 eV window around the Fermi level [@Tritsaris2020].",
-      "content_hash": "d946558cfe58296701c8af1d3f57b2a75bb15efaf84ad9c1494b74a4b67ab5f7",
-      "interface_hash": "sha256:d6b5b605a4f0910ef92859e07235a1d9507a9edb77ccb70712d37b96ee233dd3",
-      "label": "gcn_af432bff_ab_initio_tb_workflow",
-      "qid": "github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood"
-      ]
-    },
-    {
-      "content": "For a moire Dirac point in twisted bilayer graphene, Wu, Hwang, and Das Sarma construct degenerate Dirac-point eigenstates from four layer/momentum spinors with amplitudes set by alpha_j=w_j/(hbar v_F |kappa_{+1}|), define beta=3(alpha_0^2+alpha_1^2), and approximate the deformation-potential electron-phonon spinor-overlap factor as F(theta)=(1+beta^2)/(1+beta)^2, with 0.5 <= F(theta) <= 1 used as a transport matrix-element correction [@Wu2018].",
-      "content_hash": "74a3daa702da3460019622f78cafef718c56d633af162ac2beb4fb3c5d90194d",
-      "interface_hash": "sha256:6b15b6e84395b53dccd612f4fe3dec8e525dcb33c61cee0787b91e64db2f705f",
-      "label": "gcn_b411dd99a41e4de2",
-      "qid": "github:tbg_magic_angle::gcn_b411dd99a41e4de2",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_93c279f20f364a40"
-      ]
-    },
-    {
-      "content": "For the same Tritsaris et al. 2020 commensurate twisted-bilayer-graphene workflow, the selected LKM chain treats automated low-dispersion-band detections at the sampled commensurate twist angles as inputs that are converted into a continuous flat-band likelihood p(theta) by an interpolation and blending prescription [@Tritsaris2020].",
-      "content_hash": "cde3626b24f9f1ecc44f5e1fcd1b5c723e2af651335e5385282eb91ce4e8d621",
-      "interface_hash": "sha256:d83972b911c0e3b5687b2c75ffb2a5cf0c34e33fd4b328cd2846595fcb7e476b",
-      "label": "gcn_be5d1975_detector_interpolation",
-      "qid": "github:tbg_magic_angle::gcn_be5d1975_detector_interpolation",
-      "required_by": [
-        "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood"
+        "github:tbg_magic_angle::bm_magic_angle_velocity_suppression"
       ]
     },
     {
       "content": "For twisted bilayer graphene in the noninteracting Bistritzer-MacDonald continuum moire-band calculation, with twist angle theta and largest magic angle theta_M measured in degrees and monolayer graphene velocity v_F about 1e8 cm/s, the computed low-energy Dirac-point Fermi velocity v_F*(theta) for 0 < theta < 3 degrees is usefully approximated by v_F*(theta) ~= 0.5 * |theta - theta_M| * v_F [@DasSarma2020].",
       "content_hash": "a39ef27d8f8b7b19ca6049c826225f29366eaa8c2667b7d5153a6c3eefe8ec10",
-      "interface_hash": "sha256:91938c48265aa55e7d1b4c416defa93838d57de1c418a6f2c371ab02793ef63c",
-      "label": "gcn_d3808439ccf6496b",
-      "qid": "github:tbg_magic_angle::gcn_d3808439ccf6496b",
+      "interface_hash": "sha256:4926385b2a2480f4eb66416646a4c67edfde70de4e4446348ddca226c05d5a57",
+      "label": "bm_velocity_linear_fit",
+      "qid": "github:tbg_magic_angle::bm_velocity_linear_fit",
       "required_by": [
-        "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4"
+        "github:tbg_magic_angle::bm_magic_angle_velocity_suppression"
+      ]
+    },
+    {
+      "content": "For twisted bilayer graphene, the Bistritzer-MacDonald continuum moire-band model predicts a moire-band Fermi velocity v_F*(theta) at the moire Dirac points; with standard BM parameters it strongly suppresses v_F* toward zero near a magic twist angle around 1 degree and gives v_F*/v_F about 1/4 at theta=1.5 degrees within the noninteracting continuum approximation without lattice relaxation or many-body self-energy corrections [@DasSarma2022].",
+      "content_hash": "e3a4d758063054e5a772c7374edf94ccdb8ef061824e77c7efa1b548756e8f37",
+      "interface_hash": "sha256:1817f6c3f8859e9c1505b45013cbfaf5021ae91b98243bd8bc47491e3fb06125",
+      "label": "bm_velocity_suppression_caveated",
+      "qid": "github:tbg_magic_angle::bm_velocity_suppression_caveated",
+      "required_by": [
+        "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement"
+      ]
+    },
+    {
+      "content": "Qin, Zou, and MacDonald use non-interaction-reconstructed MATBG continuum-model band structures parameterized by twist angle theta and tunneling ratio eta=t_AA/t_AB to represent the flat-band van Hove singularities that determine where phonon-mediated pairing produces maxima of T_c(mu) and minima of extracted average velocity v_F*(mu), while assuming neglected interaction-driven flavor symmetry breaking does not qualitatively change this prediction [@Qin2021].",
+      "content_hash": "f07199c4ac7b6c616b22ffc3f0a70d2e57fe0e436acf173f456f6880b99f96f5",
+      "interface_hash": "sha256:70dd681ed550059c98f058efc476ae1c550b8c39e76ad8142764ed4be6c74f07",
+      "label": "continuum_vhs_pairing_band_assumption",
+      "qid": "github:tbg_magic_angle::continuum_vhs_pairing_band_assumption",
+      "required_by": [
+        "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema"
+      ]
+    },
+    {
+      "content": "For first-magic-angle twisted bilayer graphene, comparing plane-wave DFT Kohn-Sham gaps computed with the vdW-DF2 exchange-correlation functional against spectroscopic gaps assumes that electron-electron correlation and quasiparticle self-energy corrections do not substantially renormalize the relevant gap magnitudes, so DFT gaps of about $26\\,\\mathrm{meV}$ and $16\\,\\mathrm{meV}$ can be quantitatively compared to nano-ARPES or tunneling spectroscopy in the same energy window [@Cantele2020].",
+      "content_hash": "ecbd4425712804e005ed4d4119ec550b0349e88b162d94e8c7fa5a070ee36447",
+      "interface_hash": "sha256:c7440bca48d41307d644340258c43d31557348c63ddd803b1e145f635133e9c5",
+      "label": "dft_gap_spectroscopy_comparison_assumption",
+      "qid": "github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption",
+      "required_by": [
+        "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps"
+      ]
+    },
+    {
+      "content": "For the same Tritsaris et al. 2020 commensurate twisted-bilayer-graphene workflow, the selected LKM chain treats automated low-dispersion-band detections at the sampled commensurate twist angles as inputs that are converted into a continuous flat-band likelihood p(theta) by an interpolation and blending prescription [@Tritsaris2020].",
+      "content_hash": "cde3626b24f9f1ecc44f5e1fcd1b5c723e2af651335e5385282eb91ce4e8d621",
+      "interface_hash": "sha256:a8ee1426d814413d736c2160356fb702a3cac096c90190d792774dcd1ded7771",
+      "label": "flat_band_detector_interpolation",
+      "qid": "github:tbg_magic_angle::flat_band_detector_interpolation",
+      "required_by": [
+        "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood"
+      ]
+    },
+    {
+      "content": "Uchida et al. interpret half-filled flat Kohn-Sham bands at charge neutrality in twisted bilayer graphene as indicating a possible tendency toward magnetic ordering upon slight twisting, while acknowledging that explicit spin-polarized total-energy comparisons, Hubbard-model analysis, or many-body calculations would be required to establish spontaneous magnetism [@Uchida2014].",
+      "content_hash": "a7239c9909630655a2490a7261044e94fd4d6f3beb5ba46412c293d14e79a802",
+      "interface_hash": "sha256:e498b81500956c8354360db20af5f2a41821afba4da6f43f56e754b38cbb6491",
+      "label": "half_filled_flat_band_magnetism_tendency",
+      "qid": "github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency",
+      "required_by": [
+        "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands"
       ]
     },
     {
       "content": "For magic-angle twisted bilayer graphene spectra discussed by Liu et al., spatially non-uniform heterostrain means a slowly varying relative in-plane deformation between graphene layers, parameterized by a local strain tensor field epsilon(r) at the moire scale; such heterostrain can reconstruct the electronic band structure and generate additional flat-band density-of-states fine structure, including three-subpeak splitting seen in some STS spectra, but those heterostrain-induced features are not reproduced by continuum-model calculations that include only atomic-registry-driven lattice relaxation [@Liu2020].",
       "content_hash": "bca542a9d6935d5ac1f7da472a88d2cb57d9deebb32feaa43ae142d2903382e5",
-      "interface_hash": "sha256:031f18d4c1f3837d5940afd1cf970321774f0f464b6ec35d66f424e2744ed10a",
-      "label": "gcn_ed8fa9253ea24982",
-      "qid": "github:tbg_magic_angle::gcn_ed8fa9253ea24982",
+      "interface_hash": "sha256:341a017d9f5f964b782d72721cd9e7c2b42ab7056efc7b7c88d5b77876f348d8",
+      "label": "heterostrain_flat_band_fine_splitting",
+      "qid": "github:tbg_magic_angle::heterostrain_flat_band_fine_splitting",
       "required_by": [
-        "github:tbg_magic_angle::gcn_c220df1acc8b476a"
+        "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends"
+      ]
+    },
+    {
+      "content": "For Qin, Zou, and MacDonald's MATBG finite-pairing-momentum BdG calculations, intervalley Coulomb scattering matrix elements are neglected relative to intravalley Coulomb repulsion, so the principal depairing Coulomb effect is represented by a single intravalley parameter u in the interaction tensor [@Qin2021].",
+      "content_hash": "0599aeaddae03f59adf88a4716a4981747610f5b612bf7abd3f1a674e26a38b6",
+      "interface_hash": "sha256:dbf6fdad6a145e9a479a7e39e896c54bf37882dc00a06bc8747139637826a17d",
+      "label": "intervalley_scattering_neglect",
+      "qid": "github:tbg_magic_angle::intervalley_scattering_neglect",
+      "required_by": [
+        "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema"
+      ]
+    },
+    {
+      "content": "In Qin, Zou, and MacDonald's mean-field BdG modeling of MATBG superconductivity, the short-range intravalley Coulomb repulsion parameter u is treated as a phenomenological tuning parameter in meV nm^2 that can be adjusted to reproduce experimental critical temperatures and represents the principal depairing short-range Coulomb effect in the static interaction tensor [@Qin2021].",
+      "content_hash": "21cfccaacd0f549980d2efce7831b63d5e547fc258582a0d539c0da36186c102",
+      "interface_hash": "sha256:c5b3a79a7d2afba4c8a0bcc9250f7e41798cabaab38070a98b7a16fe5157002b",
+      "label": "intravalley_coulomb_tuning_parameter",
+      "qid": "github:tbg_magic_angle::intravalley_coulomb_tuning_parameter",
+      "required_by": [
+        "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema"
+      ]
+    },
+    {
+      "content": "In Uchida et al.'s Kohn-Sham calculations for twisted bilayer graphene, the quoted magic angle theta_M about 1.08 degrees is defined by the vanishing Dirac Fermi velocity and depends on extrapolated small-angle atomic geometries, finite real-space grids, chosen pseudopotentials, and the LDA exchange-correlation approximation with limited vdW-DF checks [@Uchida2014].",
+      "content_hash": "36ab459bca4f740c16b0dc4f5d174ca5cae31be5eacbb1463b8bbdf36e7eeae4",
+      "interface_hash": "sha256:8f82edbb2e60dfc37ccf08c94e61eae9ec8726d8975079254c595f2c5ad06f55",
+      "label": "kohn_sham_magic_angle_numerical_scope",
+      "qid": "github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope",
+      "required_by": [
+        "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands"
+      ]
+    },
+    {
+      "content": "For the Bistritzer-MacDonald magnetic Bloch Hamiltonian\n$H^{\\phi=2\\pi}(\\mathbf{k})$ of twisted bilayer graphene represented in the\nLandau-level basis $|\\mathbf{k},n\\rangle$, the numerical procedure truncates\nthe basis to $n \\le n_{\\max}$, diagonalizes the resulting finite Hermitian\nmatrix at sampled $\\mathbf{k}$ points, and assumes that for the magic-angle BM\nparameters and flux $\\phi=2\\pi$ a numerically accessible cutoff makes the\nlow-energy flat-band eigenvalues and topological diagnostics converge within\nquoted tolerances such as energy errors of order 1 meV [@HerzogArbeitman2022].",
+      "content_hash": "7788dbc8f5b042b38f5548b73aaffa20f680759d1ec6f2efad891774068eef5d",
+      "interface_hash": "sha256:13a7eb277fa4a75795dbab8653d7070e878438e889fa28c4a3f240dbadf050e9",
+      "label": "magnetic_bloch_cutoff_convergence",
+      "qid": "github:tbg_magic_angle::magnetic_bloch_cutoff_convergence",
+      "required_by": [
+        "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands"
+      ]
+    },
+    {
+      "content": "For a moire Dirac point in twisted bilayer graphene, Wu, Hwang, and Das Sarma construct degenerate Dirac-point eigenstates from four layer/momentum spinors with amplitudes set by alpha_j=w_j/(hbar v_F |kappa_{+1}|), define beta=3(alpha_0^2+alpha_1^2), and approximate the deformation-potential electron-phonon spinor-overlap factor as F(theta)=(1+beta^2)/(1+beta)^2, with 0.5 <= F(theta) <= 1 used as a transport matrix-element correction [@Wu2018].",
+      "content_hash": "74a3daa702da3460019622f78cafef718c56d633af162ac2beb4fb3c5d90194d",
+      "interface_hash": "sha256:7e97cd9d1acf4a2e838136be7d3289a3005afda60b68b6acc0459d101265f3db",
+      "label": "moire_spinor_phonon_form_factor",
+      "qid": "github:tbg_magic_angle::moire_spinor_phonon_form_factor",
+      "required_by": [
+        "github:tbg_magic_angle::wu_velocity_phonon_form_factor"
+      ]
+    },
+    {
+      "content": "In MATBG flat-band models where optical phonon energies are about 196 meV for E_2 modes and about 170 meV for A_1/B_1 modes while the electronic flat-band bandwidth is much smaller than 100 meV, Qin, Zou, and MacDonald treat the electron-optical-phonon interaction as effectively instantaneous and parameterize it by static BCS-like couplings g_0 and g_1 [@Qin2021].",
+      "content_hash": "46e98af955f9f24d1e676b69e749a1985cdcef1f856ef038731adb000b368cce",
+      "interface_hash": "sha256:8e25ff45695676af463c620e1d2985161c25545082af3c28e0d0149eec3d7929",
+      "label": "optical_phonons_instantaneous_couplings",
+      "qid": "github:tbg_magic_angle::optical_phonons_instantaneous_couplings",
+      "required_by": [
+        "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema"
       ]
     },
     {
       "content": "For the BM magnetic Bloch Hamiltonian\n$H_{BM}^{\\phi}(\\mathbf{k};w_0,w_1)$ of magic-angle twisted bilayer graphene at\nflux $\\phi=2\\pi$, truncated in Landau levels and diagonalized across sampled\ninterlayer parameters $(w_0,w_1)$, the observed reentrant two flat bands, their\napproximately 40 meV gap to passive bands, and the topology assignments\nseparating a crystalline regime from a Landau-level regime are interpreted as\nphysical parameter dependence only after convergence in Landau-level cutoff,\n$\\mathbf{k}$ mesh, and parameter-grid refinement, subject to the stated BM-model\napproximations [@HerzogArbeitman2022].",
       "content_hash": "3595a2cccde86df1262f1fff8777bcf4b02716ed9980402d5a35df18af7eebfc",
-      "interface_hash": "sha256:d873d10fb14388266e32cce23f7ae1fcd2991742d431fe2f5c0a0018d6914c5f",
-      "label": "gcn_fedb8c2683fb48c7",
-      "qid": "github:tbg_magic_angle::gcn_fedb8c2683fb48c7",
+      "interface_hash": "sha256:7b9ac0b7f9b725ceb2c1395cae3c77383ba88de290371c6a673fd16a77d92c3d",
+      "label": "reentrant_flat_band_parameter_convergence",
+      "qid": "github:tbg_magic_angle::reentrant_flat_band_parameter_convergence",
       "required_by": [
-        "github:tbg_magic_angle::gcn_afdfbd0c013048d8"
+        "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands"
+      ]
+    },
+    {
+      "content": "For Liu et al.'s continuum-model calculations of magic-angle twisted bilayer graphene, the Bistritzer-MacDonald-type moire Hamiltonian is augmented by atomic-registry-dependent interlayer tunneling and a relaxation-derived displacement field that enlarges AB/BA regions and shrinks AA regions; in that reconstructed geometry, the computed low-energy flat-band manifold has larger bandwidth and greater energetic separation from remote bands than in the unreconstructed rigid geometry, with the qualitative trend robust to moderate model-parameter changes even though explicit spatially non-uniform heterostrain is not included [@Liu2020].",
+      "content_hash": "54d6bb24a1805021705c7abfde056fe70061d8909129e6b8bdf02907ee5846f3",
+      "interface_hash": "sha256:7479618eaefb24bcb14921cb0544d307727ca322a4081b0764f0391b4bd514f3",
+      "label": "relaxation_broadens_isolates_flat_bands",
+      "qid": "github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands",
+      "required_by": [
+        "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends"
+      ]
+    },
+    {
+      "content": "For twisted bilayer graphene at $\\theta=1.08^\\circ$, using two constrained optimizations--out-of-plane-only relaxation with fixed in-plane coordinates and in-plane-only relaxation with fixed z coordinates--is treated as a meaningful diagnostic separation of the electronic effects of the two relaxation components, while retaining the caveat that the fully relaxed structure may couple in-plane and out-of-plane degrees of freedom nonlinearly [@Cantele2020].",
+      "content_hash": "f8e9a5eef38eeba2e44475708650fbf6ee7cc7487bbdc65c7f1dcda49b9aa292",
+      "interface_hash": "sha256:2169ac2ee0d06a59749bf2abdf6d9b7a5c8cce8815c0b083eb591937f7981a9f",
+      "label": "relaxation_component_diagnostic_assumption",
+      "qid": "github:tbg_magic_angle::relaxation_component_diagnostic_assumption",
+      "required_by": [
+        "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps"
+      ]
+    },
+    {
+      "content": "Using continuum-model interlayer tunneling parameters w_0=90 meV and w_1=117 meV to incorporate atomic-relaxation effects, Wu, Hwang, and Das Sarma obtain a largest magic angle theta_magic about 1.025 degrees and a strongly suppressed twist-angle-dependent Dirac velocity v_F*(theta), while noting sample-dependent relaxation and strain can shift theta_magic and v_F* by order tens of percent [@Wu2018].",
+      "content_hash": "27c73d87c1999df42f0273de7931e1e53d34cdc838e5766c3ed3bb5d39df1dba",
+      "interface_hash": "sha256:df35a36a159591d07b67364ac8d06ac0f22a42cfec8496744a4924d623f0df00",
+      "label": "relaxed_tunneling_magic_angle_velocity",
+      "qid": "github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity",
+      "required_by": [
+        "github:tbg_magic_angle::wu_velocity_phonon_form_factor"
+      ]
+    },
+    {
+      "content": "For commensurate twisted bilayer graphene unit cells labeled by integer pairs (N,N-1), Uchida et al. represent out-of-plane corrugation z(r) by a two-dimensional Fourier series, fit dominant coefficients from optimized larger-angle geometries, extrapolate those coefficients for theta<2 degrees, reconstruct z(r), and use the resulting corrugated geometries as inputs for small-angle band-structure calculations near theta=0.99 degrees [@Uchida2014].",
+      "content_hash": "166d9458862278cd2b9b23207c15da7853a9983abaef382506b258474e2aea61",
+      "interface_hash": "sha256:5ee0b6e74983e500739b05f0bb6ff63a7bc9fc91fd8b66096ae5891a28f9fc67",
+      "label": "small_angle_corrugation_extrapolation",
+      "qid": "github:tbg_magic_angle::small_angle_corrugation_extrapolation",
+      "required_by": [
+        "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands"
+      ]
+    },
+    {
+      "content": "For twisted bilayer graphene in the small-angle continuum limit considered by Yamada and Hasegawa 2020, the K-K' intervalley gap at moire K is treated as negligibly small, the upper two bands near charge neutrality are nearly degenerate, and the four-Dirac-point merging mechanism seen in commensurate tight-binding calculations at moderate twist angles is conjectured to persist continuously to magic-angle conditions, assuming no intervening topological or symmetry reconstruction and no qualitative change from lattice relaxation or electron-electron interactions [@Yamada2020].",
+      "content_hash": "3878812266e4993003c50fbfc0772502a4c929d90587dd8304d9c4fc16929d48",
+      "interface_hash": "sha256:8ba46de8ccdfa7237fadd6fa274ddf798d54a4cc64e7d644203c3b4031864886",
+      "label": "small_angle_dirac_merging_conjecture",
+      "qid": "github:tbg_magic_angle::small_angle_dirac_merging_conjecture",
+      "required_by": [
+        "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band"
+      ]
+    },
+    {
+      "content": "In Qin, Zou, and MacDonald's MATBG calculations, superconducting critical-temperature maxima and minima of extracted average velocity v_F* occur at chemical potentials corresponding to flat-band van Hove singularities, and this coincidence persists across explored variations of eta, theta, and Coulomb depairing strength u when the interaction remains phonon-dominated and not strongly filling-dependent [@Qin2021].",
+      "content_hash": "0bdf454555021b784849b41fdd094d976a443065f68727a6be321cf12e4f2992",
+      "interface_hash": "sha256:4afd09eb2b5609e6ab657c18d0ce1cd719018113837b042c505aa9362e7fd668",
+      "label": "vhs_tc_velocity_extrema_coincidence",
+      "qid": "github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence",
+      "required_by": [
+        "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema"
       ]
     }
   ],
-  "ir_hash": "sha256:1e8bcebad86a09f791f6fb0f4c148dbd40cc01f7b349418226335e47e2d2bab3",
+  "ir_hash": "sha256:a9fcde51d1a055bd794938d010d1fd491e643ae39184a1b30b38f2f5c7da2968",
   "manifest_schema_version": 1,
   "package": "tbg-magic-angle",
   "version": "0.1.0"

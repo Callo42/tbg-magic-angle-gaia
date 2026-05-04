@@ -1,6 +1,6 @@
 {
   "bridges": [],
-  "ir_hash": "sha256:1e8bcebad86a09f791f6fb0f4c148dbd40cc01f7b349418226335e47e2d2bab3",
+  "ir_hash": "sha256:a9fcde51d1a055bd794938d010d1fd491e643ae39184a1b30b38f2f5c7da2968",
   "manifest_schema_version": 1,
   "package": "tbg-magic-angle",
   "version": "0.1.0"

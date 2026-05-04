@@ -9,36 +9,40 @@ Reference key: Wu2018
 from gaia.lang import claim, deduction
 
 
-gcn_b411dd99a41e4de2 = claim(
+moire_spinor_phonon_form_factor = claim(
     "For a moire Dirac point in twisted bilayer graphene, Wu, Hwang, and Das Sarma construct degenerate Dirac-point eigenstates from four layer/momentum spinors with amplitudes set by alpha_j=w_j/(hbar v_F |kappa_{+1}|), define beta=3(alpha_0^2+alpha_1^2), and approximate the deformation-potential electron-phonon spinor-overlap factor as F(theta)=(1+beta^2)/(1+beta)^2, with 0.5 <= F(theta) <= 1 used as a transport matrix-element correction [@Wu2018].",
     lkm_id="gcn_b411dd99a41e4de2",
     source_paper="paper:867772031297389371",
     provenance_source="lkm",
     provenance_file="artifacts/lkm-discovery/input/may4_evidence_gcn_93c279f20f364a40.json",
-    lkm_original="For a moire Dirac point at momentum kappa_{+1}, define two degenerate Dirac-point eigenstates as normalized linear combinations of four layer/momentum spinors with amplitudes determined by alpha_j=w_j/(hbar v_F |kappa_{+1}|); defining beta=3(alpha_0^2+alpha_1^2), the moire spinor-overlap correction entering deformation-potential electron-phonon matrix elements is approximated by F(theta)=(1+beta^2)/(1+beta)^2.",
+    lkm_original=r"""For a moiré Dirac point at momentum $\boldsymbol{\kappa}_{+1}$, define two degenerate Dirac-point eigenstates $|\Psi_A\rangle$ and $|\Psi_B\rangle$ as normalized linear combinations of four layer/momentum spinors $\{|\Psi^{(0)}\rangle,|\Psi^{(1)}\rangle,|\Psi^{(2)}\rangle,|\Psi^{(3)}\rangle\}$ with amplitudes determined by dimensionless parameters $\alpha_j=w_j/(\hbar v_F|\boldsymbol{\kappa}_{+1}|)$ for $j=0,1$, where $w_0$ and $w_1$ are the AA and AB/BA interlayer tunneling parameters and $v_F$ is the monolayer Dirac velocity; defining $\beta=3(\alpha_0^2+\alpha_1^2)$, the moiré spinor-overlap correction entering deformation-potential electron–phonon matrix elements is approximated by the single-parameter form factor $F(\theta)=(1+\beta^{2})/(1+\beta)^{2}$. This truncated four-component perturbative construction is assumed to yield an accurate estimate of the overlap factor $F(\theta)$ down to the largest magic angle predicted by the chosen continuum parameters, so that $0.5\lesssim F(\theta)\le1$ can be used as a multiplicative correction to electron–phonon matrix elements in transport calculations.""",
 )
 
-gcn_570f7bfc906e4dbd = claim(
+relaxed_tunneling_magic_angle_velocity = claim(
     "Using continuum-model interlayer tunneling parameters w_0=90 meV and w_1=117 meV to incorporate atomic-relaxation effects, Wu, Hwang, and Das Sarma obtain a largest magic angle theta_magic about 1.025 degrees and a strongly suppressed twist-angle-dependent Dirac velocity v_F*(theta), while noting sample-dependent relaxation and strain can shift theta_magic and v_F* by order tens of percent [@Wu2018].",
     lkm_id="gcn_570f7bfc906e4dbd",
     source_paper="paper:867772031297389371",
     provenance_source="lkm",
     provenance_file="artifacts/lkm-discovery/input/may4_evidence_gcn_93c279f20f364a40.json",
-    lkm_original="Using continuum-model interlayer tunneling parameters w_0=90 meV and w_1=117 meV yields a largest-magnitude magic angle theta_magic approximately 1.025 degrees in the continuum moire Hamiltonian band structure and produces a twist-angle dependence v_F*(theta) with strong suppression near theta_magic.",
+    lkm_original=r"""Using continuum-model interlayer tunneling parameters $w_0=90\ \mathrm{meV}$ and $w_1=117\ \mathrm{meV}$ (intended to incorporate atomic relaxation effects) yields a largest-magnitude magic angle $\theta_{\rm magic}\approx1.025^\circ$ in the continuum moiré Hamiltonian band structure and produces a twist-angle dependence $v_F^*(\theta)$ with strong suppression near $\theta_{\rm magic}$; these parameter choices are assumed to be representative of experimental samples up to uncertainties from sample-dependent relaxation and strain that can shift $\theta_{\rm magic}$ and $v_F^*$ by order tens of percent.""",
 )
 
-gcn_93c279f20f364a40 = claim(
+wu_velocity_phonon_form_factor = claim(
     "In Wu, Hwang, and Das Sarma's continuum moire Hamiltonian calculation for twisted bilayer graphene, v_F*(theta) is strongly suppressed near theta_magic about 1.025 degrees, and a perturbative moire-wavefunction calculation gives the electron-phonon matrix-element form factor F(theta)=(1+beta^2)/(1+beta)^2 with beta=3(alpha_0^2+alpha_1^2), where alpha_j=w_j/(hbar v_F |kappa_{+1}|) for the AA and AB/BA tunneling parameters [@Wu2018].",
     lkm_id="gcn_93c279f20f364a40",
     source_paper="paper:867772031297389371",
     provenance_source="lkm",
     provenance_file="artifacts/lkm-discovery/input/may4_evidence_gcn_93c279f20f364a40.json",
-    lkm_original="A continuum moire Hamiltonian calculation for twisted bilayer graphene yields a twist-angle-dependent renormalized Dirac velocity v_F*(theta) that is strongly suppressed near a model magic angle theta_magic approximately 1.025 degrees. A perturbative moire-wavefunction calculation gives the electron-phonon matrix-element form factor F(theta)=(1+beta^2)/(1+beta)^2 with beta=3(alpha_0^2+alpha_1^2).",
+    lkm_original=r"""A continuum moiré Hamiltonian calculation for twisted bilayer graphene yields a twist-angle-dependent renormalized Dirac velocity $v_F^*(\theta)$ that is strongly suppressed near a model magic angle $\theta_{\rm magic}\approx 1.025^\circ$ (the largest magic angle for the specified continuum-Hamiltonian parameters). A perturbative moiré-wavefunction calculation gives the electron–phonon matrix-element form factor
+$$
+F(\theta)=\frac{1+\beta^{2}}{(1+\beta)^{2}},\quad \beta=3(\alpha_0^2+\alpha_1^2),
+$$
+where $\alpha_{j}=w_{j}/(\hbar v_{F}|\boldsymbol{\kappa}_{+1}|)$ for $j=0,1$, $w_0$ and $w_1$ are the AA and AB/BA interlayer tunneling parameters in the continuum model, $v_F$ is the monolayer graphene Dirac velocity, and $|\boldsymbol{\kappa}_{+1}|$ is the magnitude of the moiré Dirac-point momentum in the chosen valley. In this model, $F(\theta)$ varies between $0.5$ (strong interlayer mixing near magic angle) and $1$ (vanishing interlayer tunneling).""",
 )
 
-gfac_4dfdc41c1d7c4f0b = deduction(
-    [gcn_b411dd99a41e4de2, gcn_570f7bfc906e4dbd],
-    gcn_93c279f20f364a40,
+derive_wu_velocity_phonon_form_factor = deduction(
+    [moire_spinor_phonon_form_factor, relaxed_tunneling_magic_angle_velocity],
+    wu_velocity_phonon_form_factor,
     reason=(
         "1. Define the valley +K moire continuum Hamiltonian as a 4x4 block "
         "matrix with layer Dirac Hamiltonians and spatially periodic interlayer "

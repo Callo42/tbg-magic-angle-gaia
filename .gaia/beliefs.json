@@ -1,359 +1,359 @@
 {
   "beliefs": [
     {
-      "belief": 0.6213899989770538,
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_13603494",
-      "label": "__conjunction_result_13603494"
-    },
-    {
-      "belief": 0.8079387179016689,
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_1fe9184f",
-      "label": "__conjunction_result_1fe9184f"
-    },
-    {
-      "belief": 0.6832638964155204,
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_2c3dbe39",
-      "label": "__conjunction_result_2c3dbe39"
-    },
-    {
-      "belief": 0.6729849982840761,
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_32a868a1",
-      "label": "__conjunction_result_32a868a1"
-    },
-    {
-      "belief": 0.8721654899400395,
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_580f762e",
-      "label": "__conjunction_result_580f762e"
-    },
-    {
-      "belief": 0.9020132204893703,
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_8e0862cc",
-      "label": "__conjunction_result_8e0862cc"
-    },
-    {
-      "belief": 0.9143895311883105,
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_9fa7f4e2",
-      "label": "__conjunction_result_9fa7f4e2"
-    },
-    {
-      "belief": 0.841085179801325,
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_b9c6859a",
-      "label": "__conjunction_result_b9c6859a"
-    },
-    {
       "belief": 0.35173538477910504,
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_c7e971a8",
-      "label": "__conjunction_result_c7e971a8"
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_1a625120",
+      "label": "__conjunction_result_1a625120"
     },
     {
       "belief": 0.2653317661751945,
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_cac8ff6a",
-      "label": "__conjunction_result_cac8ff6a"
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_335223e1",
+      "label": "__conjunction_result_335223e1"
+    },
+    {
+      "belief": 0.8721654899400395,
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_348fa486",
+      "label": "__conjunction_result_348fa486"
+    },
+    {
+      "belief": 0.807938717901669,
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_42b2769a",
+      "label": "__conjunction_result_42b2769a"
     },
     {
       "belief": 0.5527101586337487,
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_e449c40c",
-      "label": "__conjunction_result_e449c40c"
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_506d734a",
+      "label": "__conjunction_result_506d734a"
+    },
+    {
+      "belief": 0.6832638964155203,
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_553ab7d5",
+      "label": "__conjunction_result_553ab7d5"
+    },
+    {
+      "belief": 0.841085179801325,
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_779b7c86",
+      "label": "__conjunction_result_779b7c86"
+    },
+    {
+      "belief": 0.621389998977054,
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_b870c538",
+      "label": "__conjunction_result_b870c538"
+    },
+    {
+      "belief": 0.9020132204893703,
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_ce1906a7",
+      "label": "__conjunction_result_ce1906a7"
     },
     {
       "belief": 0.6835708822043405,
-      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_f0a2c37b",
-      "label": "__conjunction_result_f0a2c37b"
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_f587f609",
+      "label": "__conjunction_result_f587f609"
     },
     {
-      "belief": 0.8017342926458908,
-      "knowledge_id": "github:tbg_magic_angle::gcn_06caff12a4d84b26",
-      "label": "gcn_06caff12a4d84b26"
+      "belief": 0.9143895311883105,
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_f924c3f8",
+      "label": "__conjunction_result_f924c3f8"
     },
     {
-      "belief": 0.738943233548979,
-      "knowledge_id": "github:tbg_magic_angle::gcn_159120a419184e9e",
-      "label": "gcn_159120a419184e9e"
-    },
-    {
-      "belief": 0.7448534836473015,
-      "knowledge_id": "github:tbg_magic_angle::gcn_1b0c5250d2574e24",
-      "label": "gcn_1b0c5250d2574e24"
-    },
-    {
-      "belief": 0.8689797804224689,
-      "knowledge_id": "github:tbg_magic_angle::gcn_1cb7675d5185405d",
-      "label": "gcn_1cb7675d5185405d"
-    },
-    {
-      "belief": 0.7266287324792516,
-      "knowledge_id": "github:tbg_magic_angle::gcn_2bc94d32817142f7",
-      "label": "gcn_2bc94d32817142f7"
-    },
-    {
-      "belief": 0.7813029859834014,
-      "knowledge_id": "github:tbg_magic_angle::gcn_324b385e04254463",
-      "label": "gcn_324b385e04254463"
-    },
-    {
-      "belief": 0.6084148503234684,
-      "knowledge_id": "github:tbg_magic_angle::gcn_390a496067b94209",
-      "label": "gcn_390a496067b94209"
-    },
-    {
-      "belief": 0.708403981311202,
-      "knowledge_id": "github:tbg_magic_angle::gcn_4eda4fedb8364912",
-      "label": "gcn_4eda4fedb8364912"
-    },
-    {
-      "belief": 0.8290362441223702,
-      "knowledge_id": "github:tbg_magic_angle::gcn_570f7bfc906e4dbd",
-      "label": "gcn_570f7bfc906e4dbd"
+      "belief": 0.6729849982840761,
+      "knowledge_id": "github:tbg_magic_angle::__conjunction_result_fa93cd53",
+      "label": "__conjunction_result_fa93cd53"
     },
     {
       "belief": 0.9373217056792539,
-      "knowledge_id": "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood",
-      "label": "gcn_5f58746b_magic_angle_flat_band_likelihood"
-    },
-    {
-      "belief": 0.6994459267088671,
-      "knowledge_id": "github:tbg_magic_angle::gcn_6463be97083b44fd",
-      "label": "gcn_6463be97083b44fd"
-    },
-    {
-      "belief": 0.9012843587786381,
-      "knowledge_id": "github:tbg_magic_angle::gcn_671ceef053a64aa7",
-      "label": "gcn_671ceef053a64aa7"
-    },
-    {
-      "belief": 0.7041356646888429,
-      "knowledge_id": "github:tbg_magic_angle::gcn_75a1c2477ca448b0",
-      "label": "gcn_75a1c2477ca448b0"
-    },
-    {
-      "belief": 0.7257061101616387,
-      "knowledge_id": "github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture",
-      "label": "gcn_7687975d_small_angle_merging_conjecture"
-    },
-    {
-      "belief": 0.9950125402682821,
-      "knowledge_id": "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
-      "label": "gcn_7bca73ad98eb4ed4"
-    },
-    {
-      "belief": 0.9273383800110725,
-      "knowledge_id": "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band",
-      "label": "gcn_8159f32d_merged_dirac_magic_angle_flat_band"
-    },
-    {
-      "belief": 0.8749157175209523,
-      "knowledge_id": "github:tbg_magic_angle::gcn_848085b12d384915",
-      "label": "gcn_848085b12d384915"
-    },
-    {
-      "belief": 0.8505617614721556,
-      "knowledge_id": "github:tbg_magic_angle::gcn_8cd2984a6296435c",
-      "label": "gcn_8cd2984a6296435c"
-    },
-    {
-      "belief": 0.9168942163029168,
-      "knowledge_id": "github:tbg_magic_angle::gcn_93c279f20f364a40",
-      "label": "gcn_93c279f20f364a40"
-    },
-    {
-      "belief": 0.7630782348153514,
-      "knowledge_id": "github:tbg_magic_angle::gcn_993c306ad37c4dfb",
-      "label": "gcn_993c306ad37c4dfb"
-    },
-    {
-      "belief": 0.8268330718176338,
-      "knowledge_id": "github:tbg_magic_angle::gcn_a0ab3201de0e41ad",
-      "label": "gcn_a0ab3201de0e41ad"
-    },
-    {
-      "belief": 0.7627204684543687,
-      "knowledge_id": "github:tbg_magic_angle::gcn_abaf80790d664630",
-      "label": "gcn_abaf80790d664630"
+      "knowledge_id": "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood",
+      "label": "ab_initio_magic_angle_flat_band_likelihood"
     },
     {
       "belief": 0.8358422269362916,
-      "knowledge_id": "github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow",
-      "label": "gcn_af432bff_ab_initio_tb_workflow"
+      "knowledge_id": "github:tbg_magic_angle::ab_initio_tb_flat_band_workflow",
+      "label": "ab_initio_tb_flat_band_workflow"
     },
     {
-      "belief": 0.9311309224308506,
-      "knowledge_id": "github:tbg_magic_angle::gcn_afdfbd0c013048d8",
-      "label": "gcn_afdfbd0c013048d8"
+      "belief": 0.9950125402682821,
+      "knowledge_id": "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
+      "label": "bm_magic_angle_velocity_suppression"
     },
     {
-      "belief": 0.8134940844971312,
-      "knowledge_id": "github:tbg_magic_angle::gcn_b411dd99a41e4de2",
-      "label": "gcn_b411dd99a41e4de2"
+      "belief": 0.9012843587786381,
+      "knowledge_id": "github:tbg_magic_angle::bm_velocity_bare_input",
+      "label": "bm_velocity_bare_input"
+    },
+    {
+      "belief": 0.888944903625968,
+      "knowledge_id": "github:tbg_magic_angle::bm_velocity_linear_fit",
+      "label": "bm_velocity_linear_fit"
+    },
+    {
+      "belief": 0.8689797804224689,
+      "knowledge_id": "github:tbg_magic_angle::bm_velocity_suppression_caveated",
+      "label": "bm_velocity_suppression_caveated"
+    },
+    {
+      "belief": 0.7266287324792517,
+      "knowledge_id": "github:tbg_magic_angle::continuum_vhs_pairing_band_assumption",
+      "label": "continuum_vhs_pairing_band_assumption"
+    },
+    {
+      "belief": 0.6994459267088671,
+      "knowledge_id": "github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption",
+      "label": "dft_gap_spectroscopy_comparison_assumption"
     },
     {
       "belief": 0.7910719251916438,
-      "knowledge_id": "github:tbg_magic_angle::gcn_be5d1975_detector_interpolation",
-      "label": "gcn_be5d1975_detector_interpolation"
-    },
-    {
-      "belief": 0.9357777434253015,
-      "knowledge_id": "github:tbg_magic_angle::gcn_c220df1acc8b476a",
-      "label": "gcn_c220df1acc8b476a"
-    },
-    {
-      "belief": 0.8889449036259679,
-      "knowledge_id": "github:tbg_magic_angle::gcn_d3808439ccf6496b",
-      "label": "gcn_d3808439ccf6496b"
+      "knowledge_id": "github:tbg_magic_angle::flat_band_detector_interpolation",
+      "label": "flat_band_detector_interpolation"
     },
     {
       "belief": 0.9172308068080817,
-      "knowledge_id": "github:tbg_magic_angle::gcn_de1d329f326f4e75",
-      "label": "gcn_de1d329f326f4e75"
+      "knowledge_id": "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps",
+      "label": "full_relaxation_reproduces_flat_band_gaps"
     },
     {
-      "belief": 0.7907864660610177,
-      "knowledge_id": "github:tbg_magic_angle::gcn_ed8fa9253ea24982",
-      "label": "gcn_ed8fa9253ea24982"
+      "belief": 0.6084148503234684,
+      "knowledge_id": "github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency",
+      "label": "half_filled_flat_band_magnetism_tendency"
+    },
+    {
+      "belief": 0.7907864660610175,
+      "knowledge_id": "github:tbg_magic_angle::heterostrain_flat_band_fine_splitting",
+      "label": "heterostrain_flat_band_fine_splitting"
+    },
+    {
+      "belief": 0.7630782348153515,
+      "knowledge_id": "github:tbg_magic_angle::intervalley_scattering_neglect",
+      "label": "intervalley_scattering_neglect"
+    },
+    {
+      "belief": 0.7084039813112019,
+      "knowledge_id": "github:tbg_magic_angle::intravalley_coulomb_tuning_parameter",
+      "label": "intravalley_coulomb_tuning_parameter"
+    },
+    {
+      "belief": 0.8749157175209523,
+      "knowledge_id": "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands",
+      "label": "kohn_sham_magic_angle_flat_bands"
+    },
+    {
+      "belief": 0.7041356646888429,
+      "knowledge_id": "github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope",
+      "label": "kohn_sham_magic_angle_numerical_scope"
+    },
+    {
+      "belief": 0.8017342926458908,
+      "knowledge_id": "github:tbg_magic_angle::magnetic_bloch_cutoff_convergence",
+      "label": "magnetic_bloch_cutoff_convergence"
+    },
+    {
+      "belief": 0.9311309224308506,
+      "knowledge_id": "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands",
+      "label": "magnetic_bloch_reentrant_flat_bands"
+    },
+    {
+      "belief": 0.9273383800110725,
+      "knowledge_id": "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band",
+      "label": "merged_dirac_magic_angle_flat_band"
+    },
+    {
+      "belief": 0.8134940844971311,
+      "knowledge_id": "github:tbg_magic_angle::moire_spinor_phonon_form_factor",
+      "label": "moire_spinor_phonon_form_factor"
+    },
+    {
+      "belief": 0.7448534836473016,
+      "knowledge_id": "github:tbg_magic_angle::optical_phonons_instantaneous_couplings",
+      "label": "optical_phonons_instantaneous_couplings"
+    },
+    {
+      "belief": 0.8268330718176337,
+      "knowledge_id": "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema",
+      "label": "phonon_bdg_vhs_tc_hc2_velocity_extrema"
     },
     {
       "belief": 0.9758024365977159,
-      "knowledge_id": "github:tbg_magic_angle::gcn_feace4c9a0154885",
-      "label": "gcn_feace4c9a0154885"
+      "knowledge_id": "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement",
+      "label": "phonon_resistivity_velocity_enhancement"
     },
     {
-      "belief": 0.7559806678718655,
-      "knowledge_id": "github:tbg_magic_angle::gcn_fedb8c2683fb48c7",
-      "label": "gcn_fedb8c2683fb48c7"
+      "belief": 0.7559806678718656,
+      "knowledge_id": "github:tbg_magic_angle::reentrant_flat_band_parameter_convergence",
+      "label": "reentrant_flat_band_parameter_convergence"
+    },
+    {
+      "belief": 0.8505617614721555,
+      "knowledge_id": "github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands",
+      "label": "relaxation_broadens_isolates_flat_bands"
+    },
+    {
+      "belief": 0.7627204684543686,
+      "knowledge_id": "github:tbg_magic_angle::relaxation_component_diagnostic_assumption",
+      "label": "relaxation_component_diagnostic_assumption"
+    },
+    {
+      "belief": 0.9357777434253015,
+      "knowledge_id": "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends",
+      "label": "relaxation_reproduces_sts_flat_band_trends"
+    },
+    {
+      "belief": 0.8290362441223703,
+      "knowledge_id": "github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity",
+      "label": "relaxed_tunneling_magic_angle_velocity"
+    },
+    {
+      "belief": 0.738943233548979,
+      "knowledge_id": "github:tbg_magic_angle::small_angle_corrugation_extrapolation",
+      "label": "small_angle_corrugation_extrapolation"
+    },
+    {
+      "belief": 0.7257061101616387,
+      "knowledge_id": "github:tbg_magic_angle::small_angle_dirac_merging_conjecture",
+      "label": "small_angle_dirac_merging_conjecture"
+    },
+    {
+      "belief": 0.7813029859834014,
+      "knowledge_id": "github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence",
+      "label": "vhs_tc_velocity_extrema_coincidence"
+    },
+    {
+      "belief": 0.9168942163029168,
+      "knowledge_id": "github:tbg_magic_angle::wu_velocity_phonon_form_factor",
+      "label": "wu_velocity_phonon_form_factor"
     }
   ],
   "diagnostics": {
     "belief_history": {
-      "github:tbg_magic_angle::__conjunction_result_13603494": [
-        0.6213899989770538
-      ],
-      "github:tbg_magic_angle::__conjunction_result_1fe9184f": [
-        0.8079387179016689
-      ],
-      "github:tbg_magic_angle::__conjunction_result_2c3dbe39": [
-        0.6832638964155204
-      ],
-      "github:tbg_magic_angle::__conjunction_result_32a868a1": [
-        0.6729849982840761
-      ],
-      "github:tbg_magic_angle::__conjunction_result_580f762e": [
-        0.8721654899400395
-      ],
-      "github:tbg_magic_angle::__conjunction_result_8e0862cc": [
-        0.9020132204893703
-      ],
-      "github:tbg_magic_angle::__conjunction_result_9fa7f4e2": [
-        0.9143895311883105
-      ],
-      "github:tbg_magic_angle::__conjunction_result_b9c6859a": [
-        0.841085179801325
-      ],
-      "github:tbg_magic_angle::__conjunction_result_c7e971a8": [
+      "github:tbg_magic_angle::__conjunction_result_1a625120": [
         0.35173538477910504
       ],
-      "github:tbg_magic_angle::__conjunction_result_cac8ff6a": [
+      "github:tbg_magic_angle::__conjunction_result_335223e1": [
         0.2653317661751945
       ],
-      "github:tbg_magic_angle::__conjunction_result_e449c40c": [
+      "github:tbg_magic_angle::__conjunction_result_348fa486": [
+        0.8721654899400395
+      ],
+      "github:tbg_magic_angle::__conjunction_result_42b2769a": [
+        0.807938717901669
+      ],
+      "github:tbg_magic_angle::__conjunction_result_506d734a": [
         0.5527101586337487
       ],
-      "github:tbg_magic_angle::__conjunction_result_f0a2c37b": [
+      "github:tbg_magic_angle::__conjunction_result_553ab7d5": [
+        0.6832638964155203
+      ],
+      "github:tbg_magic_angle::__conjunction_result_779b7c86": [
+        0.841085179801325
+      ],
+      "github:tbg_magic_angle::__conjunction_result_b870c538": [
+        0.621389998977054
+      ],
+      "github:tbg_magic_angle::__conjunction_result_ce1906a7": [
+        0.9020132204893703
+      ],
+      "github:tbg_magic_angle::__conjunction_result_f587f609": [
         0.6835708822043405
       ],
-      "github:tbg_magic_angle::gcn_06caff12a4d84b26": [
-        0.8017342926458908
+      "github:tbg_magic_angle::__conjunction_result_f924c3f8": [
+        0.9143895311883105
       ],
-      "github:tbg_magic_angle::gcn_159120a419184e9e": [
-        0.738943233548979
+      "github:tbg_magic_angle::__conjunction_result_fa93cd53": [
+        0.6729849982840761
       ],
-      "github:tbg_magic_angle::gcn_1b0c5250d2574e24": [
-        0.7448534836473015
-      ],
-      "github:tbg_magic_angle::gcn_1cb7675d5185405d": [
-        0.8689797804224689
-      ],
-      "github:tbg_magic_angle::gcn_2bc94d32817142f7": [
-        0.7266287324792516
-      ],
-      "github:tbg_magic_angle::gcn_324b385e04254463": [
-        0.7813029859834014
-      ],
-      "github:tbg_magic_angle::gcn_390a496067b94209": [
-        0.6084148503234684
-      ],
-      "github:tbg_magic_angle::gcn_4eda4fedb8364912": [
-        0.708403981311202
-      ],
-      "github:tbg_magic_angle::gcn_570f7bfc906e4dbd": [
-        0.8290362441223702
-      ],
-      "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood": [
+      "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood": [
         0.9373217056792539
       ],
-      "github:tbg_magic_angle::gcn_6463be97083b44fd": [
-        0.6994459267088671
-      ],
-      "github:tbg_magic_angle::gcn_671ceef053a64aa7": [
-        0.9012843587786381
-      ],
-      "github:tbg_magic_angle::gcn_75a1c2477ca448b0": [
-        0.7041356646888429
-      ],
-      "github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture": [
-        0.7257061101616387
-      ],
-      "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4": [
-        0.9950125402682821
-      ],
-      "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band": [
-        0.9273383800110725
-      ],
-      "github:tbg_magic_angle::gcn_848085b12d384915": [
-        0.8749157175209523
-      ],
-      "github:tbg_magic_angle::gcn_8cd2984a6296435c": [
-        0.8505617614721556
-      ],
-      "github:tbg_magic_angle::gcn_93c279f20f364a40": [
-        0.9168942163029168
-      ],
-      "github:tbg_magic_angle::gcn_993c306ad37c4dfb": [
-        0.7630782348153514
-      ],
-      "github:tbg_magic_angle::gcn_a0ab3201de0e41ad": [
-        0.8268330718176338
-      ],
-      "github:tbg_magic_angle::gcn_abaf80790d664630": [
-        0.7627204684543687
-      ],
-      "github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow": [
+      "github:tbg_magic_angle::ab_initio_tb_flat_band_workflow": [
         0.8358422269362916
       ],
-      "github:tbg_magic_angle::gcn_afdfbd0c013048d8": [
-        0.9311309224308506
+      "github:tbg_magic_angle::bm_magic_angle_velocity_suppression": [
+        0.9950125402682821
       ],
-      "github:tbg_magic_angle::gcn_b411dd99a41e4de2": [
-        0.8134940844971312
+      "github:tbg_magic_angle::bm_velocity_bare_input": [
+        0.9012843587786381
       ],
-      "github:tbg_magic_angle::gcn_be5d1975_detector_interpolation": [
+      "github:tbg_magic_angle::bm_velocity_linear_fit": [
+        0.888944903625968
+      ],
+      "github:tbg_magic_angle::bm_velocity_suppression_caveated": [
+        0.8689797804224689
+      ],
+      "github:tbg_magic_angle::continuum_vhs_pairing_band_assumption": [
+        0.7266287324792517
+      ],
+      "github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption": [
+        0.6994459267088671
+      ],
+      "github:tbg_magic_angle::flat_band_detector_interpolation": [
         0.7910719251916438
       ],
-      "github:tbg_magic_angle::gcn_c220df1acc8b476a": [
-        0.9357777434253015
-      ],
-      "github:tbg_magic_angle::gcn_d3808439ccf6496b": [
-        0.8889449036259679
-      ],
-      "github:tbg_magic_angle::gcn_de1d329f326f4e75": [
+      "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps": [
         0.9172308068080817
       ],
-      "github:tbg_magic_angle::gcn_ed8fa9253ea24982": [
-        0.7907864660610177
+      "github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency": [
+        0.6084148503234684
       ],
-      "github:tbg_magic_angle::gcn_feace4c9a0154885": [
+      "github:tbg_magic_angle::heterostrain_flat_band_fine_splitting": [
+        0.7907864660610175
+      ],
+      "github:tbg_magic_angle::intervalley_scattering_neglect": [
+        0.7630782348153515
+      ],
+      "github:tbg_magic_angle::intravalley_coulomb_tuning_parameter": [
+        0.7084039813112019
+      ],
+      "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands": [
+        0.8749157175209523
+      ],
+      "github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope": [
+        0.7041356646888429
+      ],
+      "github:tbg_magic_angle::magnetic_bloch_cutoff_convergence": [
+        0.8017342926458908
+      ],
+      "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands": [
+        0.9311309224308506
+      ],
+      "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band": [
+        0.9273383800110725
+      ],
+      "github:tbg_magic_angle::moire_spinor_phonon_form_factor": [
+        0.8134940844971311
+      ],
+      "github:tbg_magic_angle::optical_phonons_instantaneous_couplings": [
+        0.7448534836473016
+      ],
+      "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema": [
+        0.8268330718176337
+      ],
+      "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement": [
         0.9758024365977159
       ],
-      "github:tbg_magic_angle::gcn_fedb8c2683fb48c7": [
-        0.7559806678718655
+      "github:tbg_magic_angle::reentrant_flat_band_parameter_convergence": [
+        0.7559806678718656
+      ],
+      "github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands": [
+        0.8505617614721555
+      ],
+      "github:tbg_magic_angle::relaxation_component_diagnostic_assumption": [
+        0.7627204684543686
+      ],
+      "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends": [
+        0.9357777434253015
+      ],
+      "github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity": [
+        0.8290362441223703
+      ],
+      "github:tbg_magic_angle::small_angle_corrugation_extrapolation": [
+        0.738943233548979
+      ],
+      "github:tbg_magic_angle::small_angle_dirac_merging_conjecture": [
+        0.7257061101616387
+      ],
+      "github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence": [
+        0.7813029859834014
+      ],
+      "github:tbg_magic_angle::wu_velocity_phonon_form_factor": [
+        0.9168942163029168
       ]
     },
     "converged": true,
@@ -363,5 +363,5 @@
     "treewidth": 5
   },
   "gaia_lang_version": "0.4.3",
-  "ir_hash": "sha256:1e8bcebad86a09f791f6fb0f4c148dbd40cc01f7b349418226335e47e2d2bab3"
+  "ir_hash": "sha256:a9fcde51d1a055bd794938d010d1fd491e643ae39184a1b30b38f2f5c7da2968"
 }

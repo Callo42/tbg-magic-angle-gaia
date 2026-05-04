@@ -2,20 +2,20 @@
 
 from gaia.lang import support
 
-from .paper_dassarma2020 import gcn_7bca73ad98eb4ed4
-from .paper_wu2018 import gcn_93c279f20f364a40
-from .paper_dassarma2022 import gcn_feace4c9a0154885
-from .paper_qin2021 import gcn_a0ab3201de0e41ad
-from .paper_uchida2014 import gcn_848085b12d384915
-from .paper_tritsaris2020 import gcn_5f58746b_magic_angle_flat_band_likelihood
-from .paper_liu2020 import gcn_c220df1acc8b476a
-from .paper_cantele2020 import gcn_de1d329f326f4e75
-from .paper_herzogarbeitman2022 import gcn_afdfbd0c013048d8
-from .paper_yamada2020 import gcn_8159f32d_merged_dirac_magic_angle_flat_band
+from .paper_dassarma2020 import bm_magic_angle_velocity_suppression
+from .paper_wu2018 import wu_velocity_phonon_form_factor
+from .paper_dassarma2022 import phonon_resistivity_velocity_enhancement
+from .paper_qin2021 import phonon_bdg_vhs_tc_hc2_velocity_extrema
+from .paper_uchida2014 import kohn_sham_magic_angle_flat_bands
+from .paper_tritsaris2020 import ab_initio_magic_angle_flat_band_likelihood
+from .paper_liu2020 import relaxation_reproduces_sts_flat_band_trends
+from .paper_cantele2020 import full_relaxation_reproduces_flat_band_gaps
+from .paper_herzogarbeitman2022 import magnetic_bloch_reentrant_flat_bands
+from .paper_yamada2020 import merged_dirac_magic_angle_flat_band
 
 link_wu_velocity_supports_bm_velocity = support(
-    [gcn_93c279f20f364a40],
-    gcn_7bca73ad98eb4ed4,
+    [wu_velocity_phonon_form_factor],
+    bm_magic_angle_velocity_suppression,
     reason=(
         "The Wu-Hwang-Das Sarma chain independently derives a continuum moire "
         "Hamiltonian with a twist-angle-dependent v_F*(theta) that is strongly "
@@ -27,8 +27,8 @@ link_wu_velocity_supports_bm_velocity = support(
 )
 
 link_bm_velocity_to_phonon_resistivity = support(
-    [gcn_7bca73ad98eb4ed4, gcn_93c279f20f364a40],
-    gcn_feace4c9a0154885,
+    [bm_magic_angle_velocity_suppression, wu_velocity_phonon_form_factor],
+    phonon_resistivity_velocity_enhancement,
     reason=(
         "Both source claims are LKM-backed BM/continuum velocity claims used as "
         "low-energy inputs for electron-phonon or transport calculations. They "
@@ -40,8 +40,8 @@ link_bm_velocity_to_phonon_resistivity = support(
 )
 
 link_phonon_inputs_to_pairing_calculation = support(
-    [gcn_93c279f20f364a40, gcn_feace4c9a0154885],
-    gcn_a0ab3201de0e41ad,
+    [wu_velocity_phonon_form_factor, phonon_resistivity_velocity_enhancement],
+    phonon_bdg_vhs_tc_hc2_velocity_extrema,
     reason=(
         "The accepted extensions keep the path within LKM-backed MATBG "
         "continuum calculations where v_F* and electron-phonon inputs are used "
@@ -52,8 +52,8 @@ link_phonon_inputs_to_pairing_calculation = support(
 )
 
 link_kohn_sham_velocity_to_bm_velocity = support(
-    [gcn_848085b12d384915],
-    gcn_7bca73ad98eb4ed4,
+    [kohn_sham_magic_angle_flat_bands],
+    bm_magic_angle_velocity_suppression,
     reason=(
         "The Uchida et al. LKM chain is an independent Kohn-Sham calculation "
         "where the Dirac Fermi velocity vanishes near theta about 1.08 degrees "
@@ -64,8 +64,8 @@ link_kohn_sham_velocity_to_bm_velocity = support(
 )
 
 link_kohn_sham_to_abinitio_flat_band = support(
-    [gcn_848085b12d384915],
-    gcn_5f58746b_magic_angle_flat_band_likelihood,
+    [kohn_sham_magic_angle_flat_bands],
+    ab_initio_magic_angle_flat_band_likelihood,
     reason=(
         "Both LKM-backed claims are first-principles or ab initio-derived TBG "
         "calculations near the first magic angle that report flat or "
@@ -76,8 +76,8 @@ link_kohn_sham_to_abinitio_flat_band = support(
 )
 
 link_abinitio_to_relaxation_roots = support(
-    [gcn_848085b12d384915, gcn_5f58746b_magic_angle_flat_band_likelihood],
-    gcn_de1d329f326f4e75,
+    [kohn_sham_magic_angle_flat_bands, ab_initio_magic_angle_flat_band_likelihood],
+    full_relaxation_reproduces_flat_band_gaps,
     reason=(
         "The accepted ab initio/Kohn-Sham flat-band claims provide the connected "
         "TBG first-magic-angle context for Cantele et al.'s more specific "
@@ -88,8 +88,8 @@ link_abinitio_to_relaxation_roots = support(
 )
 
 link_relaxation_roots = support(
-    [gcn_de1d329f326f4e75],
-    gcn_c220df1acc8b476a,
+    [full_relaxation_reproduces_flat_band_gaps],
+    relaxation_reproduces_sts_flat_band_trends,
     reason=(
         "The Cantele DFT relaxation chain and the Liu continuum/STS chain both "
         "concern magic-angle TBG relaxation effects on flat-band isolation. "
@@ -100,8 +100,8 @@ link_relaxation_roots = support(
 )
 
 link_bm_velocity_to_magnetic_bloch = support(
-    [gcn_7bca73ad98eb4ed4],
-    gcn_afdfbd0c013048d8,
+    [bm_magic_angle_velocity_suppression],
+    magnetic_bloch_reentrant_flat_bands,
     reason=(
         "The magnetic-Bloch extension explicitly starts from the BM continuum "
         "model at magic-angle parameters. The BM velocity root supplies the "
@@ -112,8 +112,8 @@ link_bm_velocity_to_magnetic_bloch = support(
 )
 
 link_bm_velocity_to_merged_dirac = support(
-    [gcn_7bca73ad98eb4ed4, gcn_848085b12d384915],
-    gcn_8159f32d_merged_dirac_magic_angle_flat_band,
+    [bm_magic_angle_velocity_suppression, kohn_sham_magic_angle_flat_bands],
+    merged_dirac_magic_angle_flat_band,
     reason=(
         "The merged-Dirac chain is a conjectural same-system mechanism for "
         "vanishing Dirac velocity and near-flat bands at small magic angles. "

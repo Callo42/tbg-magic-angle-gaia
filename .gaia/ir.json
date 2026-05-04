@@ -1,13 +1,13 @@
 {
-  "ir_hash": "sha256:1e8bcebad86a09f791f6fb0f4c148dbd40cc01f7b349418226335e47e2d2bab3",
+  "ir_hash": "sha256:a9fcde51d1a055bd794938d010d1fd491e643ae39184a1b30b38f2f5c7da2968",
   "knowledges": [
     {
       "content": "For twisted bilayer graphene in the noninteracting Bistritzer-MacDonald continuum moire-band calculation, with twist angle theta and largest magic angle theta_M measured in degrees and monolayer graphene velocity v_F about 1e8 cm/s, the computed low-energy Dirac-point Fermi velocity v_F*(theta) for 0 < theta < 3 degrees is usefully approximated by v_F*(theta) ~= 0.5 * |theta - theta_M| * v_F [@DasSarma2020].",
       "content_hash": "a39ef27d8f8b7b19ca6049c826225f29366eaa8c2667b7d5153a6c3eefe8ec10",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_d3808439ccf6496b",
-      "label": "gcn_d3808439ccf6496b",
+      "id": "github:tbg_magic_angle::bm_velocity_linear_fit",
+      "label": "bm_velocity_linear_fit",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -32,8 +32,8 @@
       "content_hash": "5fbb5a1d128dc709804ffa17161fe1496dc80ffb90be8203024880379215b540",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_671ceef053a64aa7",
-      "label": "gcn_671ceef053a64aa7",
+      "id": "github:tbg_magic_angle::bm_velocity_bare_input",
+      "label": "bm_velocity_bare_input",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -58,8 +58,8 @@
       "content_hash": "8aab4891ca59873701dc6a6a05cd865eeeb79b1b055c6812ed28364c542e1448",
       "declaration_index": 2,
       "exported": true,
-      "id": "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
-      "label": "gcn_7bca73ad98eb4ed4",
+      "id": "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
+      "label": "bm_magic_angle_velocity_suppression",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -82,8 +82,8 @@
       "content_hash": "74a3daa702da3460019622f78cafef718c56d633af162ac2beb4fb3c5d90194d",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_b411dd99a41e4de2",
-      "label": "gcn_b411dd99a41e4de2",
+      "id": "github:tbg_magic_angle::moire_spinor_phonon_form_factor",
+      "label": "moire_spinor_phonon_form_factor",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -93,7 +93,7 @@
           }
         },
         "lkm_id": "gcn_b411dd99a41e4de2",
-        "lkm_original": "For a moire Dirac point at momentum kappa_{+1}, define two degenerate Dirac-point eigenstates as normalized linear combinations of four layer/momentum spinors with amplitudes determined by alpha_j=w_j/(hbar v_F |kappa_{+1}|); defining beta=3(alpha_0^2+alpha_1^2), the moire spinor-overlap correction entering deformation-potential electron-phonon matrix elements is approximated by F(theta)=(1+beta^2)/(1+beta)^2.",
+        "lkm_original": "For a moiré Dirac point at momentum $\\boldsymbol{\\kappa}_{+1}$, define two degenerate Dirac-point eigenstates $|\\Psi_A\\rangle$ and $|\\Psi_B\\rangle$ as normalized linear combinations of four layer/momentum spinors $\\{|\\Psi^{(0)}\\rangle,|\\Psi^{(1)}\\rangle,|\\Psi^{(2)}\\rangle,|\\Psi^{(3)}\\rangle\\}$ with amplitudes determined by dimensionless parameters $\\alpha_j=w_j/(\\hbar v_F|\\boldsymbol{\\kappa}_{+1}|)$ for $j=0,1$, where $w_0$ and $w_1$ are the AA and AB/BA interlayer tunneling parameters and $v_F$ is the monolayer Dirac velocity; defining $\\beta=3(\\alpha_0^2+\\alpha_1^2)$, the moiré spinor-overlap correction entering deformation-potential electron–phonon matrix elements is approximated by the single-parameter form factor $F(\\theta)=(1+\\beta^{2})/(1+\\beta)^{2}$. This truncated four-component perturbative construction is assumed to yield an accurate estimate of the overlap factor $F(\\theta)$ down to the largest magic angle predicted by the chosen continuum parameters, so that $0.5\\lesssim F(\\theta)\\le1$ can be used as a multiplicative correction to electron–phonon matrix elements in transport calculations.",
         "prior": 0.76,
         "prior_justification": "LKM premise derives a perturbative moire spinor-overlap factor for electron-phonon matrix elements; it depends on a truncated four-component construction. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_93c279f20f364a40.json",
@@ -109,8 +109,8 @@
       "content_hash": "27c73d87c1999df42f0273de7931e1e53d34cdc838e5766c3ed3bb5d39df1dba",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_570f7bfc906e4dbd",
-      "label": "gcn_570f7bfc906e4dbd",
+      "id": "github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity",
+      "label": "relaxed_tunneling_magic_angle_velocity",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -120,7 +120,7 @@
           }
         },
         "lkm_id": "gcn_570f7bfc906e4dbd",
-        "lkm_original": "Using continuum-model interlayer tunneling parameters w_0=90 meV and w_1=117 meV yields a largest-magnitude magic angle theta_magic approximately 1.025 degrees in the continuum moire Hamiltonian band structure and produces a twist-angle dependence v_F*(theta) with strong suppression near theta_magic.",
+        "lkm_original": "Using continuum-model interlayer tunneling parameters $w_0=90\\ \\mathrm{meV}$ and $w_1=117\\ \\mathrm{meV}$ (intended to incorporate atomic relaxation effects) yields a largest-magnitude magic angle $\\theta_{\\rm magic}\\approx1.025^\\circ$ in the continuum moiré Hamiltonian band structure and produces a twist-angle dependence $v_F^*(\\theta)$ with strong suppression near $\\theta_{\\rm magic}$; these parameter choices are assumed to be representative of experimental samples up to uncertainties from sample-dependent relaxation and strain that can shift $\\theta_{\\rm magic}$ and $v_F^*$ by order tens of percent.",
         "prior": 0.78,
         "prior_justification": "LKM premise reports continuum-model parameters w_0=90 meV and w_1=117 meV and a theta_magic estimate, while noting sample-dependent relaxation and strain. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_93c279f20f364a40.json",
@@ -136,8 +136,8 @@
       "content_hash": "7904c507d2bb87229698ca8b54cf20453fb0fa3147876256593e68c3158a32d4",
       "declaration_index": 2,
       "exported": true,
-      "id": "github:tbg_magic_angle::gcn_93c279f20f364a40",
-      "label": "gcn_93c279f20f364a40",
+      "id": "github:tbg_magic_angle::wu_velocity_phonon_form_factor",
+      "label": "wu_velocity_phonon_form_factor",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -147,7 +147,7 @@
           }
         },
         "lkm_id": "gcn_93c279f20f364a40",
-        "lkm_original": "A continuum moire Hamiltonian calculation for twisted bilayer graphene yields a twist-angle-dependent renormalized Dirac velocity v_F*(theta) that is strongly suppressed near a model magic angle theta_magic approximately 1.025 degrees. A perturbative moire-wavefunction calculation gives the electron-phonon matrix-element form factor F(theta)=(1+beta^2)/(1+beta)^2 with beta=3(alpha_0^2+alpha_1^2).",
+        "lkm_original": "A continuum moiré Hamiltonian calculation for twisted bilayer graphene yields a twist-angle-dependent renormalized Dirac velocity $v_F^*(\\theta)$ that is strongly suppressed near a model magic angle $\\theta_{\\rm magic}\\approx 1.025^\\circ$ (the largest magic angle for the specified continuum-Hamiltonian parameters). A perturbative moiré-wavefunction calculation gives the electron–phonon matrix-element form factor\n$$\nF(\\theta)=\\frac{1+\\beta^{2}}{(1+\\beta)^{2}},\\quad \\beta=3(\\alpha_0^2+\\alpha_1^2),\n$$\nwhere $\\alpha_{j}=w_{j}/(\\hbar v_{F}|\\boldsymbol{\\kappa}_{+1}|)$ for $j=0,1$, $w_0$ and $w_1$ are the AA and AB/BA interlayer tunneling parameters in the continuum model, $v_F$ is the monolayer graphene Dirac velocity, and $|\\boldsymbol{\\kappa}_{+1}|$ is the magnitude of the moiré Dirac-point momentum in the chosen valley. In this model, $F(\\theta)$ varies between $0.5$ (strong interlayer mixing near magic angle) and $1$ (vanishing interlayer tunneling).",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_93c279f20f364a40.json",
         "provenance_source": "lkm",
         "source_paper": "paper:867772031297389371"
@@ -161,8 +161,8 @@
       "content_hash": "e3a4d758063054e5a772c7374edf94ccdb8ef061824e77c7efa1b548756e8f37",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_1cb7675d5185405d",
-      "label": "gcn_1cb7675d5185405d",
+      "id": "github:tbg_magic_angle::bm_velocity_suppression_caveated",
+      "label": "bm_velocity_suppression_caveated",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -172,7 +172,7 @@
           }
         },
         "lkm_id": "gcn_1cb7675d5185405d",
-        "lkm_original": "The Bistritzer-MacDonald (BM) continuum moire-band model is defined as the continuum two-layer Dirac Hamiltonian with interlayer tunneling parameters w_0,w_1 and monolayer Dirac velocity v_F and predicts a moire-band Fermi velocity v_F*(theta) at the moire Dirac points as a function of twist angle theta.",
+        "lkm_original": "The Bistritzer–MacDonald (BM) continuum moiré-band model is defined as the continuum two-layer Dirac Hamiltonian with interlayer tunneling parameters $w_{0},w_{1}$ and monolayer Dirac velocity $v_{F}$ and predicts a moiré-band Fermi velocity $v_{F}^{*}(\\theta)$ at the moiré Dirac points as a function of twist angle $\\theta$; with standard BM parameter choices the model yields a strong suppression of $v_{F}^{*}$ approaching zero at a 'magic' twist angle near $1^\\circ$ and gives $v_{F}^{*}/v_{F}\\approx 1/4$ at $\\theta=1.5^\\circ$ within the noninteracting continuum approximation, this prediction referring to the single-particle moiré band velocity in the absence of lattice relaxation or many-body self-energy corrections.\n      R. Bistritzer and A. H. MacDonald, Proc. Natl. Acad. Sci. U.S.A. 108, 12233 (2011)",
         "prior": 0.8,
         "prior_justification": "LKM premise is a BM-model velocity-suppression statement with explicit caveats excluding lattice relaxation and many-body self-energy corrections. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_feace4c9a0154885.json",
@@ -188,8 +188,8 @@
       "content_hash": "fc501b5a1e4ade450ae2a2f228e564b4abea2db0522764c662f1fea0670d5919",
       "declaration_index": 1,
       "exported": true,
-      "id": "github:tbg_magic_angle::gcn_feace4c9a0154885",
-      "label": "gcn_feace4c9a0154885",
+      "id": "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement",
+      "label": "phonon_resistivity_velocity_enhancement",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -199,7 +199,7 @@
           }
         },
         "lkm_id": "gcn_feace4c9a0154885",
-        "lkm_original": "The Bistritzer-MacDonald (BM) continuum moire-band calculation predicts a strong suppression of the moire-band Fermi velocity v_F* as theta approaches the magic angle near 1 degree, with v_F*/v_F approximately 1/4 at theta=1.5 degrees; since phonon-limited resistivity and its temperature coefficient scale as 1/v_F*^2, this suppression implies up to about 16-fold enhancement.",
+        "lkm_original": "The Bistritzer–MacDonald (BM) continuum moiré-band calculation, implemented as the two-layer continuum Dirac Hamiltonian with standard interlayer tunneling parameters and monolayer Dirac velocity $v_{F}$, predicts a strong suppression of the moiré-band Fermi velocity $v_{F}^{*}$ as the twist angle $\\theta$ approaches the magic angle near $1^\\circ$, with $v_{F}^{*}/v_{F}\\to0$ at the magic angle and with a numerical value $v_{F}^{*}/v_{F}\\approx 1/4$ at $\\theta=1.5^\\circ$ within the noninteracting BM model without lattice relaxation; since phonon-limited resistivity and its temperature coefficient scale as $1/v_{F}^{*2}$, this suppression implies up to $\\sim 16$-fold enhancement of phonon-limited resistivity relative to untwisted monolayer graphene when $v_{F}^{*}$ is reduced into the small-$v_{F}^{*}$ regime.",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_feace4c9a0154885.json",
         "provenance_source": "lkm",
         "source_paper": "paper:867747792313909990"
@@ -213,8 +213,8 @@
       "content_hash": "46e98af955f9f24d1e676b69e749a1985cdcef1f856ef038731adb000b368cce",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_1b0c5250d2574e24",
-      "label": "gcn_1b0c5250d2574e24",
+      "id": "github:tbg_magic_angle::optical_phonons_instantaneous_couplings",
+      "label": "optical_phonons_instantaneous_couplings",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -224,7 +224,7 @@
           }
         },
         "lkm_id": "gcn_1b0c5250d2574e24",
-        "lkm_original": "In twisted bilayer graphene flat-band models where the relevant in-plane optical phonon mode energies are about 196 meV and 170 meV while the electronic flat-band bandwidth is much smaller than 100 meV, the electron-optical-phonon-mediated interaction can be treated as effectively instantaneous for mean-field pairing calculations.",
+        "lkm_original": "In twisted bilayer graphene flat-band models where the relevant in-plane optical phonon mode energies are \\hbar\\omega_{E_2}\\approx196\\ \\text{meV} and \\hbar\\omega_{A_1,B_1}\\approx170\\ \\text{meV} while the electronic flat-band bandwidth \\mathcal{W} is much smaller than 100\\ \\text{meV} (typical flat-band widths in the continuum models are a few to a few tens of meV), the electron–optical-phonon-mediated interaction can be treated as effectively instantaneous for mean-field pairing calculations; accordingly retardation effects are neglected and the phonon-induced attraction is represented by static BCS-like interaction parameters g_0 and g_1 that enter the gap equation and parameterize the contributions of the E_2 and A_1/B_1 phonon modes to the effective instantaneous attraction.",
         "prior": 0.72,
         "prior_justification": "LKM premise treats optical-phonon interactions as instantaneous because phonon energies exceed the modeled flat-band bandwidth; model assumption. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_a0ab3201de0e41ad.json",
@@ -240,8 +240,8 @@
       "content_hash": "21cfccaacd0f549980d2efce7831b63d5e547fc258582a0d539c0da36186c102",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_4eda4fedb8364912",
-      "label": "gcn_4eda4fedb8364912",
+      "id": "github:tbg_magic_angle::intravalley_coulomb_tuning_parameter",
+      "label": "intravalley_coulomb_tuning_parameter",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -251,7 +251,7 @@
           }
         },
         "lkm_id": "gcn_4eda4fedb8364912",
-        "lkm_original": "In mean-field Bogoliubov-de Gennes modeling of MATBG superconductivity with optical-phonon-mediated attraction and repulsive Coulomb interactions, the short-range intra-valley Coulomb repulsion strength parameter u can be treated as a phenomenological tuning parameter.",
+        "lkm_original": "In mean-field Bogoliubov–de Gennes modeling of MATBG superconductivity with optical-phonon-mediated attraction and repulsive Coulomb interactions, the short-range intra-valley Coulomb repulsion strength parameter u (with units of meV·nm^2 in the continuum-model interaction tensor) can be treated as a phenomenological tuning parameter and adjusted to reproduce experimentally observed critical temperatures T_c, even when the tuned value differs from crude microscopic estimates of the screened Coulomb interaction; in this modeling u parametrizes the principal depairing short-range Coulomb effect entering the static interaction tensor V used in the self-consistent gap equation.",
         "prior": 0.68,
         "prior_justification": "LKM premise treats intravalley Coulomb strength u as a phenomenological tuning parameter rather than a direct microscopic value. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_a0ab3201de0e41ad.json",
@@ -267,8 +267,8 @@
       "content_hash": "0599aeaddae03f59adf88a4716a4981747610f5b612bf7abd3f1a674e26a38b6",
       "declaration_index": 2,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_993c306ad37c4dfb",
-      "label": "gcn_993c306ad37c4dfb",
+      "id": "github:tbg_magic_angle::intervalley_scattering_neglect",
+      "label": "intervalley_scattering_neglect",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -278,7 +278,7 @@
           }
         },
         "lkm_id": "gcn_993c306ad37c4dfb",
-        "lkm_original": "For the purposes of the mean-field finite-pairing-momentum BdG calculations reported for MATBG, Coulomb-scattering processes that change electron valley index are neglected, so the principal depairing Coulomb effect is described by a single intra-valley parameter u.",
+        "lkm_original": "For the purposes of the mean-field finite-pairing-momentum BdG calculations reported for MATBG, Coulomb-scattering processes that change electron valley index (intervalley Coulomb scattering matrix elements) are neglected (taken to be parametrically small compared to intravalley Coulomb repulsion), so that the principal depairing Coulomb effect in the interaction tensor is described by a single intra-valley parameter u; here 'valley' denotes the inequivalent graphene Dirac points and 'intervalley scattering' denotes two-body Coulomb matrix elements that connect states in different valley sectors.",
         "prior": 0.74,
         "prior_justification": "LKM premise neglects intervalley Coulomb scattering relative to intravalley repulsion in the MATBG BdG model; plausible but approximation-heavy. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_a0ab3201de0e41ad.json",
@@ -294,8 +294,8 @@
       "content_hash": "f07199c4ac7b6c616b22ffc3f0a70d2e57fe0e436acf173f456f6880b99f96f5",
       "declaration_index": 3,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_2bc94d32817142f7",
-      "label": "gcn_2bc94d32817142f7",
+      "id": "github:tbg_magic_angle::continuum_vhs_pairing_band_assumption",
+      "label": "continuum_vhs_pairing_band_assumption",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -305,7 +305,7 @@
           }
         },
         "lkm_id": "gcn_2bc94d32817142f7",
-        "lkm_original": "The non-interaction-reconstructed continuum-model band structures of MATBG used in the finite-pairing-momentum mean-field calculations are taken to represent the salient features relevant for predicting where flat-band van Hove singularities occur in band filling.",
+        "lkm_original": "The non-interaction-reconstructed continuum-model band structures of MATBG used in the finite-pairing-momentum mean-field calculations, parameterized by twist angle \\theta and intersublattice-to-intrasublattice tunneling ratio \\eta=t_{\\mathrm{AA}}/t_{\\mathrm{AB}}, are taken to represent the salient features of the electronic structure relevant for predicting where flat-band van Hove singularities (VHSs) occur in band filling, with the modeling assumption that neglecting possible interaction-driven flavor (spin/valley) symmetry breaking and the associated Fermi-surface reconstructions does not qualitatively change the prediction that phonon-mediated pairing produces maxima of T_c(\\mu) and minima of the extracted average velocity v_F^*(\\mu) at the VHSs determined from the non-reconstructed continuum-model band structure.",
         "prior": 0.7,
         "prior_justification": "LKM premise assumes non-reconstructed continuum bands capture VHS locations despite neglected interaction-driven flavor symmetry breaking. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_a0ab3201de0e41ad.json",
@@ -321,8 +321,8 @@
       "content_hash": "0bdf454555021b784849b41fdd094d976a443065f68727a6be321cf12e4f2992",
       "declaration_index": 4,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_324b385e04254463",
-      "label": "gcn_324b385e04254463",
+      "id": "github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence",
+      "label": "vhs_tc_velocity_extrema_coincidence",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -332,7 +332,7 @@
           }
         },
         "lkm_id": "gcn_324b385e04254463",
-        "lkm_original": "The coincidence that superconducting critical temperature maxima and minima of the extracted average velocity v_F* occur at chemical potentials corresponding to flat-band van Hove singularities is a generic feature of phonon-mediated pairing in two-dimensional flat-band continuum-model representations of magic-angle twisted bilayer graphene.",
+        "lkm_original": "The coincidence that superconducting critical temperature maxima and minima of the extracted average velocity v_F^* occur at chemical potentials corresponding to flat-band van Hove singularities is a generic feature of phonon-mediated pairing in two-dimensional flat-band continuum-model representations of magic-angle twisted bilayer graphene and persists across the continuum-model parameter variations explored here (variations of \\eta, \\theta, and Coulomb depairing strength u), provided that the interaction remains phonon-dominated and is not itself strongly dependent on band filling.",
         "prior": 0.76,
         "prior_justification": "LKM premise summarizes the modeled coincidence between T_c maxima and v_F* minima at VHSs across parameter scans; model-scoped. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_a0ab3201de0e41ad.json",
@@ -348,8 +348,8 @@
       "content_hash": "03734bf41ae18ca87fd5ef5f83292db21fece5f28c77a80fc33453eb26cfa0cb",
       "declaration_index": 5,
       "exported": true,
-      "id": "github:tbg_magic_angle::gcn_a0ab3201de0e41ad",
-      "label": "gcn_a0ab3201de0e41ad",
+      "id": "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema",
+      "label": "phonon_bdg_vhs_tc_hc2_velocity_extrema",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -359,7 +359,7 @@
           }
         },
         "lkm_id": "gcn_a0ab3201de0e41ad",
-        "lkm_original": "Mean-field finite-pairing-momentum Bogoliubov-de Gennes calculations for magic-angle twisted bilayer graphene continuum-model band structures show T_c dome maxima, H_c2 peaks, and v_F* minima at flat-band van Hove singularities across the explored parameter ranges.",
+        "lkm_original": "Mean-field finite-pairing-momentum Bogoliubov–de Gennes calculations for magic-angle twisted bilayer graphene continuum-model band structures in which in-plane optical phonons provide an effectively instantaneous electron–electron attraction (parameterized by static coupling strengths g_0 and g_1) that competes with a repulsive intra-valley Coulomb interaction of strength u show the following band-filling dependent relationships: (i) the zero-pairing-momentum critical temperature T_c(\\mu) exhibits dome-like maxima that are centered at chemical potentials \\mu where the flat-band density-of-states (DOS) has van Hove singularities (VHSs); (ii) the perpendicular upper critical field H_{c2}(\\mu), obtained from the microscopic critical pairing wavevector q_c(\\mu) via H_{c2}(\\mu)=\\Phi_s q_c(\\mu)^2/(2\\pi) with \\Phi_s=\\pi\\hbar c/e, exhibits sharp peaks at the same VHS chemical potentials; and (iii) the extracted average velocity v_F^*(\\mu)=k_B T_c(\\mu)/[\\hbar q_c(\\mu)] exhibits V-shaped minima located at those VHS chemical potentials, so that v_F^* minima are coincident with T_c maxima. These relationships are robust across the continuum-model parameter variations explored in the calculations reported here, specifically for intra-valley Coulomb strengths u of order tens of meV·nm^2 (examples shown for u\\approx20–40 meV·nm^2), intersublattice-to-intrasublattice tunneling ratios \\eta=t_{\\mathrm{AA}}/t_{\\mathrm{AB}} in the range \\sim0.7–0.85, and twist angles \\theta near the magic-angle values employed in the numerical studies (\\sim1.07^\\circ–1.15^\\circ).",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_a0ab3201de0e41ad.json",
         "provenance_source": "lkm",
         "source_paper": "paper:867761816883691597"
@@ -373,8 +373,8 @@
       "content_hash": "166d9458862278cd2b9b23207c15da7853a9983abaef382506b258474e2aea61",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_159120a419184e9e",
-      "label": "gcn_159120a419184e9e",
+      "id": "github:tbg_magic_angle::small_angle_corrugation_extrapolation",
+      "label": "small_angle_corrugation_extrapolation",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -384,7 +384,7 @@
           }
         },
         "lkm_id": "gcn_159120a419184e9e",
-        "lkm_original": "For commensurate twisted bilayer graphene unit cells labeled by integer indices (N,N-1), the atomic corrugation z(r) is represented by a two-dimensional Fourier series; fitted dominant coefficients are extrapolated for small twist angles theta<2 degrees and used as geometry input for band-structure calculations.",
+        "lkm_original": "For commensurate twisted bilayer graphene (tBLG) unit cells labeled by integer indices $(N,N-1)$, let the lateral coordinates be $\\\\mathbf{r}=(x,y)$ in the plane of the layers and let $z(\\\\mathbf{r})$ denote the out-of-plane atomic coordinate (height) of atoms relative to a reference plane; the atomic corrugation $z(\\\\mathbf{r})$ is represented by the two-dimensional Fourier series\n      $$\n      z(\\\\mathbf{r})=\\\\sum_{j=0}^{\\\\infty}\\\\{\\\\alpha_j\\\\cos(\\\\mathbf{G}_j\\\\cdot\\\\mathbf{r})+\\\\beta_j\\\\sin(\\\\mathbf{G}_j\\\\cdot\\\\mathbf{r})\\\\},\n      $$\n      where $\\\\{\\\\mathbf{G}_j\\\\}$ are the reciprocal-lattice vectors of the lateral supercell and $\\\\{\\\\alpha_j,\\\\beta_j\\\\}$ are the corresponding Fourier coefficients; the procedure used to obtain atomic geometries for small twist angles $\\\\theta<2^{\\\\circ}$ in these $(N,N-1)$ commensurate cells is: compute Fourier coefficients $\\\\{\\\\alpha_j,\\\\beta_j\\\\}$ for fully optimized geometries at larger $\\\\theta$, fit the dominant coefficient $\\\\alpha_1$ (the cosine coefficient associated with the shortest nonzero reciprocal vector $\\\\mathbf{G}_1$) as a smooth Gaussian function of $\\\\theta$, extrapolate the small-$\\\\theta$ values of the dominant coefficients (the first seven shortest reciprocal vectors are assumed to dominate the corrugation) using these Gaussian fits, reconstruct $z(\\\\mathbf{r})$ from the extrapolated dominant coefficients, and use the resulting extrapolated corrugated geometry as input for band-structure calculations at $\\\\theta\\\\approx0.99^{\\\\circ}$ and similar small angles.\n      Uchida et al., PHYS. REV. B 90, 155451 (2014), Appendix D",
         "prior": 0.7,
         "prior_justification": "LKM premise reconstructs small-angle corrugation by extrapolating Fourier coefficients from larger-angle optimized geometries. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_848085b12d384915.json",
@@ -400,8 +400,8 @@
       "content_hash": "36ab459bca4f740c16b0dc4f5d174ca5cae31be5eacbb1463b8bbdf36e7eeae4",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_75a1c2477ca448b0",
-      "label": "gcn_75a1c2477ca448b0",
+      "id": "github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope",
+      "label": "kohn_sham_magic_angle_numerical_scope",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -411,7 +411,7 @@
           }
         },
         "lkm_id": "gcn_75a1c2477ca448b0",
-        "lkm_original": "Let the Dirac Fermi velocity be v_F=(1/hbar) partial epsilon / partial k at the Dirac point; the reported magic twist angle theta_M about 1.08 degrees is obtained from band-structure computations that depend on extrapolated small-angle geometries and numerical approximations.",
+        "lkm_original": "Let the Dirac Fermi velocity be $v_{\\\\mathrm{F}}\\\\equiv(1/\\\\hbar)\\\\partial\\\\varepsilon/\\\\partial k$ evaluated at the Dirac point in the Kohn-Sham band structure; the proposition is that the reported numerical value of the magic twist angle $\\\\theta_{\\\\mathrm{M}}\\\\approx 1.08^{\\\\circ}$, defined by the vanishing Kohn-Sham $v_{\\\\mathrm{F}}$, is obtained from band-structure computations that depend on (i) atomic geometries for $\\\\theta<2^{\\\\circ}$ constructed by extrapolating Fourier coefficients fitted from larger-$\\\\theta$ geometry optimizations, (ii) finite numerical real-space grids and the chosen pseudopotentials, and (iii) the chosen exchange-correlation approximation (LDA with limited vdW-DF checks); therefore the numeric value $1.08^{\\\\circ}$ is tied to these computational approximations and the stated precision assumes these approximations place the Kohn-Sham zero-crossing within the quoted uncertainty.",
         "prior": 0.66,
         "prior_justification": "LKM premise explicitly ties the theta_M about 1.08 degrees Kohn-Sham zero to geometry extrapolation and numerical approximations. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_848085b12d384915.json",
@@ -427,8 +427,8 @@
       "content_hash": "a7239c9909630655a2490a7261044e94fd4d6f3beb5ba46412c293d14e79a802",
       "declaration_index": 2,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_390a496067b94209",
-      "label": "gcn_390a496067b94209",
+      "id": "github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency",
+      "label": "half_filled_flat_band_magnetism_tendency",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -438,7 +438,7 @@
           }
         },
         "lkm_id": "gcn_390a496067b94209",
-        "lkm_original": "When the computed single-particle Kohn-Sham band structure at charge neutrality shows two nearly dispersionless half-filled bands, the presence of half-filled flat Kohn-Sham bands is interpreted as indicating a tendency toward magnetic ordering, despite the absence of explicit spin-polarized or many-body calculations.",
+        "lkm_original": "When the computed single-particle Kohn-Sham band structure at charge neutrality for twisted bilayer graphene shows two nearly dispersionless bands crossing the Kohn-Sham Fermi level $E_{\\\\mathrm{F}}$ that are half filled under the single-particle occupation, the proposition asserted is that the presence of half-filled flat Kohn-Sham bands is interpreted as indicating a tendency toward magnetic ordering (spontaneous spin polarization) upon slight twisting, despite the absence of explicit spin-polarized total-energy comparisons, Hubbard-model analyses, or many-body calculations that would be required to establish spontaneous magnetism and to determine its character.",
         "prior": 0.55,
         "prior_justification": "LKM premise is an interpretive magnetic-ordering tendency from half-filled Kohn-Sham flat bands without explicit spin-polarized or many-body proof. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_848085b12d384915.json",
@@ -454,8 +454,8 @@
       "content_hash": "b52d033bdb0aaec1ca32563487a26f5ce36323c191d83be684f63f22247c9859",
       "declaration_index": 3,
       "exported": true,
-      "id": "github:tbg_magic_angle::gcn_848085b12d384915",
-      "label": "gcn_848085b12d384915",
+      "id": "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands",
+      "label": "kohn_sham_magic_angle_flat_bands",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -465,7 +465,7 @@
           }
         },
         "lkm_id": "gcn_848085b12d384915",
-        "lkm_original": "The computed dependence of the Kohn-Sham Dirac Fermi velocity on twist angle for twisted bilayer graphene exhibits a magic twist angle theta_M approximately 1.08 degrees at which the Kohn-Sham Fermi velocity vanishes; nearby, low-energy Kohn-Sham bands become extremely flat across most of the Brillouin zone.",
+        "lkm_original": "The computed dependence of the Kohn-Sham Dirac Fermi velocity on twist angle for twisted bilayer graphene (tBLG) exhibits a magic twist angle $\\\\theta_{\\\\mathrm{M}}\\\\approx 1.08^{\\\\circ}$ at which the Kohn-Sham Fermi velocity $v_{\\\\mathrm{F}}$ vanishes ($v_{\\\\mathrm{F}}=0$); in the vicinity of this angle the low-energy Kohn-Sham bands become extremely flat across most of the Brillouin zone, producing two nearly dispersionless bands that are half filled at the single-particle Kohn-Sham Fermi level $E_{\\\\mathrm{F}}$ (for example, at $\\\\theta=0.99^{\\\\circ}$ the calculated Kohn-Sham band structure shows nearly dispersionless bands around $E_{\\\\mathrm{F}}$ and an energy splitting of about $10\\\\ \\\\mathrm{meV}$ between these flat bands at the $\\\\Gamma$ point), and the computed function $v_{\\\\mathrm{F}}(\\\\theta)$ is nonmonotonic at small $\\\\theta$, vanishing at $\\\\theta_{\\\\mathrm{M}}$ and increasing slightly for still smaller $\\\\theta$.",
         "provenance_file": "artifacts/lkm-discovery/input/may4_evidence_gcn_848085b12d384915.json",
         "provenance_source": "lkm",
         "source_paper": "paper:814686513320165384"
@@ -479,8 +479,8 @@
       "content_hash": "d946558cfe58296701c8af1d3f57b2a75bb15efaf84ad9c1494b74a4b67ab5f7",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow",
-      "label": "gcn_af432bff_ab_initio_tb_workflow",
+      "id": "github:tbg_magic_angle::ab_initio_tb_flat_band_workflow",
+      "label": "ab_initio_tb_flat_band_workflow",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -506,8 +506,8 @@
       "content_hash": "cde3626b24f9f1ecc44f5e1fcd1b5c723e2af651335e5385282eb91ce4e8d621",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_be5d1975_detector_interpolation",
-      "label": "gcn_be5d1975_detector_interpolation",
+      "id": "github:tbg_magic_angle::flat_band_detector_interpolation",
+      "label": "flat_band_detector_interpolation",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -533,8 +533,8 @@
       "content_hash": "0972a3fd7ef5022440ab99f82054d976fa1cfe318adb42f11455ad6aa684a0a8",
       "declaration_index": 2,
       "exported": true,
-      "id": "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood",
-      "label": "gcn_5f58746b_magic_angle_flat_band_likelihood",
+      "id": "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood",
+      "label": "ab_initio_magic_angle_flat_band_likelihood",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -557,8 +557,8 @@
       "content_hash": "54d6bb24a1805021705c7abfde056fe70061d8909129e6b8bdf02907ee5846f3",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_8cd2984a6296435c",
-      "label": "gcn_8cd2984a6296435c",
+      "id": "github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands",
+      "label": "relaxation_broadens_isolates_flat_bands",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -583,8 +583,8 @@
       "content_hash": "bca542a9d6935d5ac1f7da472a88d2cb57d9deebb32feaa43ae142d2903382e5",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_ed8fa9253ea24982",
-      "label": "gcn_ed8fa9253ea24982",
+      "id": "github:tbg_magic_angle::heterostrain_flat_band_fine_splitting",
+      "label": "heterostrain_flat_band_fine_splitting",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -609,8 +609,8 @@
       "content_hash": "11d5d98b143ede2514a0eec28c223ae6423aa204ba52e33c4935e4790b9d5a98",
       "declaration_index": 2,
       "exported": true,
-      "id": "github:tbg_magic_angle::gcn_c220df1acc8b476a",
-      "label": "gcn_c220df1acc8b476a",
+      "id": "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends",
+      "label": "relaxation_reproduces_sts_flat_band_trends",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -633,8 +633,8 @@
       "content_hash": "ecbd4425712804e005ed4d4119ec550b0349e88b162d94e8c7fa5a070ee36447",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_6463be97083b44fd",
-      "label": "gcn_6463be97083b44fd",
+      "id": "github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption",
+      "label": "dft_gap_spectroscopy_comparison_assumption",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -659,8 +659,8 @@
       "content_hash": "f8e9a5eef38eeba2e44475708650fbf6ee7cc7487bbdc65c7f1dcda49b9aa292",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_abaf80790d664630",
-      "label": "gcn_abaf80790d664630",
+      "id": "github:tbg_magic_angle::relaxation_component_diagnostic_assumption",
+      "label": "relaxation_component_diagnostic_assumption",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -685,8 +685,8 @@
       "content_hash": "bc4624452bbb379262bf2b8030b6eaf5c0a5be40bd8413eb98d0987658fe8b1d",
       "declaration_index": 2,
       "exported": true,
-      "id": "github:tbg_magic_angle::gcn_de1d329f326f4e75",
-      "label": "gcn_de1d329f326f4e75",
+      "id": "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps",
+      "label": "full_relaxation_reproduces_flat_band_gaps",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -709,8 +709,8 @@
       "content_hash": "7788dbc8f5b042b38f5548b73aaffa20f680759d1ec6f2efad891774068eef5d",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_06caff12a4d84b26",
-      "label": "gcn_06caff12a4d84b26",
+      "id": "github:tbg_magic_angle::magnetic_bloch_cutoff_convergence",
+      "label": "magnetic_bloch_cutoff_convergence",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -720,7 +720,7 @@
           }
         },
         "lkm_id": "gcn_06caff12a4d84b26",
-        "lkm_original": "Let $H^{\\phi=2\\pi}(\\mathbf{k})$ be the Bistritzer-MacDonald (BM) magnetic Bloch Hamiltonian represented in the Landau-level basis $|\\mathbf{k},n\\rangle$ with $n\\ge0$. The numerical procedure truncates the Landau-level basis to $n\\le n_{\\max}$ and diagonalizes the finite Hermitian matrix $H^{\\phi=2\\pi}_{n,n'}(\\mathbf{k})$ at each sampled $\\mathbf{k}$. The empirical claim is: for the magic-angle BM parameter values and flux $\\phi=2\\pi$ studied, there exists a numerically accessible cutoff $n_{\\max}$ such that the low-energy (flat-band) eigenvalues and topological diagnostics (for example Wilson-loop windings and computed Chern numbers) converge within the quoted numerical tolerances, e.g., energy errors below O(1 meV). This proposition specifies the truncation procedure and the convergence notion; it is an empirical numerical assumption that must be checked by systematic $n_{\\max}$ scans in practice.",
+        "lkm_original": "Let $H^{\\phi=2\\pi}(\\mathbf{k})$ be the Bistritzer–MacDonald (BM) magnetic Bloch Hamiltonian represented in the Landau-level basis $|\\mathbf{k},n\\rangle$ with $n\\ge0$. The numerical procedure truncates the Landau-level basis to $n\\le n_{\\max}$ and diagonalizes the finite Hermitian matrix $H^{\\phi=2\\pi}_{n,n'}(\\mathbf{k})$ at each sampled $\\mathbf{k}$. The empirical claim is: for the magic-angle BM parameter values and flux $\\phi=2\\pi$ studied, there exists a numerically accessible cutoff $n_{\\max}$ such that the low-energy (flat-band) eigenvalues and topological diagnostics (for example Wilson-loop windings and computed Chern numbers) converge within the quoted numerical tolerances, e.g., energy errors below O(1 meV). This proposition specifies the truncation procedure and the convergence notion; it is an empirical numerical assumption that must be checked by systematic $n_{\\max}$ scans in practice.",
         "prior": 0.74,
         "prior_justification": "LKM premise asserts numerical Landau-level cutoff convergence for the phi=2pi BM Hamiltonian; plausible but requires explicit cutoff scans. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/evidence_gcn_afdfbd0c013048d8.json",
@@ -736,8 +736,8 @@
       "content_hash": "3595a2cccde86df1262f1fff8777bcf4b02716ed9980402d5a35df18af7eebfc",
       "declaration_index": 1,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_fedb8c2683fb48c7",
-      "label": "gcn_fedb8c2683fb48c7",
+      "id": "github:tbg_magic_angle::reentrant_flat_band_parameter_convergence",
+      "label": "reentrant_flat_band_parameter_convergence",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -747,7 +747,7 @@
           }
         },
         "lkm_id": "gcn_fedb8c2683fb48c7",
-        "lkm_original": "Let $H_{BM}^\\phi(\\mathbf{k};w_0,w_1)$ denote the BM magnetic Bloch Hamiltonian at flux $\\phi=2\\pi$, truncated to a Landau-level cutoff $n_{\\max}$ and diagonalized numerically on a grid of interlayer-parameter values $(w_0,w_1)$. The proposition is that the numerically observed features -- namely the reentrant two flat bands, the approximate gap to passive bands of order $\\sim40\\,$meV, and the topology assignments separating a crystalline regime (physical TBG parameters) from a Landau-level regime (including the first chiral limit) -- persist upon systematic extrapolation in Landau-level cutoff, Brillouin-zone sampling, and parameter-grid refinement, and therefore reflect the physical parameter dependence of magic-angle TBG. This assertion packages multiple numerical extrapolations (Landau-level cutoff convergence, $\\mathbf{k}$-mesh convergence, parameter discretization) together with model approximations (for example neglecting explicit twist-angle dependence in some kinetic terms) into a physical-interpretation claim whose quantitative validity requires the indicated convergence and consistency checks.",
+        "lkm_original": "Let $H_{BM}^\\phi(\\mathbf{k};w_0,w_1)$ denote the BM magnetic Bloch Hamiltonian at flux $\\phi=2\\pi$, truncated to a Landau-level cutoff $n_{\\max}$ and diagonalized numerically on a grid of interlayer-parameter values $(w_0,w_1)$. The proposition is that the numerically observed features — namely the reentrant two flat bands, the approximate gap to passive bands of order $\\sim40\\,$meV, and the topology assignments separating a crystalline regime (physical TBG parameters) from a Landau-level regime (including the first chiral limit) — persist upon systematic extrapolation in Landau-level cutoff, Brillouin-zone sampling, and parameter-grid refinement, and therefore reflect the physical parameter dependence of magic-angle TBG. This assertion packages multiple numerical extrapolations (Landau-level cutoff convergence, $\\mathbf{k}$-mesh convergence, parameter discretization) together with model approximations (for example neglecting explicit twist-angle dependence in some kinetic terms) into a physical-interpretation claim whose quantitative validity requires the indicated convergence and consistency checks.",
         "prior": 0.68,
         "prior_justification": "LKM premise packages convergence, parameter-grid extrapolation, and BM-model approximations into a physical interpretation. TODO:review",
         "provenance_file": "artifacts/lkm-discovery/input/evidence_gcn_afdfbd0c013048d8.json",
@@ -763,8 +763,8 @@
       "content_hash": "51645f6b204f291c3f4e87885e69744e089ca57930ae46c1b24cc4ba85752d07",
       "declaration_index": 2,
       "exported": true,
-      "id": "github:tbg_magic_angle::gcn_afdfbd0c013048d8",
-      "label": "gcn_afdfbd0c013048d8",
+      "id": "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands",
+      "label": "magnetic_bloch_reentrant_flat_bands",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -774,7 +774,7 @@
           }
         },
         "lkm_id": "gcn_afdfbd0c013048d8",
-        "lkm_original": "The continuum Bistritzer-MacDonald (BM) model of twisted bilayer graphene, after applying a layer-dependent momentum shift that restores moire periodicity, can be represented in the magnetic-translation-irrep Landau-level basis at flux $\\phi=2\\pi$ and diagonalized after truncating to a finite number of Landau levels. For magic-angle geometric parameters and typical BM interlayer tunneling strengths, this numerical diagonalization (with sufficient Landau-level cutoff) reveals two low-energy flat bands per valley and spin that reappear (reenter) at $\\phi=2\\pi$ and are, for the parameter sets considered, separated from higher-energy passive bands by a sizable gap on the order of 40 meV. The dispersion and topology of these reentrant flat bands depend sensitively on the interlayer hopping parameters $(w_0,w_1)$: scanning $(w_0,w_1)$ produces a phase diagram with a crystalline regime (parameter region including the physical TBG values) where the two flat bands together have vanishing total Chern number, and a Landau-level-type regime (including the first chiral limit $w_0=0$) where each flat band individually carries Chern number $-1$.",
+        "lkm_original": "The continuum Bistritzer–MacDonald (BM) model of twisted bilayer graphene, after applying a layer-dependent momentum shift that restores moiré periodicity, can be represented in the magnetic-translation-irrep Landau-level basis at flux $\\phi=2\\pi$ and diagonalized after truncating to a finite number of Landau levels. For magic-angle geometric parameters and typical BM interlayer tunneling strengths, this numerical diagonalization (with sufficient Landau-level cutoff) reveals two low-energy flat bands per valley and spin that reappear (reenter) at $\\phi=2\\pi$ and are, for the parameter sets considered, separated from higher-energy passive bands by a sizable gap on the order of 40 meV. The dispersion and topology of these reentrant flat bands depend sensitively on the interlayer hopping parameters $(w_0,w_1)$: scanning $(w_0,w_1)$ produces a phase diagram with a crystalline regime (parameter region including the physical TBG values) where the two flat bands together have vanishing total Chern number, and a Landau-level-type regime (including the first chiral limit $w_0=0$) where each flat band individually carries Chern number $-1$.",
         "provenance_file": "artifacts/lkm-discovery/input/evidence_gcn_afdfbd0c013048d8.json",
         "provenance_source": "lkm",
         "source_paper": "paper:867760961551860070"
@@ -788,8 +788,8 @@
       "content_hash": "3878812266e4993003c50fbfc0772502a4c929d90587dd8304d9c4fc16929d48",
       "declaration_index": 0,
       "exported": false,
-      "id": "github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture",
-      "label": "gcn_7687975d_small_angle_merging_conjecture",
+      "id": "github:tbg_magic_angle::small_angle_dirac_merging_conjecture",
+      "label": "small_angle_dirac_merging_conjecture",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -799,7 +799,7 @@
           }
         },
         "lkm_id": "gcn_7687975d32314167",
-        "lkm_original": "Define the small-angle (continuum) limit of twisted bilayer graphene as the regime where the twist angle $\\alpha\\to 0$ (equivalently, commensurate indices become large) and the energy gap at the moire $K$ point due to intervalley ($K$-$K'$) coupling becomes negligibly small, so that the upper two bands near charge neutrality are nearly degenerate. It is conjectured that the four-Dirac-point merging mechanism identified at moderate twist angles in commensurate tight-binding calculations persists continuously into this small-angle limit and provides the microscopic origin of the vanishing Dirac velocity at the magic angles associated with nearly flat bands. This conjecture assumes that no intervening topological or symmetry-driven reconstruction occurs as $\\alpha$ decreases, that analogous moving Dirac points and trajectories exist in the small-angle limit, and that additional physical effects such as lattice relaxation and electron-electron interactions do not qualitatively alter the mechanism.",
+        "lkm_original": "Define the small-angle (continuum) limit of twisted bilayer graphene as the regime where the twist angle $\\alpha\\to 0$ (equivalently, commensurate indices become large) and the energy gap at the moiré $K$ point due to intervalley ($K$–$K'$) coupling becomes negligibly small, so that the upper two bands near charge neutrality are nearly degenerate. It is conjectured that the four-Dirac-point merging mechanism identified at moderate twist angles in commensurate tight-binding calculations persists continuously into this small-angle limit and provides the microscopic origin of the vanishing Dirac velocity at the magic angles associated with nearly flat bands. This conjecture assumes that no intervening topological or symmetry-driven reconstruction occurs as $\\alpha$ decreases, that analogous moving Dirac points and trajectories exist in the small-angle limit, and that additional physical effects such as lattice relaxation and electron-electron interactions do not qualitatively alter the mechanism.",
         "prior": 0.64,
         "prior_justification": "The LKM chain explicitly marks small-angle continuity of the four-Dirac-point mechanism as a conjecture with omitted relaxation and interaction effects. TODO:review",
         "provenance_source": "lkm",
@@ -814,8 +814,8 @@
       "content_hash": "4cad5cb437d8ea45925fde1af0e3539c6606afa6f856ee6546f7b125f8efd86c",
       "declaration_index": 1,
       "exported": true,
-      "id": "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band",
-      "label": "gcn_8159f32d_merged_dirac_magic_angle_flat_band",
+      "id": "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band",
+      "label": "merged_dirac_magic_angle_flat_band",
       "metadata": {
         "gaia": {
           "provenance": {
@@ -825,7 +825,7 @@
           }
         },
         "lkm_id": "gcn_8159f32dda354258",
-        "lkm_original": "In twisted bilayer graphene at sufficiently small twist angle, where the energy gap at the moire $K$ point between the $2n_0$th and $(2n_0+1)$th bands becomes negligibly small and the upper two bands near charge neutrality become nearly degenerate, the same band-structure mechanism in which three moving Dirac points merge with the fixed Dirac point at $K$ is proposed to persist and to produce vanishing Dirac velocity at $K$. In this conjecture, the resulting suppression of the Dirac velocity at $K$ contributes to the emergence of extremely narrow (nearly flat) bands at the magic angles.",
+        "lkm_original": "In twisted bilayer graphene at sufficiently small twist angle, where the energy gap at the moiré $K$ point between the $2n_0$th and $(2n_0+1)$th bands becomes negligibly small and the upper two bands near charge neutrality become nearly degenerate, the same band-structure mechanism in which three moving Dirac points merge with the fixed Dirac point at $K$ is proposed to persist and to produce vanishing Dirac velocity at $K$. In this conjecture, the resulting suppression of the Dirac velocity at $K$ contributes to the emergence of extremely narrow (nearly flat) bands at the magic angles.",
         "provenance_source": "lkm",
         "source_paper": "paper:867773689762938981"
       },
@@ -834,19 +834,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:tbg_magic_angle::gcn_d3808439ccf6496b,github:tbg_magic_angle::gcn_671ceef053a64aa7)",
-      "content_hash": "68f271c19fce3aa88558035b76ba55faef5c9db3d8bfadc8455cc0891a1a4fa6",
+      "content": "all_true(github:tbg_magic_angle::bm_velocity_linear_fit,github:tbg_magic_angle::bm_velocity_bare_input)",
+      "content_hash": "c8ba78a77fa1c4751707940aa3fe07865a9e94600417fa8d957e31938efb82df",
       "exported": false,
-      "id": "github:tbg_magic_angle::__conjunction_result_1fe9184f",
-      "label": "__conjunction_result_1fe9184f",
+      "id": "github:tbg_magic_angle::__conjunction_result_42b2769a",
+      "label": "__conjunction_result_42b2769a",
       "metadata": {
-        "canonical_name": "all_true(github:tbg_magic_angle::gcn_d3808439ccf6496b,github:tbg_magic_angle::gcn_671ceef053a64aa7)",
+        "canonical_name": "all_true(github:tbg_magic_angle::bm_velocity_linear_fit,github:tbg_magic_angle::bm_velocity_bare_input)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_341a9efd815fffbd",
+        "owning_strategy_id": "lcs_975bc259dd166601",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -854,19 +854,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::__conjunction_result_1fe9184f,github:tbg_magic_angle::gcn_7bca73ad98eb4ed4)",
-      "content_hash": "5b6a0fb40fe715d13e9aaab1163ca251425ca99cc2ef9590eeb878555e85ad7d",
+      "content": "implies(github:tbg_magic_angle::__conjunction_result_42b2769a,github:tbg_magic_angle::bm_magic_angle_velocity_suppression)",
+      "content_hash": "63998ce44fde16aed8bb9bc655c30452b24a7ae7795733e781ccb8a8870abd11",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_7e166c08",
-      "label": "__implication_result_7e166c08",
+      "id": "github:tbg_magic_angle::__implication_result_47848d6e",
+      "label": "__implication_result_47848d6e",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_1fe9184f,github:tbg_magic_angle::gcn_7bca73ad98eb4ed4)",
+        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_42b2769a,github:tbg_magic_angle::bm_magic_angle_velocity_suppression)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_341a9efd815fffbd",
+        "owning_strategy_id": "lcs_975bc259dd166601",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -875,19 +875,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:tbg_magic_angle::gcn_b411dd99a41e4de2,github:tbg_magic_angle::gcn_570f7bfc906e4dbd)",
-      "content_hash": "d9de85a5ed197ea161b24045bdc5d606694a7ac132116c9db6d235e73e7fa2a8",
+      "content": "all_true(github:tbg_magic_angle::moire_spinor_phonon_form_factor,github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity)",
+      "content_hash": "a9ce83e9b29b7309970ad93a3666ddba5c03eb4d48f40ceb063eab80a90f3a49",
       "exported": false,
-      "id": "github:tbg_magic_angle::__conjunction_result_f0a2c37b",
-      "label": "__conjunction_result_f0a2c37b",
+      "id": "github:tbg_magic_angle::__conjunction_result_f587f609",
+      "label": "__conjunction_result_f587f609",
       "metadata": {
-        "canonical_name": "all_true(github:tbg_magic_angle::gcn_b411dd99a41e4de2,github:tbg_magic_angle::gcn_570f7bfc906e4dbd)",
+        "canonical_name": "all_true(github:tbg_magic_angle::moire_spinor_phonon_form_factor,github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_4ad11460dddc6f3f",
+        "owning_strategy_id": "lcs_baba044220f78c24",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -895,19 +895,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::__conjunction_result_f0a2c37b,github:tbg_magic_angle::gcn_93c279f20f364a40)",
-      "content_hash": "a4e46eb064232363a610076d40cc985fcd1ea3807772b60ebccc6134071b652f",
+      "content": "implies(github:tbg_magic_angle::__conjunction_result_f587f609,github:tbg_magic_angle::wu_velocity_phonon_form_factor)",
+      "content_hash": "1178039dd6a7dda5db6091def2157d0b96e62663747bfd4ec113e51fe2ad5445",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_00758f68",
-      "label": "__implication_result_00758f68",
+      "id": "github:tbg_magic_angle::__implication_result_3b551a0e",
+      "label": "__implication_result_3b551a0e",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_f0a2c37b,github:tbg_magic_angle::gcn_93c279f20f364a40)",
+        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_f587f609,github:tbg_magic_angle::wu_velocity_phonon_form_factor)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_4ad11460dddc6f3f",
+        "owning_strategy_id": "lcs_baba044220f78c24",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -916,19 +916,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::gcn_1cb7675d5185405d,github:tbg_magic_angle::gcn_feace4c9a0154885)",
-      "content_hash": "fc1e54d33534999b71fa71eb8ac0c0432ddecdde6951c0e885fcaf7fdbf9996e",
+      "content": "implies(github:tbg_magic_angle::bm_velocity_suppression_caveated,github:tbg_magic_angle::phonon_resistivity_velocity_enhancement)",
+      "content_hash": "22e8011f0e6c5eb87add8b5cfb25b28edb6554f4631969b4a6d5a8e4e74b5a30",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_69fe0a55",
-      "label": "__implication_result_69fe0a55",
+      "id": "github:tbg_magic_angle::__implication_result_59d300cd",
+      "label": "__implication_result_59d300cd",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::gcn_1cb7675d5185405d,github:tbg_magic_angle::gcn_feace4c9a0154885)",
+        "canonical_name": "implies(github:tbg_magic_angle::bm_velocity_suppression_caveated,github:tbg_magic_angle::phonon_resistivity_velocity_enhancement)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_56c0ffc7c35a5f15",
+        "owning_strategy_id": "lcs_ebf61aa874fff2fb",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -937,19 +937,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:tbg_magic_angle::gcn_1b0c5250d2574e24,github:tbg_magic_angle::gcn_4eda4fedb8364912,github:tbg_magic_angle::gcn_993c306ad37c4dfb,github:tbg_magic_angle::gcn_2bc94d32817142f7,github:tbg_magic_angle::gcn_324b385e04254463)",
-      "content_hash": "d90dbfef90e02b61b24dd8eea66e4c3acc5b6b06fffd3b68991fa5706808fff4",
+      "content": "all_true(github:tbg_magic_angle::optical_phonons_instantaneous_couplings,github:tbg_magic_angle::intravalley_coulomb_tuning_parameter,github:tbg_magic_angle::intervalley_scattering_neglect,github:tbg_magic_angle::continuum_vhs_pairing_band_assumption,github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence)",
+      "content_hash": "b099fc1fc04e8f7fd02d3452017134a85b327e79fc284e59b86eef936bdd7ae4",
       "exported": false,
-      "id": "github:tbg_magic_angle::__conjunction_result_cac8ff6a",
-      "label": "__conjunction_result_cac8ff6a",
+      "id": "github:tbg_magic_angle::__conjunction_result_335223e1",
+      "label": "__conjunction_result_335223e1",
       "metadata": {
-        "canonical_name": "all_true(github:tbg_magic_angle::gcn_1b0c5250d2574e24,github:tbg_magic_angle::gcn_4eda4fedb8364912,github:tbg_magic_angle::gcn_993c306ad37c4dfb,github:tbg_magic_angle::gcn_2bc94d32817142f7,github:tbg_magic_angle::gcn_324b385e04254463)",
+        "canonical_name": "all_true(github:tbg_magic_angle::optical_phonons_instantaneous_couplings,github:tbg_magic_angle::intravalley_coulomb_tuning_parameter,github:tbg_magic_angle::intervalley_scattering_neglect,github:tbg_magic_angle::continuum_vhs_pairing_band_assumption,github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_70a66378bd3a08af",
+        "owning_strategy_id": "lcs_ffbbbfecdb2ba122",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -957,19 +957,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::__conjunction_result_cac8ff6a,github:tbg_magic_angle::gcn_a0ab3201de0e41ad)",
-      "content_hash": "51ff54eab6209a7743b58cba600bbad3159a0368225aef29f05fe766fc9c15f7",
+      "content": "implies(github:tbg_magic_angle::__conjunction_result_335223e1,github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema)",
+      "content_hash": "d2cdf8a7c0ff4b55f29b346f3a23cd03a990eeebbfae34106564a84545e7786a",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_0ad010c1",
-      "label": "__implication_result_0ad010c1",
+      "id": "github:tbg_magic_angle::__implication_result_a0480cb2",
+      "label": "__implication_result_a0480cb2",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_cac8ff6a,github:tbg_magic_angle::gcn_a0ab3201de0e41ad)",
+        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_335223e1,github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_70a66378bd3a08af",
+        "owning_strategy_id": "lcs_ffbbbfecdb2ba122",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -978,19 +978,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:tbg_magic_angle::gcn_159120a419184e9e,github:tbg_magic_angle::gcn_75a1c2477ca448b0,github:tbg_magic_angle::gcn_390a496067b94209)",
-      "content_hash": "967ffa4f1bfe0efd4c6909bdf57029b8486377d6f42d08f77eed5c624f9a1939",
+      "content": "all_true(github:tbg_magic_angle::small_angle_corrugation_extrapolation,github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope,github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency)",
+      "content_hash": "3704b3aef6bef5b7bd85b72947d203cf66dfa304d1ac939cdf4a9955386c9c75",
       "exported": false,
-      "id": "github:tbg_magic_angle::__conjunction_result_c7e971a8",
-      "label": "__conjunction_result_c7e971a8",
+      "id": "github:tbg_magic_angle::__conjunction_result_1a625120",
+      "label": "__conjunction_result_1a625120",
       "metadata": {
-        "canonical_name": "all_true(github:tbg_magic_angle::gcn_159120a419184e9e,github:tbg_magic_angle::gcn_75a1c2477ca448b0,github:tbg_magic_angle::gcn_390a496067b94209)",
+        "canonical_name": "all_true(github:tbg_magic_angle::small_angle_corrugation_extrapolation,github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope,github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_cac6513039fe3d09",
+        "owning_strategy_id": "lcs_81bbacf85db3aa5b",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -998,19 +998,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::__conjunction_result_c7e971a8,github:tbg_magic_angle::gcn_848085b12d384915)",
-      "content_hash": "9adb4bf8481ec86773dcf382e8493dd0e0e6a1f3b765b9b23021877bca471dcc",
+      "content": "implies(github:tbg_magic_angle::__conjunction_result_1a625120,github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands)",
+      "content_hash": "199d98a459926757eafa135318c563d8d13999bb547b2c539a97282cc87fc386",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_39e96ccc",
-      "label": "__implication_result_39e96ccc",
+      "id": "github:tbg_magic_angle::__implication_result_1e5f933f",
+      "label": "__implication_result_1e5f933f",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_c7e971a8,github:tbg_magic_angle::gcn_848085b12d384915)",
+        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_1a625120,github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_cac6513039fe3d09",
+        "owning_strategy_id": "lcs_81bbacf85db3aa5b",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1019,19 +1019,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow,github:tbg_magic_angle::gcn_be5d1975_detector_interpolation)",
-      "content_hash": "401594379e4b11de7f13ab57f460594fe4355b6ed2ab695995e83fa380b22348",
+      "content": "all_true(github:tbg_magic_angle::ab_initio_tb_flat_band_workflow,github:tbg_magic_angle::flat_band_detector_interpolation)",
+      "content_hash": "0e726962e328982eb58406ef9764f4897742ca8251e01eea71c8c5c65e37f13e",
       "exported": false,
-      "id": "github:tbg_magic_angle::__conjunction_result_32a868a1",
-      "label": "__conjunction_result_32a868a1",
+      "id": "github:tbg_magic_angle::__conjunction_result_fa93cd53",
+      "label": "__conjunction_result_fa93cd53",
       "metadata": {
-        "canonical_name": "all_true(github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow,github:tbg_magic_angle::gcn_be5d1975_detector_interpolation)",
+        "canonical_name": "all_true(github:tbg_magic_angle::ab_initio_tb_flat_band_workflow,github:tbg_magic_angle::flat_band_detector_interpolation)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_06bb83272269bae6",
+        "owning_strategy_id": "lcs_19fb556da5863d56",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1039,19 +1039,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::__conjunction_result_32a868a1,github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood)",
-      "content_hash": "07c862f1beeaeb9eeec5ad3dac2ffd0a6f6b5cd22a6ca332831fdd6b982ee6ac",
+      "content": "implies(github:tbg_magic_angle::__conjunction_result_fa93cd53,github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood)",
+      "content_hash": "ce2c38e8fa3f659de5324a034c730109ec6b015a1bb82d9f5b001e07130a8ac2",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_b4dcefa9",
-      "label": "__implication_result_b4dcefa9",
+      "id": "github:tbg_magic_angle::__implication_result_daf4caa9",
+      "label": "__implication_result_daf4caa9",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_32a868a1,github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood)",
+        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_fa93cd53,github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_06bb83272269bae6",
+        "owning_strategy_id": "lcs_19fb556da5863d56",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1060,19 +1060,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:tbg_magic_angle::gcn_8cd2984a6296435c,github:tbg_magic_angle::gcn_ed8fa9253ea24982)",
-      "content_hash": "6ef0eddbb443c03e950e434ee3cff41171b60410573556f5450af5cca0977f69",
+      "content": "all_true(github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands,github:tbg_magic_angle::heterostrain_flat_band_fine_splitting)",
+      "content_hash": "7d000d9025d6ca697822fe5a03b9ad292adc7a20a4ccc85ef145fbf766ca7040",
       "exported": false,
-      "id": "github:tbg_magic_angle::__conjunction_result_2c3dbe39",
-      "label": "__conjunction_result_2c3dbe39",
+      "id": "github:tbg_magic_angle::__conjunction_result_553ab7d5",
+      "label": "__conjunction_result_553ab7d5",
       "metadata": {
-        "canonical_name": "all_true(github:tbg_magic_angle::gcn_8cd2984a6296435c,github:tbg_magic_angle::gcn_ed8fa9253ea24982)",
+        "canonical_name": "all_true(github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands,github:tbg_magic_angle::heterostrain_flat_band_fine_splitting)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_ec5d395c095b512e",
+        "owning_strategy_id": "lcs_0013d1dc6a5330ec",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1080,19 +1080,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::__conjunction_result_2c3dbe39,github:tbg_magic_angle::gcn_c220df1acc8b476a)",
-      "content_hash": "e80c9300eaea1ec355a3be2f8ab82921c5a2dab2dd88e7f5c839967a47374d39",
+      "content": "implies(github:tbg_magic_angle::__conjunction_result_553ab7d5,github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends)",
+      "content_hash": "c8738bb18c23b5bd56a21a61dfe0f3aadc9121e314f067e45c53ec59a82fad0d",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_d0bb4c65",
-      "label": "__implication_result_d0bb4c65",
+      "id": "github:tbg_magic_angle::__implication_result_667ff07c",
+      "label": "__implication_result_667ff07c",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_2c3dbe39,github:tbg_magic_angle::gcn_c220df1acc8b476a)",
+        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_553ab7d5,github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_ec5d395c095b512e",
+        "owning_strategy_id": "lcs_0013d1dc6a5330ec",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1101,19 +1101,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:tbg_magic_angle::gcn_6463be97083b44fd,github:tbg_magic_angle::gcn_abaf80790d664630)",
-      "content_hash": "87cbd28b237efb56026da4c166137fd31c5d77f1c5fdbd653b973b7ae08bd7d5",
+      "content": "all_true(github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption,github:tbg_magic_angle::relaxation_component_diagnostic_assumption)",
+      "content_hash": "541d96b50dc900d903487539769c10bac50e95d5f39fe75e0dbb3dfd5cb44f87",
       "exported": false,
-      "id": "github:tbg_magic_angle::__conjunction_result_e449c40c",
-      "label": "__conjunction_result_e449c40c",
+      "id": "github:tbg_magic_angle::__conjunction_result_506d734a",
+      "label": "__conjunction_result_506d734a",
       "metadata": {
-        "canonical_name": "all_true(github:tbg_magic_angle::gcn_6463be97083b44fd,github:tbg_magic_angle::gcn_abaf80790d664630)",
+        "canonical_name": "all_true(github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption,github:tbg_magic_angle::relaxation_component_diagnostic_assumption)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_d07f2f0f7b73e1c5",
+        "owning_strategy_id": "lcs_8a5be0174abfa592",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1121,19 +1121,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::__conjunction_result_e449c40c,github:tbg_magic_angle::gcn_de1d329f326f4e75)",
-      "content_hash": "6a513840cc05339e91546f3cb31dd13d03ed868d693466b048d561ead2e36d7a",
+      "content": "implies(github:tbg_magic_angle::__conjunction_result_506d734a,github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps)",
+      "content_hash": "e073634899647907b6a107ec8b2b63a9f0df4c35a3d26d021b096a9ec5376b48",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_47d0484b",
-      "label": "__implication_result_47d0484b",
+      "id": "github:tbg_magic_angle::__implication_result_a0948e51",
+      "label": "__implication_result_a0948e51",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_e449c40c,github:tbg_magic_angle::gcn_de1d329f326f4e75)",
+        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_506d734a,github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_d07f2f0f7b73e1c5",
+        "owning_strategy_id": "lcs_8a5be0174abfa592",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1142,19 +1142,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:tbg_magic_angle::gcn_06caff12a4d84b26,github:tbg_magic_angle::gcn_fedb8c2683fb48c7)",
-      "content_hash": "42905f0ab7979642d2e0780b49b82e5f988eb06f34b6cb6f4216ed02feee7496",
+      "content": "all_true(github:tbg_magic_angle::magnetic_bloch_cutoff_convergence,github:tbg_magic_angle::reentrant_flat_band_parameter_convergence)",
+      "content_hash": "c0321b4e52b2f15fc3a41ae42bc5bc009d2deed9b404cf957b8d241cd02a8209",
       "exported": false,
-      "id": "github:tbg_magic_angle::__conjunction_result_13603494",
-      "label": "__conjunction_result_13603494",
+      "id": "github:tbg_magic_angle::__conjunction_result_b870c538",
+      "label": "__conjunction_result_b870c538",
       "metadata": {
-        "canonical_name": "all_true(github:tbg_magic_angle::gcn_06caff12a4d84b26,github:tbg_magic_angle::gcn_fedb8c2683fb48c7)",
+        "canonical_name": "all_true(github:tbg_magic_angle::magnetic_bloch_cutoff_convergence,github:tbg_magic_angle::reentrant_flat_band_parameter_convergence)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_1323156542060009",
+        "owning_strategy_id": "lcs_75ca0cbf520f31b1",
         "owning_strategy_type": "deduction",
         "visibility": "formal_internal"
       },
@@ -1162,40 +1162,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::__conjunction_result_13603494,github:tbg_magic_angle::gcn_afdfbd0c013048d8)",
-      "content_hash": "2936ae9fce9827323ae98cac889b765aa5585aa2c64cb84ad9bd70eae8ec73dc",
+      "content": "implies(github:tbg_magic_angle::__conjunction_result_b870c538,github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands)",
+      "content_hash": "634c63cb4705f9d4c006438119014ff7e83c228ba1fc810f70e80ac34b9aa7e1",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_94990860",
-      "label": "__implication_result_94990860",
+      "id": "github:tbg_magic_angle::__implication_result_e3bdc4db",
+      "label": "__implication_result_e3bdc4db",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_13603494,github:tbg_magic_angle::gcn_afdfbd0c013048d8)",
+        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_b870c538,github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_1323156542060009",
-        "owning_strategy_type": "deduction",
-        "prior": 0.95,
-        "visibility": "formal_internal"
-      },
-      "parameters": [],
-      "type": "claim"
-    },
-    {
-      "content": "implies(github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture,github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band)",
-      "content_hash": "804c35fa104576d4c8a125ffdbc7cfd9c4092cb63e53fef36506d1bb2059bbef",
-      "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_7eb1dd83",
-      "label": "__implication_result_7eb1dd83",
-      "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture,github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band)",
-        "generated": true,
-        "generated_kind": "helper_claim",
-        "helper_kind": "implication_result",
-        "helper_visibility": "formal_internal",
-        "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_1f00a36db5eaa82a",
+        "owning_strategy_id": "lcs_75ca0cbf520f31b1",
         "owning_strategy_type": "deduction",
         "prior": 0.95,
         "visibility": "formal_internal"
@@ -1204,19 +1183,40 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::gcn_93c279f20f364a40,github:tbg_magic_angle::gcn_7bca73ad98eb4ed4)",
-      "content_hash": "9f1b81f894f88c646640242daf2d03be56571eddbd8d45dbbcc5a62a2dd31deb",
+      "content": "implies(github:tbg_magic_angle::small_angle_dirac_merging_conjecture,github:tbg_magic_angle::merged_dirac_magic_angle_flat_band)",
+      "content_hash": "48175de2c23e5553cd3249c2a7b7f18806aea07e1ae9fa84d1e60a5358d331de",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_e3ba6e07",
-      "label": "__implication_result_e3ba6e07",
+      "id": "github:tbg_magic_angle::__implication_result_4f144de4",
+      "label": "__implication_result_4f144de4",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::gcn_93c279f20f364a40,github:tbg_magic_angle::gcn_7bca73ad98eb4ed4)",
+        "canonical_name": "implies(github:tbg_magic_angle::small_angle_dirac_merging_conjecture,github:tbg_magic_angle::merged_dirac_magic_angle_flat_band)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_656c276b5b02572e",
+        "owning_strategy_id": "lcs_50896814606c8221",
+        "owning_strategy_type": "deduction",
+        "prior": 0.95,
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "implies(github:tbg_magic_angle::wu_velocity_phonon_form_factor,github:tbg_magic_angle::bm_magic_angle_velocity_suppression)",
+      "content_hash": "f3dcd8bd9e51e543a56ea6a9ad158ecdd35b49c65a0de6968f3f63b1f0322801",
+      "exported": false,
+      "id": "github:tbg_magic_angle::__implication_result_860c202d",
+      "label": "__implication_result_860c202d",
+      "metadata": {
+        "canonical_name": "implies(github:tbg_magic_angle::wu_velocity_phonon_form_factor,github:tbg_magic_angle::bm_magic_angle_velocity_suppression)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "implication_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "implication_result",
+        "owning_strategy_id": "lcs_f8cec33d8c325642",
         "owning_strategy_type": "support",
         "prior": 0.82,
         "visibility": "formal_internal"
@@ -1225,19 +1225,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:tbg_magic_angle::gcn_7bca73ad98eb4ed4,github:tbg_magic_angle::gcn_93c279f20f364a40)",
-      "content_hash": "8aa70c58a89696280a40ea698e0d6661270c42b82a5b771458df94ccf774be92",
+      "content": "all_true(github:tbg_magic_angle::bm_magic_angle_velocity_suppression,github:tbg_magic_angle::wu_velocity_phonon_form_factor)",
+      "content_hash": "e238a80f5c9bb92ecce83141bb0565bd9325f82fa13cdd718257f0ef2c19c307",
       "exported": false,
-      "id": "github:tbg_magic_angle::__conjunction_result_9fa7f4e2",
-      "label": "__conjunction_result_9fa7f4e2",
+      "id": "github:tbg_magic_angle::__conjunction_result_f924c3f8",
+      "label": "__conjunction_result_f924c3f8",
       "metadata": {
-        "canonical_name": "all_true(github:tbg_magic_angle::gcn_7bca73ad98eb4ed4,github:tbg_magic_angle::gcn_93c279f20f364a40)",
+        "canonical_name": "all_true(github:tbg_magic_angle::bm_magic_angle_velocity_suppression,github:tbg_magic_angle::wu_velocity_phonon_form_factor)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_6f1e7d1b38979081",
+        "owning_strategy_id": "lcs_7be996b5be71875b",
         "owning_strategy_type": "support",
         "visibility": "formal_internal"
       },
@@ -1245,19 +1245,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::__conjunction_result_9fa7f4e2,github:tbg_magic_angle::gcn_feace4c9a0154885)",
-      "content_hash": "9bf1ab82b344869138773c1765a13c051867e1783e55d9745902791dfa9b0322",
+      "content": "implies(github:tbg_magic_angle::__conjunction_result_f924c3f8,github:tbg_magic_angle::phonon_resistivity_velocity_enhancement)",
+      "content_hash": "20abd572823380f5836612136222655aa03d44d351a6dfdd640f0d48b269fe28",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_6d2e8a26",
-      "label": "__implication_result_6d2e8a26",
+      "id": "github:tbg_magic_angle::__implication_result_701e4578",
+      "label": "__implication_result_701e4578",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_9fa7f4e2,github:tbg_magic_angle::gcn_feace4c9a0154885)",
+        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_f924c3f8,github:tbg_magic_angle::phonon_resistivity_velocity_enhancement)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_6f1e7d1b38979081",
+        "owning_strategy_id": "lcs_7be996b5be71875b",
         "owning_strategy_type": "support",
         "prior": 0.78,
         "visibility": "formal_internal"
@@ -1266,19 +1266,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:tbg_magic_angle::gcn_93c279f20f364a40,github:tbg_magic_angle::gcn_feace4c9a0154885)",
-      "content_hash": "a3476860b68d730b49df471c615c927f760bedcfc0ddb5097a0646242488d7b9",
+      "content": "all_true(github:tbg_magic_angle::wu_velocity_phonon_form_factor,github:tbg_magic_angle::phonon_resistivity_velocity_enhancement)",
+      "content_hash": "68289776720493b9f2809b7d7e2354787a7d15de8740b7da58242b1aa33b6bb7",
       "exported": false,
-      "id": "github:tbg_magic_angle::__conjunction_result_8e0862cc",
-      "label": "__conjunction_result_8e0862cc",
+      "id": "github:tbg_magic_angle::__conjunction_result_ce1906a7",
+      "label": "__conjunction_result_ce1906a7",
       "metadata": {
-        "canonical_name": "all_true(github:tbg_magic_angle::gcn_93c279f20f364a40,github:tbg_magic_angle::gcn_feace4c9a0154885)",
+        "canonical_name": "all_true(github:tbg_magic_angle::wu_velocity_phonon_form_factor,github:tbg_magic_angle::phonon_resistivity_velocity_enhancement)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_6ade9371d17185ea",
+        "owning_strategy_id": "lcs_e84f73c0b0865d80",
         "owning_strategy_type": "support",
         "visibility": "formal_internal"
       },
@@ -1286,19 +1286,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::__conjunction_result_8e0862cc,github:tbg_magic_angle::gcn_a0ab3201de0e41ad)",
-      "content_hash": "b9a36fb85501fafa16ee185997a141980cb8eb5e4a14c3873bcd48fb4b4818c9",
+      "content": "implies(github:tbg_magic_angle::__conjunction_result_ce1906a7,github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema)",
+      "content_hash": "dab32db6ff29b98111b0c0a37d2a17d2c252bdb468a26129f7a788a66a013e42",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_df602bdf",
-      "label": "__implication_result_df602bdf",
+      "id": "github:tbg_magic_angle::__implication_result_bd8bba19",
+      "label": "__implication_result_bd8bba19",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_8e0862cc,github:tbg_magic_angle::gcn_a0ab3201de0e41ad)",
+        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_ce1906a7,github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_6ade9371d17185ea",
+        "owning_strategy_id": "lcs_e84f73c0b0865d80",
         "owning_strategy_type": "support",
         "prior": 0.6,
         "visibility": "formal_internal"
@@ -1307,19 +1307,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::gcn_848085b12d384915,github:tbg_magic_angle::gcn_7bca73ad98eb4ed4)",
-      "content_hash": "92cbd351e103677d82d8591e17969fb37f45a44ed70cbae386608162c73da1d2",
+      "content": "implies(github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands,github:tbg_magic_angle::bm_magic_angle_velocity_suppression)",
+      "content_hash": "debcd8615c9d1cf6d9007400a160aace59662c22bd262a3d2afc2cc2952b344f",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_ba6ab776",
-      "label": "__implication_result_ba6ab776",
+      "id": "github:tbg_magic_angle::__implication_result_d93337b5",
+      "label": "__implication_result_d93337b5",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::gcn_848085b12d384915,github:tbg_magic_angle::gcn_7bca73ad98eb4ed4)",
+        "canonical_name": "implies(github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands,github:tbg_magic_angle::bm_magic_angle_velocity_suppression)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_6aed699201cf1dc5",
+        "owning_strategy_id": "lcs_be756f55098e3a35",
         "owning_strategy_type": "support",
         "prior": 0.72,
         "visibility": "formal_internal"
@@ -1328,19 +1328,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::gcn_848085b12d384915,github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood)",
-      "content_hash": "b734fe8eb4832d0a4434ab6bfb6a32f53c48bcf3be972333695de4d42c4b5365",
+      "content": "implies(github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands,github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood)",
+      "content_hash": "50cc028cf7f6f64a19dcf4907d03bbed816517216e4301b1b54f150b3c03a724",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_590687df",
-      "label": "__implication_result_590687df",
+      "id": "github:tbg_magic_angle::__implication_result_4b04863c",
+      "label": "__implication_result_4b04863c",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::gcn_848085b12d384915,github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood)",
+        "canonical_name": "implies(github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands,github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_046e8012de40ea1c",
+        "owning_strategy_id": "lcs_e519d39922ccf102",
         "owning_strategy_type": "support",
         "prior": 0.7,
         "visibility": "formal_internal"
@@ -1349,19 +1349,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:tbg_magic_angle::gcn_848085b12d384915,github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood)",
-      "content_hash": "2d21a585a6a5bc2bfb4d778d3af37964cd2b689dd791ce3d1780c893b4493620",
+      "content": "all_true(github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands,github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood)",
+      "content_hash": "8a695d4476d29b2d8a4b400169eb96527d1892ff044dcbf315e6d4d9c23fc4cd",
       "exported": false,
-      "id": "github:tbg_magic_angle::__conjunction_result_b9c6859a",
-      "label": "__conjunction_result_b9c6859a",
+      "id": "github:tbg_magic_angle::__conjunction_result_779b7c86",
+      "label": "__conjunction_result_779b7c86",
       "metadata": {
-        "canonical_name": "all_true(github:tbg_magic_angle::gcn_848085b12d384915,github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood)",
+        "canonical_name": "all_true(github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands,github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_4a998b0ac46867b7",
+        "owning_strategy_id": "lcs_802e2fe5850eaae4",
         "owning_strategy_type": "support",
         "visibility": "formal_internal"
       },
@@ -1369,19 +1369,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::__conjunction_result_b9c6859a,github:tbg_magic_angle::gcn_de1d329f326f4e75)",
-      "content_hash": "b5c83458e1a1feff23727ca2cd58c4c6390f660773b2f64fa8bfcd575932af9c",
+      "content": "implies(github:tbg_magic_angle::__conjunction_result_779b7c86,github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps)",
+      "content_hash": "c994f6b6b56158c93bda8c9a1699273efbc9e602e67b48835068e128b097d752",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_e4b4f41e",
-      "label": "__implication_result_e4b4f41e",
+      "id": "github:tbg_magic_angle::__implication_result_d55751a5",
+      "label": "__implication_result_d55751a5",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_b9c6859a,github:tbg_magic_angle::gcn_de1d329f326f4e75)",
+        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_779b7c86,github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_4a998b0ac46867b7",
+        "owning_strategy_id": "lcs_802e2fe5850eaae4",
         "owning_strategy_type": "support",
         "prior": 0.68,
         "visibility": "formal_internal"
@@ -1390,19 +1390,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::gcn_de1d329f326f4e75,github:tbg_magic_angle::gcn_c220df1acc8b476a)",
-      "content_hash": "5f3de03a9c0a4ec27a78e01885bddb5c313f6dc1adc0a89d661dae49d956323b",
+      "content": "implies(github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps,github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends)",
+      "content_hash": "04f19d19f6a1974232ce7fed688680c4a231c40eddce9f708d850805177d7466",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_afa11f3d",
-      "label": "__implication_result_afa11f3d",
+      "id": "github:tbg_magic_angle::__implication_result_4b67b273",
+      "label": "__implication_result_4b67b273",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::gcn_de1d329f326f4e75,github:tbg_magic_angle::gcn_c220df1acc8b476a)",
+        "canonical_name": "implies(github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps,github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_66cb91b580b37981",
+        "owning_strategy_id": "lcs_be09dce07dd03f06",
         "owning_strategy_type": "support",
         "prior": 0.7,
         "visibility": "formal_internal"
@@ -1411,19 +1411,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::gcn_7bca73ad98eb4ed4,github:tbg_magic_angle::gcn_afdfbd0c013048d8)",
-      "content_hash": "d5ae33d28c6fba9e0262c9dd55f0f5209e04dbac8659f554f243cdb9ffae99be",
+      "content": "implies(github:tbg_magic_angle::bm_magic_angle_velocity_suppression,github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands)",
+      "content_hash": "cf93eaa3419c785dea6ab1277b1750bd1c4c9db322aed2575ce8519448a28a3b",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_05bfbcfa",
-      "label": "__implication_result_05bfbcfa",
+      "id": "github:tbg_magic_angle::__implication_result_1c303636",
+      "label": "__implication_result_1c303636",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::gcn_7bca73ad98eb4ed4,github:tbg_magic_angle::gcn_afdfbd0c013048d8)",
+        "canonical_name": "implies(github:tbg_magic_angle::bm_magic_angle_velocity_suppression,github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_9f3aefd96ddc1c50",
+        "owning_strategy_id": "lcs_5bbe7bcd58f92298",
         "owning_strategy_type": "support",
         "prior": 0.66,
         "visibility": "formal_internal"
@@ -1432,19 +1432,19 @@
       "type": "claim"
     },
     {
-      "content": "all_true(github:tbg_magic_angle::gcn_7bca73ad98eb4ed4,github:tbg_magic_angle::gcn_848085b12d384915)",
-      "content_hash": "f3f3e69a756af1bfeb5fb192b7318458c29ecab7b082f31f2386f2cbbaa87a2c",
+      "content": "all_true(github:tbg_magic_angle::bm_magic_angle_velocity_suppression,github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands)",
+      "content_hash": "49487a5b9350db58b8e6d128af80cabe3be352974fe7c1032869553d3de3046f",
       "exported": false,
-      "id": "github:tbg_magic_angle::__conjunction_result_580f762e",
-      "label": "__conjunction_result_580f762e",
+      "id": "github:tbg_magic_angle::__conjunction_result_348fa486",
+      "label": "__conjunction_result_348fa486",
       "metadata": {
-        "canonical_name": "all_true(github:tbg_magic_angle::gcn_7bca73ad98eb4ed4,github:tbg_magic_angle::gcn_848085b12d384915)",
+        "canonical_name": "all_true(github:tbg_magic_angle::bm_magic_angle_velocity_suppression,github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "conjunction_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "conjunction_result",
-        "owning_strategy_id": "lcs_fdfa0d1bb7066a8c",
+        "owning_strategy_id": "lcs_a5a3019d0a22e329",
         "owning_strategy_type": "support",
         "visibility": "formal_internal"
       },
@@ -1452,19 +1452,19 @@
       "type": "claim"
     },
     {
-      "content": "implies(github:tbg_magic_angle::__conjunction_result_580f762e,github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band)",
-      "content_hash": "09b98bd52e22c17b4185c656d752524dad9ff93ab558970761fe82702b1dd97d",
+      "content": "implies(github:tbg_magic_angle::__conjunction_result_348fa486,github:tbg_magic_angle::merged_dirac_magic_angle_flat_band)",
+      "content_hash": "70863bbcda7f0a870696218c5777b71d572d90136d1ef48be8fca4418cc29c01",
       "exported": false,
-      "id": "github:tbg_magic_angle::__implication_result_9bc684b7",
-      "label": "__implication_result_9bc684b7",
+      "id": "github:tbg_magic_angle::__implication_result_8a514b93",
+      "label": "__implication_result_8a514b93",
       "metadata": {
-        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_580f762e,github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band)",
+        "canonical_name": "implies(github:tbg_magic_angle::__conjunction_result_348fa486,github:tbg_magic_angle::merged_dirac_magic_angle_flat_band)",
         "generated": true,
         "generated_kind": "helper_claim",
         "helper_kind": "implication_result",
         "helper_visibility": "formal_internal",
         "intermediate_role": "implication_result",
-        "owning_strategy_id": "lcs_fdfa0d1bb7066a8c",
+        "owning_strategy_id": "lcs_a5a3019d0a22e329",
         "owning_strategy_type": "support",
         "prior": 0.62,
         "visibility": "formal_internal"
@@ -1503,23 +1503,23 @@
   "scope": "local",
   "strategies": [
     {
-      "conclusion": "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
+      "conclusion": "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__conjunction_result_1fe9184f",
+            "conclusion": "github:tbg_magic_angle::__conjunction_result_42b2769a",
             "operator": "conjunction",
             "variables": [
-              "github:tbg_magic_angle::gcn_d3808439ccf6496b",
-              "github:tbg_magic_angle::gcn_671ceef053a64aa7"
+              "github:tbg_magic_angle::bm_velocity_linear_fit",
+              "github:tbg_magic_angle::bm_velocity_bare_input"
             ]
           },
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_7e166c08",
+            "conclusion": "github:tbg_magic_angle::__implication_result_47848d6e",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::__conjunction_result_1fe9184f",
-              "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4"
+              "github:tbg_magic_angle::__conjunction_result_42b2769a",
+              "github:tbg_magic_angle::bm_magic_angle_velocity_suppression"
             ]
           }
         ]
@@ -1531,31 +1531,31 @@
         "reason": "1. Define $v_F^*(\\theta)$ as the noninteracting low-energy Dirac-point Fermi velocity of twisted bilayer graphene (tBLG), where $\\theta$ is the twist angle expressed in degrees and $\\theta_M$ denotes the largest magic angle at which the noninteracting Dirac velocity vanishes (i.e., $v_F^*(\\theta_M)=0$); the monolayer graphene (MLG) bare Dirac velocity is $v_F\\approx 10^{8}\\ \\mathrm{cm/s}$. \nFig. 1(a)\n2. State the continuum moiré-band calculation basis: the Bistritzer–MacDonald continuum moiré-band model (band-structure model) is used to compute $v_F^*(\\theta)$ as a function of $\\theta$, and those calculated values are presented as the tBLG Dirac velocity at the Dirac point versus twist angle. The continuum calculation details are those cited from the band-structure model references and prior work.\n[54]\n[36]\n3. Report the empirical approximation extracted from the continuum moiré-band calculation: for twist angles $\\theta<3^\\circ$ the computed noninteracting tBLG Dirac velocity is well approximated by the linear formula\n$$\nv_F^*(\\theta)\\approx 0.5\\,|\\theta-\\theta_M|\\,v_F,\n$$\nwhere both $\\theta$ and $\\theta_M$ are measured in degrees, and $v_F\\approx 10^8\\ \\mathrm{cm/s}$. This empirical expression is the explicit formula appearing in the continuum calculation discussion.\n[36]\nFig. 1(a)\n4. Explain the domain of validity of the empirical approximation: the authors state the approximation holds for $\\theta<3^\\circ$, while for $\\theta>3^\\circ$ one may take $v_F^*(\\theta)\\approx v_F$ for the purposes of their low-energy continuum theory; the number $\\theta_M$ from their calculation is $\\theta_M\\approx 1.02^\\circ$ as reported in their continuum-band evaluation.\n[36]\n5. Explicitly connect $v_F^*(\\theta)$ to subsequent low-energy theories: define the Coulomb fine-structure coupling $\\alpha$ in terms of $v_F^*$ by $\\alpha=e^2/(\\kappa\\hbar v_F^*)$, where $e$ is the elementary charge, $\\hbar$ is the reduced Planck constant, and $\\kappa$ is the background dielectric constant; also state that $v_F^*(\\theta)$ is the bare (noninteracting) low-energy parameter entering the continuum electron-phonon resistivity formula (the resistivity formula uses $v_F^{*2}$ in the denominator). Thus the empirical approximation for $v_F^*(\\theta)$ summarizes the noninteracting Bistritzer–MacDonald moiré-band calculation used throughout the paper to set band-velocity inputs for both phonon and Coulomb interaction theories."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_d3808439ccf6496b",
-        "github:tbg_magic_angle::gcn_671ceef053a64aa7"
+        "github:tbg_magic_angle::bm_velocity_linear_fit",
+        "github:tbg_magic_angle::bm_velocity_bare_input"
       ],
       "scope": "local",
-      "strategy_id": "lcs_341a9efd815fffbd",
+      "strategy_id": "lcs_975bc259dd166601",
       "type": "deduction"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_93c279f20f364a40",
+      "conclusion": "github:tbg_magic_angle::wu_velocity_phonon_form_factor",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__conjunction_result_f0a2c37b",
+            "conclusion": "github:tbg_magic_angle::__conjunction_result_f587f609",
             "operator": "conjunction",
             "variables": [
-              "github:tbg_magic_angle::gcn_b411dd99a41e4de2",
-              "github:tbg_magic_angle::gcn_570f7bfc906e4dbd"
+              "github:tbg_magic_angle::moire_spinor_phonon_form_factor",
+              "github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity"
             ]
           },
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_00758f68",
+            "conclusion": "github:tbg_magic_angle::__implication_result_3b551a0e",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::__conjunction_result_f0a2c37b",
-              "github:tbg_magic_angle::gcn_93c279f20f364a40"
+              "github:tbg_magic_angle::__conjunction_result_f587f609",
+              "github:tbg_magic_angle::wu_velocity_phonon_form_factor"
             ]
           }
         ]
@@ -1567,23 +1567,23 @@
         "reason": "1. Define the valley +K moire continuum Hamiltonian as a 4x4 block matrix with layer Dirac Hamiltonians and spatially periodic interlayer tunneling.\n2. Define h_l(k) with twist angle theta, monolayer velocity v_F about 10^8 cm/s, and layer-shifted Dirac momenta kappa_l.\n3. Expand interlayer tunneling in three moire Fourier components with AA and AB/BA tunneling parameters w_0 and w_1.\n4. Use w_0=90 meV and w_1=117 meV, diagonalize the continuum Hamiltonian, and obtain strong v_F*(theta) suppression with a largest magic angle theta_magic about 1.025 degrees.\n5. Construct perturbative moire wavefunctions from four layer/momentum components near a moire Dirac point.\n6. Define alpha_j=w_j/(hbar v_F |kappa_{+1}|) and beta=3(alpha_0^2+alpha_1^2), which also defines v_F* in the Dirac form of the projected Hamiltonian.\n7. Derive F(theta)=(1+beta^2)/(1+beta)^2 as the electron-phonon matrix-element form factor, varying from 0.5 near strong interlayer mixing to 1 for vanishing tunneling.\n8. Treat v_F*(theta) and F(theta) as known twist-angle inputs for transport and superconductivity calculations."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_b411dd99a41e4de2",
-        "github:tbg_magic_angle::gcn_570f7bfc906e4dbd"
+        "github:tbg_magic_angle::moire_spinor_phonon_form_factor",
+        "github:tbg_magic_angle::relaxed_tunneling_magic_angle_velocity"
       ],
       "scope": "local",
-      "strategy_id": "lcs_4ad11460dddc6f3f",
+      "strategy_id": "lcs_baba044220f78c24",
       "type": "deduction"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_feace4c9a0154885",
+      "conclusion": "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_69fe0a55",
+            "conclusion": "github:tbg_magic_angle::__implication_result_59d300cd",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::gcn_1cb7675d5185405d",
-              "github:tbg_magic_angle::gcn_feace4c9a0154885"
+              "github:tbg_magic_angle::bm_velocity_suppression_caveated",
+              "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement"
             ]
           }
         ]
@@ -1595,33 +1595,33 @@
         "reason": "1. Adopt the Bistritzer-MacDonald moire-band model for TBG and define v_F as the monolayer Dirac velocity and v_F* as the moire-band Dirac velocity.\n2. Compute v_F* as a function of twist angle and observe strong suppression as theta approaches the magic angle near 1 degree, with v_F*/v_F tending to zero at the BM magic angle.\n3. Extract the numerical BM-model statement v_F*/v_F approximately 1/4 at theta=1.5 degrees.\n4. Use the 1/v_F*^2 dependence in the phonon-resistivity formula to infer up to roughly 16-fold enhancement of phonon-limited resistivity and its temperature coefficient when v_F* is reduced to this value."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_1cb7675d5185405d"
+        "github:tbg_magic_angle::bm_velocity_suppression_caveated"
       ],
       "scope": "local",
-      "strategy_id": "lcs_56c0ffc7c35a5f15",
+      "strategy_id": "lcs_ebf61aa874fff2fb",
       "type": "deduction"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_a0ab3201de0e41ad",
+      "conclusion": "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__conjunction_result_cac8ff6a",
+            "conclusion": "github:tbg_magic_angle::__conjunction_result_335223e1",
             "operator": "conjunction",
             "variables": [
-              "github:tbg_magic_angle::gcn_1b0c5250d2574e24",
-              "github:tbg_magic_angle::gcn_4eda4fedb8364912",
-              "github:tbg_magic_angle::gcn_993c306ad37c4dfb",
-              "github:tbg_magic_angle::gcn_2bc94d32817142f7",
-              "github:tbg_magic_angle::gcn_324b385e04254463"
+              "github:tbg_magic_angle::optical_phonons_instantaneous_couplings",
+              "github:tbg_magic_angle::intravalley_coulomb_tuning_parameter",
+              "github:tbg_magic_angle::intervalley_scattering_neglect",
+              "github:tbg_magic_angle::continuum_vhs_pairing_band_assumption",
+              "github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence"
             ]
           },
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_0ad010c1",
+            "conclusion": "github:tbg_magic_angle::__implication_result_a0480cb2",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::__conjunction_result_cac8ff6a",
-              "github:tbg_magic_angle::gcn_a0ab3201de0e41ad"
+              "github:tbg_magic_angle::__conjunction_result_335223e1",
+              "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema"
             ]
           }
         ]
@@ -1633,35 +1633,35 @@
         "reason": "1. Treat the microscopic finite-momentum BdG protocol and GL-form fit as available for extracting q_c, H_c2, and v_F*.\n2. Specify optical-phonon-mediated instantaneous attraction g_0,g_1 competing with intravalley Coulomb repulsion u in the interaction tensor.\n3. Define T_c(mu) from the q=0 mean-field solution.\n4. Observe T_c(mu) dome maxima at flat-band VHS chemical potentials.\n5. Compute H_c2(mu)=Phi_s q_c(mu)^2/(2 pi) and observe peaks at the same VHSs.\n6. Compute v_F*(mu)=k_B T_c(mu)/(hbar q_c(mu)) and observe V-shaped minima at the VHSs.\n7. Vary u, eta, and theta and retain the coincidence of T_c maxima, H_c2 peaks, and v_F* minima.\n8. Conclude that the stated relationships hold within the reported MATBG mean-field model."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_1b0c5250d2574e24",
-        "github:tbg_magic_angle::gcn_4eda4fedb8364912",
-        "github:tbg_magic_angle::gcn_993c306ad37c4dfb",
-        "github:tbg_magic_angle::gcn_2bc94d32817142f7",
-        "github:tbg_magic_angle::gcn_324b385e04254463"
+        "github:tbg_magic_angle::optical_phonons_instantaneous_couplings",
+        "github:tbg_magic_angle::intravalley_coulomb_tuning_parameter",
+        "github:tbg_magic_angle::intervalley_scattering_neglect",
+        "github:tbg_magic_angle::continuum_vhs_pairing_band_assumption",
+        "github:tbg_magic_angle::vhs_tc_velocity_extrema_coincidence"
       ],
       "scope": "local",
-      "strategy_id": "lcs_70a66378bd3a08af",
+      "strategy_id": "lcs_ffbbbfecdb2ba122",
       "type": "deduction"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_848085b12d384915",
+      "conclusion": "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__conjunction_result_c7e971a8",
+            "conclusion": "github:tbg_magic_angle::__conjunction_result_1a625120",
             "operator": "conjunction",
             "variables": [
-              "github:tbg_magic_angle::gcn_159120a419184e9e",
-              "github:tbg_magic_angle::gcn_75a1c2477ca448b0",
-              "github:tbg_magic_angle::gcn_390a496067b94209"
+              "github:tbg_magic_angle::small_angle_corrugation_extrapolation",
+              "github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope",
+              "github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency"
             ]
           },
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_39e96ccc",
+            "conclusion": "github:tbg_magic_angle::__implication_result_1e5f933f",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::__conjunction_result_c7e971a8",
-              "github:tbg_magic_angle::gcn_848085b12d384915"
+              "github:tbg_magic_angle::__conjunction_result_1a625120",
+              "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands"
             ]
           }
         ]
@@ -1673,32 +1673,32 @@
         "reason": "1. Start from upstream localization and velocity-reduction results in small-angle corrugated twisted bilayer graphene.\n2. Define the magic angle as the twist angle where Kohn-Sham Dirac Fermi velocity v_F=(1/hbar) d epsilon / d k vanishes.\n3. Report that theta=0.99 degrees has extremely flat bands near E_F and about 10 meV splitting between the flat bands at Gamma.\n4. Extract theta_M about 1.08 degrees from the computed velocity-versus-angle curve.\n5. Relate AA-region localization to reduced dispersion and half-filled flat bands.\n6. Note consistency with earlier continuum and tight-binding predictions while preserving the different numerical method."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_159120a419184e9e",
-        "github:tbg_magic_angle::gcn_75a1c2477ca448b0",
-        "github:tbg_magic_angle::gcn_390a496067b94209"
+        "github:tbg_magic_angle::small_angle_corrugation_extrapolation",
+        "github:tbg_magic_angle::kohn_sham_magic_angle_numerical_scope",
+        "github:tbg_magic_angle::half_filled_flat_band_magnetism_tendency"
       ],
       "scope": "local",
-      "strategy_id": "lcs_cac6513039fe3d09",
+      "strategy_id": "lcs_81bbacf85db3aa5b",
       "type": "deduction"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood",
+      "conclusion": "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__conjunction_result_32a868a1",
+            "conclusion": "github:tbg_magic_angle::__conjunction_result_fa93cd53",
             "operator": "conjunction",
             "variables": [
-              "github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow",
-              "github:tbg_magic_angle::gcn_be5d1975_detector_interpolation"
+              "github:tbg_magic_angle::ab_initio_tb_flat_band_workflow",
+              "github:tbg_magic_angle::flat_band_detector_interpolation"
             ]
           },
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_b4dcefa9",
+            "conclusion": "github:tbg_magic_angle::__implication_result_daf4caa9",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::__conjunction_result_32a868a1",
-              "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood"
+              "github:tbg_magic_angle::__conjunction_result_fa93cd53",
+              "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood"
             ]
           }
         ]
@@ -1710,31 +1710,31 @@
         "reason": "1. Treat the high-throughput ab initio TB workflow (conclusion 3) as established and use it to compute commensurate twisted bilayer graphene band structures for a dense set of commensurate angles in the interval $0.88^{\\circ} \\leq \\theta \\leq 21.79^{\\circ}$; the workflow uses the Wannier-derived TB Hamiltonian, diagonalization with 60 k-points along $\\Gamma$-M-K, and automated flat-band detectors within a 0.30 eV window around the Fermi level.\n2. Identify commensurate twist angles using the integer-pair parametrization: associate each commensurate twist angle $\\theta$ with a pair of integers $(M,N)$ defining the periodic supercell via $\\cos(\\theta) = (N^2 + 4NM + M^2)/(2(N^2 + NM + M^2))$, so that specific small angles correspond to large $(M,N)$ pairs (for example, $(32,31) \\to 1.05^{\\circ}$, $(27,26) \\to 1.25^{\\circ}$, $(23,22) \\to 1.47^{\\circ}$), enabling enumeration of 33 unique commensurate bilayers in the stated range. [38]\n3. Compute TB band structures for the 33 unique commensurate bilayers and apply the automated flat-band detectors to obtain model-based detections of low-dispersion bands at the sampled commensurate $\\theta$ values, producing detection outputs that are converted into continuous predictions $p(\\theta)$ via the interpolation/blending prescription (conclusion 2). Fig. 4\n4. Observe the evolution of low-energy bands with decreasing $\\theta$: for large $\\theta$ the low-energy band structure resembles that of an isolated graphene monolayer, while as $\\theta$ decreases into the small-angle regime the number of bands increases and the bands near the Fermi level become progressively flatter due to interlayer hybridization as seen in the calculated TB band structures.\n5. Report the primary quantitative result for bilayer graphene: the computed, blended prediction $p(\\theta)$ is maximized near the well-known magic angle, with the ab initio TB calculations identifying $\\theta^{*} \\approx 1.1^{\\circ}$ (the workflow shows G/G@1.08 as an example close to this maximum), and the formation of low-dispersion bands near the Fermi level is observed in the single-particle TB band structures at this angle. Fig. 4\n6. Record the caveat about structural relaxation: note that for twist angles below about $1.0^{\\circ}$ atomic relaxation effects (structural reconstruction) can significantly modify band structures (e.g., widening single-particle gaps), and that such relaxation effects are not included in the present high-throughput TB workflow, an explicit limitation acknowledged by the authors. [31]"
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_af432bff_ab_initio_tb_workflow",
-        "github:tbg_magic_angle::gcn_be5d1975_detector_interpolation"
+        "github:tbg_magic_angle::ab_initio_tb_flat_band_workflow",
+        "github:tbg_magic_angle::flat_band_detector_interpolation"
       ],
       "scope": "local",
-      "strategy_id": "lcs_06bb83272269bae6",
+      "strategy_id": "lcs_19fb556da5863d56",
       "type": "deduction"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_c220df1acc8b476a",
+      "conclusion": "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__conjunction_result_2c3dbe39",
+            "conclusion": "github:tbg_magic_angle::__conjunction_result_553ab7d5",
             "operator": "conjunction",
             "variables": [
-              "github:tbg_magic_angle::gcn_8cd2984a6296435c",
-              "github:tbg_magic_angle::gcn_ed8fa9253ea24982"
+              "github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands",
+              "github:tbg_magic_angle::heterostrain_flat_band_fine_splitting"
             ]
           },
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_d0bb4c65",
+            "conclusion": "github:tbg_magic_angle::__implication_result_667ff07c",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::__conjunction_result_2c3dbe39",
-              "github:tbg_magic_angle::gcn_c220df1acc8b476a"
+              "github:tbg_magic_angle::__conjunction_result_553ab7d5",
+              "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends"
             ]
           }
         ]
@@ -1746,31 +1746,31 @@
         "reason": "1. Define the computational framework: perform continuum-model band-structure and density-of-states (DOS) calculations for magic-angle TBG in two geometries -- the unreconstructed (rigid) geometry and a reconstructed geometry that includes lattice relaxation in the form of atomic registry rearrangement corresponding to enlarged AB/BA regions and shrunken AA regions.\nFig. 4\nFig. S10\n2. Explain what is meant by lattice relaxation in the calculation: incorporate atomic registry rearrangement (i.e., allowing the local stacking registries to shift so that AB/BA regions are enlarged and AA regions are reduced and corrugated) when computing the continuum-model moire Hamiltonian and deriving band structures and density of states.\n[18-21]\n3. Report the computational outcome qualitatively: the calculations that include lattice relaxation produce low-energy flat bands that are broader (increased bandwidth) and more energetically isolated from the remote bands (i.e., larger gaps or separation between flat-band manifold and higher-energy conduction bands) than the calculations performed on the unreconstructed, rigid geometry.\nFig. S10\n4. Compare computation to experiment: state that these theoretical results reproduce the essential experimental spectroscopic trends observed in STM/STS measurements on magic-angle TBG, namely that the reconstructed geometry yields broadened low-energy flat bands and increased energetic isolation from remote bands relative to the unreconstructed geometry.\nFig. 4d\nFig. 4e\n5. State calculation limitations: explicitly record that the present implementation of the continuum-model calculations does not include heterostrain (spatially varying lattice deformation between layers) and therefore does not capture additional subpeak splitting (three subpeaks) observed in some experimental spectra; the authors attribute such extra splittings to strain effects discussed in prior literature.\n[54-55]\nFig. S10"
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_8cd2984a6296435c",
-        "github:tbg_magic_angle::gcn_ed8fa9253ea24982"
+        "github:tbg_magic_angle::relaxation_broadens_isolates_flat_bands",
+        "github:tbg_magic_angle::heterostrain_flat_band_fine_splitting"
       ],
       "scope": "local",
-      "strategy_id": "lcs_ec5d395c095b512e",
+      "strategy_id": "lcs_0013d1dc6a5330ec",
       "type": "deduction"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_de1d329f326f4e75",
+      "conclusion": "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__conjunction_result_e449c40c",
+            "conclusion": "github:tbg_magic_angle::__conjunction_result_506d734a",
             "operator": "conjunction",
             "variables": [
-              "github:tbg_magic_angle::gcn_6463be97083b44fd",
-              "github:tbg_magic_angle::gcn_abaf80790d664630"
+              "github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption",
+              "github:tbg_magic_angle::relaxation_component_diagnostic_assumption"
             ]
           },
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_47d0484b",
+            "conclusion": "github:tbg_magic_angle::__implication_result_a0948e51",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::__conjunction_result_e449c40c",
-              "github:tbg_magic_angle::gcn_de1d329f326f4e75"
+              "github:tbg_magic_angle::__conjunction_result_506d734a",
+              "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps"
             ]
           }
         ]
@@ -1782,31 +1782,31 @@
         "reason": "1. State upstream result being used as known: the atomistic relaxation patterns induced by interlayer vdW interactions and their quantitative aspects (out-of-plane buckling, in-plane vortexlike displacements, shrinking of AA regions, and numerical displacement magnitudes) are taken as established from the previously reconstructed structural analysis (conclusion 1). These relaxed atomic geometries are the starting point for the following electronic-structure deductions.\n2. Summarize the computational approach used to obtain electronic band structures from relaxed and unrelaxed geometries: single-particle electronic structures were computed using DFT within the same VASP/vdW-DF2 framework (self-consistent-field runs sampled at the $\\Gamma$ point for the large supercells), and complementary tight-binding calculations were performed using a Slater-Koster parametrization for $p_z$ orbitals with atom positions taken from the relaxed geometries. Non-self-consistent calculations at other $k$ points used the SCF reference; for the smallest cell only one $k$ point could be computed at a time and energies are referred to the SCF Fermi energy. These computational procedures produce band structures for relaxed and unrelaxed atomic configurations that are directly compared. [51]\n3. Compare relaxed versus unrelaxed band structures at the first magic angle $\\theta=1.08^\\circ$: the band-structure plots along the $K-\\Gamma-M-K'$ path show that including full atomic relaxation is necessary to reproduce the experimentally observed narrow flat-band manifold and the energy gaps that separate that manifold from both higher and lower energy bands. The fully relaxed DFT band structure shows a bandwidth of approximately $20\\,\\mathrm{meV}$ and gaps of about $26\\,\\mathrm{meV}$ on the electron side and about $16\\,\\mathrm{meV}$ on the hole side. Fig. 5\n4. State the failure of unrelaxed geometries to reproduce the experimental gaps: band structures computed for unrelaxed flat bilayer geometries lack the energy gaps isolating the flat-band manifold at $\\theta=1.08^\\circ$, or greatly underestimate them, while relaxed panels show the gaps. Fig. 5\n5. Report partial-relaxation tests and their electronic consequences: in-plane-only relaxation produces essentially zero energy gaps, whereas out-of-plane-only relaxation produces nonzero but underestimated gaps of approximately $2\\,\\mathrm{meV}$ and $14\\,\\mathrm{meV}$ on the two sides. Fig. 6\n6. Note the agreement between DFT and tight-binding when using the relaxed geometry: tight-binding calculations using the Slater-Koster $p_z$ parametrization on the DFT-relaxed atomic positions reproduce the DFT bands closely near the Fermi energy, indicating that the relaxed geometry is the essential ingredient for the observed flat bands and gaps. Fig. 5"
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_6463be97083b44fd",
-        "github:tbg_magic_angle::gcn_abaf80790d664630"
+        "github:tbg_magic_angle::dft_gap_spectroscopy_comparison_assumption",
+        "github:tbg_magic_angle::relaxation_component_diagnostic_assumption"
       ],
       "scope": "local",
-      "strategy_id": "lcs_d07f2f0f7b73e1c5",
+      "strategy_id": "lcs_8a5be0174abfa592",
       "type": "deduction"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_afdfbd0c013048d8",
+      "conclusion": "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__conjunction_result_13603494",
+            "conclusion": "github:tbg_magic_angle::__conjunction_result_b870c538",
             "operator": "conjunction",
             "variables": [
-              "github:tbg_magic_angle::gcn_06caff12a4d84b26",
-              "github:tbg_magic_angle::gcn_fedb8c2683fb48c7"
+              "github:tbg_magic_angle::magnetic_bloch_cutoff_convergence",
+              "github:tbg_magic_angle::reentrant_flat_band_parameter_convergence"
             ]
           },
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_94990860",
+            "conclusion": "github:tbg_magic_angle::__implication_result_e3bdc4db",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::__conjunction_result_13603494",
-              "github:tbg_magic_angle::gcn_afdfbd0c013048d8"
+              "github:tbg_magic_angle::__conjunction_result_b870c538",
+              "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands"
             ]
           }
         ]
@@ -1818,23 +1818,23 @@
         "reason": "1. Begin with the Bistritzer-MacDonald (BM) continuum model for a single valley at zero flux:\n   $$\n   H_{BM}=\\begin{pmatrix}-i\\hbar v_F\\boldsymbol{\\sigma}\\cdot\\boldsymbol{\\nabla}&T^\\dagger(\\mathbf{r})\\\\[4pt]\n   T(\\mathbf{r})&-i\\hbar v_F\\boldsymbol{\\sigma}\\cdot\\boldsymbol{\\nabla}\\end{pmatrix},\n   $$\n   with moire tunneling $T(\\mathbf{r})=\\sum_{j=1}^3 e^{2\\pi i\\mathbf{q}_j\\cdot\\mathbf{r}}T_j$ and $T_j$ built from interlayer tunneling parameters $w_0,w_1$. Specify moire geometry ($\\mathbf{q}_j,\\mathbf{a}_i,\\mathbf{b}_i$) and the moire unit cell area $\\Omega$ so the dimensionless flux $\\phi=eB\\Omega$ is defined. Sec. VIII A, Eq. (52)-(53); Sec. VIII, geometry discussion [@HerzogArbeitman2022].\n2. Introduce magnetic flux by canonical substitution $-i\\hbar\\boldsymbol{\\nabla}\\to\\boldsymbol{\\pi}$ and restore moire periodicity by a layer-dependent unitary momentum-shift:\n   $$\n   V_1=\\mathrm{diag}\\big(e^{i\\pi\\mathbf{q}_1\\cdot\\mathbf{r}},\\,e^{-i\\pi\\mathbf{q}_1\\cdot\\mathbf{r}}\\big).\n   $$\n   Conjugating by $V_1$ yields a form with a periodic interlayer potential $\\tilde{T}(\\mathbf{r})=T_1+T_2 e^{2\\pi i\\mathbf{b}_1\\cdot\\mathbf{r}}+T_3 e^{2\\pi i\\mathbf{b}_2\\cdot\\mathbf{r}}$ and shifted Dirac kinetic terms, which are readily expressed in Landau-level ladder operators. This step renders the Hamiltonian compatible with the magnetic Bloch construction. Sec. VIII A, Eq. (54)-(55) [@HerzogArbeitman2022].\n3. Express the Dirac kinetic term in Landau-level language at $\\phi=2\\pi$: using $a,a^\\dagger$ defined from $\\boldsymbol{\\pi}$, write\n   $$\n   v_F\\boldsymbol{\\sigma}\\cdot\\boldsymbol{\\pi}=v_F\\sqrt{2eB}\\begin{pmatrix}0&a^\\dagger\\\\[4pt] a&0\\end{pmatrix}=v_F k_\\theta\\Big(\\tfrac{3\\sqrt{3}}{2\\pi}\\Big)^{1/2}\\begin{pmatrix}0&a^\\dagger\\\\[4pt] a&0\\end{pmatrix},\n   $$\n   so the kinetic energy acts only in Landau-level index space and can be truncated. The momentum-shift terms act as layer-dependent identity contributions on Landau levels and appear as small offsets compared to moire tunneling. Sec. VIII A, Eq. (56) [@HerzogArbeitman2022].\n4. Compute the moire tunneling matrix elements in the Landau-level magnetic Bloch basis using the previously derived Landau-level scattering matrices $\\mathcal{H}^{\\mathbf{q}}$: the periodic tunneling Fourier components scatter Landau levels according to closed-form expressions in terms of Laguerre polynomials, yielding a finite Landau-level matrix Hamiltonian $H^{\\phi=2\\pi}(\\mathbf{k})$ whose off-diagonal blocks are combinations of $T_j$ times phases $e^{\\pm i k_i}$ and $\\mathcal{H}^{\\pm 2\\pi\\mathbf{b}_i}$ insertions. Truncate the Landau-level basis to a numerically convergent cutoff to obtain a finite matrix to diagonalize. Sec. VIII A; App. A 6; App. D 1 [@HerzogArbeitman2022].\n5. Numerically diagonalize the truncated magnetic Bloch Hamiltonian for magic-angle parameters and a range of interlayer tunneling $(w_0,w_1)$: one finds two low-energy flat bands per valley and spin that reenter at $\\phi=2\\pi$. For magic-angle parameter choices used, these two flat bands are separated from higher passive bands by an energy gap of order $\\sim40$ meV. The dispersion and total Chern number of the flat bands depend sensitively on $(w_0,w_1)$, producing a phase diagram where a crystalline regime (physical TBG parameters) has flat bands with vanishing total Chern number, while a Landau-level regime (including the first chiral limit) has each flat band with Chern -1. These numerical band plots, density of states, and Wilson-loop diagnostics are shown in Figs. 5-7 and Fig. 6 panels [@HerzogArbeitman2022].\n6. Summarize dependence on $(w_0,w_1)$ and connect to physical regimes: the parameter $w_0$ controlling AA tunneling versus $w_1$ controlling AB/BA tunneling moves the system between a Landau-level-dominated regime and a crystalline regime where the two flat bands together form an elementary band representation with vanishing total Chern number. The calculated reentrant flat bands at $\\phi=2\\pi$ and the phase diagram in $(w_0,w_1)$ capture this sensitivity, justifying the claim that the BM Hamiltonian expressed in the magnetic Bloch Landau-level basis yields two reentrant low-energy flat bands per valley and spin with significant gaps to passive bands, with topology determined by $(w_0,w_1)$. Sec. VIII A, Figs. 5-7 [@HerzogArbeitman2022]."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_06caff12a4d84b26",
-        "github:tbg_magic_angle::gcn_fedb8c2683fb48c7"
+        "github:tbg_magic_angle::magnetic_bloch_cutoff_convergence",
+        "github:tbg_magic_angle::reentrant_flat_band_parameter_convergence"
       ],
       "scope": "local",
-      "strategy_id": "lcs_1323156542060009",
+      "strategy_id": "lcs_75ca0cbf520f31b1",
       "type": "deduction"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band",
+      "conclusion": "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_7eb1dd83",
+            "conclusion": "github:tbg_magic_angle::__implication_result_4f144de4",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture",
-              "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band"
+              "github:tbg_magic_angle::small_angle_dirac_merging_conjecture",
+              "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band"
             ]
           }
         ]
@@ -1846,22 +1846,22 @@
         "reason": "1. Take as established the upstream mechanism: the zero K-point velocity in commensurate tight-binding calculations at moderate twist angles is caused by the merging of three moving Dirac points with the fixed Dirac point at K, producing a quadratic multi-fold touching at $d_{zc}$ (this is the previously derived merging mechanism).\n2. Note the small-angle (continuum) limit characteristics relevant to the conjecture: in the small twist-angle limit the tight-binding K-K' intervalley coupling (the K-K' gap at moire K) becomes exponentially small and the upper two bands near K are nearly degenerate, so the band structure locally resembles the continuum-model limit in which moire K has vanishing gap and near-degenerate bands; experimentally, magic-angle phenomena (extremely narrow bands) occur in this small-angle regime and are known to be pressure tunable.\nFig.1\nFig.3\n3. Argue plausibility (as stated by the authors) that the same merging process can continuously evolve into the small-angle regime: because the merging-of-four-Dirac-points mechanism is observed in commensurate tight-binding calculations at moderate angles and because the K-K' gap decreases continuously (exponentially) as the twist angle is reduced, the authors propose that the merging process can persist into the small-angle regime where the K-K' gap is negligible and the upper two bands are nearly degenerate; in that limit the same coalescence of Dirac points would produce vanishing K-point velocity and thus contribute to the formation of extremely narrow (nearly flat) bands at the magic angles.\n4. Explicitly label the conjectural nature and the limitation acknowledged by the authors: the authors frame this as a proposal (conjecture) rather than a demonstrated theorem, noting that they have not proved that four-Dirac merging is the full or sole origin of the experimentally observed bandwidth collapse at the smallest magic angles, and they acknowledge that demonstrating the mechanism in the small-angle, almost-degenerate two-band regime is numerically difficult because gaps are exponentially small and the bands are nearly degenerate.\nFig.1"
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_7687975d_small_angle_merging_conjecture"
+        "github:tbg_magic_angle::small_angle_dirac_merging_conjecture"
       ],
       "scope": "local",
-      "strategy_id": "lcs_1f00a36db5eaa82a",
+      "strategy_id": "lcs_50896814606c8221",
       "type": "deduction"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
+      "conclusion": "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_e3ba6e07",
+            "conclusion": "github:tbg_magic_angle::__implication_result_860c202d",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::gcn_93c279f20f364a40",
-              "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4"
+              "github:tbg_magic_angle::wu_velocity_phonon_form_factor",
+              "github:tbg_magic_angle::bm_magic_angle_velocity_suppression"
             ]
           }
         ]
@@ -1873,30 +1873,30 @@
         "reason": "The Wu-Hwang-Das Sarma chain independently derives a continuum moire Hamiltonian with a twist-angle-dependent v_F*(theta) that is strongly suppressed near a model magic angle. That LKM-backed result supports the starting BM velocity-suppression root without asserting the same linear fit or identical parameter set."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_93c279f20f364a40"
+        "github:tbg_magic_angle::wu_velocity_phonon_form_factor"
       ],
       "scope": "local",
-      "strategy_id": "lcs_656c276b5b02572e",
+      "strategy_id": "lcs_f8cec33d8c325642",
       "type": "support"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_feace4c9a0154885",
+      "conclusion": "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__conjunction_result_9fa7f4e2",
+            "conclusion": "github:tbg_magic_angle::__conjunction_result_f924c3f8",
             "operator": "conjunction",
             "variables": [
-              "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
-              "github:tbg_magic_angle::gcn_93c279f20f364a40"
+              "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
+              "github:tbg_magic_angle::wu_velocity_phonon_form_factor"
             ]
           },
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_6d2e8a26",
+            "conclusion": "github:tbg_magic_angle::__implication_result_701e4578",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::__conjunction_result_9fa7f4e2",
-              "github:tbg_magic_angle::gcn_feace4c9a0154885"
+              "github:tbg_magic_angle::__conjunction_result_f924c3f8",
+              "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement"
             ]
           }
         ]
@@ -1908,31 +1908,31 @@
         "reason": "Both source claims are LKM-backed BM/continuum velocity claims used as low-energy inputs for electron-phonon or transport calculations. They support the strange-metallicity extension's narrower statement that suppressed v_F* enhances phonon-limited resistivity through the stated 1/v_F*^2 scaling."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
-        "github:tbg_magic_angle::gcn_93c279f20f364a40"
+        "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
+        "github:tbg_magic_angle::wu_velocity_phonon_form_factor"
       ],
       "scope": "local",
-      "strategy_id": "lcs_6f1e7d1b38979081",
+      "strategy_id": "lcs_7be996b5be71875b",
       "type": "support"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_a0ab3201de0e41ad",
+      "conclusion": "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__conjunction_result_8e0862cc",
+            "conclusion": "github:tbg_magic_angle::__conjunction_result_ce1906a7",
             "operator": "conjunction",
             "variables": [
-              "github:tbg_magic_angle::gcn_93c279f20f364a40",
-              "github:tbg_magic_angle::gcn_feace4c9a0154885"
+              "github:tbg_magic_angle::wu_velocity_phonon_form_factor",
+              "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement"
             ]
           },
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_df602bdf",
+            "conclusion": "github:tbg_magic_angle::__implication_result_bd8bba19",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::__conjunction_result_8e0862cc",
-              "github:tbg_magic_angle::gcn_a0ab3201de0e41ad"
+              "github:tbg_magic_angle::__conjunction_result_ce1906a7",
+              "github:tbg_magic_angle::phonon_bdg_vhs_tc_hc2_velocity_extrema"
             ]
           }
         ]
@@ -1944,23 +1944,23 @@
         "reason": "The accepted extensions keep the path within LKM-backed MATBG continuum calculations where v_F* and electron-phonon inputs are used for transport or pairing. This supports the Qin-Zou-MacDonald phonon-mediated BdG extension only as a model-family continuation."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_93c279f20f364a40",
-        "github:tbg_magic_angle::gcn_feace4c9a0154885"
+        "github:tbg_magic_angle::wu_velocity_phonon_form_factor",
+        "github:tbg_magic_angle::phonon_resistivity_velocity_enhancement"
       ],
       "scope": "local",
-      "strategy_id": "lcs_6ade9371d17185ea",
+      "strategy_id": "lcs_e84f73c0b0865d80",
       "type": "support"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
+      "conclusion": "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_ba6ab776",
+            "conclusion": "github:tbg_magic_angle::__implication_result_d93337b5",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::gcn_848085b12d384915",
-              "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4"
+              "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands",
+              "github:tbg_magic_angle::bm_magic_angle_velocity_suppression"
             ]
           }
         ]
@@ -1972,22 +1972,22 @@
         "reason": "The Uchida et al. LKM chain is an independent Kohn-Sham calculation where the Dirac Fermi velocity vanishes near theta about 1.08 degrees and flat bands emerge. It supports the BM root's velocity-suppression phenomenon while preserving the different method and parameter scope."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_848085b12d384915"
+        "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands"
       ],
       "scope": "local",
-      "strategy_id": "lcs_6aed699201cf1dc5",
+      "strategy_id": "lcs_be756f55098e3a35",
       "type": "support"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood",
+      "conclusion": "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_590687df",
+            "conclusion": "github:tbg_magic_angle::__implication_result_4b04863c",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::gcn_848085b12d384915",
-              "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood"
+              "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands",
+              "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood"
             ]
           }
         ]
@@ -1999,30 +1999,30 @@
         "reason": "Both LKM-backed claims are first-principles or ab initio-derived TBG calculations near the first magic angle that report flat or low-dispersion bands. The support is scoped to independent agreement on near-1.1-degree flat-band formation, not equivalence of workflows."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_848085b12d384915"
+        "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands"
       ],
       "scope": "local",
-      "strategy_id": "lcs_046e8012de40ea1c",
+      "strategy_id": "lcs_e519d39922ccf102",
       "type": "support"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_de1d329f326f4e75",
+      "conclusion": "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__conjunction_result_b9c6859a",
+            "conclusion": "github:tbg_magic_angle::__conjunction_result_779b7c86",
             "operator": "conjunction",
             "variables": [
-              "github:tbg_magic_angle::gcn_848085b12d384915",
-              "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood"
+              "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands",
+              "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood"
             ]
           },
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_e4b4f41e",
+            "conclusion": "github:tbg_magic_angle::__implication_result_d55751a5",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::__conjunction_result_b9c6859a",
-              "github:tbg_magic_angle::gcn_de1d329f326f4e75"
+              "github:tbg_magic_angle::__conjunction_result_779b7c86",
+              "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps"
             ]
           }
         ]
@@ -2034,23 +2034,23 @@
         "reason": "The accepted ab initio/Kohn-Sham flat-band claims provide the connected TBG first-magic-angle context for Cantele et al.'s more specific DFT result that full atomic relaxation is required to reproduce the narrow flat-band manifold and gaps at theta=1.08 degrees."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_848085b12d384915",
-        "github:tbg_magic_angle::gcn_5f58746b_magic_angle_flat_band_likelihood"
+        "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands",
+        "github:tbg_magic_angle::ab_initio_magic_angle_flat_band_likelihood"
       ],
       "scope": "local",
-      "strategy_id": "lcs_4a998b0ac46867b7",
+      "strategy_id": "lcs_802e2fe5850eaae4",
       "type": "support"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_c220df1acc8b476a",
+      "conclusion": "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_afa11f3d",
+            "conclusion": "github:tbg_magic_angle::__implication_result_4b67b273",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::gcn_de1d329f326f4e75",
-              "github:tbg_magic_angle::gcn_c220df1acc8b476a"
+              "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps",
+              "github:tbg_magic_angle::relaxation_reproduces_sts_flat_band_trends"
             ]
           }
         ]
@@ -2062,22 +2062,22 @@
         "reason": "The Cantele DFT relaxation chain and the Liu continuum/STS chain both concern magic-angle TBG relaxation effects on flat-band isolation. This supports the Liu extension as a connected relaxation-specific continuation while keeping DFT and continuum/STS scopes distinct."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_de1d329f326f4e75"
+        "github:tbg_magic_angle::full_relaxation_reproduces_flat_band_gaps"
       ],
       "scope": "local",
-      "strategy_id": "lcs_66cb91b580b37981",
+      "strategy_id": "lcs_be09dce07dd03f06",
       "type": "support"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_afdfbd0c013048d8",
+      "conclusion": "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_05bfbcfa",
+            "conclusion": "github:tbg_magic_angle::__implication_result_1c303636",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
-              "github:tbg_magic_angle::gcn_afdfbd0c013048d8"
+              "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
+              "github:tbg_magic_angle::magnetic_bloch_reentrant_flat_bands"
             ]
           }
         ]
@@ -2089,30 +2089,30 @@
         "reason": "The magnetic-Bloch extension explicitly starts from the BM continuum model at magic-angle parameters. The BM velocity root supplies the connected zero-field magic-angle BM context, while the extension keeps its flux=2pi and topology conditions separate."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4"
+        "github:tbg_magic_angle::bm_magic_angle_velocity_suppression"
       ],
       "scope": "local",
-      "strategy_id": "lcs_9f3aefd96ddc1c50",
+      "strategy_id": "lcs_5bbe7bcd58f92298",
       "type": "support"
     },
     {
-      "conclusion": "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band",
+      "conclusion": "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band",
       "formal_expr": {
         "operators": [
           {
-            "conclusion": "github:tbg_magic_angle::__conjunction_result_580f762e",
+            "conclusion": "github:tbg_magic_angle::__conjunction_result_348fa486",
             "operator": "conjunction",
             "variables": [
-              "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
-              "github:tbg_magic_angle::gcn_848085b12d384915"
+              "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
+              "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands"
             ]
           },
           {
-            "conclusion": "github:tbg_magic_angle::__implication_result_9bc684b7",
+            "conclusion": "github:tbg_magic_angle::__implication_result_8a514b93",
             "operator": "implication",
             "variables": [
-              "github:tbg_magic_angle::__conjunction_result_580f762e",
-              "github:tbg_magic_angle::gcn_8159f32d_merged_dirac_magic_angle_flat_band"
+              "github:tbg_magic_angle::__conjunction_result_348fa486",
+              "github:tbg_magic_angle::merged_dirac_magic_angle_flat_band"
             ]
           }
         ]
@@ -2124,11 +2124,11 @@
         "reason": "The merged-Dirac chain is a conjectural same-system mechanism for vanishing Dirac velocity and near-flat bands at small magic angles. The BM and Kohn-Sham velocity roots support it as a connected mechanistic extension, not as a proved equivalence."
       },
       "premises": [
-        "github:tbg_magic_angle::gcn_7bca73ad98eb4ed4",
-        "github:tbg_magic_angle::gcn_848085b12d384915"
+        "github:tbg_magic_angle::bm_magic_angle_velocity_suppression",
+        "github:tbg_magic_angle::kohn_sham_magic_angle_flat_bands"
       ],
       "scope": "local",
-      "strategy_id": "lcs_fdfa0d1bb7066a8c",
+      "strategy_id": "lcs_a5a3019d0a22e329",
       "type": "support"
     }
   ]
